@@ -1,0 +1,215 @@
+# MetaElement(bpy_struct)
+
+base class — [`bpy_struct`](bpy.types.bpy_struct.html#bpy.types.bpy_struct "bpy.types.bpy_struct")
+
+_class _bpy.types.MetaElement(_bpy_struct_)
+    
+
+Blobby element in a metaball data-block
+
+co
+    
+
+Type:
+    
+
+[`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], default (0.0, 0.0, 0.0)
+
+hide
+    
+
+Hide element
+
+Type:
+    
+
+boolean, default False
+
+radius
+    
+
+Type:
+    
+
+float in [0, inf], default 0.0
+
+rotation
+    
+
+Normalized quaternion rotation
+
+Type:
+    
+
+[`mathutils.Quaternion`](mathutils.html#mathutils.Quaternion "mathutils.Quaternion") rotation of 4 items in [-inf, inf], default (0.0, 0.0, 0.0, 0.0)
+
+select
+    
+
+Select element
+
+Type:
+    
+
+boolean, default False
+
+size_x
+    
+
+Size of element, use of components depends on element type
+
+Type:
+    
+
+float in [0, 20], default 0.0
+
+size_y
+    
+
+Size of element, use of components depends on element type
+
+Type:
+    
+
+float in [0, 20], default 0.0
+
+size_z
+    
+
+Size of element, use of components depends on element type
+
+Type:
+    
+
+float in [0, 20], default 0.0
+
+stiffness
+    
+
+Stiffness defines how much of the element to fill
+
+Type:
+    
+
+float in [0, 10], default 0.0
+
+type
+    
+
+Metaball type
+
+Type:
+    
+
+enum in [Metaelem Type Items](bpy_types_enum_items/metaelem_type_items.html#rna-enum-metaelem-type-items), default `'BALL'`
+
+use_negative
+    
+
+Set metaball as negative one
+
+Type:
+    
+
+boolean, default False
+
+use_scale_stiffness
+    
+
+Scale stiffness instead of radius
+
+Type:
+    
+
+boolean, default False
+
+_classmethod _bl_rna_get_subclass(_id_ , _default =None_, _/_)
+    
+
+Parameters:
+    
+
+**id** (_str_) – The RNA type identifier.
+
+Returns:
+    
+
+The RNA type or default when not found.
+
+Return type:
+    
+
+[`bpy.types.Struct`](bpy.types.Struct.html#bpy.types.Struct "bpy.types.Struct") subclass
+
+_classmethod _bl_rna_get_subclass_py(_id_ , _default =None_, _/_)
+    
+
+Parameters:
+    
+
+**id** (_str_) – The RNA type identifier.
+
+Returns:
+    
+
+The class or default when not found.
+
+Return type:
+    
+
+type
+
+## Inherited Properties
+
+  * [`bpy_struct.id_data`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_data "bpy.types.bpy_struct.id_data")
+
+| 
+
+
+  
+---|---  
+  
+## Inherited Functions
+
+  * [`bpy_struct.as_pointer`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.as_pointer "bpy.types.bpy_struct.as_pointer")
+  * [`bpy_struct.driver_add`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.driver_add "bpy.types.bpy_struct.driver_add")
+  * [`bpy_struct.driver_remove`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.driver_remove "bpy.types.bpy_struct.driver_remove")
+  * [`bpy_struct.get`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.get "bpy.types.bpy_struct.get")
+  * [`bpy_struct.id_properties_clear`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_clear "bpy.types.bpy_struct.id_properties_clear")
+  * [`bpy_struct.id_properties_ensure`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_ensure "bpy.types.bpy_struct.id_properties_ensure")
+  * [`bpy_struct.id_properties_ui`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_ui "bpy.types.bpy_struct.id_properties_ui")
+  * [`bpy_struct.is_property_hidden`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_hidden "bpy.types.bpy_struct.is_property_hidden")
+  * [`bpy_struct.is_property_overridable_library`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_overridable_library "bpy.types.bpy_struct.is_property_overridable_library")
+  * [`bpy_struct.is_property_readonly`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_readonly "bpy.types.bpy_struct.is_property_readonly")
+  * [`bpy_struct.is_property_set`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_set "bpy.types.bpy_struct.is_property_set")
+  * [`bpy_struct.items`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.items "bpy.types.bpy_struct.items")
+
+| 
+
+  * [`bpy_struct.keyframe_delete`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keyframe_delete "bpy.types.bpy_struct.keyframe_delete")
+  * [`bpy_struct.keyframe_insert`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keyframe_insert "bpy.types.bpy_struct.keyframe_insert")
+  * [`bpy_struct.keys`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keys "bpy.types.bpy_struct.keys")
+  * [`bpy_struct.path_from_id`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.path_from_id "bpy.types.bpy_struct.path_from_id")
+  * [`bpy_struct.path_resolve`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.path_resolve "bpy.types.bpy_struct.path_resolve")
+  * [`bpy_struct.pop`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.pop "bpy.types.bpy_struct.pop")
+  * [`bpy_struct.property_overridable_library_set`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.property_overridable_library_set "bpy.types.bpy_struct.property_overridable_library_set")
+  * [`bpy_struct.property_unset`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.property_unset "bpy.types.bpy_struct.property_unset")
+  * [`bpy_struct.rna_ancestors`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.rna_ancestors "bpy.types.bpy_struct.rna_ancestors")
+  * [`bpy_struct.type_recast`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.type_recast "bpy.types.bpy_struct.type_recast")
+  * [`bpy_struct.values`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.values "bpy.types.bpy_struct.values")
+
+  
+---|---  
+  
+## References
+
+  * [`MetaBall.elements`](bpy.types.MetaBall.html#bpy.types.MetaBall.elements "bpy.types.MetaBall.elements")
+  * [`MetaBallElements.active`](bpy.types.MetaBallElements.html#bpy.types.MetaBallElements.active "bpy.types.MetaBallElements.active")
+
+| 
+
+  * [`MetaBallElements.new`](bpy.types.MetaBallElements.html#bpy.types.MetaBallElements.new "bpy.types.MetaBallElements.new")
+  * [`MetaBallElements.remove`](bpy.types.MetaBallElements.html#bpy.types.MetaBallElements.remove "bpy.types.MetaBallElements.remove")
+
+  
+---|---

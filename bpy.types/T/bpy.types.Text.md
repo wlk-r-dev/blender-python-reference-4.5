@@ -1,0 +1,383 @@
+# Text(ID)
+
+base classes — [`bpy_struct`](bpy.types.bpy_struct.html#bpy.types.bpy_struct "bpy.types.bpy_struct"), [`ID`](bpy.types.ID.html#bpy.types.ID "bpy.types.ID")
+
+_class _bpy.types.Text(_ID_)
+    
+
+Text data-block referencing an external or packed text file
+
+current_character
+    
+
+Index of current character in current line, and also start index of character in selection if one exists
+
+Type:
+    
+
+int in [0, inf], default 0
+
+current_line
+    
+
+Current line, and start line of selection if one exists
+
+Type:
+    
+
+[`TextLine`](bpy.types.TextLine.html#bpy.types.TextLine "bpy.types.TextLine"), (readonly, never None)
+
+current_line_index
+    
+
+Index of current TextLine in TextLine collection
+
+Type:
+    
+
+int in [-inf, inf], default 0
+
+filepath
+    
+
+Filename of the text file
+
+Type:
+    
+
+string, default “”, (never None)
+
+indentation
+    
+
+Use tabs or spaces for indentation
+
+  * `TABS` Tabs – Indent using tabs.
+
+  * `SPACES` Spaces – Indent using spaces.
+
+
+Type:
+    
+
+enum in [`'TABS'`, `'SPACES'`], default `'TABS'`
+
+is_dirty
+    
+
+Text file has been edited since last save
+
+Type:
+    
+
+boolean, default False, (readonly)
+
+is_in_memory
+    
+
+Text file is in memory, without a corresponding file on disk
+
+Type:
+    
+
+boolean, default False, (readonly)
+
+is_modified
+    
+
+Text file on disk is different than the one in memory
+
+Type:
+    
+
+boolean, default False, (readonly)
+
+lines
+    
+
+Lines of text
+
+Type:
+    
+
+[`bpy_prop_collection`](bpy.types.bpy_prop_collection.html#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`TextLine`](bpy.types.TextLine.html#bpy.types.TextLine "bpy.types.TextLine"), (readonly)
+
+select_end_character
+    
+
+Index of character after end of selection in the selection end line
+
+Type:
+    
+
+int in [0, inf], default 0
+
+select_end_line
+    
+
+End line of selection
+
+Type:
+    
+
+[`TextLine`](bpy.types.TextLine.html#bpy.types.TextLine "bpy.types.TextLine"), (readonly, never None)
+
+select_end_line_index
+    
+
+Index of last TextLine in selection
+
+Type:
+    
+
+int in [-inf, inf], default 0
+
+use_module
+    
+
+Run this text as a Python script on loading
+
+Type:
+    
+
+boolean, default False
+
+clear()
+    
+
+clear the text block
+
+write(_text_)
+    
+
+write text at the cursor location and advance to the end of the text block
+
+Parameters:
+    
+
+**text** (_string_ _,__(__never None_ _)_) – New text for this data-block
+
+from_string(_text_)
+    
+
+Replace text with this string.
+
+as_string()
+    
+
+Return the text as a string
+
+Return type:
+    
+
+string, (never None)
+
+is_syntax_highlight_supported()
+    
+
+Returns True if the editor supports syntax highlighting for the current text datablock
+
+Return type:
+    
+
+boolean
+
+select_set(_line_start_ , _char_start_ , _line_end_ , _char_end_)
+    
+
+Set selection range by line and character index
+
+Parameters:
+    
+
+  * **line_start** (_int in_ _[__-inf_ _,__inf_ _]_) – Start Line
+
+  * **char_start** (_int in_ _[__-inf_ _,__inf_ _]_) – Start Character
+
+  * **line_end** (_int in_ _[__-inf_ _,__inf_ _]_) – End Line
+
+  * **char_end** (_int in_ _[__-inf_ _,__inf_ _]_) – End Character
+
+
+cursor_set(_line_ , _*_ , _character =0_, _select =False_)
+    
+
+Set cursor by line and (optionally) character index
+
+Parameters:
+    
+
+  * **line** (_int in_ _[__0_ _,__inf_ _]_) – Line
+
+  * **character** (_int in_ _[__0_ _,__inf_ _]__,__(__optional_ _)_) – Character
+
+  * **select** (_boolean_ _,__(__optional_ _)_) – Select when moving the cursor
+
+
+as_module()
+    
+
+_classmethod _bl_rna_get_subclass(_id_ , _default =None_, _/_)
+    
+
+Parameters:
+    
+
+**id** (_str_) – The RNA type identifier.
+
+Returns:
+    
+
+The RNA type or default when not found.
+
+Return type:
+    
+
+[`bpy.types.Struct`](bpy.types.Struct.html#bpy.types.Struct "bpy.types.Struct") subclass
+
+_classmethod _bl_rna_get_subclass_py(_id_ , _default =None_, _/_)
+    
+
+Parameters:
+    
+
+**id** (_str_) – The RNA type identifier.
+
+Returns:
+    
+
+The class or default when not found.
+
+Return type:
+    
+
+type
+
+region_as_string(_range =None_)
+    
+
+Parameters:
+    
+
+**range** (_tuple_ _[__tuple_ _[__int_ _,__int_ _]__,__tuple_ _[__int_ _,__int_ _]__]_) – The region of text to be returned, defaulting to the selection when no range is passed. Each int pair represents a line and column: ((start_line, start_column), (end_line, end_column)) The values match Python’s slicing logic (negative values count backwards from the end, the end value is not inclusive).
+
+Returns:
+    
+
+The specified region as a string.
+
+Return type:
+    
+
+str.
+
+region_from_string(_body_ , _range =None_)
+    
+
+Parameters:
+    
+
+  * **body** (_str_) – The text to be inserted.
+
+  * **range** (_tuple_ _[__tuple_ _[__int_ _,__int_ _]__,__tuple_ _[__int_ _,__int_ _]__]_) – The region of text to be returned, defaulting to the selection when no range is passed. Each int pair represents a line and column: ((start_line, start_column), (end_line, end_column)) The values match Python’s slicing logic (negative values count backwards from the end, the end value is not inclusive).
+
+
+## Inherited Properties
+
+  * [`bpy_struct.id_data`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_data "bpy.types.bpy_struct.id_data")
+  * [`ID.name`](bpy.types.ID.html#bpy.types.ID.name "bpy.types.ID.name")
+  * [`ID.name_full`](bpy.types.ID.html#bpy.types.ID.name_full "bpy.types.ID.name_full")
+  * [`ID.id_type`](bpy.types.ID.html#bpy.types.ID.id_type "bpy.types.ID.id_type")
+  * [`ID.session_uid`](bpy.types.ID.html#bpy.types.ID.session_uid "bpy.types.ID.session_uid")
+  * [`ID.is_evaluated`](bpy.types.ID.html#bpy.types.ID.is_evaluated "bpy.types.ID.is_evaluated")
+  * [`ID.original`](bpy.types.ID.html#bpy.types.ID.original "bpy.types.ID.original")
+  * [`ID.users`](bpy.types.ID.html#bpy.types.ID.users "bpy.types.ID.users")
+  * [`ID.use_fake_user`](bpy.types.ID.html#bpy.types.ID.use_fake_user "bpy.types.ID.use_fake_user")
+  * [`ID.use_extra_user`](bpy.types.ID.html#bpy.types.ID.use_extra_user "bpy.types.ID.use_extra_user")
+  * [`ID.is_embedded_data`](bpy.types.ID.html#bpy.types.ID.is_embedded_data "bpy.types.ID.is_embedded_data")
+
+| 
+
+  * [`ID.is_missing`](bpy.types.ID.html#bpy.types.ID.is_missing "bpy.types.ID.is_missing")
+  * [`ID.is_runtime_data`](bpy.types.ID.html#bpy.types.ID.is_runtime_data "bpy.types.ID.is_runtime_data")
+  * [`ID.is_editable`](bpy.types.ID.html#bpy.types.ID.is_editable "bpy.types.ID.is_editable")
+  * [`ID.tag`](bpy.types.ID.html#bpy.types.ID.tag "bpy.types.ID.tag")
+  * [`ID.is_library_indirect`](bpy.types.ID.html#bpy.types.ID.is_library_indirect "bpy.types.ID.is_library_indirect")
+  * [`ID.library`](bpy.types.ID.html#bpy.types.ID.library "bpy.types.ID.library")
+  * [`ID.library_weak_reference`](bpy.types.ID.html#bpy.types.ID.library_weak_reference "bpy.types.ID.library_weak_reference")
+  * [`ID.asset_data`](bpy.types.ID.html#bpy.types.ID.asset_data "bpy.types.ID.asset_data")
+  * [`ID.override_library`](bpy.types.ID.html#bpy.types.ID.override_library "bpy.types.ID.override_library")
+  * [`ID.preview`](bpy.types.ID.html#bpy.types.ID.preview "bpy.types.ID.preview")
+
+  
+---|---  
+  
+## Inherited Functions
+
+  * [`bpy_struct.as_pointer`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.as_pointer "bpy.types.bpy_struct.as_pointer")
+  * [`bpy_struct.driver_add`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.driver_add "bpy.types.bpy_struct.driver_add")
+  * [`bpy_struct.driver_remove`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.driver_remove "bpy.types.bpy_struct.driver_remove")
+  * [`bpy_struct.get`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.get "bpy.types.bpy_struct.get")
+  * [`bpy_struct.id_properties_clear`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_clear "bpy.types.bpy_struct.id_properties_clear")
+  * [`bpy_struct.id_properties_ensure`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_ensure "bpy.types.bpy_struct.id_properties_ensure")
+  * [`bpy_struct.id_properties_ui`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_ui "bpy.types.bpy_struct.id_properties_ui")
+  * [`bpy_struct.is_property_hidden`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_hidden "bpy.types.bpy_struct.is_property_hidden")
+  * [`bpy_struct.is_property_overridable_library`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_overridable_library "bpy.types.bpy_struct.is_property_overridable_library")
+  * [`bpy_struct.is_property_readonly`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_readonly "bpy.types.bpy_struct.is_property_readonly")
+  * [`bpy_struct.is_property_set`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_set "bpy.types.bpy_struct.is_property_set")
+  * [`bpy_struct.items`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.items "bpy.types.bpy_struct.items")
+  * [`bpy_struct.keyframe_delete`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keyframe_delete "bpy.types.bpy_struct.keyframe_delete")
+  * [`bpy_struct.keyframe_insert`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keyframe_insert "bpy.types.bpy_struct.keyframe_insert")
+  * [`bpy_struct.keys`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keys "bpy.types.bpy_struct.keys")
+  * [`bpy_struct.path_from_id`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.path_from_id "bpy.types.bpy_struct.path_from_id")
+  * [`bpy_struct.path_resolve`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.path_resolve "bpy.types.bpy_struct.path_resolve")
+  * [`bpy_struct.pop`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.pop "bpy.types.bpy_struct.pop")
+  * [`bpy_struct.property_overridable_library_set`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.property_overridable_library_set "bpy.types.bpy_struct.property_overridable_library_set")
+  * [`bpy_struct.property_unset`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.property_unset "bpy.types.bpy_struct.property_unset")
+  * [`bpy_struct.rna_ancestors`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.rna_ancestors "bpy.types.bpy_struct.rna_ancestors")
+
+| 
+
+  * [`bpy_struct.type_recast`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.type_recast "bpy.types.bpy_struct.type_recast")
+  * [`bpy_struct.values`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.values "bpy.types.bpy_struct.values")
+  * [`ID.rename`](bpy.types.ID.html#bpy.types.ID.rename "bpy.types.ID.rename")
+  * [`ID.evaluated_get`](bpy.types.ID.html#bpy.types.ID.evaluated_get "bpy.types.ID.evaluated_get")
+  * [`ID.copy`](bpy.types.ID.html#bpy.types.ID.copy "bpy.types.ID.copy")
+  * [`ID.asset_mark`](bpy.types.ID.html#bpy.types.ID.asset_mark "bpy.types.ID.asset_mark")
+  * [`ID.asset_clear`](bpy.types.ID.html#bpy.types.ID.asset_clear "bpy.types.ID.asset_clear")
+  * [`ID.asset_generate_preview`](bpy.types.ID.html#bpy.types.ID.asset_generate_preview "bpy.types.ID.asset_generate_preview")
+  * [`ID.override_create`](bpy.types.ID.html#bpy.types.ID.override_create "bpy.types.ID.override_create")
+  * [`ID.override_hierarchy_create`](bpy.types.ID.html#bpy.types.ID.override_hierarchy_create "bpy.types.ID.override_hierarchy_create")
+  * [`ID.user_clear`](bpy.types.ID.html#bpy.types.ID.user_clear "bpy.types.ID.user_clear")
+  * [`ID.user_remap`](bpy.types.ID.html#bpy.types.ID.user_remap "bpy.types.ID.user_remap")
+  * [`ID.make_local`](bpy.types.ID.html#bpy.types.ID.make_local "bpy.types.ID.make_local")
+  * [`ID.user_of_id`](bpy.types.ID.html#bpy.types.ID.user_of_id "bpy.types.ID.user_of_id")
+  * [`ID.animation_data_create`](bpy.types.ID.html#bpy.types.ID.animation_data_create "bpy.types.ID.animation_data_create")
+  * [`ID.animation_data_clear`](bpy.types.ID.html#bpy.types.ID.animation_data_clear "bpy.types.ID.animation_data_clear")
+  * [`ID.update_tag`](bpy.types.ID.html#bpy.types.ID.update_tag "bpy.types.ID.update_tag")
+  * [`ID.preview_ensure`](bpy.types.ID.html#bpy.types.ID.preview_ensure "bpy.types.ID.preview_ensure")
+  * [`ID.bl_rna_get_subclass`](bpy.types.ID.html#bpy.types.ID.bl_rna_get_subclass "bpy.types.ID.bl_rna_get_subclass")
+  * [`ID.bl_rna_get_subclass_py`](bpy.types.ID.html#bpy.types.ID.bl_rna_get_subclass_py "bpy.types.ID.bl_rna_get_subclass_py")
+
+  
+---|---  
+  
+## References
+
+  * [`bpy.context.edit_text`](bpy.context.html#bpy.context.edit_text "bpy.context.edit_text")
+  * [`BlendData.texts`](bpy.types.BlendData.html#bpy.types.BlendData.texts "bpy.types.BlendData.texts")
+  * [`BlendDataTexts.load`](bpy.types.BlendDataTexts.html#bpy.types.BlendDataTexts.load "bpy.types.BlendDataTexts.load")
+  * [`BlendDataTexts.new`](bpy.types.BlendDataTexts.html#bpy.types.BlendDataTexts.new "bpy.types.BlendDataTexts.new")
+  * [`BlendDataTexts.remove`](bpy.types.BlendDataTexts.html#bpy.types.BlendDataTexts.remove "bpy.types.BlendDataTexts.remove")
+  * [`Camera.custom_shader`](bpy.types.Camera.html#bpy.types.Camera.custom_shader "bpy.types.Camera.custom_shader")
+
+| 
+
+  * [`FreestyleModuleSettings.script`](bpy.types.FreestyleModuleSettings.html#bpy.types.FreestyleModuleSettings.script "bpy.types.FreestyleModuleSettings.script")
+  * [`NodeFrame.text`](bpy.types.NodeFrame.html#bpy.types.NodeFrame.text "bpy.types.NodeFrame.text")
+  * [`ShaderNodeScript.script`](bpy.types.ShaderNodeScript.html#bpy.types.ShaderNodeScript.script "bpy.types.ShaderNodeScript.script")
+  * [`ShaderNodeTexIES.ies`](bpy.types.ShaderNodeTexIES.html#bpy.types.ShaderNodeTexIES.ies "bpy.types.ShaderNodeTexIES.ies")
+  * [`SpaceTextEditor.text`](bpy.types.SpaceTextEditor.html#bpy.types.SpaceTextEditor.text "bpy.types.SpaceTextEditor.text")
+
+  
+---|---
