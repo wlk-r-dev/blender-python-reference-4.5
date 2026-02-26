@@ -1,5 +1,7 @@
 # Blender 4.5 Python API Reference
 
+> **⚠️ This repo is READ-ONLY reference material.** Do not commit generated code, scripts, or project files here. Use this solely as a lookup resource.
+
 Local copy of the Blender Python API docs for offline reference and tool development.
 
 ## What This Is
