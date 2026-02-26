@@ -51,7 +51,7 @@ The RNA type or default when not found.
 Return type:
     
 
-[`bpy.types.Struct`](bpy.types.Struct.md#bpy.types.Struct "bpy.types.Struct") subclass
+[`bpy.types.Struct`](../S/bpy.types.Struct.md#bpy.types.Struct "bpy.types.Struct") subclass
 
 _classmethod _bl_rna_get_subclass_py(_id_ , _default =None_, _/_)
     
@@ -115,7 +115,7 @@ type
   
 ## References
 
-  * [`WorkSpace.owner_ids`](bpy.types.WorkSpace.md#bpy.types.WorkSpace.owner_ids "bpy.types.WorkSpace.owner_ids")
+  * [`WorkSpace.owner_ids`](../W/bpy.types.WorkSpace.md#bpy.types.WorkSpace.owner_ids "bpy.types.WorkSpace.owner_ids")
 
 | 
 

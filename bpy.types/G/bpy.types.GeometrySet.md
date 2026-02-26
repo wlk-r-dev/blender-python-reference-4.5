@@ -67,7 +67,7 @@ This returns a list of geometries that is indexed by the `.reference_index` attr
 Return type:
     
 
-list[None | [bpy.types.Object](bpy.types.Object.md#bpy.types.Object "bpy.types.Object") | [bpy.types.Collection](bpy.types.Collection.md#bpy.types.Collection "bpy.types.Collection") | bpy.types.GeometrySet]
+list[None | [bpy.types.Object](../O/bpy.types.Object.md#bpy.types.Object "bpy.types.Object") | [bpy.types.Collection](../C/bpy.types.Collection.md#bpy.types.Collection "bpy.types.Collection") | bpy.types.GeometrySet]
 
 instances_pointcloud()
     
@@ -77,7 +77,7 @@ Get a pointcloud that encodes information about the instances of the geometry. T
 Return type:
     
 
-[bpy.types.PointCloud](bpy.types.PointCloud.md#bpy.types.PointCloud "bpy.types.PointCloud")
+[bpy.types.PointCloud](../P/bpy.types.PointCloud.md#bpy.types.PointCloud "bpy.types.PointCloud")
 
 curves
     
@@ -87,7 +87,7 @@ The curves data-block in the geometry set.
 Type:
     
 
-[`bpy.types.Curves`](bpy.types.Curves.md#bpy.types.Curves "bpy.types.Curves")
+[`bpy.types.Curves`](../C/bpy.types.Curves.md#bpy.types.Curves "bpy.types.Curves")
 
 grease_pencil
     
@@ -107,7 +107,7 @@ The mesh data-block in the geometry set.
 Type:
     
 
-[`bpy.types.Mesh`](bpy.types.Mesh.md#bpy.types.Mesh "bpy.types.Mesh")
+[`bpy.types.Mesh`](../M/bpy.types.Mesh.md#bpy.types.Mesh "bpy.types.Mesh")
 
 mesh_base
     
@@ -117,7 +117,7 @@ The mesh data-block in the geometry set without final subdivision.
 Type:
     
 
-[`bpy.types.Mesh`](bpy.types.Mesh.md#bpy.types.Mesh "bpy.types.Mesh")
+[`bpy.types.Mesh`](../M/bpy.types.Mesh.md#bpy.types.Mesh "bpy.types.Mesh")
 
 name
     
@@ -137,7 +137,7 @@ The point cloud data-block in the geometry set.
 Type:
     
 
-[`bpy.types.PointCloud`](bpy.types.PointCloud.md#bpy.types.PointCloud "bpy.types.PointCloud")
+[`bpy.types.PointCloud`](../P/bpy.types.PointCloud.md#bpy.types.PointCloud "bpy.types.PointCloud")
 
 volume
     
@@ -147,14 +147,14 @@ The volume data-block in the geometry set.
 Type:
     
 
-[`bpy.types.Volume`](bpy.types.Volume.md#bpy.types.Volume "bpy.types.Volume")
+[`bpy.types.Volume`](../V/bpy.types.Volume.md#bpy.types.Volume "bpy.types.Volume")
 
 _static _from_evaluated_object(_evaluated_object_)
     
 
-Create a geometry set from the evaluated geometry of an evaluated object. Typically, it’s more convenient to use [`bpy.types.Object.evaluated_geometry()`](bpy.types.Object.md#bpy.types.Object.evaluated_geometry "bpy.types.Object.evaluated_geometry").
+Create a geometry set from the evaluated geometry of an evaluated object. Typically, it’s more convenient to use [`bpy.types.Object.evaluated_geometry()`](../O/bpy.types.Object.md#bpy.types.Object.evaluated_geometry "bpy.types.Object.evaluated_geometry").
 
 Parameters:
     
 
-**evaluated_object** ([_bpy.types.Object_](bpy.types.Object.md#bpy.types.Object "bpy.types.Object")) – The evaluated object to create a geometry set from.
+**evaluated_object** ([_bpy.types.Object_](../O/bpy.types.Object.md#bpy.types.Object "bpy.types.Object")) – The evaluated object to create a geometry set from.

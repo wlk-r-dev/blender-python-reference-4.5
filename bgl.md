@@ -12,7 +12,7 @@ Here is a comprehensive [list of books](https://www.khronos.org/developers/books
 
 Note
 
-You can use the [`bpy.types.Image`](bpy.types.Image.md#bpy.types.Image "bpy.types.Image") type to load and set textures. See [`bpy.types.Image.gl_load`](bpy.types.Image.md#bpy.types.Image.gl_load "bpy.types.Image.gl_load") and [`bpy.types.Image.gl_free`](bpy.types.Image.md#bpy.types.Image.gl_free "bpy.types.Image.gl_free"), for example.
+You can use the [`bpy.types.Image`](bpy.types/I/bpy.types.Image.md#bpy.types.Image "bpy.types.Image") type to load and set textures. See [`bpy.types.Image.gl_load`](bpy.types/I/bpy.types.Image.md#bpy.types.Image.gl_load "bpy.types.Image.gl_load") and [`bpy.types.Image.gl_free`](bpy.types/I/bpy.types.Image.md#bpy.types.Image.gl_free "bpy.types.Image.gl_free"), for example.
 
 glBindTexture(target, texture):
     

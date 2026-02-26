@@ -16,7 +16,7 @@ Parameters:
 Return type:
     
 
-[`WorkSpaceTool`](bpy.types.WorkSpaceTool.md#bpy.types.WorkSpaceTool "bpy.types.WorkSpaceTool")
+[`WorkSpaceTool`](../W/bpy.types.WorkSpaceTool.md#bpy.types.WorkSpaceTool "bpy.types.WorkSpaceTool")
 
 from_space_image_mode(_mode_ , _*_ , _create =False_)
     
@@ -29,7 +29,7 @@ Parameters:
 Return type:
     
 
-[`WorkSpaceTool`](bpy.types.WorkSpaceTool.md#bpy.types.WorkSpaceTool "bpy.types.WorkSpaceTool")
+[`WorkSpaceTool`](../W/bpy.types.WorkSpaceTool.md#bpy.types.WorkSpaceTool "bpy.types.WorkSpaceTool")
 
 from_space_node(_*_ , _create =False_)
     
@@ -42,7 +42,7 @@ Parameters:
 Return type:
     
 
-[`WorkSpaceTool`](bpy.types.WorkSpaceTool.md#bpy.types.WorkSpaceTool "bpy.types.WorkSpaceTool")
+[`WorkSpaceTool`](../W/bpy.types.WorkSpaceTool.md#bpy.types.WorkSpaceTool "bpy.types.WorkSpaceTool")
 
 from_space_sequencer(_mode_ , _*_ , _create =False_)
     
@@ -55,7 +55,7 @@ Parameters:
 Return type:
     
 
-[`WorkSpaceTool`](bpy.types.WorkSpaceTool.md#bpy.types.WorkSpaceTool "bpy.types.WorkSpaceTool")
+[`WorkSpaceTool`](../W/bpy.types.WorkSpaceTool.md#bpy.types.WorkSpaceTool "bpy.types.WorkSpaceTool")
 
 _classmethod _bl_rna_get_subclass(_id_ , _default =None_, _/_)
     
@@ -73,7 +73,7 @@ The RNA type or default when not found.
 Return type:
     
 
-[`bpy.types.Struct`](bpy.types.Struct.md#bpy.types.Struct "bpy.types.Struct") subclass
+[`bpy.types.Struct`](../S/bpy.types.Struct.md#bpy.types.Struct "bpy.types.Struct") subclass
 
 _classmethod _bl_rna_get_subclass_py(_id_ , _default =None_, _/_)
     
@@ -137,7 +137,7 @@ type
   
 ## References
 
-  * [`WorkSpace.tools`](bpy.types.WorkSpace.md#bpy.types.WorkSpace.tools "bpy.types.WorkSpace.tools")
+  * [`WorkSpace.tools`](../W/bpy.types.WorkSpace.md#bpy.types.WorkSpace.tools "bpy.types.WorkSpace.tools")
 
 | 
 

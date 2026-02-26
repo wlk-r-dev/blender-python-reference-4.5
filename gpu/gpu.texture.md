@@ -10,7 +10,7 @@ Get GPUTexture corresponding to an Image datablock. The GPUTexture memory is sha
 Parameters:
     
 
-**image** ([`bpy.types.Image`](bpy.types.Image.md#bpy.types.Image "bpy.types.Image")) – The Image datablock.
+**image** ([`bpy.types.Image`](../bpy.types/I/bpy.types.Image.md#bpy.types.Image "bpy.types.Image")) – The Image datablock.
 
 Returns:
     

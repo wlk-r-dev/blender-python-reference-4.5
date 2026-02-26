@@ -74,7 +74,7 @@ Do:
 
 ### Undo/Redo
 
-For safety, you should assume that undo and redo always invalidates all [`bpy.types.ID`](bpy.types.ID.md#bpy.types.ID "bpy.types.ID") instances (Object, Scene, Mesh, Light, etc.), as well obviously as all of their sub-data.
+For safety, you should assume that undo and redo always invalidates all [`bpy.types.ID`](../bpy.types/I/bpy.types.ID.md#bpy.types.ID "bpy.types.ID") instances (Object, Scene, Mesh, Light, etc.), as well obviously as all of their sub-data.
 
 This example shows how you can tell undo changes the memory locations:
     
@@ -104,7 +104,7 @@ Be aware that if you want to take advantage of this behavior for some reason, th
 
 In general, when Blender data is modified, there should always be an undo step created for it. Otherwise, there will be issues, ranging from invalid/broken undo stack, to crashes on undo/redo.
 
-This is especially true when modifying Blender data [in operators](bpy.types.Operator.md#operator-modifying-blender-data-undo).
+This is especially true when modifying Blender data [in operators](../bpy.types/O/bpy.types.Operator.md#operator-modifying-blender-data-undo).
 
 #### Undo & Library Data
 

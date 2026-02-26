@@ -6,19 +6,19 @@ This site can be used offline: [Download the full documentation (zipped HTML fil
 
 ## Documentation
 
-  * [Quickstart](info_quickstart.md): New to Blender or scripting and want to get your feet wet?
+  * [Quickstart](info/info_quickstart.md): New to Blender or scripting and want to get your feet wet?
 
-  * [API Overview](info_overview.md): A more complete explanation of Python integration.
+  * [API Overview](info/info_overview.md): A more complete explanation of Python integration.
 
-  * [API Reference Usage](info_api_reference.md): Examples of how to use the API reference docs.
+  * [API Reference Usage](info/info_api_reference.md): Examples of how to use the API reference docs.
 
-  * [Best Practice](info_best_practice.md): Conventions to follow for writing good scripts.
+  * [Best Practice](info/info_best_practice.md): Conventions to follow for writing good scripts.
 
-  * [Tips and Tricks](info_tips_and_tricks.md): Hints to help you while writing scripts for Blender.
+  * [Tips and Tricks](info/info_tips_and_tricks.md): Hints to help you while writing scripts for Blender.
 
-  * [Gotchas](info_gotcha.md): Some of the problems you may encounter when writing scripts.
+  * [Gotchas](info/info_gotcha.md): Some of the problems you may encounter when writing scripts.
 
-  * [Advanced](info_advanced.md): Topics which may not be required for typical usage.
+  * [Advanced](info/info_advanced.md): Topics which may not be required for typical usage.
 
   * [Change Log](change_log.md): List of changes since last Blender release
 

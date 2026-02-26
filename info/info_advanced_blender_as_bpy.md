@@ -121,8 +121,8 @@ As with the application it’s possible to start multiple instances, each with t
 
 In some cases the library API may be an alternative to starting separate processes, although this API operates on reading and writing ID data-blocks and isn’t a complete substitute for loading `.blend` files, see:
 
-  * [`bpy.types.BlendDataLibraries.load()`](bpy.types.BlendDataLibraries.md#bpy.types.BlendDataLibraries.load "bpy.types.BlendDataLibraries.load")
+  * [`bpy.types.BlendDataLibraries.load()`](../bpy.types/B/bpy.types.BlendDataLibraries.md#bpy.types.BlendDataLibraries.load "bpy.types.BlendDataLibraries.load")
 
-  * [`bpy.types.BlendDataLibraries.write()`](bpy.types.BlendDataLibraries.md#bpy.types.BlendDataLibraries.write "bpy.types.BlendDataLibraries.write")
+  * [`bpy.types.BlendDataLibraries.write()`](../bpy.types/B/bpy.types.BlendDataLibraries.md#bpy.types.BlendDataLibraries.write "bpy.types.BlendDataLibraries.write")
 
-  * [`bpy.types.BlendData.temp_data()`](bpy.types.BlendData.md#bpy.types.BlendData.temp_data "bpy.types.BlendData.temp_data") supports a temporary data-context to avoid manipulating the current `.blend` file.
+  * [`bpy.types.BlendData.temp_data()`](../bpy.types/B/bpy.types.BlendData.md#bpy.types.BlendData.temp_data "bpy.types.BlendData.temp_data") supports a temporary data-context to avoid manipulating the current `.blend` file.

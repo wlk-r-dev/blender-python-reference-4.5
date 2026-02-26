@@ -31,7 +31,7 @@ To find the path from an `ID` data-block to its setting isn’t always so simple
 
 Note
 
-This uses the same method for creating the animation path used by [`bpy.types.FCurve.data_path`](bpy.types.FCurve.md#bpy.types.FCurve.data_path "bpy.types.FCurve.data_path") and [`bpy.types.DriverTarget.data_path`](bpy.types.DriverTarget.md#bpy.types.DriverTarget.data_path "bpy.types.DriverTarget.data_path") drivers.
+This uses the same method for creating the animation path used by [`bpy.types.FCurve.data_path`](../bpy.types/F/bpy.types.FCurve.md#bpy.types.FCurve.data_path "bpy.types.FCurve.data_path") and [`bpy.types.DriverTarget.data_path`](../bpy.types/D/bpy.types.DriverTarget.md#bpy.types.DriverTarget.data_path "bpy.types.DriverTarget.data_path") drivers.
 
 ## Show All Operators
 

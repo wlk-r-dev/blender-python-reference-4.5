@@ -85,7 +85,7 @@ It is important to note that GLSL sources are reinterpreted to MSL (Metal Shadin
 
 ## Batch Creation
 
-Batches can be creates by first manually creating VBOs and IBOs. However, it is recommended to use the [`gpu_extras.batch.batch_for_shader`](gpu_extras.batch.md#gpu_extras.batch.batch_for_shader "gpu_extras.batch.batch_for_shader") function. It makes sure that all the vertex attributes necessary for a specific shader are provided. Consequently, the shader has to be passed to the function as well. When using this function one rarely has to care about the vertex format, VBOs and IBOs created in the background. This is still something one should know when drawing stuff though.
+Batches can be creates by first manually creating VBOs and IBOs. However, it is recommended to use the [`gpu_extras.batch.batch_for_shader`](../gpu_extras/gpu_extras.batch.md#gpu_extras.batch.batch_for_shader "gpu_extras.batch.batch_for_shader") function. It makes sure that all the vertex attributes necessary for a specific shader are provided. Consequently, the shader has to be passed to the function as well. When using this function one rarely has to care about the vertex format, VBOs and IBOs created in the background. This is still something one should know when drawing stuff though.
 
 Since batches can be drawn multiple times, they should be cached and reused whenever possible.
 
@@ -455,7 +455,7 @@ To use this example you have to provide an image that should be displayed.
 
 This will create a new image with the given name. If it already exists, it will override the existing one.
 
-Currently almost all of the execution time is spent in the last line. In the future this will hopefully be solved by implementing the Python buffer protocol for [`gpu.types.Buffer`](gpu.types.md#gpu.types.Buffer "gpu.types.Buffer") and [`bpy.types.Image.pixels`](bpy.types.Image.md#bpy.types.Image.pixels "bpy.types.Image.pixels") (aka `bpy_prop_array`).
+Currently almost all of the execution time is spent in the last line. In the future this will hopefully be solved by implementing the Python buffer protocol for [`gpu.types.Buffer`](gpu.types.md#gpu.types.Buffer "gpu.types.Buffer") and [`bpy.types.Image.pixels`](../bpy.types/I/bpy.types.Image.md#bpy.types.Image.pixels "bpy.types.Image.pixels") (aka `bpy_prop_array`).
     
     
     import bpy

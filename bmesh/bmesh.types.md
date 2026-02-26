@@ -149,7 +149,7 @@ Transform the mesh (optionally filtering flagged data only).
 Parameters:
     
 
-  * **matrix** ([`mathutils.Matrix`](mathutils.md#mathutils.Matrix "mathutils.Matrix")) – 4x4x transform matrix.
+  * **matrix** ([`mathutils.Matrix`](../mathutils.md#mathutils.Matrix "mathutils.Matrix")) – 4x4x transform matrix.
 
   * **filter** (_set_ _[__str_ _]_) – set of values in (‘SELECT’, ‘HIDE’, ‘SEAM’, ‘SMOOTH’, ‘TAG’).
 
@@ -346,7 +346,7 @@ The coordinates for this vertex as a 3D, wrapped vector.
 Type:
     
 
-[`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector")
+[`mathutils.Vector`](../mathutils.md#mathutils.Vector "mathutils.Vector")
 
 hide
     
@@ -454,7 +454,7 @@ The normal for this vertex as a 3D, wrapped vector.
 Type:
     
 
-[`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector")
+[`mathutils.Vector`](../mathutils.md#mathutils.Vector "mathutils.Vector")
 
 select
     
@@ -548,7 +548,7 @@ a normalized vector.
 Return type:
     
 
-[`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector")
+[`mathutils.Vector`](../mathutils.md#mathutils.Vector "mathutils.Vector")
 
 copy_from(_other_)
     
@@ -799,7 +799,7 @@ a 3D vector.
 Return type:
     
 
-[`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector")
+[`mathutils.Vector`](../mathutils.md#mathutils.Vector "mathutils.Vector")
 
 calc_center_median()
     
@@ -814,7 +814,7 @@ a 3D vector.
 Return type:
     
 
-[`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector")
+[`mathutils.Vector`](../mathutils.md#mathutils.Vector "mathutils.Vector")
 
 calc_center_median_weighted()
     
@@ -829,7 +829,7 @@ a 3D vector.
 Return type:
     
 
-[`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector")
+[`mathutils.Vector`](../mathutils.md#mathutils.Vector "mathutils.Vector")
 
 calc_perimeter()
     
@@ -859,7 +859,7 @@ a normalized vector.
 Return type:
     
 
-[`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector")
+[`mathutils.Vector`](../mathutils.md#mathutils.Vector "mathutils.Vector")
 
 calc_tangent_edge_diagonal()
     
@@ -874,7 +874,7 @@ a normalized vector.
 Return type:
     
 
-[`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector")
+[`mathutils.Vector`](../mathutils.md#mathutils.Vector "mathutils.Vector")
 
 calc_tangent_edge_pair()
     
@@ -896,7 +896,7 @@ a normalized vector.
 Return type:
     
 
-[`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector")
+[`mathutils.Vector`](../mathutils.md#mathutils.Vector "mathutils.Vector")
 
 calc_tangent_vert_diagonal()
     
@@ -911,7 +911,7 @@ a normalized vector.
 Return type:
     
 
-[`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector")
+[`mathutils.Vector`](../mathutils.md#mathutils.Vector "mathutils.Vector")
 
 copy(_verts =True_, _edges =True_)
     
@@ -1064,7 +1064,7 @@ The normal for this face as a 3D, wrapped vector.
 Type:
     
 
-[`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector")
+[`mathutils.Vector`](../mathutils.md#mathutils.Vector "mathutils.Vector")
 
 select
     
@@ -1139,7 +1139,7 @@ a normalized vector.
 Return type:
     
 
-[`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector")
+[`mathutils.Vector`](../mathutils.md#mathutils.Vector "mathutils.Vector")
 
 calc_tangent()
     
@@ -1154,7 +1154,7 @@ a normalized vector.
 Return type:
     
 
-[`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector")
+[`mathutils.Vector`](../mathutils.md#mathutils.Vector "mathutils.Vector")
 
 copy_from(_other_)
     
@@ -1728,7 +1728,7 @@ Generic RGBA color with 8-bit precision custom-data layer.
 Type:
     
 
-`BMLayerCollection` of [`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector")
+`BMLayerCollection` of [`mathutils.Vector`](../mathutils.md#mathutils.Vector "mathutils.Vector")
 
 deform
     
@@ -1758,7 +1758,7 @@ Generic RGBA color with float precision custom-data layer.
 Type:
     
 
-`BMLayerCollection` of [`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector")
+`BMLayerCollection` of [`mathutils.Vector`](../mathutils.md#mathutils.Vector "mathutils.Vector")
 
 float_vector
     
@@ -1768,7 +1768,7 @@ Generic 3D vector with float precision custom-data layer.
 Type:
     
 
-`BMLayerCollection` of [`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector")
+`BMLayerCollection` of [`mathutils.Vector`](../mathutils.md#mathutils.Vector "mathutils.Vector")
 
 int
     
@@ -1788,7 +1788,7 @@ Vertex shapekey absolute location (as a 3D Vector).
 Type:
     
 
-`BMLayerCollection` of [`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector")
+`BMLayerCollection` of [`mathutils.Vector`](../mathutils.md#mathutils.Vector "mathutils.Vector")
 
 skin
     
@@ -1833,7 +1833,7 @@ Generic RGBA color with 8-bit precision custom-data layer.
 Type:
     
 
-`BMLayerCollection` of [`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector")
+`BMLayerCollection` of [`mathutils.Vector`](../mathutils.md#mathutils.Vector "mathutils.Vector")
 
 float
     
@@ -1853,7 +1853,7 @@ Generic RGBA color with float precision custom-data layer.
 Type:
     
 
-`BMLayerCollection` of [`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector")
+`BMLayerCollection` of [`mathutils.Vector`](../mathutils.md#mathutils.Vector "mathutils.Vector")
 
 float_vector
     
@@ -1863,7 +1863,7 @@ Generic 3D vector with float precision custom-data layer.
 Type:
     
 
-`BMLayerCollection` of [`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector")
+`BMLayerCollection` of [`mathutils.Vector`](../mathutils.md#mathutils.Vector "mathutils.Vector")
 
 freestyle
     
@@ -1918,7 +1918,7 @@ Generic RGBA color with 8-bit precision custom-data layer.
 Type:
     
 
-`BMLayerCollection` of [`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector")
+`BMLayerCollection` of [`mathutils.Vector`](../mathutils.md#mathutils.Vector "mathutils.Vector")
 
 float
     
@@ -1938,7 +1938,7 @@ Generic RGBA color with float precision custom-data layer.
 Type:
     
 
-`BMLayerCollection` of [`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector")
+`BMLayerCollection` of [`mathutils.Vector`](../mathutils.md#mathutils.Vector "mathutils.Vector")
 
 float_vector
     
@@ -1948,7 +1948,7 @@ Generic 3D vector with float precision custom-data layer.
 Type:
     
 
-`BMLayerCollection` of [`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector")
+`BMLayerCollection` of [`mathutils.Vector`](../mathutils.md#mathutils.Vector "mathutils.Vector")
 
 freestyle
     
@@ -2003,7 +2003,7 @@ Generic RGBA color with 8-bit precision custom-data layer.
 Type:
     
 
-`BMLayerCollection` of [`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector")
+`BMLayerCollection` of [`mathutils.Vector`](../mathutils.md#mathutils.Vector "mathutils.Vector")
 
 float
     
@@ -2023,7 +2023,7 @@ Generic RGBA color with float precision custom-data layer.
 Type:
     
 
-`BMLayerCollection` of [`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector")
+`BMLayerCollection` of [`mathutils.Vector`](../mathutils.md#mathutils.Vector "mathutils.Vector")
 
 float_vector
     
@@ -2033,7 +2033,7 @@ Generic 3D vector with float precision custom-data layer.
 Type:
     
 
-`BMLayerCollection` of [`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector")
+`BMLayerCollection` of [`mathutils.Vector`](../mathutils.md#mathutils.Vector "mathutils.Vector")
 
 int
     
@@ -2261,7 +2261,7 @@ Loops UV (as a 2D Vector).
 Type:
     
 
-[`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector")
+[`mathutils.Vector`](../mathutils.md#mathutils.Vector "mathutils.Vector")
 
 _class _bmesh.types.BMDeformVert
     

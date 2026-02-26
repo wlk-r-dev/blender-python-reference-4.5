@@ -2,7 +2,7 @@
 
 When working with mesh data you may run into the problem where a script fails to run as expected in Edit-Mode. This is caused by Edit-Mode having its own data which is only written back to the mesh when exiting Edit-Mode.
 
-A common example is that exporters may access a mesh through `obj.data` (a [`bpy.types.Mesh`](bpy.types.Mesh.md#bpy.types.Mesh "bpy.types.Mesh")) when the user is in Edit-Mode, where the mesh data is available but out of sync with the edit mesh.
+A common example is that exporters may access a mesh through `obj.data` (a [`bpy.types.Mesh`](../bpy.types/M/bpy.types.Mesh.md#bpy.types.Mesh "bpy.types.Mesh")) when the user is in Edit-Mode, where the mesh data is available but out of sync with the edit mesh.
 
 In this situation you can…
 
@@ -21,9 +21,9 @@ Since 2.63 n-gons are supported, this adds some complexity since in some cases y
 
 There are now three ways to access faces:
 
-  * [`bpy.types.MeshPolygon`](bpy.types.MeshPolygon.md#bpy.types.MeshPolygon "bpy.types.MeshPolygon") – this is the data structure which now stores faces in Object-Mode (access as `mesh.polygons` rather than `mesh.faces`).
+  * [`bpy.types.MeshPolygon`](../bpy.types/M/bpy.types.MeshPolygon.md#bpy.types.MeshPolygon "bpy.types.MeshPolygon") – this is the data structure which now stores faces in Object-Mode (access as `mesh.polygons` rather than `mesh.faces`).
 
-  * [`bpy.types.MeshLoopTriangle`](bpy.types.MeshLoopTriangle.md#bpy.types.MeshLoopTriangle "bpy.types.MeshLoopTriangle") – the result of tessellating polygons into triangles (access as `mesh.loop_triangles`).
+  * [`bpy.types.MeshLoopTriangle`](../bpy.types/M/bpy.types.MeshLoopTriangle.md#bpy.types.MeshLoopTriangle "bpy.types.MeshLoopTriangle") – the result of tessellating polygons into triangles (access as `mesh.loop_triangles`).
 
   * `bmesh.types.BMFace` – the polygons as used in Edit-Mode.
 
@@ -34,7 +34,7 @@ Faces with five or more sides will be referred to as `ngons`.
 
 ### Support Overview
 
-Usage | [`bpy.types.MeshPolygon`](bpy.types.MeshPolygon.md#bpy.types.MeshPolygon "bpy.types.MeshPolygon") | [`bpy.types.MeshLoopTriangle`](bpy.types.MeshLoopTriangle.md#bpy.types.MeshLoopTriangle "bpy.types.MeshLoopTriangle") | `bmesh.types.BMFace`  
+Usage | [`bpy.types.MeshPolygon`](../bpy.types/M/bpy.types.MeshPolygon.md#bpy.types.MeshPolygon "bpy.types.MeshPolygon") | [`bpy.types.MeshLoopTriangle`](../bpy.types/M/bpy.types.MeshLoopTriangle.md#bpy.types.MeshLoopTriangle "bpy.types.MeshLoopTriangle") | `bmesh.types.BMFace`  
 ---|---|---|---  
 Import/Create | Poor _(inflexible)_ | Unusable _(read-only)_. | Best  
 Manipulate | Poor _(inflexible)_ | Unusable _(read-only)_. | Best  
@@ -48,7 +48,7 @@ Using the [`bmesh`](bmesh.md#module-bmesh "bmesh") API is completely separate AP
 
 All three data types can be used for face creation:
 
-  * Polygons are the most efficient way to create faces but the data structure is _very_ rigid and inflexible, you must have all your vertices and faces ready and create them all at once. This is further complicated by the fact that each polygon does not store its own vertices, rather they reference an index and size in [`bpy.types.Mesh.loops`](bpy.types.Mesh.md#bpy.types.Mesh.loops "bpy.types.Mesh.loops") which are a fixed array too.
+  * Polygons are the most efficient way to create faces but the data structure is _very_ rigid and inflexible, you must have all your vertices and faces ready and create them all at once. This is further complicated by the fact that each polygon does not store its own vertices, rather they reference an index and size in [`bpy.types.Mesh.loops`](../bpy.types/M/bpy.types.Mesh.md#bpy.types.Mesh.loops "bpy.types.Mesh.loops") which are a fixed array too.
 
   * BMesh-faces are most likely the easiest way to create faces in new scripts, since faces can be added one by one and the API has features intended for mesh manipulation. While `bmesh.types.BMesh` uses more memory it can be managed by only operating on one mesh at a time.
 

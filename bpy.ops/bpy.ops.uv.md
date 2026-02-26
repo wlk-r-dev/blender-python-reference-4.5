@@ -104,7 +104,7 @@ Set 2D cursor location
 Parameters:
     
 
-**location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 2 items in [-inf, inf], (optional)) – Location, Cursor location in normalized (0.0 to 1.0) coordinates
+**location** ([`mathutils.Vector`](../mathutils.md#mathutils.Vector "mathutils.Vector") of 2 items in [-inf, inf], (optional)) – Location, Cursor location in normalized (0.0 to 1.0) coordinates
 
 bpy.ops.uv.cylinder_project(_*_ , _direction ='VIEW_ON_EQUATOR'_, _align ='POLAR_ZX'_, _pole ='PINCH'_, _seam =False_, _radius =1.0_, _correct_aspect =True_, _clip_to_bounds =False_, _scale_to_bounds =False_)
     
@@ -410,7 +410,7 @@ Parameters:
 
   * **use_loc** (_boolean_ _,__(__optional_ _)_) – Randomize Location, Randomize the location values
 
-  * **loc** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 2 items in [-100, 100], (optional)) – Location, Maximum distance the objects can spread over each axis
+  * **loc** ([`mathutils.Vector`](../mathutils.md#mathutils.Vector "mathutils.Vector") of 2 items in [-100, 100], (optional)) – Location, Maximum distance the objects can spread over each axis
 
   * **use_rot** (_boolean_ _,__(__optional_ _)_) – Randomize Rotation, Randomize the rotation value
 
@@ -472,7 +472,7 @@ Parameters:
 
   * **use_accurate** (_boolean_ _,__(__optional_ _)_) – Accurate, Use accurate transformation
 
-  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 2 items in [-inf, inf], (optional)) – Location, Mouse location in normalized coordinates, 0.0 to 1.0 is within the image bounds
+  * **location** ([`mathutils.Vector`](../mathutils.md#mathutils.Vector "mathutils.Vector") of 2 items in [-inf, inf], (optional)) – Location, Mouse location in normalized coordinates, 0.0 to 1.0 is within the image bounds
 
 
 bpy.ops.uv.rip_move(_*_ , _UV_OT_rip =None_, _TRANSFORM_OT_translate =None_)
@@ -519,7 +519,7 @@ Parameters:
 
   * **select_passthrough** (_boolean_ _,__(__optional_ _)_) – Only Select Unselected, Ignore the select action when the element is already selected
 
-  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 2 items in [-inf, inf], (optional)) – Location, Mouse location in normalized coordinates, 0.0 to 1.0 is within the image bounds
+  * **location** ([`mathutils.Vector`](../mathutils.md#mathutils.Vector "mathutils.Vector") of 2 items in [-inf, inf], (optional)) – Location, Mouse location in normalized coordinates, 0.0 to 1.0 is within the image bounds
 
 
 bpy.ops.uv.select_all(_*_ , _action ='TOGGLE'_)
@@ -611,7 +611,7 @@ Parameters:
 
   * **extend** (_boolean_ _,__(__optional_ _)_) – Extend, Extend selection rather than clearing the existing selection
 
-  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 2 items in [-inf, inf], (optional)) – Location, Mouse location in normalized coordinates, 0.0 to 1.0 is within the image bounds
+  * **location** ([`mathutils.Vector`](../mathutils.md#mathutils.Vector "mathutils.Vector") of 2 items in [-inf, inf], (optional)) – Location, Mouse location in normalized coordinates, 0.0 to 1.0 is within the image bounds
 
 
 bpy.ops.uv.select_lasso(_*_ , _path =None_, _use_smooth_stroke =False_, _smooth_stroke_factor =0.75_, _smooth_stroke_radius =35_, _mode ='SET'_)
@@ -663,7 +663,7 @@ Parameters:
 
   * **deselect** (_boolean_ _,__(__optional_ _)_) – Deselect, Deselect linked UV vertices rather than selecting them
 
-  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 2 items in [-inf, inf], (optional)) – Location, Mouse location in normalized coordinates, 0.0 to 1.0 is within the image bounds
+  * **location** ([`mathutils.Vector`](../mathutils.md#mathutils.Vector "mathutils.Vector") of 2 items in [-inf, inf], (optional)) – Location, Mouse location in normalized coordinates, 0.0 to 1.0 is within the image bounds
 
 
 bpy.ops.uv.select_loop(_*_ , _extend =False_, _location =(0.0, 0.0)_)
@@ -676,7 +676,7 @@ Parameters:
 
   * **extend** (_boolean_ _,__(__optional_ _)_) – Extend, Extend selection rather than clearing the existing selection
 
-  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 2 items in [-inf, inf], (optional)) – Location, Mouse location in normalized coordinates, 0.0 to 1.0 is within the image bounds
+  * **location** ([`mathutils.Vector`](../mathutils.md#mathutils.Vector "mathutils.Vector") of 2 items in [-inf, inf], (optional)) – Location, Mouse location in normalized coordinates, 0.0 to 1.0 is within the image bounds
 
 
 bpy.ops.uv.select_mode(_*_ , _type ='VERTEX'_)
