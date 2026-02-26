@@ -8,7 +8,7 @@ Add a boid rule to the current boid state
 Parameters:
     
 
-**type** (enum in [Boidrule Type Items](bpy_types_enum_items/boidrule_type_items.html#rna-enum-boidrule-type-items), (optional)) – Type
+**type** (enum in [Boidrule Type Items](bpy_types_enum_items/boidrule_type_items.md#rna-enum-boidrule-type-items), (optional)) – Type
 
 bpy.ops.boid.rule_del()
     

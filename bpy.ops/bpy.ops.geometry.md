@@ -10,9 +10,9 @@ Parameters:
 
   * **name** (_string_ _,__(__optional_ _,__never None_ _)_) – Name, Name of new attribute
 
-  * **domain** (enum in [Attribute Domain Items](bpy_types_enum_items/attribute_domain_items.html#rna-enum-attribute-domain-items), (optional)) – Domain, Type of element that attribute is stored on
+  * **domain** (enum in [Attribute Domain Items](bpy_types_enum_items/attribute_domain_items.md#rna-enum-attribute-domain-items), (optional)) – Domain, Type of element that attribute is stored on
 
-  * **data_type** (enum in [Attribute Type Items](bpy_types_enum_items/attribute_type_items.html#rna-enum-attribute-type-items), (optional)) – Data Type, Type of data stored in attribute
+  * **data_type** (enum in [Attribute Type Items](bpy_types_enum_items/attribute_type_items.md#rna-enum-attribute-type-items), (optional)) – Data Type, Type of data stored in attribute
 
 
 bpy.ops.geometry.attribute_convert(_*_ , _mode ='GENERIC'_, _domain ='POINT'_, _data_type ='FLOAT'_)
@@ -25,9 +25,9 @@ Parameters:
 
   * **mode** (enum in [`'GENERIC'`, `'VERTEX_GROUP'`], (optional)) – Mode
 
-  * **domain** (enum in [Attribute Domain Items](bpy_types_enum_items/attribute_domain_items.html#rna-enum-attribute-domain-items), (optional)) – Domain, Which geometry element to move the attribute to
+  * **domain** (enum in [Attribute Domain Items](bpy_types_enum_items/attribute_domain_items.md#rna-enum-attribute-domain-items), (optional)) – Domain, Which geometry element to move the attribute to
 
-  * **data_type** (enum in [Attribute Type Items](bpy_types_enum_items/attribute_type_items.html#rna-enum-attribute-type-items), (optional)) – Data Type
+  * **data_type** (enum in [Attribute Type Items](bpy_types_enum_items/attribute_type_items.md#rna-enum-attribute-type-items), (optional)) – Data Type
 
 
 bpy.ops.geometry.attribute_remove()
@@ -45,9 +45,9 @@ Parameters:
 
   * **name** (_string_ _,__(__optional_ _,__never None_ _)_) – Name, Name of new color attribute
 
-  * **domain** (enum in [Color Attribute Domain Items](bpy_types_enum_items/color_attribute_domain_items.html#rna-enum-color-attribute-domain-items), (optional)) – Domain, Type of element that attribute is stored on
+  * **domain** (enum in [Color Attribute Domain Items](bpy_types_enum_items/color_attribute_domain_items.md#rna-enum-color-attribute-domain-items), (optional)) – Domain, Type of element that attribute is stored on
 
-  * **data_type** (enum in [Color Attribute Type Items](bpy_types_enum_items/color_attribute_type_items.html#rna-enum-color-attribute-type-items), (optional)) – Data Type, Type of data stored in attribute
+  * **data_type** (enum in [Color Attribute Type Items](bpy_types_enum_items/color_attribute_type_items.md#rna-enum-color-attribute-type-items), (optional)) – Data Type, Type of data stored in attribute
 
   * **color** (_float array_ _of_ _4 items in_ _[__0_ _,__inf_ _]__,__(__optional_ _)_) – Color, Default fill color
 
@@ -60,9 +60,9 @@ Change how the color attribute is stored
 Parameters:
     
 
-  * **domain** (enum in [Color Attribute Domain Items](bpy_types_enum_items/color_attribute_domain_items.html#rna-enum-color-attribute-domain-items), (optional)) – Domain, Type of element that attribute is stored on
+  * **domain** (enum in [Color Attribute Domain Items](bpy_types_enum_items/color_attribute_domain_items.md#rna-enum-color-attribute-domain-items), (optional)) – Domain, Type of element that attribute is stored on
 
-  * **data_type** (enum in [Color Attribute Type Items](bpy_types_enum_items/color_attribute_type_items.html#rna-enum-color-attribute-type-items), (optional)) – Data Type, Type of data stored in attribute
+  * **data_type** (enum in [Color Attribute Type Items](bpy_types_enum_items/color_attribute_type_items.md#rna-enum-color-attribute-type-items), (optional)) – Data Type, Type of data stored in attribute
 
 
 bpy.ops.geometry.color_attribute_duplicate()
@@ -93,7 +93,7 @@ Execute a node group on geometry
 Parameters:
     
 
-  * **asset_library_type** (enum in [Asset Library Type Items](bpy_types_enum_items/asset_library_type_items.html#rna-enum-asset-library-type-items), (optional)) – Asset Library Type
+  * **asset_library_type** (enum in [Asset Library Type Items](bpy_types_enum_items/asset_library_type_items.md#rna-enum-asset-library-type-items), (optional)) – Asset Library Type
 
   * **asset_library_identifier** (_string_ _,__(__optional_ _,__never None_ _)_) – Asset Library Identifier
 

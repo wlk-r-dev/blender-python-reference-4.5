@@ -2,11 +2,11 @@
 
 This module provides access to Blender’s image manipulation API.
 
-It provides access to image buffers outside of Blender’s [`bpy.types.Image`](bpy.types.Image.html#bpy.types.Image "bpy.types.Image") data-block context.
+It provides access to image buffers outside of Blender’s [`bpy.types.Image`](bpy.types.Image.md#bpy.types.Image "bpy.types.Image") data-block context.
 
 Submodules
 
-  * [Image Buffer Types (imbuf.types)](imbuf.types.html)
+  * [Image Buffer Types (imbuf.types)](imbuf.types.md)
 
 
 imbuf.load(_filepath_)

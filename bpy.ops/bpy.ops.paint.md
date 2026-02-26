@@ -27,13 +27,13 @@ Parameters:
 
   * **alpha** (_boolean_ _,__(__optional_ _)_) – Alpha, Create an image with an alpha channel
 
-  * **generated_type** (enum in [Image Generated Type Items](bpy_types_enum_items/image_generated_type_items.html#rna-enum-image-generated-type-items), (optional)) – Generated Type, Fill the image with a grid for UV map testing
+  * **generated_type** (enum in [Image Generated Type Items](bpy_types_enum_items/image_generated_type_items.md#rna-enum-image-generated-type-items), (optional)) – Generated Type, Fill the image with a grid for UV map testing
 
   * **float** (_boolean_ _,__(__optional_ _)_) – 32-bit Float, Create image with 32-bit floating-point bit depth
 
-  * **domain** (enum in [Color Attribute Domain Items](bpy_types_enum_items/color_attribute_domain_items.html#rna-enum-color-attribute-domain-items), (optional)) – Domain, Type of element that attribute is stored on
+  * **domain** (enum in [Color Attribute Domain Items](bpy_types_enum_items/color_attribute_domain_items.md#rna-enum-color-attribute-domain-items), (optional)) – Domain, Type of element that attribute is stored on
 
-  * **data_type** (enum in [Color Attribute Type Items](bpy_types_enum_items/color_attribute_type_items.html#rna-enum-color-attribute-type-items), (optional)) – Data Type, Type of data stored in attribute
+  * **data_type** (enum in [Color Attribute Type Items](bpy_types_enum_items/color_attribute_type_items.md#rna-enum-color-attribute-type-items), (optional)) – Data Type, Type of data stored in attribute
 
 
 bpy.ops.paint.brush_colors_flip()
@@ -138,7 +138,7 @@ Move the clone source image
 Parameters:
     
 
-**delta** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 2 items in [-inf, inf], (optional)) – Delta, Delta offset of clone image in 0.0 to 1.0 coordinates
+**delta** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 2 items in [-inf, inf], (optional)) – Delta, Delta offset of clone image in 0.0 to 1.0 coordinates
 
 bpy.ops.paint.hide_show(_*_ , _xmin =0_, _xmax =0_, _ymin =0_, _ymax =0_, _wait_for_input =True_, _action ='HIDE'_, _area ='Inside'_, _use_front_faces_only =False_)
     

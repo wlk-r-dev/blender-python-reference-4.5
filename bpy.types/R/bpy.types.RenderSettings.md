@@ -1,6 +1,6 @@
 # RenderSettings(bpy_struct)
 
-base class — [`bpy_struct`](bpy.types.bpy_struct.html#bpy.types.bpy_struct "bpy.types.bpy_struct")
+base class — [`bpy_struct`](bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct")
 
 _class _bpy.types.RenderSettings(_bpy_struct_)
     
@@ -13,7 +13,7 @@ bake
 Type:
     
 
-[`BakeSettings`](bpy.types.BakeSettings.html#bpy.types.BakeSettings "bpy.types.BakeSettings"), (readonly, never None)
+[`BakeSettings`](bpy.types.BakeSettings.md#bpy.types.BakeSettings "bpy.types.BakeSettings"), (readonly, never None)
 
 bake_bias
     
@@ -229,7 +229,7 @@ FFmpeg related settings for the scene
 Type:
     
 
-[`FFmpegSettings`](bpy.types.FFmpegSettings.html#bpy.types.FFmpegSettings "bpy.types.FFmpegSettings"), (readonly)
+[`FFmpegSettings`](bpy.types.FFmpegSettings.md#bpy.types.FFmpegSettings "bpy.types.FFmpegSettings"), (readonly)
 
 file_extension
     
@@ -249,7 +249,7 @@ Directory/name to save animations, # characters define the position and padding 
 Type:
     
 
-string, default “”, (never None, blend relative `//` prefix supported, Supports [template expressions](https://docs.blender.org/manual/en/4.5/files/file_paths.html#path-templates))
+string, default “”, (never None, blend relative `//` prefix supported, Supports [template expressions](https://docs.blender.org/manual/en/4.5/files/file_paths.md#path-templates))
 
 film_transparent
     
@@ -347,7 +347,7 @@ image_settings
 Type:
     
 
-[`ImageFormatSettings`](bpy.types.ImageFormatSettings.html#bpy.types.ImageFormatSettings "bpy.types.ImageFormatSettings"), (readonly, never None)
+[`ImageFormatSettings`](bpy.types.ImageFormatSettings.md#bpy.types.ImageFormatSettings "bpy.types.ImageFormatSettings"), (readonly, never None)
 
 is_movie_format
     
@@ -434,7 +434,7 @@ Curve defining the shutter’s openness over time
 Type:
     
 
-[`CurveMapping`](bpy.types.CurveMapping.html#bpy.types.CurveMapping "bpy.types.CurveMapping"), (readonly)
+[`CurveMapping`](bpy.types.CurveMapping.md#bpy.types.CurveMapping "bpy.types.CurveMapping"), (readonly)
 
 pixel_aspect_x
     
@@ -535,7 +535,7 @@ Display method used in the sequencer view
 Type:
     
 
-enum in [Shading Type Items](bpy_types_enum_items/shading_type_items.html#rna-enum-shading-type-items), default `'SOLID'`
+enum in [Shading Type Items](bpy_types_enum_items/shading_type_items.md#rna-enum-shading-type-items), default `'SOLID'`
 
 simplify_child_particles
     
@@ -703,7 +703,7 @@ stereo_views
 Type:
     
 
-[`bpy_prop_collection`](bpy.types.bpy_prop_collection.html#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`SceneRenderView`](bpy.types.SceneRenderView.html#bpy.types.SceneRenderView "bpy.types.SceneRenderView"), (readonly)
+[`bpy_prop_collection`](bpy.types.bpy_prop_collection.md#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`SceneRenderView`](bpy.types.SceneRenderView.md#bpy.types.SceneRenderView "bpy.types.SceneRenderView"), (readonly)
 
 threads
     
@@ -1136,7 +1136,7 @@ views
 Type:
     
 
-[`RenderViews`](bpy.types.RenderViews.html#bpy.types.RenderViews "bpy.types.RenderViews") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.html#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`SceneRenderView`](bpy.types.SceneRenderView.html#bpy.types.SceneRenderView "bpy.types.SceneRenderView"), (readonly)
+[`RenderViews`](bpy.types.RenderViews.md#bpy.types.RenderViews "bpy.types.RenderViews") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.md#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`SceneRenderView`](bpy.types.SceneRenderView.md#bpy.types.SceneRenderView "bpy.types.SceneRenderView"), (readonly)
 
 views_format
     
@@ -1192,7 +1192,7 @@ The RNA type or default when not found.
 Return type:
     
 
-[`bpy.types.Struct`](bpy.types.Struct.html#bpy.types.Struct "bpy.types.Struct") subclass
+[`bpy.types.Struct`](bpy.types.Struct.md#bpy.types.Struct "bpy.types.Struct") subclass
 
 _classmethod _bl_rna_get_subclass_py(_id_ , _default =None_, _/_)
     
@@ -1214,7 +1214,7 @@ type
 
 ## Inherited Properties
 
-  * [`bpy_struct.id_data`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_data "bpy.types.bpy_struct.id_data")
+  * [`bpy_struct.id_data`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_data "bpy.types.bpy_struct.id_data")
 
 | 
 
@@ -1224,43 +1224,43 @@ type
   
 ## Inherited Functions
 
-  * [`bpy_struct.as_pointer`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.as_pointer "bpy.types.bpy_struct.as_pointer")
-  * [`bpy_struct.driver_add`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.driver_add "bpy.types.bpy_struct.driver_add")
-  * [`bpy_struct.driver_remove`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.driver_remove "bpy.types.bpy_struct.driver_remove")
-  * [`bpy_struct.get`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.get "bpy.types.bpy_struct.get")
-  * [`bpy_struct.id_properties_clear`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_clear "bpy.types.bpy_struct.id_properties_clear")
-  * [`bpy_struct.id_properties_ensure`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_ensure "bpy.types.bpy_struct.id_properties_ensure")
-  * [`bpy_struct.id_properties_ui`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_ui "bpy.types.bpy_struct.id_properties_ui")
-  * [`bpy_struct.is_property_hidden`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_hidden "bpy.types.bpy_struct.is_property_hidden")
-  * [`bpy_struct.is_property_overridable_library`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_overridable_library "bpy.types.bpy_struct.is_property_overridable_library")
-  * [`bpy_struct.is_property_readonly`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_readonly "bpy.types.bpy_struct.is_property_readonly")
-  * [`bpy_struct.is_property_set`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_set "bpy.types.bpy_struct.is_property_set")
-  * [`bpy_struct.items`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.items "bpy.types.bpy_struct.items")
+  * [`bpy_struct.as_pointer`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.as_pointer "bpy.types.bpy_struct.as_pointer")
+  * [`bpy_struct.driver_add`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.driver_add "bpy.types.bpy_struct.driver_add")
+  * [`bpy_struct.driver_remove`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.driver_remove "bpy.types.bpy_struct.driver_remove")
+  * [`bpy_struct.get`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.get "bpy.types.bpy_struct.get")
+  * [`bpy_struct.id_properties_clear`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_properties_clear "bpy.types.bpy_struct.id_properties_clear")
+  * [`bpy_struct.id_properties_ensure`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_properties_ensure "bpy.types.bpy_struct.id_properties_ensure")
+  * [`bpy_struct.id_properties_ui`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_properties_ui "bpy.types.bpy_struct.id_properties_ui")
+  * [`bpy_struct.is_property_hidden`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_hidden "bpy.types.bpy_struct.is_property_hidden")
+  * [`bpy_struct.is_property_overridable_library`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_overridable_library "bpy.types.bpy_struct.is_property_overridable_library")
+  * [`bpy_struct.is_property_readonly`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_readonly "bpy.types.bpy_struct.is_property_readonly")
+  * [`bpy_struct.is_property_set`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_set "bpy.types.bpy_struct.is_property_set")
+  * [`bpy_struct.items`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.items "bpy.types.bpy_struct.items")
 
 | 
 
-  * [`bpy_struct.keyframe_delete`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keyframe_delete "bpy.types.bpy_struct.keyframe_delete")
-  * [`bpy_struct.keyframe_insert`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keyframe_insert "bpy.types.bpy_struct.keyframe_insert")
-  * [`bpy_struct.keys`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keys "bpy.types.bpy_struct.keys")
-  * [`bpy_struct.path_from_id`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.path_from_id "bpy.types.bpy_struct.path_from_id")
-  * [`bpy_struct.path_resolve`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.path_resolve "bpy.types.bpy_struct.path_resolve")
-  * [`bpy_struct.pop`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.pop "bpy.types.bpy_struct.pop")
-  * [`bpy_struct.property_overridable_library_set`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.property_overridable_library_set "bpy.types.bpy_struct.property_overridable_library_set")
-  * [`bpy_struct.property_unset`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.property_unset "bpy.types.bpy_struct.property_unset")
-  * [`bpy_struct.rna_ancestors`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.rna_ancestors "bpy.types.bpy_struct.rna_ancestors")
-  * [`bpy_struct.type_recast`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.type_recast "bpy.types.bpy_struct.type_recast")
-  * [`bpy_struct.values`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.values "bpy.types.bpy_struct.values")
+  * [`bpy_struct.keyframe_delete`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.keyframe_delete "bpy.types.bpy_struct.keyframe_delete")
+  * [`bpy_struct.keyframe_insert`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.keyframe_insert "bpy.types.bpy_struct.keyframe_insert")
+  * [`bpy_struct.keys`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.keys "bpy.types.bpy_struct.keys")
+  * [`bpy_struct.path_from_id`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.path_from_id "bpy.types.bpy_struct.path_from_id")
+  * [`bpy_struct.path_resolve`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.path_resolve "bpy.types.bpy_struct.path_resolve")
+  * [`bpy_struct.pop`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.pop "bpy.types.bpy_struct.pop")
+  * [`bpy_struct.property_overridable_library_set`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.property_overridable_library_set "bpy.types.bpy_struct.property_overridable_library_set")
+  * [`bpy_struct.property_unset`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.property_unset "bpy.types.bpy_struct.property_unset")
+  * [`bpy_struct.rna_ancestors`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.rna_ancestors "bpy.types.bpy_struct.rna_ancestors")
+  * [`bpy_struct.type_recast`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.type_recast "bpy.types.bpy_struct.type_recast")
+  * [`bpy_struct.values`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.values "bpy.types.bpy_struct.values")
 
   
 ---|---  
   
 ## References
 
-  * [`RenderEngine.render`](bpy.types.RenderEngine.html#bpy.types.RenderEngine.render "bpy.types.RenderEngine.render")
+  * [`RenderEngine.render`](bpy.types.RenderEngine.md#bpy.types.RenderEngine.render "bpy.types.RenderEngine.render")
 
 | 
 
-  * [`Scene.render`](bpy.types.Scene.html#bpy.types.Scene.render "bpy.types.Scene.render")
+  * [`Scene.render`](bpy.types.Scene.md#bpy.types.Scene.render "bpy.types.Scene.render")
 
   
 ---|---

@@ -1,6 +1,6 @@
 # Gizmo(bpy_struct)
 
-base class — [`bpy_struct`](bpy.types.bpy_struct.html#bpy.types.bpy_struct "bpy.types.bpy_struct")
+base class — [`bpy_struct`](bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct")
 
 _class _bpy.types.Gizmo(_bpy_struct_)
     
@@ -37,7 +37,7 @@ color
 Type:
     
 
-[`mathutils.Color`](mathutils.html#mathutils.Color "mathutils.Color") of 3 items in [0, inf], default (0.0, 0.0, 0.0)
+[`mathutils.Color`](mathutils.md#mathutils.Color "mathutils.Color") of 3 items in [0, inf], default (0.0, 0.0, 0.0)
 
 color_highlight
     
@@ -45,7 +45,7 @@ color_highlight
 Type:
     
 
-[`mathutils.Color`](mathutils.html#mathutils.Color "mathutils.Color") of 3 items in [0, inf], default (0.0, 0.0, 0.0)
+[`mathutils.Color`](mathutils.md#mathutils.Color "mathutils.Color") of 3 items in [0, inf], default (0.0, 0.0, 0.0)
 
 group
     
@@ -55,7 +55,7 @@ Gizmo group this gizmo is a member of
 Type:
     
 
-[`GizmoGroup`](bpy.types.GizmoGroup.html#bpy.types.GizmoGroup "bpy.types.GizmoGroup"), (readonly)
+[`GizmoGroup`](bpy.types.GizmoGroup.md#bpy.types.GizmoGroup "bpy.types.GizmoGroup"), (readonly)
 
 hide
     
@@ -113,7 +113,7 @@ matrix_basis
 Type:
     
 
-[`mathutils.Matrix`](mathutils.html#mathutils.Matrix "mathutils.Matrix") of 4 * 4 items in [-inf, inf], default ((0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0))
+[`mathutils.Matrix`](mathutils.md#mathutils.Matrix "mathutils.Matrix") of 4 * 4 items in [-inf, inf], default ((0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0))
 
 matrix_offset
     
@@ -121,7 +121,7 @@ matrix_offset
 Type:
     
 
-[`mathutils.Matrix`](mathutils.html#mathutils.Matrix "mathutils.Matrix") of 4 * 4 items in [-inf, inf], default ((0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0))
+[`mathutils.Matrix`](mathutils.md#mathutils.Matrix "mathutils.Matrix") of 4 * 4 items in [-inf, inf], default ((0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0))
 
 matrix_space
     
@@ -129,7 +129,7 @@ matrix_space
 Type:
     
 
-[`mathutils.Matrix`](mathutils.html#mathutils.Matrix "mathutils.Matrix") of 4 * 4 items in [-inf, inf], default ((0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0))
+[`mathutils.Matrix`](mathutils.md#mathutils.Matrix "mathutils.Matrix") of 4 * 4 items in [-inf, inf], default ((0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0))
 
 matrix_world
     
@@ -137,7 +137,7 @@ matrix_world
 Type:
     
 
-[`mathutils.Matrix`](mathutils.html#mathutils.Matrix "mathutils.Matrix") of 4 * 4 items in [-inf, inf], default ((0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0)), (readonly)
+[`mathutils.Matrix`](mathutils.md#mathutils.Matrix "mathutils.Matrix") of 4 * 4 items in [-inf, inf], default ((0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0)), (readonly)
 
 properties
     
@@ -145,7 +145,7 @@ properties
 Type:
     
 
-[`GizmoProperties`](bpy.types.GizmoProperties.html#bpy.types.GizmoProperties "bpy.types.GizmoProperties"), (readonly, never None)
+[`GizmoProperties`](bpy.types.GizmoProperties.md#bpy.types.GizmoProperties "bpy.types.GizmoProperties"), (readonly, never None)
 
 scale_basis
     
@@ -309,7 +309,7 @@ result
 Return type:
     
 
-enum set in [Operator Return Items](bpy_types_enum_items/operator_return_items.html#rna-enum-operator-return-items)
+enum set in [Operator Return Items](bpy_types_enum_items/operator_return_items.md#rna-enum-operator-return-items)
 
 setup()
     
@@ -325,7 +325,7 @@ result
 Return type:
     
 
-enum set in [Operator Return Items](bpy_types_enum_items/operator_return_items.html#rna-enum-operator-return-items)
+enum set in [Operator Return Items](bpy_types_enum_items/operator_return_items.md#rna-enum-operator-return-items)
 
 exit(_context_ , _cancel_)
     
@@ -346,7 +346,7 @@ Draw a box
 Parameters:
     
 
-  * **matrix** ([`mathutils.Matrix`](mathutils.html#mathutils.Matrix "mathutils.Matrix") of 4 * 4 items in [-inf, inf]) – The matrix to transform
+  * **matrix** ([`mathutils.Matrix`](mathutils.md#mathutils.Matrix "mathutils.Matrix") of 4 * 4 items in [-inf, inf]) – The matrix to transform
 
   * **select_id** (_int in_ _[__-1_ _,__inf_ _]__,__(__optional_ _)_) – ID to use when gizmo is selectable. Use -1 when not selecting.
 
@@ -359,9 +359,9 @@ Draw a box
 Parameters:
     
 
-  * **matrix** ([`mathutils.Matrix`](mathutils.html#mathutils.Matrix "mathutils.Matrix") of 4 * 4 items in [-inf, inf]) – The matrix to transform
+  * **matrix** ([`mathutils.Matrix`](mathutils.md#mathutils.Matrix "mathutils.Matrix") of 4 * 4 items in [-inf, inf]) – The matrix to transform
 
-  * **axis** (enum in [Object Axis Items](bpy_types_enum_items/object_axis_items.html#rna-enum-object-axis-items), (optional)) – Arrow Orientation
+  * **axis** (enum in [Object Axis Items](bpy_types_enum_items/object_axis_items.md#rna-enum-object-axis-items), (optional)) – Arrow Orientation
 
   * **select_id** (_int in_ _[__-1_ _,__inf_ _]__,__(__optional_ _)_) – ID to use when gizmo is selectable. Use -1 when not selecting.
 
@@ -374,9 +374,9 @@ Draw a box
 Parameters:
     
 
-  * **matrix** ([`mathutils.Matrix`](mathutils.html#mathutils.Matrix "mathutils.Matrix") of 4 * 4 items in [-inf, inf]) – The matrix to transform
+  * **matrix** ([`mathutils.Matrix`](mathutils.md#mathutils.Matrix "mathutils.Matrix") of 4 * 4 items in [-inf, inf]) – The matrix to transform
 
-  * **axis** (enum in [Object Axis Items](bpy_types_enum_items/object_axis_items.html#rna-enum-object-axis-items), (optional)) – Arrow Orientation
+  * **axis** (enum in [Object Axis Items](bpy_types_enum_items/object_axis_items.md#rna-enum-object-axis-items), (optional)) – Arrow Orientation
 
   * **select_id** (_int in_ _[__-1_ _,__inf_ _]__,__(__optional_ _)_) – ID to use when gizmo is selectable. Use -1 when not selecting.
 
@@ -389,7 +389,7 @@ Parameters:
 
   * **target** (_string_ _,__(__never None_ _)_) – Target property
 
-  * **data** ([`AnyType`](bpy.types.AnyType.html#bpy.types.AnyType "bpy.types.AnyType"), (never None)) – Data from which to take property
+  * **data** ([`AnyType`](bpy.types.AnyType.md#bpy.types.AnyType "bpy.types.AnyType"), (never None)) – Data from which to take property
 
   * **property** (_string_ _,__(__never None_ _)_) – Identifier of property in data
 
@@ -415,7 +415,7 @@ Operator properties to fill in
 Return type:
     
 
-[`OperatorProperties`](bpy.types.OperatorProperties.html#bpy.types.OperatorProperties "bpy.types.OperatorProperties")
+[`OperatorProperties`](bpy.types.OperatorProperties.md#bpy.types.OperatorProperties "bpy.types.OperatorProperties")
 
 target_is_valid(_property_)
     
@@ -440,7 +440,7 @@ Parameters:
 
   * **shape** (_Any_) – The cached shape to draw.
 
-  * **matrix** ([`mathutils.Matrix`](mathutils.html#mathutils.Matrix "mathutils.Matrix")) – 4x4 matrix, when not given `Gizmo.matrix_world` is used.
+  * **matrix** ([`mathutils.Matrix`](mathutils.md#mathutils.Matrix "mathutils.Matrix")) – 4x4 matrix, when not given `Gizmo.matrix_world` is used.
 
   * **select_id** (_int_) – The selection id. Only use when drawing within `Gizmo.draw_select`.
 
@@ -484,7 +484,7 @@ The RNA type or default when not found.
 Return type:
     
 
-[`bpy.types.Struct`](bpy.types.Struct.html#bpy.types.Struct "bpy.types.Struct") subclass
+[`bpy.types.Struct`](bpy.types.Struct.md#bpy.types.Struct "bpy.types.Struct") subclass
 
 _classmethod _bl_rna_get_subclass_py(_id_ , _default =None_, _/_)
     
@@ -573,7 +573,7 @@ Parameters:
 
 ## Inherited Properties
 
-  * [`bpy_struct.id_data`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_data "bpy.types.bpy_struct.id_data")
+  * [`bpy_struct.id_data`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_data "bpy.types.bpy_struct.id_data")
 
 | 
 
@@ -583,45 +583,45 @@ Parameters:
   
 ## Inherited Functions
 
-  * [`bpy_struct.as_pointer`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.as_pointer "bpy.types.bpy_struct.as_pointer")
-  * [`bpy_struct.driver_add`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.driver_add "bpy.types.bpy_struct.driver_add")
-  * [`bpy_struct.driver_remove`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.driver_remove "bpy.types.bpy_struct.driver_remove")
-  * [`bpy_struct.get`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.get "bpy.types.bpy_struct.get")
-  * [`bpy_struct.id_properties_clear`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_clear "bpy.types.bpy_struct.id_properties_clear")
-  * [`bpy_struct.id_properties_ensure`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_ensure "bpy.types.bpy_struct.id_properties_ensure")
-  * [`bpy_struct.id_properties_ui`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_ui "bpy.types.bpy_struct.id_properties_ui")
-  * [`bpy_struct.is_property_hidden`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_hidden "bpy.types.bpy_struct.is_property_hidden")
-  * [`bpy_struct.is_property_overridable_library`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_overridable_library "bpy.types.bpy_struct.is_property_overridable_library")
-  * [`bpy_struct.is_property_readonly`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_readonly "bpy.types.bpy_struct.is_property_readonly")
-  * [`bpy_struct.is_property_set`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_set "bpy.types.bpy_struct.is_property_set")
-  * [`bpy_struct.items`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.items "bpy.types.bpy_struct.items")
+  * [`bpy_struct.as_pointer`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.as_pointer "bpy.types.bpy_struct.as_pointer")
+  * [`bpy_struct.driver_add`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.driver_add "bpy.types.bpy_struct.driver_add")
+  * [`bpy_struct.driver_remove`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.driver_remove "bpy.types.bpy_struct.driver_remove")
+  * [`bpy_struct.get`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.get "bpy.types.bpy_struct.get")
+  * [`bpy_struct.id_properties_clear`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_properties_clear "bpy.types.bpy_struct.id_properties_clear")
+  * [`bpy_struct.id_properties_ensure`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_properties_ensure "bpy.types.bpy_struct.id_properties_ensure")
+  * [`bpy_struct.id_properties_ui`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_properties_ui "bpy.types.bpy_struct.id_properties_ui")
+  * [`bpy_struct.is_property_hidden`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_hidden "bpy.types.bpy_struct.is_property_hidden")
+  * [`bpy_struct.is_property_overridable_library`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_overridable_library "bpy.types.bpy_struct.is_property_overridable_library")
+  * [`bpy_struct.is_property_readonly`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_readonly "bpy.types.bpy_struct.is_property_readonly")
+  * [`bpy_struct.is_property_set`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_set "bpy.types.bpy_struct.is_property_set")
+  * [`bpy_struct.items`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.items "bpy.types.bpy_struct.items")
 
 | 
 
-  * [`bpy_struct.keyframe_delete`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keyframe_delete "bpy.types.bpy_struct.keyframe_delete")
-  * [`bpy_struct.keyframe_insert`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keyframe_insert "bpy.types.bpy_struct.keyframe_insert")
-  * [`bpy_struct.keys`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keys "bpy.types.bpy_struct.keys")
-  * [`bpy_struct.path_from_id`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.path_from_id "bpy.types.bpy_struct.path_from_id")
-  * [`bpy_struct.path_resolve`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.path_resolve "bpy.types.bpy_struct.path_resolve")
-  * [`bpy_struct.pop`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.pop "bpy.types.bpy_struct.pop")
-  * [`bpy_struct.property_overridable_library_set`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.property_overridable_library_set "bpy.types.bpy_struct.property_overridable_library_set")
-  * [`bpy_struct.property_unset`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.property_unset "bpy.types.bpy_struct.property_unset")
-  * [`bpy_struct.rna_ancestors`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.rna_ancestors "bpy.types.bpy_struct.rna_ancestors")
-  * [`bpy_struct.type_recast`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.type_recast "bpy.types.bpy_struct.type_recast")
-  * [`bpy_struct.values`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.values "bpy.types.bpy_struct.values")
+  * [`bpy_struct.keyframe_delete`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.keyframe_delete "bpy.types.bpy_struct.keyframe_delete")
+  * [`bpy_struct.keyframe_insert`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.keyframe_insert "bpy.types.bpy_struct.keyframe_insert")
+  * [`bpy_struct.keys`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.keys "bpy.types.bpy_struct.keys")
+  * [`bpy_struct.path_from_id`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.path_from_id "bpy.types.bpy_struct.path_from_id")
+  * [`bpy_struct.path_resolve`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.path_resolve "bpy.types.bpy_struct.path_resolve")
+  * [`bpy_struct.pop`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.pop "bpy.types.bpy_struct.pop")
+  * [`bpy_struct.property_overridable_library_set`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.property_overridable_library_set "bpy.types.bpy_struct.property_overridable_library_set")
+  * [`bpy_struct.property_unset`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.property_unset "bpy.types.bpy_struct.property_unset")
+  * [`bpy_struct.rna_ancestors`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.rna_ancestors "bpy.types.bpy_struct.rna_ancestors")
+  * [`bpy_struct.type_recast`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.type_recast "bpy.types.bpy_struct.type_recast")
+  * [`bpy_struct.values`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.values "bpy.types.bpy_struct.values")
 
   
 ---|---  
   
 ## References
 
-  * [`GizmoGroup.gizmos`](bpy.types.GizmoGroup.html#bpy.types.GizmoGroup.gizmos "bpy.types.GizmoGroup.gizmos")
-  * [`GizmoGroup.invoke_prepare`](bpy.types.GizmoGroup.html#bpy.types.GizmoGroup.invoke_prepare "bpy.types.GizmoGroup.invoke_prepare")
+  * [`GizmoGroup.gizmos`](bpy.types.GizmoGroup.md#bpy.types.GizmoGroup.gizmos "bpy.types.GizmoGroup.gizmos")
+  * [`GizmoGroup.invoke_prepare`](bpy.types.GizmoGroup.md#bpy.types.GizmoGroup.invoke_prepare "bpy.types.GizmoGroup.invoke_prepare")
 
 | 
 
-  * [`Gizmos.new`](bpy.types.Gizmos.html#bpy.types.Gizmos.new "bpy.types.Gizmos.new")
-  * [`Gizmos.remove`](bpy.types.Gizmos.html#bpy.types.Gizmos.remove "bpy.types.Gizmos.remove")
+  * [`Gizmos.new`](bpy.types.Gizmos.md#bpy.types.Gizmos.new "bpy.types.Gizmos.new")
+  * [`Gizmos.remove`](bpy.types.Gizmos.md#bpy.types.Gizmos.remove "bpy.types.Gizmos.remove")
 
   
 ---|---

@@ -1,6 +1,6 @@
 # Scene(ID)
 
-base classes — [`bpy_struct`](bpy.types.bpy_struct.html#bpy.types.bpy_struct "bpy.types.bpy_struct"), [`ID`](bpy.types.ID.html#bpy.types.ID "bpy.types.ID")
+base classes — [`bpy_struct`](bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct"), [`ID`](bpy.types.ID.md#bpy.types.ID "bpy.types.ID")
 
 _class _bpy.types.Scene(_ID_)
     
@@ -15,7 +15,7 @@ Active Movie Clip that can be used by motion tracking constraints or as a camera
 Type:
     
 
-[`MovieClip`](bpy.types.MovieClip.html#bpy.types.MovieClip "bpy.types.MovieClip")
+[`MovieClip`](bpy.types.MovieClip.md#bpy.types.MovieClip "bpy.types.MovieClip")
 
 animation_data
     
@@ -25,7 +25,7 @@ Animation data for this data-block
 Type:
     
 
-[`AnimData`](bpy.types.AnimData.html#bpy.types.AnimData "bpy.types.AnimData"), (readonly)
+[`AnimData`](bpy.types.AnimData.md#bpy.types.AnimData "bpy.types.AnimData"), (readonly)
 
 audio_distance_model
     
@@ -100,7 +100,7 @@ Active camera, used for rendering the scene
 Type:
     
 
-[`Object`](bpy.types.Object.html#bpy.types.Object "bpy.types.Object")
+[`Object`](bpy.types.Object.md#bpy.types.Object "bpy.types.Object")
 
 collection
     
@@ -110,7 +110,7 @@ Scene root collection that owns all the objects and other collections instantiat
 Type:
     
 
-[`Collection`](bpy.types.Collection.html#bpy.types.Collection "bpy.types.Collection"), (readonly, never None)
+[`Collection`](bpy.types.Collection.md#bpy.types.Collection "bpy.types.Collection"), (readonly, never None)
 
 cursor
     
@@ -118,7 +118,7 @@ cursor
 Type:
     
 
-[`View3DCursor`](bpy.types.View3DCursor.html#bpy.types.View3DCursor "bpy.types.View3DCursor"), (readonly, never None)
+[`View3DCursor`](bpy.types.View3DCursor.md#bpy.types.View3DCursor "bpy.types.View3DCursor"), (readonly, never None)
 
 cycles
     
@@ -148,7 +148,7 @@ Scene display settings for 3D viewport
 Type:
     
 
-[`SceneDisplay`](bpy.types.SceneDisplay.html#bpy.types.SceneDisplay "bpy.types.SceneDisplay"), (readonly)
+[`SceneDisplay`](bpy.types.SceneDisplay.md#bpy.types.SceneDisplay "bpy.types.SceneDisplay"), (readonly)
 
 display_settings
     
@@ -158,7 +158,7 @@ Settings of device saved image would be displayed on
 Type:
     
 
-[`ColorManagedDisplaySettings`](bpy.types.ColorManagedDisplaySettings.html#bpy.types.ColorManagedDisplaySettings "bpy.types.ColorManagedDisplaySettings"), (readonly)
+[`ColorManagedDisplaySettings`](bpy.types.ColorManagedDisplaySettings.md#bpy.types.ColorManagedDisplaySettings "bpy.types.ColorManagedDisplaySettings"), (readonly)
 
 eevee
     
@@ -168,7 +168,7 @@ EEVEE settings for the scene
 Type:
     
 
-[`SceneEEVEE`](bpy.types.SceneEEVEE.html#bpy.types.SceneEEVEE "bpy.types.SceneEEVEE"), (readonly)
+[`SceneEEVEE`](bpy.types.SceneEEVEE.md#bpy.types.SceneEEVEE "bpy.types.SceneEEVEE"), (readonly)
 
 frame_current
     
@@ -264,7 +264,7 @@ Constant acceleration in a given direction
 Type:
     
 
-[`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], default (0.0, 0.0, -9.81)
+[`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], default (0.0, 0.0, -9.81)
 
 grease_pencil
     
@@ -274,7 +274,7 @@ Grease Pencil data-block used for annotations in the 3D view
 Type:
     
 
-[`GreasePencil`](bpy.types.GreasePencil.html#bpy.types.GreasePencil "bpy.types.GreasePencil")
+[`GreasePencil`](bpy.types.GreasePencil.md#bpy.types.GreasePencil "bpy.types.GreasePencil")
 
 grease_pencil_settings
     
@@ -284,7 +284,7 @@ Grease Pencil settings for the scene
 Type:
     
 
-[`SceneGpencil`](bpy.types.SceneGpencil.html#bpy.types.SceneGpencil "bpy.types.SceneGpencil"), (readonly)
+[`SceneGpencil`](bpy.types.SceneGpencil.md#bpy.types.SceneGpencil "bpy.types.SceneGpencil"), (readonly)
 
 hydra
     
@@ -294,7 +294,7 @@ Hydra settings for the scene
 Type:
     
 
-[`SceneHydra`](bpy.types.SceneHydra.html#bpy.types.SceneHydra "bpy.types.SceneHydra"), (readonly)
+[`SceneHydra`](bpy.types.SceneHydra.md#bpy.types.SceneHydra "bpy.types.SceneHydra"), (readonly)
 
 is_nla_tweakmode
     
@@ -314,7 +314,7 @@ Absolute Keying Sets for this Scene
 Type:
     
 
-[`KeyingSets`](bpy.types.KeyingSets.html#bpy.types.KeyingSets "bpy.types.KeyingSets") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.html#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`KeyingSet`](bpy.types.KeyingSet.html#bpy.types.KeyingSet "bpy.types.KeyingSet"), (readonly)
+[`KeyingSets`](bpy.types.KeyingSets.md#bpy.types.KeyingSets "bpy.types.KeyingSets") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.md#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`KeyingSet`](bpy.types.KeyingSet.md#bpy.types.KeyingSet "bpy.types.KeyingSet"), (readonly)
 
 keying_sets_all
     
@@ -324,7 +324,7 @@ All Keying Sets available for use (Builtins and Absolute Keying Sets for this Sc
 Type:
     
 
-[`KeyingSetsAll`](bpy.types.KeyingSetsAll.html#bpy.types.KeyingSetsAll "bpy.types.KeyingSetsAll") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.html#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`KeyingSet`](bpy.types.KeyingSet.html#bpy.types.KeyingSet "bpy.types.KeyingSet"), (readonly)
+[`KeyingSetsAll`](bpy.types.KeyingSetsAll.md#bpy.types.KeyingSetsAll "bpy.types.KeyingSetsAll") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.md#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`KeyingSet`](bpy.types.KeyingSet.md#bpy.types.KeyingSet "bpy.types.KeyingSet"), (readonly)
 
 lock_frame_selection_to_range
     
@@ -344,7 +344,7 @@ Compositing node tree
 Type:
     
 
-[`NodeTree`](bpy.types.NodeTree.html#bpy.types.NodeTree "bpy.types.NodeTree"), (readonly)
+[`NodeTree`](bpy.types.NodeTree.md#bpy.types.NodeTree "bpy.types.NodeTree"), (readonly)
 
 objects
     
@@ -352,7 +352,7 @@ objects
 Type:
     
 
-[`SceneObjects`](bpy.types.SceneObjects.html#bpy.types.SceneObjects "bpy.types.SceneObjects") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.html#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`Object`](bpy.types.Object.html#bpy.types.Object "bpy.types.Object"), (readonly)
+[`SceneObjects`](bpy.types.SceneObjects.md#bpy.types.SceneObjects "bpy.types.SceneObjects") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.md#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`Object`](bpy.types.Object.md#bpy.types.Object "bpy.types.Object"), (readonly)
 
 render
     
@@ -360,7 +360,7 @@ render
 Type:
     
 
-[`RenderSettings`](bpy.types.RenderSettings.html#bpy.types.RenderSettings "bpy.types.RenderSettings"), (readonly, never None)
+[`RenderSettings`](bpy.types.RenderSettings.md#bpy.types.RenderSettings "bpy.types.RenderSettings"), (readonly, never None)
 
 rigidbody_world
     
@@ -368,7 +368,7 @@ rigidbody_world
 Type:
     
 
-[`RigidBodyWorld`](bpy.types.RigidBodyWorld.html#bpy.types.RigidBodyWorld "bpy.types.RigidBodyWorld"), (readonly)
+[`RigidBodyWorld`](bpy.types.RigidBodyWorld.md#bpy.types.RigidBodyWorld "bpy.types.RigidBodyWorld"), (readonly)
 
 safe_areas
     
@@ -376,7 +376,7 @@ safe_areas
 Type:
     
 
-[`DisplaySafeAreas`](bpy.types.DisplaySafeAreas.html#bpy.types.DisplaySafeAreas "bpy.types.DisplaySafeAreas"), (readonly, never None)
+[`DisplaySafeAreas`](bpy.types.DisplaySafeAreas.md#bpy.types.DisplaySafeAreas "bpy.types.DisplaySafeAreas"), (readonly, never None)
 
 sequence_editor
     
@@ -384,7 +384,7 @@ sequence_editor
 Type:
     
 
-[`SequenceEditor`](bpy.types.SequenceEditor.html#bpy.types.SequenceEditor "bpy.types.SequenceEditor"), (readonly)
+[`SequenceEditor`](bpy.types.SequenceEditor.md#bpy.types.SequenceEditor "bpy.types.SequenceEditor"), (readonly)
 
 sequencer_colorspace_settings
     
@@ -394,7 +394,7 @@ Settings of color space sequencer is working in
 Type:
     
 
-[`ColorManagedSequencerColorspaceSettings`](bpy.types.ColorManagedSequencerColorspaceSettings.html#bpy.types.ColorManagedSequencerColorspaceSettings "bpy.types.ColorManagedSequencerColorspaceSettings"), (readonly)
+[`ColorManagedSequencerColorspaceSettings`](bpy.types.ColorManagedSequencerColorspaceSettings.md#bpy.types.ColorManagedSequencerColorspaceSettings "bpy.types.ColorManagedSequencerColorspaceSettings"), (readonly)
 
 show_keys_from_selected_only
     
@@ -461,7 +461,7 @@ Markers used in all timelines for the current scene
 Type:
     
 
-[`TimelineMarkers`](bpy.types.TimelineMarkers.html#bpy.types.TimelineMarkers "bpy.types.TimelineMarkers") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.html#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`TimelineMarker`](bpy.types.TimelineMarker.html#bpy.types.TimelineMarker "bpy.types.TimelineMarker"), (readonly)
+[`TimelineMarkers`](bpy.types.TimelineMarkers.md#bpy.types.TimelineMarkers "bpy.types.TimelineMarkers") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.md#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`TimelineMarker`](bpy.types.TimelineMarker.md#bpy.types.TimelineMarker "bpy.types.TimelineMarker"), (readonly)
 
 tool_settings
     
@@ -469,7 +469,7 @@ tool_settings
 Type:
     
 
-[`ToolSettings`](bpy.types.ToolSettings.html#bpy.types.ToolSettings "bpy.types.ToolSettings"), (readonly, never None)
+[`ToolSettings`](bpy.types.ToolSettings.md#bpy.types.ToolSettings "bpy.types.ToolSettings"), (readonly, never None)
 
 transform_orientation_slots
     
@@ -477,7 +477,7 @@ transform_orientation_slots
 Type:
     
 
-[`bpy_prop_collection`](bpy.types.bpy_prop_collection.html#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`TransformOrientationSlot`](bpy.types.TransformOrientationSlot.html#bpy.types.TransformOrientationSlot "bpy.types.TransformOrientationSlot"), (readonly)
+[`bpy_prop_collection`](bpy.types.bpy_prop_collection.md#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`TransformOrientationSlot`](bpy.types.TransformOrientationSlot.md#bpy.types.TransformOrientationSlot "bpy.types.TransformOrientationSlot"), (readonly)
 
 unit_settings
     
@@ -487,7 +487,7 @@ Unit editing settings
 Type:
     
 
-[`UnitSettings`](bpy.types.UnitSettings.html#bpy.types.UnitSettings "bpy.types.UnitSettings"), (readonly, never None)
+[`UnitSettings`](bpy.types.UnitSettings.md#bpy.types.UnitSettings "bpy.types.UnitSettings"), (readonly, never None)
 
 use_audio
     
@@ -565,7 +565,7 @@ view_layers
 Type:
     
 
-[`ViewLayers`](bpy.types.ViewLayers.html#bpy.types.ViewLayers "bpy.types.ViewLayers") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.html#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`ViewLayer`](bpy.types.ViewLayer.html#bpy.types.ViewLayer "bpy.types.ViewLayer"), (readonly)
+[`ViewLayers`](bpy.types.ViewLayers.md#bpy.types.ViewLayers "bpy.types.ViewLayers") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.md#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`ViewLayer`](bpy.types.ViewLayer.md#bpy.types.ViewLayer "bpy.types.ViewLayer"), (readonly)
 
 view_settings
     
@@ -575,7 +575,7 @@ Color management settings applied on image before saving
 Type:
     
 
-[`ColorManagedViewSettings`](bpy.types.ColorManagedViewSettings.html#bpy.types.ColorManagedViewSettings "bpy.types.ColorManagedViewSettings"), (readonly)
+[`ColorManagedViewSettings`](bpy.types.ColorManagedViewSettings.md#bpy.types.ColorManagedViewSettings "bpy.types.ColorManagedViewSettings"), (readonly)
 
 world
     
@@ -585,7 +585,7 @@ World used for rendering the scene
 Type:
     
 
-[`World`](bpy.types.World.html#bpy.types.World "bpy.types.World")
+[`World`](bpy.types.World.md#bpy.types.World "bpy.types.World")
 
 _classmethod _update_render_engine()
     
@@ -600,7 +600,7 @@ statistics
 Parameters:
     
 
-**view_layer** ([`ViewLayer`](bpy.types.ViewLayer.html#bpy.types.ViewLayer "bpy.types.ViewLayer"), (never None)) – View Layer
+**view_layer** ([`ViewLayer`](bpy.types.ViewLayer.md#bpy.types.ViewLayer "bpy.types.ViewLayer"), (never None)) – View Layer
 
 Returns:
     
@@ -633,7 +633,7 @@ Get uv aspect for current object
 Parameters:
     
 
-**object** ([`Object`](bpy.types.Object.html#bpy.types.Object "bpy.types.Object"), (never None)) – Object
+**object** ([`Object`](bpy.types.Object.md#bpy.types.Object "bpy.types.Object"), (never None)) – Object
 
 Returns:
     
@@ -643,7 +643,7 @@ aspect
 Return type:
     
 
-[`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 2 items in [0, inf]
+[`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 2 items in [0, inf]
 
 ray_cast(_depsgraph_ , _origin_ , _direction_ , _*_ , _distance =1.70141e+38_)
     
@@ -653,7 +653,7 @@ Cast a ray onto evaluated geometry in world-space
 Parameters:
     
 
-  * **depsgraph** ([`Depsgraph`](bpy.types.Depsgraph.html#bpy.types.Depsgraph "bpy.types.Depsgraph"), (never None)) – The current dependency graph
+  * **depsgraph** ([`Depsgraph`](bpy.types.Depsgraph.md#bpy.types.Depsgraph "bpy.types.Depsgraph"), (never None)) – The current dependency graph
 
   * **distance** (_float in_ _[__0_ _,__inf_ _]__,__(__optional_ _)_) – Maximum distance
 
@@ -663,20 +663,20 @@ Returns:
 
 result, boolean
 
-location, The hit location of this ray cast, [`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf]
+location, The hit location of this ray cast, [`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf]
 
-normal, The face normal at the ray cast hit location, [`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf]
+normal, The face normal at the ray cast hit location, [`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf]
 
 index, The face index, -1 when original data isn’t available, int in [-inf, inf]
 
-object, Ray cast object, [`Object`](bpy.types.Object.html#bpy.types.Object "bpy.types.Object")
+object, Ray cast object, [`Object`](bpy.types.Object.md#bpy.types.Object "bpy.types.Object")
 
-matrix, Matrix, [`mathutils.Matrix`](mathutils.html#mathutils.Matrix "mathutils.Matrix") of 4 * 4 items in [-inf, inf]
+matrix, Matrix, [`mathutils.Matrix`](mathutils.md#mathutils.Matrix "mathutils.Matrix") of 4 * 4 items in [-inf, inf]
 
 Return type:
     
 
-(boolean, [`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], [`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], int in [-inf, inf], [`Object`](bpy.types.Object.html#bpy.types.Object "bpy.types.Object"), [`mathutils.Matrix`](mathutils.html#mathutils.Matrix "mathutils.Matrix") of 4 * 4 items in [-inf, inf])
+(boolean, [`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], [`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], int in [-inf, inf], [`Object`](bpy.types.Object.md#bpy.types.Object "bpy.types.Object"), [`mathutils.Matrix`](mathutils.md#mathutils.Matrix "mathutils.Matrix") of 4 * 4 items in [-inf, inf])
 
 sequence_editor_create()
     
@@ -691,7 +691,7 @@ New sequence editor data or nullptr
 Return type:
     
 
-[`SequenceEditor`](bpy.types.SequenceEditor.html#bpy.types.SequenceEditor "bpy.types.SequenceEditor")
+[`SequenceEditor`](bpy.types.SequenceEditor.md#bpy.types.SequenceEditor "bpy.types.SequenceEditor")
 
 sequence_editor_clear()
     
@@ -748,9 +748,9 @@ Parameters:
 
   * **triangulate** (_boolean_ _,__(__optional_ _)_) – Triangulate, Export polygons (quads and n-gons) as triangles
 
-  * **quad_method** (enum in [Modifier Triangulate Quad Method Items](bpy_types_enum_items/modifier_triangulate_quad_method_items.html#rna-enum-modifier-triangulate-quad-method-items), (optional)) – Quad Method, Method for splitting the quads into triangles
+  * **quad_method** (enum in [Modifier Triangulate Quad Method Items](bpy_types_enum_items/modifier_triangulate_quad_method_items.md#rna-enum-modifier-triangulate-quad-method-items), (optional)) – Quad Method, Method for splitting the quads into triangles
 
-  * **ngon_method** (enum in [Modifier Triangulate Ngon Method Items](bpy_types_enum_items/modifier_triangulate_ngon_method_items.html#rna-enum-modifier-triangulate-ngon-method-items), (optional)) – N-gon Method, Method for splitting the n-gons into triangles
+  * **ngon_method** (enum in [Modifier Triangulate Ngon Method Items](bpy_types_enum_items/modifier_triangulate_ngon_method_items.md#rna-enum-modifier-triangulate-ngon-method-items), (optional)) – N-gon Method, Method for splitting the n-gons into triangles
 
 
 _classmethod _bl_rna_get_subclass(_id_ , _default =None_, _/_)
@@ -769,7 +769,7 @@ The RNA type or default when not found.
 Return type:
     
 
-[`bpy.types.Struct`](bpy.types.Struct.html#bpy.types.Struct "bpy.types.Struct") subclass
+[`bpy.types.Struct`](bpy.types.Struct.md#bpy.types.Struct "bpy.types.Struct") subclass
 
 _classmethod _bl_rna_get_subclass_py(_id_ , _default =None_, _/_)
     
@@ -791,116 +791,116 @@ type
 
 ## Inherited Properties
 
-  * [`bpy_struct.id_data`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_data "bpy.types.bpy_struct.id_data")
-  * [`ID.name`](bpy.types.ID.html#bpy.types.ID.name "bpy.types.ID.name")
-  * [`ID.name_full`](bpy.types.ID.html#bpy.types.ID.name_full "bpy.types.ID.name_full")
-  * [`ID.id_type`](bpy.types.ID.html#bpy.types.ID.id_type "bpy.types.ID.id_type")
-  * [`ID.session_uid`](bpy.types.ID.html#bpy.types.ID.session_uid "bpy.types.ID.session_uid")
-  * [`ID.is_evaluated`](bpy.types.ID.html#bpy.types.ID.is_evaluated "bpy.types.ID.is_evaluated")
-  * [`ID.original`](bpy.types.ID.html#bpy.types.ID.original "bpy.types.ID.original")
-  * [`ID.users`](bpy.types.ID.html#bpy.types.ID.users "bpy.types.ID.users")
-  * [`ID.use_fake_user`](bpy.types.ID.html#bpy.types.ID.use_fake_user "bpy.types.ID.use_fake_user")
-  * [`ID.use_extra_user`](bpy.types.ID.html#bpy.types.ID.use_extra_user "bpy.types.ID.use_extra_user")
-  * [`ID.is_embedded_data`](bpy.types.ID.html#bpy.types.ID.is_embedded_data "bpy.types.ID.is_embedded_data")
+  * [`bpy_struct.id_data`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_data "bpy.types.bpy_struct.id_data")
+  * [`ID.name`](bpy.types.ID.md#bpy.types.ID.name "bpy.types.ID.name")
+  * [`ID.name_full`](bpy.types.ID.md#bpy.types.ID.name_full "bpy.types.ID.name_full")
+  * [`ID.id_type`](bpy.types.ID.md#bpy.types.ID.id_type "bpy.types.ID.id_type")
+  * [`ID.session_uid`](bpy.types.ID.md#bpy.types.ID.session_uid "bpy.types.ID.session_uid")
+  * [`ID.is_evaluated`](bpy.types.ID.md#bpy.types.ID.is_evaluated "bpy.types.ID.is_evaluated")
+  * [`ID.original`](bpy.types.ID.md#bpy.types.ID.original "bpy.types.ID.original")
+  * [`ID.users`](bpy.types.ID.md#bpy.types.ID.users "bpy.types.ID.users")
+  * [`ID.use_fake_user`](bpy.types.ID.md#bpy.types.ID.use_fake_user "bpy.types.ID.use_fake_user")
+  * [`ID.use_extra_user`](bpy.types.ID.md#bpy.types.ID.use_extra_user "bpy.types.ID.use_extra_user")
+  * [`ID.is_embedded_data`](bpy.types.ID.md#bpy.types.ID.is_embedded_data "bpy.types.ID.is_embedded_data")
 
 | 
 
-  * [`ID.is_missing`](bpy.types.ID.html#bpy.types.ID.is_missing "bpy.types.ID.is_missing")
-  * [`ID.is_runtime_data`](bpy.types.ID.html#bpy.types.ID.is_runtime_data "bpy.types.ID.is_runtime_data")
-  * [`ID.is_editable`](bpy.types.ID.html#bpy.types.ID.is_editable "bpy.types.ID.is_editable")
-  * [`ID.tag`](bpy.types.ID.html#bpy.types.ID.tag "bpy.types.ID.tag")
-  * [`ID.is_library_indirect`](bpy.types.ID.html#bpy.types.ID.is_library_indirect "bpy.types.ID.is_library_indirect")
-  * [`ID.library`](bpy.types.ID.html#bpy.types.ID.library "bpy.types.ID.library")
-  * [`ID.library_weak_reference`](bpy.types.ID.html#bpy.types.ID.library_weak_reference "bpy.types.ID.library_weak_reference")
-  * [`ID.asset_data`](bpy.types.ID.html#bpy.types.ID.asset_data "bpy.types.ID.asset_data")
-  * [`ID.override_library`](bpy.types.ID.html#bpy.types.ID.override_library "bpy.types.ID.override_library")
-  * [`ID.preview`](bpy.types.ID.html#bpy.types.ID.preview "bpy.types.ID.preview")
+  * [`ID.is_missing`](bpy.types.ID.md#bpy.types.ID.is_missing "bpy.types.ID.is_missing")
+  * [`ID.is_runtime_data`](bpy.types.ID.md#bpy.types.ID.is_runtime_data "bpy.types.ID.is_runtime_data")
+  * [`ID.is_editable`](bpy.types.ID.md#bpy.types.ID.is_editable "bpy.types.ID.is_editable")
+  * [`ID.tag`](bpy.types.ID.md#bpy.types.ID.tag "bpy.types.ID.tag")
+  * [`ID.is_library_indirect`](bpy.types.ID.md#bpy.types.ID.is_library_indirect "bpy.types.ID.is_library_indirect")
+  * [`ID.library`](bpy.types.ID.md#bpy.types.ID.library "bpy.types.ID.library")
+  * [`ID.library_weak_reference`](bpy.types.ID.md#bpy.types.ID.library_weak_reference "bpy.types.ID.library_weak_reference")
+  * [`ID.asset_data`](bpy.types.ID.md#bpy.types.ID.asset_data "bpy.types.ID.asset_data")
+  * [`ID.override_library`](bpy.types.ID.md#bpy.types.ID.override_library "bpy.types.ID.override_library")
+  * [`ID.preview`](bpy.types.ID.md#bpy.types.ID.preview "bpy.types.ID.preview")
 
   
 ---|---  
   
 ## Inherited Functions
 
-  * [`bpy_struct.as_pointer`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.as_pointer "bpy.types.bpy_struct.as_pointer")
-  * [`bpy_struct.driver_add`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.driver_add "bpy.types.bpy_struct.driver_add")
-  * [`bpy_struct.driver_remove`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.driver_remove "bpy.types.bpy_struct.driver_remove")
-  * [`bpy_struct.get`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.get "bpy.types.bpy_struct.get")
-  * [`bpy_struct.id_properties_clear`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_clear "bpy.types.bpy_struct.id_properties_clear")
-  * [`bpy_struct.id_properties_ensure`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_ensure "bpy.types.bpy_struct.id_properties_ensure")
-  * [`bpy_struct.id_properties_ui`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_ui "bpy.types.bpy_struct.id_properties_ui")
-  * [`bpy_struct.is_property_hidden`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_hidden "bpy.types.bpy_struct.is_property_hidden")
-  * [`bpy_struct.is_property_overridable_library`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_overridable_library "bpy.types.bpy_struct.is_property_overridable_library")
-  * [`bpy_struct.is_property_readonly`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_readonly "bpy.types.bpy_struct.is_property_readonly")
-  * [`bpy_struct.is_property_set`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_set "bpy.types.bpy_struct.is_property_set")
-  * [`bpy_struct.items`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.items "bpy.types.bpy_struct.items")
-  * [`bpy_struct.keyframe_delete`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keyframe_delete "bpy.types.bpy_struct.keyframe_delete")
-  * [`bpy_struct.keyframe_insert`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keyframe_insert "bpy.types.bpy_struct.keyframe_insert")
-  * [`bpy_struct.keys`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keys "bpy.types.bpy_struct.keys")
-  * [`bpy_struct.path_from_id`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.path_from_id "bpy.types.bpy_struct.path_from_id")
-  * [`bpy_struct.path_resolve`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.path_resolve "bpy.types.bpy_struct.path_resolve")
-  * [`bpy_struct.pop`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.pop "bpy.types.bpy_struct.pop")
-  * [`bpy_struct.property_overridable_library_set`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.property_overridable_library_set "bpy.types.bpy_struct.property_overridable_library_set")
-  * [`bpy_struct.property_unset`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.property_unset "bpy.types.bpy_struct.property_unset")
-  * [`bpy_struct.rna_ancestors`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.rna_ancestors "bpy.types.bpy_struct.rna_ancestors")
+  * [`bpy_struct.as_pointer`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.as_pointer "bpy.types.bpy_struct.as_pointer")
+  * [`bpy_struct.driver_add`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.driver_add "bpy.types.bpy_struct.driver_add")
+  * [`bpy_struct.driver_remove`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.driver_remove "bpy.types.bpy_struct.driver_remove")
+  * [`bpy_struct.get`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.get "bpy.types.bpy_struct.get")
+  * [`bpy_struct.id_properties_clear`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_properties_clear "bpy.types.bpy_struct.id_properties_clear")
+  * [`bpy_struct.id_properties_ensure`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_properties_ensure "bpy.types.bpy_struct.id_properties_ensure")
+  * [`bpy_struct.id_properties_ui`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_properties_ui "bpy.types.bpy_struct.id_properties_ui")
+  * [`bpy_struct.is_property_hidden`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_hidden "bpy.types.bpy_struct.is_property_hidden")
+  * [`bpy_struct.is_property_overridable_library`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_overridable_library "bpy.types.bpy_struct.is_property_overridable_library")
+  * [`bpy_struct.is_property_readonly`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_readonly "bpy.types.bpy_struct.is_property_readonly")
+  * [`bpy_struct.is_property_set`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_set "bpy.types.bpy_struct.is_property_set")
+  * [`bpy_struct.items`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.items "bpy.types.bpy_struct.items")
+  * [`bpy_struct.keyframe_delete`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.keyframe_delete "bpy.types.bpy_struct.keyframe_delete")
+  * [`bpy_struct.keyframe_insert`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.keyframe_insert "bpy.types.bpy_struct.keyframe_insert")
+  * [`bpy_struct.keys`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.keys "bpy.types.bpy_struct.keys")
+  * [`bpy_struct.path_from_id`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.path_from_id "bpy.types.bpy_struct.path_from_id")
+  * [`bpy_struct.path_resolve`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.path_resolve "bpy.types.bpy_struct.path_resolve")
+  * [`bpy_struct.pop`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.pop "bpy.types.bpy_struct.pop")
+  * [`bpy_struct.property_overridable_library_set`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.property_overridable_library_set "bpy.types.bpy_struct.property_overridable_library_set")
+  * [`bpy_struct.property_unset`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.property_unset "bpy.types.bpy_struct.property_unset")
+  * [`bpy_struct.rna_ancestors`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.rna_ancestors "bpy.types.bpy_struct.rna_ancestors")
 
 | 
 
-  * [`bpy_struct.type_recast`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.type_recast "bpy.types.bpy_struct.type_recast")
-  * [`bpy_struct.values`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.values "bpy.types.bpy_struct.values")
-  * [`ID.rename`](bpy.types.ID.html#bpy.types.ID.rename "bpy.types.ID.rename")
-  * [`ID.evaluated_get`](bpy.types.ID.html#bpy.types.ID.evaluated_get "bpy.types.ID.evaluated_get")
-  * [`ID.copy`](bpy.types.ID.html#bpy.types.ID.copy "bpy.types.ID.copy")
-  * [`ID.asset_mark`](bpy.types.ID.html#bpy.types.ID.asset_mark "bpy.types.ID.asset_mark")
-  * [`ID.asset_clear`](bpy.types.ID.html#bpy.types.ID.asset_clear "bpy.types.ID.asset_clear")
-  * [`ID.asset_generate_preview`](bpy.types.ID.html#bpy.types.ID.asset_generate_preview "bpy.types.ID.asset_generate_preview")
-  * [`ID.override_create`](bpy.types.ID.html#bpy.types.ID.override_create "bpy.types.ID.override_create")
-  * [`ID.override_hierarchy_create`](bpy.types.ID.html#bpy.types.ID.override_hierarchy_create "bpy.types.ID.override_hierarchy_create")
-  * [`ID.user_clear`](bpy.types.ID.html#bpy.types.ID.user_clear "bpy.types.ID.user_clear")
-  * [`ID.user_remap`](bpy.types.ID.html#bpy.types.ID.user_remap "bpy.types.ID.user_remap")
-  * [`ID.make_local`](bpy.types.ID.html#bpy.types.ID.make_local "bpy.types.ID.make_local")
-  * [`ID.user_of_id`](bpy.types.ID.html#bpy.types.ID.user_of_id "bpy.types.ID.user_of_id")
-  * [`ID.animation_data_create`](bpy.types.ID.html#bpy.types.ID.animation_data_create "bpy.types.ID.animation_data_create")
-  * [`ID.animation_data_clear`](bpy.types.ID.html#bpy.types.ID.animation_data_clear "bpy.types.ID.animation_data_clear")
-  * [`ID.update_tag`](bpy.types.ID.html#bpy.types.ID.update_tag "bpy.types.ID.update_tag")
-  * [`ID.preview_ensure`](bpy.types.ID.html#bpy.types.ID.preview_ensure "bpy.types.ID.preview_ensure")
-  * [`ID.bl_rna_get_subclass`](bpy.types.ID.html#bpy.types.ID.bl_rna_get_subclass "bpy.types.ID.bl_rna_get_subclass")
-  * [`ID.bl_rna_get_subclass_py`](bpy.types.ID.html#bpy.types.ID.bl_rna_get_subclass_py "bpy.types.ID.bl_rna_get_subclass_py")
+  * [`bpy_struct.type_recast`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.type_recast "bpy.types.bpy_struct.type_recast")
+  * [`bpy_struct.values`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.values "bpy.types.bpy_struct.values")
+  * [`ID.rename`](bpy.types.ID.md#bpy.types.ID.rename "bpy.types.ID.rename")
+  * [`ID.evaluated_get`](bpy.types.ID.md#bpy.types.ID.evaluated_get "bpy.types.ID.evaluated_get")
+  * [`ID.copy`](bpy.types.ID.md#bpy.types.ID.copy "bpy.types.ID.copy")
+  * [`ID.asset_mark`](bpy.types.ID.md#bpy.types.ID.asset_mark "bpy.types.ID.asset_mark")
+  * [`ID.asset_clear`](bpy.types.ID.md#bpy.types.ID.asset_clear "bpy.types.ID.asset_clear")
+  * [`ID.asset_generate_preview`](bpy.types.ID.md#bpy.types.ID.asset_generate_preview "bpy.types.ID.asset_generate_preview")
+  * [`ID.override_create`](bpy.types.ID.md#bpy.types.ID.override_create "bpy.types.ID.override_create")
+  * [`ID.override_hierarchy_create`](bpy.types.ID.md#bpy.types.ID.override_hierarchy_create "bpy.types.ID.override_hierarchy_create")
+  * [`ID.user_clear`](bpy.types.ID.md#bpy.types.ID.user_clear "bpy.types.ID.user_clear")
+  * [`ID.user_remap`](bpy.types.ID.md#bpy.types.ID.user_remap "bpy.types.ID.user_remap")
+  * [`ID.make_local`](bpy.types.ID.md#bpy.types.ID.make_local "bpy.types.ID.make_local")
+  * [`ID.user_of_id`](bpy.types.ID.md#bpy.types.ID.user_of_id "bpy.types.ID.user_of_id")
+  * [`ID.animation_data_create`](bpy.types.ID.md#bpy.types.ID.animation_data_create "bpy.types.ID.animation_data_create")
+  * [`ID.animation_data_clear`](bpy.types.ID.md#bpy.types.ID.animation_data_clear "bpy.types.ID.animation_data_clear")
+  * [`ID.update_tag`](bpy.types.ID.md#bpy.types.ID.update_tag "bpy.types.ID.update_tag")
+  * [`ID.preview_ensure`](bpy.types.ID.md#bpy.types.ID.preview_ensure "bpy.types.ID.preview_ensure")
+  * [`ID.bl_rna_get_subclass`](bpy.types.ID.md#bpy.types.ID.bl_rna_get_subclass "bpy.types.ID.bl_rna_get_subclass")
+  * [`ID.bl_rna_get_subclass_py`](bpy.types.ID.md#bpy.types.ID.bl_rna_get_subclass_py "bpy.types.ID.bl_rna_get_subclass_py")
 
   
 ---|---  
   
 ## References
 
-  * [`bpy.context.scene`](bpy.context.html#bpy.context.scene "bpy.context.scene")
-  * [`BlendData.scenes`](bpy.types.BlendData.html#bpy.types.BlendData.scenes "bpy.types.BlendData.scenes")
-  * [`BlendDataScenes.new`](bpy.types.BlendDataScenes.html#bpy.types.BlendDataScenes.new "bpy.types.BlendDataScenes.new")
-  * [`BlendDataScenes.remove`](bpy.types.BlendDataScenes.html#bpy.types.BlendDataScenes.remove "bpy.types.BlendDataScenes.remove")
-  * [`Camera.view_frame`](bpy.types.Camera.html#bpy.types.Camera.view_frame "bpy.types.Camera.view_frame")
-  * [`CompositorNodeCryptomatteV2.scene`](bpy.types.CompositorNodeCryptomatteV2.html#bpy.types.CompositorNodeCryptomatteV2.scene "bpy.types.CompositorNodeCryptomatteV2.scene")
-  * [`CompositorNodeDefocus.scene`](bpy.types.CompositorNodeDefocus.html#bpy.types.CompositorNodeDefocus.scene "bpy.types.CompositorNodeDefocus.scene")
-  * [`CompositorNodeRLayers.scene`](bpy.types.CompositorNodeRLayers.html#bpy.types.CompositorNodeRLayers.scene "bpy.types.CompositorNodeRLayers.scene")
-  * [`Context.scene`](bpy.types.Context.html#bpy.types.Context.scene "bpy.types.Context.scene")
-  * [`Depsgraph.scene`](bpy.types.Depsgraph.html#bpy.types.Depsgraph.scene "bpy.types.Depsgraph.scene")
-  * [`Depsgraph.scene_eval`](bpy.types.Depsgraph.html#bpy.types.Depsgraph.scene_eval "bpy.types.Depsgraph.scene_eval")
-  * [`ID.override_hierarchy_create`](bpy.types.ID.html#bpy.types.ID.override_hierarchy_create "bpy.types.ID.override_hierarchy_create")
-  * [`IDOverrideLibrary.resync`](bpy.types.IDOverrideLibrary.html#bpy.types.IDOverrideLibrary.resync "bpy.types.IDOverrideLibrary.resync")
-  * [`Image.save_render`](bpy.types.Image.html#bpy.types.Image.save_render "bpy.types.Image.save_render")
+  * [`bpy.context.scene`](bpy.context.md#bpy.context.scene "bpy.context.scene")
+  * [`BlendData.scenes`](bpy.types.BlendData.md#bpy.types.BlendData.scenes "bpy.types.BlendData.scenes")
+  * [`BlendDataScenes.new`](bpy.types.BlendDataScenes.md#bpy.types.BlendDataScenes.new "bpy.types.BlendDataScenes.new")
+  * [`BlendDataScenes.remove`](bpy.types.BlendDataScenes.md#bpy.types.BlendDataScenes.remove "bpy.types.BlendDataScenes.remove")
+  * [`Camera.view_frame`](bpy.types.Camera.md#bpy.types.Camera.view_frame "bpy.types.Camera.view_frame")
+  * [`CompositorNodeCryptomatteV2.scene`](bpy.types.CompositorNodeCryptomatteV2.md#bpy.types.CompositorNodeCryptomatteV2.scene "bpy.types.CompositorNodeCryptomatteV2.scene")
+  * [`CompositorNodeDefocus.scene`](bpy.types.CompositorNodeDefocus.md#bpy.types.CompositorNodeDefocus.scene "bpy.types.CompositorNodeDefocus.scene")
+  * [`CompositorNodeRLayers.scene`](bpy.types.CompositorNodeRLayers.md#bpy.types.CompositorNodeRLayers.scene "bpy.types.CompositorNodeRLayers.scene")
+  * [`Context.scene`](bpy.types.Context.md#bpy.types.Context.scene "bpy.types.Context.scene")
+  * [`Depsgraph.scene`](bpy.types.Depsgraph.md#bpy.types.Depsgraph.scene "bpy.types.Depsgraph.scene")
+  * [`Depsgraph.scene_eval`](bpy.types.Depsgraph.md#bpy.types.Depsgraph.scene_eval "bpy.types.Depsgraph.scene_eval")
+  * [`ID.override_hierarchy_create`](bpy.types.ID.md#bpy.types.ID.override_hierarchy_create "bpy.types.ID.override_hierarchy_create")
+  * [`IDOverrideLibrary.resync`](bpy.types.IDOverrideLibrary.md#bpy.types.IDOverrideLibrary.resync "bpy.types.IDOverrideLibrary.resync")
+  * [`Image.save_render`](bpy.types.Image.md#bpy.types.Image.save_render "bpy.types.Image.save_render")
 
 | 
 
-  * [`Object.crazyspace_eval`](bpy.types.Object.html#bpy.types.Object.crazyspace_eval "bpy.types.Object.crazyspace_eval")
-  * [`Object.is_deform_modified`](bpy.types.Object.html#bpy.types.Object.is_deform_modified "bpy.types.Object.is_deform_modified")
-  * [`Object.is_modified`](bpy.types.Object.html#bpy.types.Object.is_modified "bpy.types.Object.is_modified")
-  * [`RenderEngine.bind_display_space_shader`](bpy.types.RenderEngine.html#bpy.types.RenderEngine.bind_display_space_shader "bpy.types.RenderEngine.bind_display_space_shader")
-  * [`RenderEngine.get_preview_pixel_size`](bpy.types.RenderEngine.html#bpy.types.RenderEngine.get_preview_pixel_size "bpy.types.RenderEngine.get_preview_pixel_size")
-  * [`RenderEngine.register_pass`](bpy.types.RenderEngine.html#bpy.types.RenderEngine.register_pass "bpy.types.RenderEngine.register_pass")
-  * [`RenderEngine.support_display_space_shader`](bpy.types.RenderEngine.html#bpy.types.RenderEngine.support_display_space_shader "bpy.types.RenderEngine.support_display_space_shader")
-  * [`RenderEngine.update_render_passes`](bpy.types.RenderEngine.html#bpy.types.RenderEngine.update_render_passes "bpy.types.RenderEngine.update_render_passes")
+  * [`Object.crazyspace_eval`](bpy.types.Object.md#bpy.types.Object.crazyspace_eval "bpy.types.Object.crazyspace_eval")
+  * [`Object.is_deform_modified`](bpy.types.Object.md#bpy.types.Object.is_deform_modified "bpy.types.Object.is_deform_modified")
+  * [`Object.is_modified`](bpy.types.Object.md#bpy.types.Object.is_modified "bpy.types.Object.is_modified")
+  * [`RenderEngine.bind_display_space_shader`](bpy.types.RenderEngine.md#bpy.types.RenderEngine.bind_display_space_shader "bpy.types.RenderEngine.bind_display_space_shader")
+  * [`RenderEngine.get_preview_pixel_size`](bpy.types.RenderEngine.md#bpy.types.RenderEngine.get_preview_pixel_size "bpy.types.RenderEngine.get_preview_pixel_size")
+  * [`RenderEngine.register_pass`](bpy.types.RenderEngine.md#bpy.types.RenderEngine.register_pass "bpy.types.RenderEngine.register_pass")
+  * [`RenderEngine.support_display_space_shader`](bpy.types.RenderEngine.md#bpy.types.RenderEngine.support_display_space_shader "bpy.types.RenderEngine.support_display_space_shader")
+  * [`RenderEngine.update_render_passes`](bpy.types.RenderEngine.md#bpy.types.RenderEngine.update_render_passes "bpy.types.RenderEngine.update_render_passes")
   * `Scene.background_set`
-  * [`SceneStrip.scene`](bpy.types.SceneStrip.html#bpy.types.SceneStrip.scene "bpy.types.SceneStrip.scene")
-  * [`StripsMeta.new_scene`](bpy.types.StripsMeta.html#bpy.types.StripsMeta.new_scene "bpy.types.StripsMeta.new_scene")
-  * [`StripsTopLevel.new_scene`](bpy.types.StripsTopLevel.html#bpy.types.StripsTopLevel.new_scene "bpy.types.StripsTopLevel.new_scene")
-  * [`Window.scene`](bpy.types.Window.html#bpy.types.Window.scene "bpy.types.Window.scene")
+  * [`SceneStrip.scene`](bpy.types.SceneStrip.md#bpy.types.SceneStrip.scene "bpy.types.SceneStrip.scene")
+  * [`StripsMeta.new_scene`](bpy.types.StripsMeta.md#bpy.types.StripsMeta.new_scene "bpy.types.StripsMeta.new_scene")
+  * [`StripsTopLevel.new_scene`](bpy.types.StripsTopLevel.md#bpy.types.StripsTopLevel.new_scene "bpy.types.StripsTopLevel.new_scene")
+  * [`Window.scene`](bpy.types.Window.md#bpy.types.Window.scene "bpy.types.Window.scene")
 
   
 ---|---

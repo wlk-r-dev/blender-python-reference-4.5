@@ -1,6 +1,6 @@
 # ToolSettings(bpy_struct)
 
-base class — [`bpy_struct`](bpy.types.bpy_struct.html#bpy.types.bpy_struct "bpy.types.bpy_struct")
+base class — [`bpy_struct`](bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct")
 
 _class _bpy.types.ToolSettings(_bpy_struct_)
     
@@ -61,7 +61,7 @@ curve_paint_settings
 Type:
     
 
-[`CurvePaintSettings`](bpy.types.CurvePaintSettings.html#bpy.types.CurvePaintSettings "bpy.types.CurvePaintSettings"), (readonly, never None)
+[`CurvePaintSettings`](bpy.types.CurvePaintSettings.md#bpy.types.CurvePaintSettings "bpy.types.CurvePaintSettings"), (readonly, never None)
 
 curves_sculpt
     
@@ -69,7 +69,7 @@ curves_sculpt
 Type:
     
 
-[`CurvesSculpt`](bpy.types.CurvesSculpt.html#bpy.types.CurvesSculpt "bpy.types.CurvesSculpt"), (readonly)
+[`CurvesSculpt`](bpy.types.CurvesSculpt.md#bpy.types.CurvesSculpt "bpy.types.CurvesSculpt"), (readonly)
 
 custom_bevel_profile_preset
     
@@ -79,7 +79,7 @@ Used for defining a profile’s path
 Type:
     
 
-[`CurveProfile`](bpy.types.CurveProfile.html#bpy.types.CurveProfile "bpy.types.CurveProfile"), (readonly)
+[`CurveProfile`](bpy.types.CurveProfile.md#bpy.types.CurveProfile "bpy.types.CurveProfile"), (readonly)
 
 double_threshold
     
@@ -99,7 +99,7 @@ Settings for Grease Pencil interpolation tools
 Type:
     
 
-[`GPencilInterpolateSettings`](bpy.types.GPencilInterpolateSettings.html#bpy.types.GPencilInterpolateSettings "bpy.types.GPencilInterpolateSettings"), (readonly)
+[`GPencilInterpolateSettings`](bpy.types.GPencilInterpolateSettings.md#bpy.types.GPencilInterpolateSettings "bpy.types.GPencilInterpolateSettings"), (readonly)
 
 gpencil_paint
     
@@ -107,7 +107,7 @@ gpencil_paint
 Type:
     
 
-[`GpPaint`](bpy.types.GpPaint.html#bpy.types.GpPaint "bpy.types.GpPaint"), (readonly)
+[`GpPaint`](bpy.types.GpPaint.md#bpy.types.GpPaint "bpy.types.GpPaint"), (readonly)
 
 gpencil_sculpt
     
@@ -117,7 +117,7 @@ Settings for stroke sculpting tools and brushes
 Type:
     
 
-[`GPencilSculptSettings`](bpy.types.GPencilSculptSettings.html#bpy.types.GPencilSculptSettings "bpy.types.GPencilSculptSettings"), (readonly)
+[`GPencilSculptSettings`](bpy.types.GPencilSculptSettings.md#bpy.types.GPencilSculptSettings "bpy.types.GPencilSculptSettings"), (readonly)
 
 gpencil_sculpt_paint
     
@@ -125,7 +125,7 @@ gpencil_sculpt_paint
 Type:
     
 
-[`GpSculptPaint`](bpy.types.GpSculptPaint.html#bpy.types.GpSculptPaint "bpy.types.GpSculptPaint"), (readonly)
+[`GpSculptPaint`](bpy.types.GpSculptPaint.md#bpy.types.GpSculptPaint "bpy.types.GpSculptPaint"), (readonly)
 
 gpencil_selectmode_edit
     
@@ -133,7 +133,7 @@ gpencil_selectmode_edit
 Type:
     
 
-enum in [Grease Pencil Selectmode Items](bpy_types_enum_items/grease_pencil_selectmode_items.html#rna-enum-grease-pencil-selectmode-items), default `'POINT'`
+enum in [Grease Pencil Selectmode Items](bpy_types_enum_items/grease_pencil_selectmode_items.md#rna-enum-grease-pencil-selectmode-items), default `'POINT'`
 
 gpencil_stroke_placement_view3d
     
@@ -183,7 +183,7 @@ gpencil_vertex_paint
 Type:
     
 
-[`GpVertexPaint`](bpy.types.GpVertexPaint.html#bpy.types.GpVertexPaint "bpy.types.GpVertexPaint"), (readonly)
+[`GpVertexPaint`](bpy.types.GpVertexPaint.md#bpy.types.GpVertexPaint "bpy.types.GpVertexPaint"), (readonly)
 
 gpencil_weight_paint
     
@@ -191,7 +191,7 @@ gpencil_weight_paint
 Type:
     
 
-[`GpWeightPaint`](bpy.types.GpWeightPaint.html#bpy.types.GpWeightPaint "bpy.types.GpWeightPaint"), (readonly)
+[`GpWeightPaint`](bpy.types.GpWeightPaint.md#bpy.types.GpWeightPaint "bpy.types.GpWeightPaint"), (readonly)
 
 image_paint
     
@@ -199,7 +199,7 @@ image_paint
 Type:
     
 
-[`ImagePaint`](bpy.types.ImagePaint.html#bpy.types.ImagePaint "bpy.types.ImagePaint"), (readonly)
+[`ImagePaint`](bpy.types.ImagePaint.md#bpy.types.ImagePaint "bpy.types.ImagePaint"), (readonly)
 
 keyframe_type
     
@@ -209,7 +209,7 @@ Type of keyframes to create when inserting keyframes
 Type:
     
 
-enum in [Beztriple Keyframe Type Items](bpy_types_enum_items/beztriple_keyframe_type_items.html#rna-enum-beztriple-keyframe-type-items), default `'KEYFRAME'`
+enum in [Beztriple Keyframe Type Items](bpy_types_enum_items/beztriple_keyframe_type_items.md#rna-enum-beztriple-keyframe-type-items), default `'KEYFRAME'`
 
 lock_markers
     
@@ -249,7 +249,7 @@ Normal vector used to copy, add or multiply
 Type:
     
 
-[`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], default (0.0, 0.0, 0.0)
+[`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], default (0.0, 0.0, 0.0)
 
 paint_mode
     
@@ -257,7 +257,7 @@ paint_mode
 Type:
     
 
-[`PaintModeSettings`](bpy.types.PaintModeSettings.html#bpy.types.PaintModeSettings "bpy.types.PaintModeSettings"), (readonly)
+[`PaintModeSettings`](bpy.types.PaintModeSettings.md#bpy.types.PaintModeSettings "bpy.types.PaintModeSettings"), (readonly)
 
 particle_edit
     
@@ -265,7 +265,7 @@ particle_edit
 Type:
     
 
-[`ParticleEdit`](bpy.types.ParticleEdit.html#bpy.types.ParticleEdit "bpy.types.ParticleEdit"), (readonly)
+[`ParticleEdit`](bpy.types.ParticleEdit.md#bpy.types.ParticleEdit "bpy.types.ParticleEdit"), (readonly)
 
 plane_axis
     
@@ -275,7 +275,7 @@ The axis used for placing the base region
 Type:
     
 
-enum in [Axis Xyz Items](bpy_types_enum_items/axis_xyz_items.html#rna-enum-axis-xyz-items), default `'Z'`
+enum in [Axis Xyz Items](bpy_types_enum_items/axis_xyz_items.md#rna-enum-axis-xyz-items), default `'Z'`
 
 plane_axis_auto
     
@@ -347,7 +347,7 @@ Falloff type for proportional editing mode
 Type:
     
 
-enum in [Proportional Falloff Items](bpy_types_enum_items/proportional_falloff_items.html#rna-enum-proportional-falloff-items), default `'SMOOTH'`
+enum in [Proportional Falloff Items](bpy_types_enum_items/proportional_falloff_items.md#rna-enum-proportional-falloff-items), default `'SMOOTH'`
 
 proportional_size
     
@@ -365,7 +365,7 @@ sculpt
 Type:
     
 
-[`Sculpt`](bpy.types.Sculpt.html#bpy.types.Sculpt "bpy.types.Sculpt"), (readonly)
+[`Sculpt`](bpy.types.Sculpt.md#bpy.types.Sculpt "bpy.types.Sculpt"), (readonly)
 
 sequencer_tool_settings
     
@@ -373,7 +373,7 @@ sequencer_tool_settings
 Type:
     
 
-[`SequencerToolSettings`](bpy.types.SequencerToolSettings.html#bpy.types.SequencerToolSettings "bpy.types.SequencerToolSettings"), (readonly, never None)
+[`SequencerToolSettings`](bpy.types.SequencerToolSettings.md#bpy.types.SequencerToolSettings "bpy.types.SequencerToolSettings"), (readonly, never None)
 
 show_uv_local_view
     
@@ -433,7 +433,7 @@ Type of element to snap to
 Type:
     
 
-enum in [Snap Animation Element Items](bpy_types_enum_items/snap_animation_element_items.html#rna-enum-snap-animation-element-items), default `'FRAME'`
+enum in [Snap Animation Element Items](bpy_types_enum_items/snap_animation_element_items.md#rna-enum-snap-animation-element-items), default `'FRAME'`
 
 snap_elements
     
@@ -443,7 +443,7 @@ Type of element to snap to
 Type:
     
 
-enum set in [Snap Element Items](bpy_types_enum_items/snap_element_items.html#rna-enum-snap-element-items), default {`'INCREMENT'`}
+enum set in [Snap Element Items](bpy_types_enum_items/snap_element_items.md#rna-enum-snap-element-items), default {`'INCREMENT'`}
 
 snap_elements_base
     
@@ -561,7 +561,7 @@ Which part to snap onto the target
 Type:
     
 
-enum in [Snap Source Items](bpy_types_enum_items/snap_source_items.html#rna-enum-snap-source-items), default `'CLOSEST'`
+enum in [Snap Source Items](bpy_types_enum_items/snap_source_items.md#rna-enum-snap-source-items), default `'CLOSEST'`
 
 snap_uv_element
     
@@ -586,7 +586,7 @@ statvis
 Type:
     
 
-[`MeshStatVis`](bpy.types.MeshStatVis.html#bpy.types.MeshStatVis "bpy.types.MeshStatVis"), (readonly, never None)
+[`MeshStatVis`](bpy.types.MeshStatVis.md#bpy.types.MeshStatVis "bpy.types.MeshStatVis"), (readonly, never None)
 
 transform_pivot_point
     
@@ -615,7 +615,7 @@ unified_paint_settings
 Type:
     
 
-[`UnifiedPaintSettings`](bpy.types.UnifiedPaintSettings.html#bpy.types.UnifiedPaintSettings "bpy.types.UnifiedPaintSettings"), (readonly, never None)
+[`UnifiedPaintSettings`](bpy.types.UnifiedPaintSettings.md#bpy.types.UnifiedPaintSettings "bpy.types.UnifiedPaintSettings"), (readonly, never None)
 
 use_annotation_project_only_selected
     
@@ -1213,7 +1213,7 @@ uv_sculpt
 Type:
     
 
-[`UvSculpt`](bpy.types.UvSculpt.html#bpy.types.UvSculpt "bpy.types.UvSculpt"), (readonly)
+[`UvSculpt`](bpy.types.UvSculpt.md#bpy.types.UvSculpt "bpy.types.UvSculpt"), (readonly)
 
 uv_sculpt_all_islands
     
@@ -1243,7 +1243,7 @@ UV selection and display mode
 Type:
     
 
-enum in [Mesh Select Mode Uv Items](bpy_types_enum_items/mesh_select_mode_uv_items.html#rna-enum-mesh-select-mode-uv-items), default `'VERTEX'`
+enum in [Mesh Select Mode Uv Items](bpy_types_enum_items/mesh_select_mode_uv_items.md#rna-enum-mesh-select-mode-uv-items), default `'VERTEX'`
 
 uv_sticky_select_mode
     
@@ -1312,7 +1312,7 @@ vertex_paint
 Type:
     
 
-[`VertexPaint`](bpy.types.VertexPaint.html#bpy.types.VertexPaint "bpy.types.VertexPaint"), (readonly)
+[`VertexPaint`](bpy.types.VertexPaint.md#bpy.types.VertexPaint "bpy.types.VertexPaint"), (readonly)
 
 weight_paint
     
@@ -1320,7 +1320,7 @@ weight_paint
 Type:
     
 
-[`VertexPaint`](bpy.types.VertexPaint.html#bpy.types.VertexPaint "bpy.types.VertexPaint"), (readonly)
+[`VertexPaint`](bpy.types.VertexPaint.md#bpy.types.VertexPaint "bpy.types.VertexPaint"), (readonly)
 
 workspace_tool_type
     
@@ -1348,7 +1348,7 @@ The RNA type or default when not found.
 Return type:
     
 
-[`bpy.types.Struct`](bpy.types.Struct.html#bpy.types.Struct "bpy.types.Struct") subclass
+[`bpy.types.Struct`](bpy.types.Struct.md#bpy.types.Struct "bpy.types.Struct") subclass
 
 _classmethod _bl_rna_get_subclass_py(_id_ , _default =None_, _/_)
     
@@ -1370,7 +1370,7 @@ type
 
 ## Inherited Properties
 
-  * [`bpy_struct.id_data`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_data "bpy.types.bpy_struct.id_data")
+  * [`bpy_struct.id_data`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_data "bpy.types.bpy_struct.id_data")
 
 | 
 
@@ -1380,43 +1380,43 @@ type
   
 ## Inherited Functions
 
-  * [`bpy_struct.as_pointer`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.as_pointer "bpy.types.bpy_struct.as_pointer")
-  * [`bpy_struct.driver_add`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.driver_add "bpy.types.bpy_struct.driver_add")
-  * [`bpy_struct.driver_remove`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.driver_remove "bpy.types.bpy_struct.driver_remove")
-  * [`bpy_struct.get`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.get "bpy.types.bpy_struct.get")
-  * [`bpy_struct.id_properties_clear`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_clear "bpy.types.bpy_struct.id_properties_clear")
-  * [`bpy_struct.id_properties_ensure`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_ensure "bpy.types.bpy_struct.id_properties_ensure")
-  * [`bpy_struct.id_properties_ui`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_ui "bpy.types.bpy_struct.id_properties_ui")
-  * [`bpy_struct.is_property_hidden`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_hidden "bpy.types.bpy_struct.is_property_hidden")
-  * [`bpy_struct.is_property_overridable_library`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_overridable_library "bpy.types.bpy_struct.is_property_overridable_library")
-  * [`bpy_struct.is_property_readonly`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_readonly "bpy.types.bpy_struct.is_property_readonly")
-  * [`bpy_struct.is_property_set`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_set "bpy.types.bpy_struct.is_property_set")
-  * [`bpy_struct.items`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.items "bpy.types.bpy_struct.items")
+  * [`bpy_struct.as_pointer`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.as_pointer "bpy.types.bpy_struct.as_pointer")
+  * [`bpy_struct.driver_add`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.driver_add "bpy.types.bpy_struct.driver_add")
+  * [`bpy_struct.driver_remove`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.driver_remove "bpy.types.bpy_struct.driver_remove")
+  * [`bpy_struct.get`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.get "bpy.types.bpy_struct.get")
+  * [`bpy_struct.id_properties_clear`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_properties_clear "bpy.types.bpy_struct.id_properties_clear")
+  * [`bpy_struct.id_properties_ensure`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_properties_ensure "bpy.types.bpy_struct.id_properties_ensure")
+  * [`bpy_struct.id_properties_ui`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_properties_ui "bpy.types.bpy_struct.id_properties_ui")
+  * [`bpy_struct.is_property_hidden`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_hidden "bpy.types.bpy_struct.is_property_hidden")
+  * [`bpy_struct.is_property_overridable_library`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_overridable_library "bpy.types.bpy_struct.is_property_overridable_library")
+  * [`bpy_struct.is_property_readonly`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_readonly "bpy.types.bpy_struct.is_property_readonly")
+  * [`bpy_struct.is_property_set`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_set "bpy.types.bpy_struct.is_property_set")
+  * [`bpy_struct.items`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.items "bpy.types.bpy_struct.items")
 
 | 
 
-  * [`bpy_struct.keyframe_delete`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keyframe_delete "bpy.types.bpy_struct.keyframe_delete")
-  * [`bpy_struct.keyframe_insert`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keyframe_insert "bpy.types.bpy_struct.keyframe_insert")
-  * [`bpy_struct.keys`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keys "bpy.types.bpy_struct.keys")
-  * [`bpy_struct.path_from_id`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.path_from_id "bpy.types.bpy_struct.path_from_id")
-  * [`bpy_struct.path_resolve`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.path_resolve "bpy.types.bpy_struct.path_resolve")
-  * [`bpy_struct.pop`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.pop "bpy.types.bpy_struct.pop")
-  * [`bpy_struct.property_overridable_library_set`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.property_overridable_library_set "bpy.types.bpy_struct.property_overridable_library_set")
-  * [`bpy_struct.property_unset`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.property_unset "bpy.types.bpy_struct.property_unset")
-  * [`bpy_struct.rna_ancestors`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.rna_ancestors "bpy.types.bpy_struct.rna_ancestors")
-  * [`bpy_struct.type_recast`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.type_recast "bpy.types.bpy_struct.type_recast")
-  * [`bpy_struct.values`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.values "bpy.types.bpy_struct.values")
+  * [`bpy_struct.keyframe_delete`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.keyframe_delete "bpy.types.bpy_struct.keyframe_delete")
+  * [`bpy_struct.keyframe_insert`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.keyframe_insert "bpy.types.bpy_struct.keyframe_insert")
+  * [`bpy_struct.keys`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.keys "bpy.types.bpy_struct.keys")
+  * [`bpy_struct.path_from_id`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.path_from_id "bpy.types.bpy_struct.path_from_id")
+  * [`bpy_struct.path_resolve`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.path_resolve "bpy.types.bpy_struct.path_resolve")
+  * [`bpy_struct.pop`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.pop "bpy.types.bpy_struct.pop")
+  * [`bpy_struct.property_overridable_library_set`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.property_overridable_library_set "bpy.types.bpy_struct.property_overridable_library_set")
+  * [`bpy_struct.property_unset`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.property_unset "bpy.types.bpy_struct.property_unset")
+  * [`bpy_struct.rna_ancestors`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.rna_ancestors "bpy.types.bpy_struct.rna_ancestors")
+  * [`bpy_struct.type_recast`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.type_recast "bpy.types.bpy_struct.type_recast")
+  * [`bpy_struct.values`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.values "bpy.types.bpy_struct.values")
 
   
 ---|---  
   
 ## References
 
-  * [`Context.tool_settings`](bpy.types.Context.html#bpy.types.Context.tool_settings "bpy.types.Context.tool_settings")
+  * [`Context.tool_settings`](bpy.types.Context.md#bpy.types.Context.tool_settings "bpy.types.Context.tool_settings")
 
 | 
 
-  * [`Scene.tool_settings`](bpy.types.Scene.html#bpy.types.Scene.tool_settings "bpy.types.Scene.tool_settings")
+  * [`Scene.tool_settings`](bpy.types.Scene.md#bpy.types.Scene.tool_settings "bpy.types.Scene.tool_settings")
 
   
 ---|---

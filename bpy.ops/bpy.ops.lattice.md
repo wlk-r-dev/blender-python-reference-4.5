@@ -49,7 +49,7 @@ Select mirrored lattice points
 Parameters:
     
 
-  * **axis** (enum set in [Axis Flag Xyz Items](bpy_types_enum_items/axis_flag_xyz_items.html#rna-enum-axis-flag-xyz-items), (optional)) – Axis
+  * **axis** (enum set in [Axis Flag Xyz Items](bpy_types_enum_items/axis_flag_xyz_items.md#rna-enum-axis-flag-xyz-items), (optional)) – Axis
 
   * **extend** (_boolean_ _,__(__optional_ _)_) – Extend, Extend the selection
 

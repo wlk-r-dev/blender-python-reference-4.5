@@ -1,8 +1,8 @@
 # FModifier(bpy_struct)
 
-base class — [`bpy_struct`](bpy.types.bpy_struct.html#bpy.types.bpy_struct "bpy.types.bpy_struct")
+base class — [`bpy_struct`](bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct")
 
-subclasses — [`FModifierCycles`](bpy.types.FModifierCycles.html#bpy.types.FModifierCycles "bpy.types.FModifierCycles"), [`FModifierEnvelope`](bpy.types.FModifierEnvelope.html#bpy.types.FModifierEnvelope "bpy.types.FModifierEnvelope"), [`FModifierFunctionGenerator`](bpy.types.FModifierFunctionGenerator.html#bpy.types.FModifierFunctionGenerator "bpy.types.FModifierFunctionGenerator"), [`FModifierGenerator`](bpy.types.FModifierGenerator.html#bpy.types.FModifierGenerator "bpy.types.FModifierGenerator"), [`FModifierLimits`](bpy.types.FModifierLimits.html#bpy.types.FModifierLimits "bpy.types.FModifierLimits"), [`FModifierNoise`](bpy.types.FModifierNoise.html#bpy.types.FModifierNoise "bpy.types.FModifierNoise"), [`FModifierStepped`](bpy.types.FModifierStepped.html#bpy.types.FModifierStepped "bpy.types.FModifierStepped")
+subclasses — [`FModifierCycles`](bpy.types.FModifierCycles.md#bpy.types.FModifierCycles "bpy.types.FModifierCycles"), [`FModifierEnvelope`](bpy.types.FModifierEnvelope.md#bpy.types.FModifierEnvelope "bpy.types.FModifierEnvelope"), [`FModifierFunctionGenerator`](bpy.types.FModifierFunctionGenerator.md#bpy.types.FModifierFunctionGenerator "bpy.types.FModifierFunctionGenerator"), [`FModifierGenerator`](bpy.types.FModifierGenerator.md#bpy.types.FModifierGenerator "bpy.types.FModifierGenerator"), [`FModifierLimits`](bpy.types.FModifierLimits.md#bpy.types.FModifierLimits "bpy.types.FModifierLimits"), [`FModifierNoise`](bpy.types.FModifierNoise.md#bpy.types.FModifierNoise "bpy.types.FModifierNoise"), [`FModifierStepped`](bpy.types.FModifierStepped.md#bpy.types.FModifierStepped "bpy.types.FModifierStepped")
 
 _class _bpy.types.FModifier(_bpy_struct_)
     
@@ -117,7 +117,7 @@ F-Curve Modifier Type
 Type:
     
 
-enum in [Fmodifier Type Items](bpy_types_enum_items/fmodifier_type_items.html#rna-enum-fmodifier-type-items), default `'NULL'`, (readonly)
+enum in [Fmodifier Type Items](bpy_types_enum_items/fmodifier_type_items.md#rna-enum-fmodifier-type-items), default `'NULL'`, (readonly)
 
 use_influence
     
@@ -155,7 +155,7 @@ The RNA type or default when not found.
 Return type:
     
 
-[`bpy.types.Struct`](bpy.types.Struct.html#bpy.types.Struct "bpy.types.Struct") subclass
+[`bpy.types.Struct`](bpy.types.Struct.md#bpy.types.Struct "bpy.types.Struct") subclass
 
 _classmethod _bl_rna_get_subclass_py(_id_ , _default =None_, _/_)
     
@@ -177,7 +177,7 @@ type
 
 ## Inherited Properties
 
-  * [`bpy_struct.id_data`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_data "bpy.types.bpy_struct.id_data")
+  * [`bpy_struct.id_data`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_data "bpy.types.bpy_struct.id_data")
 
 | 
 
@@ -187,46 +187,46 @@ type
   
 ## Inherited Functions
 
-  * [`bpy_struct.as_pointer`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.as_pointer "bpy.types.bpy_struct.as_pointer")
-  * [`bpy_struct.driver_add`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.driver_add "bpy.types.bpy_struct.driver_add")
-  * [`bpy_struct.driver_remove`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.driver_remove "bpy.types.bpy_struct.driver_remove")
-  * [`bpy_struct.get`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.get "bpy.types.bpy_struct.get")
-  * [`bpy_struct.id_properties_clear`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_clear "bpy.types.bpy_struct.id_properties_clear")
-  * [`bpy_struct.id_properties_ensure`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_ensure "bpy.types.bpy_struct.id_properties_ensure")
-  * [`bpy_struct.id_properties_ui`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_ui "bpy.types.bpy_struct.id_properties_ui")
-  * [`bpy_struct.is_property_hidden`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_hidden "bpy.types.bpy_struct.is_property_hidden")
-  * [`bpy_struct.is_property_overridable_library`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_overridable_library "bpy.types.bpy_struct.is_property_overridable_library")
-  * [`bpy_struct.is_property_readonly`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_readonly "bpy.types.bpy_struct.is_property_readonly")
-  * [`bpy_struct.is_property_set`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_set "bpy.types.bpy_struct.is_property_set")
-  * [`bpy_struct.items`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.items "bpy.types.bpy_struct.items")
+  * [`bpy_struct.as_pointer`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.as_pointer "bpy.types.bpy_struct.as_pointer")
+  * [`bpy_struct.driver_add`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.driver_add "bpy.types.bpy_struct.driver_add")
+  * [`bpy_struct.driver_remove`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.driver_remove "bpy.types.bpy_struct.driver_remove")
+  * [`bpy_struct.get`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.get "bpy.types.bpy_struct.get")
+  * [`bpy_struct.id_properties_clear`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_properties_clear "bpy.types.bpy_struct.id_properties_clear")
+  * [`bpy_struct.id_properties_ensure`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_properties_ensure "bpy.types.bpy_struct.id_properties_ensure")
+  * [`bpy_struct.id_properties_ui`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_properties_ui "bpy.types.bpy_struct.id_properties_ui")
+  * [`bpy_struct.is_property_hidden`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_hidden "bpy.types.bpy_struct.is_property_hidden")
+  * [`bpy_struct.is_property_overridable_library`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_overridable_library "bpy.types.bpy_struct.is_property_overridable_library")
+  * [`bpy_struct.is_property_readonly`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_readonly "bpy.types.bpy_struct.is_property_readonly")
+  * [`bpy_struct.is_property_set`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_set "bpy.types.bpy_struct.is_property_set")
+  * [`bpy_struct.items`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.items "bpy.types.bpy_struct.items")
 
 | 
 
-  * [`bpy_struct.keyframe_delete`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keyframe_delete "bpy.types.bpy_struct.keyframe_delete")
-  * [`bpy_struct.keyframe_insert`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keyframe_insert "bpy.types.bpy_struct.keyframe_insert")
-  * [`bpy_struct.keys`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keys "bpy.types.bpy_struct.keys")
-  * [`bpy_struct.path_from_id`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.path_from_id "bpy.types.bpy_struct.path_from_id")
-  * [`bpy_struct.path_resolve`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.path_resolve "bpy.types.bpy_struct.path_resolve")
-  * [`bpy_struct.pop`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.pop "bpy.types.bpy_struct.pop")
-  * [`bpy_struct.property_overridable_library_set`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.property_overridable_library_set "bpy.types.bpy_struct.property_overridable_library_set")
-  * [`bpy_struct.property_unset`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.property_unset "bpy.types.bpy_struct.property_unset")
-  * [`bpy_struct.rna_ancestors`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.rna_ancestors "bpy.types.bpy_struct.rna_ancestors")
-  * [`bpy_struct.type_recast`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.type_recast "bpy.types.bpy_struct.type_recast")
-  * [`bpy_struct.values`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.values "bpy.types.bpy_struct.values")
+  * [`bpy_struct.keyframe_delete`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.keyframe_delete "bpy.types.bpy_struct.keyframe_delete")
+  * [`bpy_struct.keyframe_insert`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.keyframe_insert "bpy.types.bpy_struct.keyframe_insert")
+  * [`bpy_struct.keys`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.keys "bpy.types.bpy_struct.keys")
+  * [`bpy_struct.path_from_id`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.path_from_id "bpy.types.bpy_struct.path_from_id")
+  * [`bpy_struct.path_resolve`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.path_resolve "bpy.types.bpy_struct.path_resolve")
+  * [`bpy_struct.pop`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.pop "bpy.types.bpy_struct.pop")
+  * [`bpy_struct.property_overridable_library_set`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.property_overridable_library_set "bpy.types.bpy_struct.property_overridable_library_set")
+  * [`bpy_struct.property_unset`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.property_unset "bpy.types.bpy_struct.property_unset")
+  * [`bpy_struct.rna_ancestors`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.rna_ancestors "bpy.types.bpy_struct.rna_ancestors")
+  * [`bpy_struct.type_recast`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.type_recast "bpy.types.bpy_struct.type_recast")
+  * [`bpy_struct.values`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.values "bpy.types.bpy_struct.values")
 
   
 ---|---  
   
 ## References
 
-  * [`FCurve.modifiers`](bpy.types.FCurve.html#bpy.types.FCurve.modifiers "bpy.types.FCurve.modifiers")
-  * [`FCurveModifiers.active`](bpy.types.FCurveModifiers.html#bpy.types.FCurveModifiers.active "bpy.types.FCurveModifiers.active")
-  * [`FCurveModifiers.new`](bpy.types.FCurveModifiers.html#bpy.types.FCurveModifiers.new "bpy.types.FCurveModifiers.new")
+  * [`FCurve.modifiers`](bpy.types.FCurve.md#bpy.types.FCurve.modifiers "bpy.types.FCurve.modifiers")
+  * [`FCurveModifiers.active`](bpy.types.FCurveModifiers.md#bpy.types.FCurveModifiers.active "bpy.types.FCurveModifiers.active")
+  * [`FCurveModifiers.new`](bpy.types.FCurveModifiers.md#bpy.types.FCurveModifiers.new "bpy.types.FCurveModifiers.new")
 
 | 
 
-  * [`FCurveModifiers.remove`](bpy.types.FCurveModifiers.html#bpy.types.FCurveModifiers.remove "bpy.types.FCurveModifiers.remove")
-  * [`NlaStrip.modifiers`](bpy.types.NlaStrip.html#bpy.types.NlaStrip.modifiers "bpy.types.NlaStrip.modifiers")
+  * [`FCurveModifiers.remove`](bpy.types.FCurveModifiers.md#bpy.types.FCurveModifiers.remove "bpy.types.FCurveModifiers.remove")
+  * [`NlaStrip.modifiers`](bpy.types.NlaStrip.md#bpy.types.NlaStrip.modifiers "bpy.types.NlaStrip.modifiers")
 
   
 ---|---

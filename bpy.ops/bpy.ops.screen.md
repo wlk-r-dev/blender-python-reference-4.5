@@ -214,7 +214,7 @@ Hide or unhide the region
 Parameters:
     
 
-**region_type** (enum in [Region Type Items](bpy_types_enum_items/region_type_items.html#rna-enum-region-type-items), (optional)) – Region Type, Type of the region to toggle
+**region_type** (enum in [Region Type Items](bpy_types_enum_items/region_type_items.md#rna-enum-region-type-items), (optional)) – Region Type, Type of the region to toggle
 
 bpy.ops.screen.repeat_history(_*_ , _index =0_)
     
@@ -407,7 +407,7 @@ Set the space type or cycle subtype
 Parameters:
     
 
-**space_type** (enum in [Space Type Items](bpy_types_enum_items/space_type_items.html#rna-enum-space-type-items), (optional)) – Type
+**space_type** (enum in [Space Type Items](bpy_types_enum_items/space_type_items.md#rna-enum-space-type-items), (optional)) – Type
 
 bpy.ops.screen.spacedata_cleanup()
     
@@ -422,7 +422,7 @@ Edit user preferences and system settings
 Parameters:
     
 
-**section** (enum in [Preference Section Items](bpy_types_enum_items/preference_section_items.html#rna-enum-preference-section-items), (optional)) – Section to activate in the Preferences
+**section** (enum in [Preference Section Items](bpy_types_enum_items/preference_section_items.md#rna-enum-preference-section-items), (optional)) – Section to activate in the Preferences
 
 bpy.ops.screen.workspace_cycle(_*_ , _direction ='NEXT'_)
     

@@ -28,7 +28,7 @@ If you’re still stuck, unfortunately, the only way to eventually know what is 
 
 Note
 
-Blender does have the functionality for poll functions to describe why they fail, but it’s currently not used much, if you’re interested to help improve the API feel free to add calls to [`bpy.types.Operator.poll_message_set`](bpy.types.Operator.html#bpy.types.Operator.poll_message_set "bpy.types.Operator.poll_message_set") (`CTX_wm_operator_poll_msg_set` in C) where it’s not obvious why poll fails, e.g:
+Blender does have the functionality for poll functions to describe why they fail, but it’s currently not used much, if you’re interested to help improve the API feel free to add calls to [`bpy.types.Operator.poll_message_set`](bpy.types.Operator.md#bpy.types.Operator.poll_message_set "bpy.types.Operator.poll_message_set") (`CTX_wm_operator_poll_msg_set` in C) where it’s not obvious why poll fails, e.g:
     
     
     >>> bpy.ops.gpencil.draw()
@@ -41,13 +41,13 @@ Certain operators in Blender are only intended for use in a specific context, so
 
 Examples of this are:
 
-  * [`bpy.ops.texture.slot_move`](bpy.ops.texture.html#bpy.ops.texture.slot_move "bpy.ops.texture.slot_move")
+  * [`bpy.ops.texture.slot_move`](bpy.ops.texture.md#bpy.ops.texture.slot_move "bpy.ops.texture.slot_move")
 
-  * [`bpy.ops.constraint.limitdistance_reset`](bpy.ops.constraint.html#bpy.ops.constraint.limitdistance_reset "bpy.ops.constraint.limitdistance_reset")
+  * [`bpy.ops.constraint.limitdistance_reset`](bpy.ops.constraint.md#bpy.ops.constraint.limitdistance_reset "bpy.ops.constraint.limitdistance_reset")
 
-  * [`bpy.ops.object.modifier_copy`](bpy.ops.object.html#bpy.ops.object.modifier_copy "bpy.ops.object.modifier_copy")
+  * [`bpy.ops.object.modifier_copy`](bpy.ops.object.md#bpy.ops.object.modifier_copy "bpy.ops.object.modifier_copy")
 
-  * [`bpy.ops.buttons.file_browse`](bpy.ops.buttons.html#bpy.ops.buttons.file_browse "bpy.ops.buttons.file_browse")
+  * [`bpy.ops.buttons.file_browse`](bpy.ops.buttons.md#bpy.ops.buttons.file_browse "bpy.ops.buttons.file_browse")
 
 
 Another possibility is that you are the first person to attempt to use this operator in a script and some modifications need to be made to the operator to run in a different context. If the operator should logically be able to run but fails when accessed from a script it should be reported to the bug tracker.

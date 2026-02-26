@@ -1,6 +1,6 @@
 # XrActionMapItem(bpy_struct)
 
-base class — [`bpy_struct`](bpy.types.bpy_struct.html#bpy.types.bpy_struct "bpy.types.bpy_struct")
+base class — [`bpy_struct`](bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct")
 
 _class _bpy.types.XrActionMapItem(_bpy_struct_)
     
@@ -23,7 +23,7 @@ Bindings for the action map item, mapping the action to an XR input
 Type:
     
 
-[`XrActionMapBindings`](bpy.types.XrActionMapBindings.html#bpy.types.XrActionMapBindings "bpy.types.XrActionMapBindings") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.html#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`XrActionMapBinding`](bpy.types.XrActionMapBinding.html#bpy.types.XrActionMapBinding "bpy.types.XrActionMapBinding"), (readonly)
+[`XrActionMapBindings`](bpy.types.XrActionMapBindings.md#bpy.types.XrActionMapBindings "bpy.types.XrActionMapBindings") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.md#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`XrActionMapBinding`](bpy.types.XrActionMapBinding.md#bpy.types.XrActionMapBinding "bpy.types.XrActionMapBinding"), (readonly)
 
 haptic_amplitude
     
@@ -149,7 +149,7 @@ Properties to set when the operator is called
 Type:
     
 
-[`OperatorProperties`](bpy.types.OperatorProperties.html#bpy.types.OperatorProperties "bpy.types.OperatorProperties"), (readonly)
+[`OperatorProperties`](bpy.types.OperatorProperties.md#bpy.types.OperatorProperties "bpy.types.OperatorProperties"), (readonly)
 
 pose_is_controller_aim
     
@@ -208,7 +208,7 @@ OpenXR user paths
 Type:
     
 
-[`XrUserPaths`](bpy.types.XrUserPaths.html#bpy.types.XrUserPaths "bpy.types.XrUserPaths") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.html#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`XrUserPath`](bpy.types.XrUserPath.html#bpy.types.XrUserPath "bpy.types.XrUserPath"), (readonly)
+[`XrUserPaths`](bpy.types.XrUserPaths.md#bpy.types.XrUserPaths "bpy.types.XrUserPaths") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.md#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`XrUserPath`](bpy.types.XrUserPath.md#bpy.types.XrUserPath "bpy.types.XrUserPath"), (readonly)
 
 _classmethod _bl_rna_get_subclass(_id_ , _default =None_, _/_)
     
@@ -226,7 +226,7 @@ The RNA type or default when not found.
 Return type:
     
 
-[`bpy.types.Struct`](bpy.types.Struct.html#bpy.types.Struct "bpy.types.Struct") subclass
+[`bpy.types.Struct`](bpy.types.Struct.md#bpy.types.Struct "bpy.types.Struct") subclass
 
 _classmethod _bl_rna_get_subclass_py(_id_ , _default =None_, _/_)
     
@@ -248,7 +248,7 @@ type
 
 ## Inherited Properties
 
-  * [`bpy_struct.id_data`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_data "bpy.types.bpy_struct.id_data")
+  * [`bpy_struct.id_data`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_data "bpy.types.bpy_struct.id_data")
 
 | 
 
@@ -258,49 +258,49 @@ type
   
 ## Inherited Functions
 
-  * [`bpy_struct.as_pointer`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.as_pointer "bpy.types.bpy_struct.as_pointer")
-  * [`bpy_struct.driver_add`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.driver_add "bpy.types.bpy_struct.driver_add")
-  * [`bpy_struct.driver_remove`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.driver_remove "bpy.types.bpy_struct.driver_remove")
-  * [`bpy_struct.get`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.get "bpy.types.bpy_struct.get")
-  * [`bpy_struct.id_properties_clear`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_clear "bpy.types.bpy_struct.id_properties_clear")
-  * [`bpy_struct.id_properties_ensure`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_ensure "bpy.types.bpy_struct.id_properties_ensure")
-  * [`bpy_struct.id_properties_ui`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_ui "bpy.types.bpy_struct.id_properties_ui")
-  * [`bpy_struct.is_property_hidden`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_hidden "bpy.types.bpy_struct.is_property_hidden")
-  * [`bpy_struct.is_property_overridable_library`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_overridable_library "bpy.types.bpy_struct.is_property_overridable_library")
-  * [`bpy_struct.is_property_readonly`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_readonly "bpy.types.bpy_struct.is_property_readonly")
-  * [`bpy_struct.is_property_set`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_set "bpy.types.bpy_struct.is_property_set")
-  * [`bpy_struct.items`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.items "bpy.types.bpy_struct.items")
+  * [`bpy_struct.as_pointer`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.as_pointer "bpy.types.bpy_struct.as_pointer")
+  * [`bpy_struct.driver_add`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.driver_add "bpy.types.bpy_struct.driver_add")
+  * [`bpy_struct.driver_remove`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.driver_remove "bpy.types.bpy_struct.driver_remove")
+  * [`bpy_struct.get`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.get "bpy.types.bpy_struct.get")
+  * [`bpy_struct.id_properties_clear`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_properties_clear "bpy.types.bpy_struct.id_properties_clear")
+  * [`bpy_struct.id_properties_ensure`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_properties_ensure "bpy.types.bpy_struct.id_properties_ensure")
+  * [`bpy_struct.id_properties_ui`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_properties_ui "bpy.types.bpy_struct.id_properties_ui")
+  * [`bpy_struct.is_property_hidden`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_hidden "bpy.types.bpy_struct.is_property_hidden")
+  * [`bpy_struct.is_property_overridable_library`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_overridable_library "bpy.types.bpy_struct.is_property_overridable_library")
+  * [`bpy_struct.is_property_readonly`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_readonly "bpy.types.bpy_struct.is_property_readonly")
+  * [`bpy_struct.is_property_set`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_set "bpy.types.bpy_struct.is_property_set")
+  * [`bpy_struct.items`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.items "bpy.types.bpy_struct.items")
 
 | 
 
-  * [`bpy_struct.keyframe_delete`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keyframe_delete "bpy.types.bpy_struct.keyframe_delete")
-  * [`bpy_struct.keyframe_insert`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keyframe_insert "bpy.types.bpy_struct.keyframe_insert")
-  * [`bpy_struct.keys`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keys "bpy.types.bpy_struct.keys")
-  * [`bpy_struct.path_from_id`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.path_from_id "bpy.types.bpy_struct.path_from_id")
-  * [`bpy_struct.path_resolve`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.path_resolve "bpy.types.bpy_struct.path_resolve")
-  * [`bpy_struct.pop`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.pop "bpy.types.bpy_struct.pop")
-  * [`bpy_struct.property_overridable_library_set`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.property_overridable_library_set "bpy.types.bpy_struct.property_overridable_library_set")
-  * [`bpy_struct.property_unset`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.property_unset "bpy.types.bpy_struct.property_unset")
-  * [`bpy_struct.rna_ancestors`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.rna_ancestors "bpy.types.bpy_struct.rna_ancestors")
-  * [`bpy_struct.type_recast`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.type_recast "bpy.types.bpy_struct.type_recast")
-  * [`bpy_struct.values`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.values "bpy.types.bpy_struct.values")
+  * [`bpy_struct.keyframe_delete`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.keyframe_delete "bpy.types.bpy_struct.keyframe_delete")
+  * [`bpy_struct.keyframe_insert`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.keyframe_insert "bpy.types.bpy_struct.keyframe_insert")
+  * [`bpy_struct.keys`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.keys "bpy.types.bpy_struct.keys")
+  * [`bpy_struct.path_from_id`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.path_from_id "bpy.types.bpy_struct.path_from_id")
+  * [`bpy_struct.path_resolve`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.path_resolve "bpy.types.bpy_struct.path_resolve")
+  * [`bpy_struct.pop`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.pop "bpy.types.bpy_struct.pop")
+  * [`bpy_struct.property_overridable_library_set`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.property_overridable_library_set "bpy.types.bpy_struct.property_overridable_library_set")
+  * [`bpy_struct.property_unset`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.property_unset "bpy.types.bpy_struct.property_unset")
+  * [`bpy_struct.rna_ancestors`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.rna_ancestors "bpy.types.bpy_struct.rna_ancestors")
+  * [`bpy_struct.type_recast`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.type_recast "bpy.types.bpy_struct.type_recast")
+  * [`bpy_struct.values`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.values "bpy.types.bpy_struct.values")
 
   
 ---|---  
   
 ## References
 
-  * [`XrActionMap.actionmap_items`](bpy.types.XrActionMap.html#bpy.types.XrActionMap.actionmap_items "bpy.types.XrActionMap.actionmap_items")
-  * [`XrActionMapItems.find`](bpy.types.XrActionMapItems.html#bpy.types.XrActionMapItems.find "bpy.types.XrActionMapItems.find")
-  * [`XrActionMapItems.new`](bpy.types.XrActionMapItems.html#bpy.types.XrActionMapItems.new "bpy.types.XrActionMapItems.new")
-  * [`XrActionMapItems.new_from_item`](bpy.types.XrActionMapItems.html#bpy.types.XrActionMapItems.new_from_item "bpy.types.XrActionMapItems.new_from_item")
+  * [`XrActionMap.actionmap_items`](bpy.types.XrActionMap.md#bpy.types.XrActionMap.actionmap_items "bpy.types.XrActionMap.actionmap_items")
+  * [`XrActionMapItems.find`](bpy.types.XrActionMapItems.md#bpy.types.XrActionMapItems.find "bpy.types.XrActionMapItems.find")
+  * [`XrActionMapItems.new`](bpy.types.XrActionMapItems.md#bpy.types.XrActionMapItems.new "bpy.types.XrActionMapItems.new")
+  * [`XrActionMapItems.new_from_item`](bpy.types.XrActionMapItems.md#bpy.types.XrActionMapItems.new_from_item "bpy.types.XrActionMapItems.new_from_item")
 
 | 
 
-  * [`XrActionMapItems.new_from_item`](bpy.types.XrActionMapItems.html#bpy.types.XrActionMapItems.new_from_item "bpy.types.XrActionMapItems.new_from_item")
-  * [`XrActionMapItems.remove`](bpy.types.XrActionMapItems.html#bpy.types.XrActionMapItems.remove "bpy.types.XrActionMapItems.remove")
-  * [`XrSessionState.action_binding_create`](bpy.types.XrSessionState.html#bpy.types.XrSessionState.action_binding_create "bpy.types.XrSessionState.action_binding_create")
-  * [`XrSessionState.action_create`](bpy.types.XrSessionState.html#bpy.types.XrSessionState.action_create "bpy.types.XrSessionState.action_create")
+  * [`XrActionMapItems.new_from_item`](bpy.types.XrActionMapItems.md#bpy.types.XrActionMapItems.new_from_item "bpy.types.XrActionMapItems.new_from_item")
+  * [`XrActionMapItems.remove`](bpy.types.XrActionMapItems.md#bpy.types.XrActionMapItems.remove "bpy.types.XrActionMapItems.remove")
+  * [`XrSessionState.action_binding_create`](bpy.types.XrSessionState.md#bpy.types.XrSessionState.action_binding_create "bpy.types.XrSessionState.action_binding_create")
+  * [`XrSessionState.action_create`](bpy.types.XrSessionState.md#bpy.types.XrSessionState.action_create "bpy.types.XrSessionState.action_create")
 
   
 ---|---

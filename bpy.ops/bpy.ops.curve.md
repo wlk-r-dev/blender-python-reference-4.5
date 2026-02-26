@@ -55,7 +55,7 @@ Parameters:
 
   * **error_threshold** (_float in_ _[__0_ _,__10_ _]__,__(__optional_ _)_) – Error, Error distance threshold (in object units)
 
-  * **fit_method** (enum in [Curve Fit Method Items](bpy_types_enum_items/curve_fit_method_items.html#rna-enum-curve-fit-method-items), (optional)) – Fit Method
+  * **fit_method** (enum in [Curve Fit Method Items](bpy_types_enum_items/curve_fit_method_items.md#rna-enum-curve-fit-method-items), (optional)) – Fit Method
 
   * **corner_angle** (_float in_ _[__0_ _,__3.14159_ _]__,__(__optional_ _)_) – Corner Angle
 
@@ -92,7 +92,7 @@ Extrude selected control point(s)
 Parameters:
     
 
-**mode** (enum in [Transform Mode Type Items](bpy_types_enum_items/transform_mode_type_items.html#rna-enum-transform-mode-type-items), (optional)) – Mode
+**mode** (enum in [Transform Mode Type Items](bpy_types_enum_items/transform_mode_type_items.md#rna-enum-transform-mode-type-items), (optional)) – Mode
 
 bpy.ops.curve.extrude_move(_*_ , _CURVE_OT_extrude =None_, _TRANSFORM_OT_translate =None_)
     
@@ -218,11 +218,11 @@ Align, The alignment of the new object
 
     * `CURSOR` 3D Cursor – Use the 3D cursor orientation for the new object.
 
-  * **location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
+  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
 
-  * **rotation** ([`mathutils.Euler`](mathutils.html#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
+  * **rotation** ([`mathutils.Euler`](mathutils.md#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
 
-  * **scale** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
+  * **scale** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
 
 
 bpy.ops.curve.primitive_bezier_curve_add(_*_ , _radius =1.0_, _enter_editmode =False_, _align ='WORLD'_, _location =(0.0, 0.0, 0.0)_, _rotation =(0.0, 0.0, 0.0)_, _scale =(0.0, 0.0, 0.0)_)
@@ -247,11 +247,11 @@ Align, The alignment of the new object
 
     * `CURSOR` 3D Cursor – Use the 3D cursor orientation for the new object.
 
-  * **location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
+  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
 
-  * **rotation** ([`mathutils.Euler`](mathutils.html#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
+  * **rotation** ([`mathutils.Euler`](mathutils.md#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
 
-  * **scale** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
+  * **scale** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
 
 
 bpy.ops.curve.primitive_nurbs_circle_add(_*_ , _radius =1.0_, _enter_editmode =False_, _align ='WORLD'_, _location =(0.0, 0.0, 0.0)_, _rotation =(0.0, 0.0, 0.0)_, _scale =(0.0, 0.0, 0.0)_)
@@ -276,11 +276,11 @@ Align, The alignment of the new object
 
     * `CURSOR` 3D Cursor – Use the 3D cursor orientation for the new object.
 
-  * **location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
+  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
 
-  * **rotation** ([`mathutils.Euler`](mathutils.html#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
+  * **rotation** ([`mathutils.Euler`](mathutils.md#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
 
-  * **scale** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
+  * **scale** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
 
 
 bpy.ops.curve.primitive_nurbs_curve_add(_*_ , _radius =1.0_, _enter_editmode =False_, _align ='WORLD'_, _location =(0.0, 0.0, 0.0)_, _rotation =(0.0, 0.0, 0.0)_, _scale =(0.0, 0.0, 0.0)_)
@@ -305,11 +305,11 @@ Align, The alignment of the new object
 
     * `CURSOR` 3D Cursor – Use the 3D cursor orientation for the new object.
 
-  * **location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
+  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
 
-  * **rotation** ([`mathutils.Euler`](mathutils.html#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
+  * **rotation** ([`mathutils.Euler`](mathutils.md#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
 
-  * **scale** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
+  * **scale** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
 
 
 bpy.ops.curve.primitive_nurbs_path_add(_*_ , _radius =1.0_, _enter_editmode =False_, _align ='WORLD'_, _location =(0.0, 0.0, 0.0)_, _rotation =(0.0, 0.0, 0.0)_, _scale =(0.0, 0.0, 0.0)_)
@@ -334,11 +334,11 @@ Align, The alignment of the new object
 
     * `CURSOR` 3D Cursor – Use the 3D cursor orientation for the new object.
 
-  * **location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
+  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
 
-  * **rotation** ([`mathutils.Euler`](mathutils.html#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
+  * **rotation** ([`mathutils.Euler`](mathutils.md#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
 
-  * **scale** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
+  * **scale** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
 
 
 bpy.ops.curve.radius_set(_*_ , _radius =1.0_)
@@ -521,9 +521,9 @@ Extrude selected boundary row around pivot point and current view axis
 Parameters:
     
 
-  * **center** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Center, Center in global view space
+  * **center** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Center, Center in global view space
 
-  * **axis** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-1, 1], (optional)) – Axis, Axis in global view space
+  * **axis** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-1, 1], (optional)) – Axis, Axis in global view space
 
 
 bpy.ops.curve.spline_type_set(_*_ , _type ='POLY'_, _use_handles =False_)
@@ -582,4 +582,4 @@ Add a new control point (linked to only selected end-curve one, if any)
 Parameters:
     
 
-**location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location to add new vertex at
+**location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location to add new vertex at

@@ -1,6 +1,6 @@
 # Material(ID)
 
-base classes — [`bpy_struct`](bpy.types.bpy_struct.html#bpy.types.bpy_struct "bpy.types.bpy_struct"), [`ID`](bpy.types.ID.html#bpy.types.ID "bpy.types.ID")
+base classes — [`bpy_struct`](bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct"), [`ID`](bpy.types.ID.md#bpy.types.ID "bpy.types.ID")
 
 _class _bpy.types.Material(_ID_)
     
@@ -25,7 +25,7 @@ Animation data for this data-block
 Type:
     
 
-[`AnimData`](bpy.types.AnimData.html#bpy.types.AnimData "bpy.types.AnimData"), (readonly)
+[`AnimData`](bpy.types.AnimData.md#bpy.types.AnimData "bpy.types.AnimData"), (readonly)
 
 blend_method
     
@@ -91,7 +91,7 @@ Grease Pencil color settings for material
 Type:
     
 
-[`MaterialGPencilStyle`](bpy.types.MaterialGPencilStyle.html#bpy.types.MaterialGPencilStyle "bpy.types.MaterialGPencilStyle"), (readonly)
+[`MaterialGPencilStyle`](bpy.types.MaterialGPencilStyle.md#bpy.types.MaterialGPencilStyle "bpy.types.MaterialGPencilStyle"), (readonly)
 
 is_grease_pencil
     
@@ -131,7 +131,7 @@ Line Art settings for material
 Type:
     
 
-[`MaterialLineArt`](bpy.types.MaterialLineArt.html#bpy.types.MaterialLineArt "bpy.types.MaterialLineArt"), (readonly)
+[`MaterialLineArt`](bpy.types.MaterialLineArt.md#bpy.types.MaterialLineArt "bpy.types.MaterialLineArt"), (readonly)
 
 max_vertex_displacement
     
@@ -161,7 +161,7 @@ Node tree for node based materials
 Type:
     
 
-[`NodeTree`](bpy.types.NodeTree.html#bpy.types.NodeTree "bpy.types.NodeTree"), (readonly)
+[`NodeTree`](bpy.types.NodeTree.md#bpy.types.NodeTree "bpy.types.NodeTree"), (readonly)
 
 paint_active_slot
     
@@ -256,7 +256,7 @@ Specular color of the material
 Type:
     
 
-[`mathutils.Color`](mathutils.html#mathutils.Color "mathutils.Color") of 3 items in [0, inf], default (1.0, 1.0, 1.0)
+[`mathutils.Color`](mathutils.md#mathutils.Color "mathutils.Color") of 3 items in [0, inf], default (1.0, 1.0, 1.0)
 
 specular_intensity
     
@@ -291,7 +291,7 @@ Texture images used for texture painting
 Type:
     
 
-[`bpy_prop_collection`](bpy.types.bpy_prop_collection.html#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`Image`](bpy.types.Image.html#bpy.types.Image "bpy.types.Image"), (readonly)
+[`bpy_prop_collection`](bpy.types.bpy_prop_collection.md#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`Image`](bpy.types.Image.md#bpy.types.Image "bpy.types.Image"), (readonly)
 
 texture_paint_slots
     
@@ -301,7 +301,7 @@ Texture slots defining the mapping and influence of textures
 Type:
     
 
-[`bpy_prop_collection`](bpy.types.bpy_prop_collection.html#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`TexPaintSlot`](bpy.types.TexPaintSlot.html#bpy.types.TexPaintSlot "bpy.types.TexPaintSlot"), (readonly)
+[`bpy_prop_collection`](bpy.types.bpy_prop_collection.md#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`TexPaintSlot`](bpy.types.TexPaintSlot.md#bpy.types.TexPaintSlot "bpy.types.TexPaintSlot"), (readonly)
 
 thickness_mode
     
@@ -459,7 +459,7 @@ The RNA type or default when not found.
 Return type:
     
 
-[`bpy.types.Struct`](bpy.types.Struct.html#bpy.types.Struct "bpy.types.Struct") subclass
+[`bpy.types.Struct`](bpy.types.Struct.md#bpy.types.Struct "bpy.types.Struct") subclass
 
 _classmethod _bl_rna_get_subclass_py(_id_ , _default =None_, _/_)
     
@@ -481,137 +481,137 @@ type
 
 ## Inherited Properties
 
-  * [`bpy_struct.id_data`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_data "bpy.types.bpy_struct.id_data")
-  * [`ID.name`](bpy.types.ID.html#bpy.types.ID.name "bpy.types.ID.name")
-  * [`ID.name_full`](bpy.types.ID.html#bpy.types.ID.name_full "bpy.types.ID.name_full")
-  * [`ID.id_type`](bpy.types.ID.html#bpy.types.ID.id_type "bpy.types.ID.id_type")
-  * [`ID.session_uid`](bpy.types.ID.html#bpy.types.ID.session_uid "bpy.types.ID.session_uid")
-  * [`ID.is_evaluated`](bpy.types.ID.html#bpy.types.ID.is_evaluated "bpy.types.ID.is_evaluated")
-  * [`ID.original`](bpy.types.ID.html#bpy.types.ID.original "bpy.types.ID.original")
-  * [`ID.users`](bpy.types.ID.html#bpy.types.ID.users "bpy.types.ID.users")
-  * [`ID.use_fake_user`](bpy.types.ID.html#bpy.types.ID.use_fake_user "bpy.types.ID.use_fake_user")
-  * [`ID.use_extra_user`](bpy.types.ID.html#bpy.types.ID.use_extra_user "bpy.types.ID.use_extra_user")
-  * [`ID.is_embedded_data`](bpy.types.ID.html#bpy.types.ID.is_embedded_data "bpy.types.ID.is_embedded_data")
+  * [`bpy_struct.id_data`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_data "bpy.types.bpy_struct.id_data")
+  * [`ID.name`](bpy.types.ID.md#bpy.types.ID.name "bpy.types.ID.name")
+  * [`ID.name_full`](bpy.types.ID.md#bpy.types.ID.name_full "bpy.types.ID.name_full")
+  * [`ID.id_type`](bpy.types.ID.md#bpy.types.ID.id_type "bpy.types.ID.id_type")
+  * [`ID.session_uid`](bpy.types.ID.md#bpy.types.ID.session_uid "bpy.types.ID.session_uid")
+  * [`ID.is_evaluated`](bpy.types.ID.md#bpy.types.ID.is_evaluated "bpy.types.ID.is_evaluated")
+  * [`ID.original`](bpy.types.ID.md#bpy.types.ID.original "bpy.types.ID.original")
+  * [`ID.users`](bpy.types.ID.md#bpy.types.ID.users "bpy.types.ID.users")
+  * [`ID.use_fake_user`](bpy.types.ID.md#bpy.types.ID.use_fake_user "bpy.types.ID.use_fake_user")
+  * [`ID.use_extra_user`](bpy.types.ID.md#bpy.types.ID.use_extra_user "bpy.types.ID.use_extra_user")
+  * [`ID.is_embedded_data`](bpy.types.ID.md#bpy.types.ID.is_embedded_data "bpy.types.ID.is_embedded_data")
 
 | 
 
-  * [`ID.is_missing`](bpy.types.ID.html#bpy.types.ID.is_missing "bpy.types.ID.is_missing")
-  * [`ID.is_runtime_data`](bpy.types.ID.html#bpy.types.ID.is_runtime_data "bpy.types.ID.is_runtime_data")
-  * [`ID.is_editable`](bpy.types.ID.html#bpy.types.ID.is_editable "bpy.types.ID.is_editable")
-  * [`ID.tag`](bpy.types.ID.html#bpy.types.ID.tag "bpy.types.ID.tag")
-  * [`ID.is_library_indirect`](bpy.types.ID.html#bpy.types.ID.is_library_indirect "bpy.types.ID.is_library_indirect")
-  * [`ID.library`](bpy.types.ID.html#bpy.types.ID.library "bpy.types.ID.library")
-  * [`ID.library_weak_reference`](bpy.types.ID.html#bpy.types.ID.library_weak_reference "bpy.types.ID.library_weak_reference")
-  * [`ID.asset_data`](bpy.types.ID.html#bpy.types.ID.asset_data "bpy.types.ID.asset_data")
-  * [`ID.override_library`](bpy.types.ID.html#bpy.types.ID.override_library "bpy.types.ID.override_library")
-  * [`ID.preview`](bpy.types.ID.html#bpy.types.ID.preview "bpy.types.ID.preview")
+  * [`ID.is_missing`](bpy.types.ID.md#bpy.types.ID.is_missing "bpy.types.ID.is_missing")
+  * [`ID.is_runtime_data`](bpy.types.ID.md#bpy.types.ID.is_runtime_data "bpy.types.ID.is_runtime_data")
+  * [`ID.is_editable`](bpy.types.ID.md#bpy.types.ID.is_editable "bpy.types.ID.is_editable")
+  * [`ID.tag`](bpy.types.ID.md#bpy.types.ID.tag "bpy.types.ID.tag")
+  * [`ID.is_library_indirect`](bpy.types.ID.md#bpy.types.ID.is_library_indirect "bpy.types.ID.is_library_indirect")
+  * [`ID.library`](bpy.types.ID.md#bpy.types.ID.library "bpy.types.ID.library")
+  * [`ID.library_weak_reference`](bpy.types.ID.md#bpy.types.ID.library_weak_reference "bpy.types.ID.library_weak_reference")
+  * [`ID.asset_data`](bpy.types.ID.md#bpy.types.ID.asset_data "bpy.types.ID.asset_data")
+  * [`ID.override_library`](bpy.types.ID.md#bpy.types.ID.override_library "bpy.types.ID.override_library")
+  * [`ID.preview`](bpy.types.ID.md#bpy.types.ID.preview "bpy.types.ID.preview")
 
   
 ---|---  
   
 ## Inherited Functions
 
-  * [`bpy_struct.as_pointer`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.as_pointer "bpy.types.bpy_struct.as_pointer")
-  * [`bpy_struct.driver_add`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.driver_add "bpy.types.bpy_struct.driver_add")
-  * [`bpy_struct.driver_remove`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.driver_remove "bpy.types.bpy_struct.driver_remove")
-  * [`bpy_struct.get`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.get "bpy.types.bpy_struct.get")
-  * [`bpy_struct.id_properties_clear`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_clear "bpy.types.bpy_struct.id_properties_clear")
-  * [`bpy_struct.id_properties_ensure`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_ensure "bpy.types.bpy_struct.id_properties_ensure")
-  * [`bpy_struct.id_properties_ui`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_ui "bpy.types.bpy_struct.id_properties_ui")
-  * [`bpy_struct.is_property_hidden`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_hidden "bpy.types.bpy_struct.is_property_hidden")
-  * [`bpy_struct.is_property_overridable_library`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_overridable_library "bpy.types.bpy_struct.is_property_overridable_library")
-  * [`bpy_struct.is_property_readonly`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_readonly "bpy.types.bpy_struct.is_property_readonly")
-  * [`bpy_struct.is_property_set`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_set "bpy.types.bpy_struct.is_property_set")
-  * [`bpy_struct.items`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.items "bpy.types.bpy_struct.items")
-  * [`bpy_struct.keyframe_delete`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keyframe_delete "bpy.types.bpy_struct.keyframe_delete")
-  * [`bpy_struct.keyframe_insert`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keyframe_insert "bpy.types.bpy_struct.keyframe_insert")
-  * [`bpy_struct.keys`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keys "bpy.types.bpy_struct.keys")
-  * [`bpy_struct.path_from_id`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.path_from_id "bpy.types.bpy_struct.path_from_id")
-  * [`bpy_struct.path_resolve`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.path_resolve "bpy.types.bpy_struct.path_resolve")
-  * [`bpy_struct.pop`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.pop "bpy.types.bpy_struct.pop")
-  * [`bpy_struct.property_overridable_library_set`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.property_overridable_library_set "bpy.types.bpy_struct.property_overridable_library_set")
-  * [`bpy_struct.property_unset`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.property_unset "bpy.types.bpy_struct.property_unset")
-  * [`bpy_struct.rna_ancestors`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.rna_ancestors "bpy.types.bpy_struct.rna_ancestors")
+  * [`bpy_struct.as_pointer`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.as_pointer "bpy.types.bpy_struct.as_pointer")
+  * [`bpy_struct.driver_add`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.driver_add "bpy.types.bpy_struct.driver_add")
+  * [`bpy_struct.driver_remove`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.driver_remove "bpy.types.bpy_struct.driver_remove")
+  * [`bpy_struct.get`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.get "bpy.types.bpy_struct.get")
+  * [`bpy_struct.id_properties_clear`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_properties_clear "bpy.types.bpy_struct.id_properties_clear")
+  * [`bpy_struct.id_properties_ensure`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_properties_ensure "bpy.types.bpy_struct.id_properties_ensure")
+  * [`bpy_struct.id_properties_ui`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_properties_ui "bpy.types.bpy_struct.id_properties_ui")
+  * [`bpy_struct.is_property_hidden`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_hidden "bpy.types.bpy_struct.is_property_hidden")
+  * [`bpy_struct.is_property_overridable_library`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_overridable_library "bpy.types.bpy_struct.is_property_overridable_library")
+  * [`bpy_struct.is_property_readonly`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_readonly "bpy.types.bpy_struct.is_property_readonly")
+  * [`bpy_struct.is_property_set`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_set "bpy.types.bpy_struct.is_property_set")
+  * [`bpy_struct.items`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.items "bpy.types.bpy_struct.items")
+  * [`bpy_struct.keyframe_delete`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.keyframe_delete "bpy.types.bpy_struct.keyframe_delete")
+  * [`bpy_struct.keyframe_insert`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.keyframe_insert "bpy.types.bpy_struct.keyframe_insert")
+  * [`bpy_struct.keys`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.keys "bpy.types.bpy_struct.keys")
+  * [`bpy_struct.path_from_id`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.path_from_id "bpy.types.bpy_struct.path_from_id")
+  * [`bpy_struct.path_resolve`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.path_resolve "bpy.types.bpy_struct.path_resolve")
+  * [`bpy_struct.pop`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.pop "bpy.types.bpy_struct.pop")
+  * [`bpy_struct.property_overridable_library_set`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.property_overridable_library_set "bpy.types.bpy_struct.property_overridable_library_set")
+  * [`bpy_struct.property_unset`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.property_unset "bpy.types.bpy_struct.property_unset")
+  * [`bpy_struct.rna_ancestors`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.rna_ancestors "bpy.types.bpy_struct.rna_ancestors")
 
 | 
 
-  * [`bpy_struct.type_recast`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.type_recast "bpy.types.bpy_struct.type_recast")
-  * [`bpy_struct.values`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.values "bpy.types.bpy_struct.values")
-  * [`ID.rename`](bpy.types.ID.html#bpy.types.ID.rename "bpy.types.ID.rename")
-  * [`ID.evaluated_get`](bpy.types.ID.html#bpy.types.ID.evaluated_get "bpy.types.ID.evaluated_get")
-  * [`ID.copy`](bpy.types.ID.html#bpy.types.ID.copy "bpy.types.ID.copy")
-  * [`ID.asset_mark`](bpy.types.ID.html#bpy.types.ID.asset_mark "bpy.types.ID.asset_mark")
-  * [`ID.asset_clear`](bpy.types.ID.html#bpy.types.ID.asset_clear "bpy.types.ID.asset_clear")
-  * [`ID.asset_generate_preview`](bpy.types.ID.html#bpy.types.ID.asset_generate_preview "bpy.types.ID.asset_generate_preview")
-  * [`ID.override_create`](bpy.types.ID.html#bpy.types.ID.override_create "bpy.types.ID.override_create")
-  * [`ID.override_hierarchy_create`](bpy.types.ID.html#bpy.types.ID.override_hierarchy_create "bpy.types.ID.override_hierarchy_create")
-  * [`ID.user_clear`](bpy.types.ID.html#bpy.types.ID.user_clear "bpy.types.ID.user_clear")
-  * [`ID.user_remap`](bpy.types.ID.html#bpy.types.ID.user_remap "bpy.types.ID.user_remap")
-  * [`ID.make_local`](bpy.types.ID.html#bpy.types.ID.make_local "bpy.types.ID.make_local")
-  * [`ID.user_of_id`](bpy.types.ID.html#bpy.types.ID.user_of_id "bpy.types.ID.user_of_id")
-  * [`ID.animation_data_create`](bpy.types.ID.html#bpy.types.ID.animation_data_create "bpy.types.ID.animation_data_create")
-  * [`ID.animation_data_clear`](bpy.types.ID.html#bpy.types.ID.animation_data_clear "bpy.types.ID.animation_data_clear")
-  * [`ID.update_tag`](bpy.types.ID.html#bpy.types.ID.update_tag "bpy.types.ID.update_tag")
-  * [`ID.preview_ensure`](bpy.types.ID.html#bpy.types.ID.preview_ensure "bpy.types.ID.preview_ensure")
-  * [`ID.bl_rna_get_subclass`](bpy.types.ID.html#bpy.types.ID.bl_rna_get_subclass "bpy.types.ID.bl_rna_get_subclass")
-  * [`ID.bl_rna_get_subclass_py`](bpy.types.ID.html#bpy.types.ID.bl_rna_get_subclass_py "bpy.types.ID.bl_rna_get_subclass_py")
+  * [`bpy_struct.type_recast`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.type_recast "bpy.types.bpy_struct.type_recast")
+  * [`bpy_struct.values`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.values "bpy.types.bpy_struct.values")
+  * [`ID.rename`](bpy.types.ID.md#bpy.types.ID.rename "bpy.types.ID.rename")
+  * [`ID.evaluated_get`](bpy.types.ID.md#bpy.types.ID.evaluated_get "bpy.types.ID.evaluated_get")
+  * [`ID.copy`](bpy.types.ID.md#bpy.types.ID.copy "bpy.types.ID.copy")
+  * [`ID.asset_mark`](bpy.types.ID.md#bpy.types.ID.asset_mark "bpy.types.ID.asset_mark")
+  * [`ID.asset_clear`](bpy.types.ID.md#bpy.types.ID.asset_clear "bpy.types.ID.asset_clear")
+  * [`ID.asset_generate_preview`](bpy.types.ID.md#bpy.types.ID.asset_generate_preview "bpy.types.ID.asset_generate_preview")
+  * [`ID.override_create`](bpy.types.ID.md#bpy.types.ID.override_create "bpy.types.ID.override_create")
+  * [`ID.override_hierarchy_create`](bpy.types.ID.md#bpy.types.ID.override_hierarchy_create "bpy.types.ID.override_hierarchy_create")
+  * [`ID.user_clear`](bpy.types.ID.md#bpy.types.ID.user_clear "bpy.types.ID.user_clear")
+  * [`ID.user_remap`](bpy.types.ID.md#bpy.types.ID.user_remap "bpy.types.ID.user_remap")
+  * [`ID.make_local`](bpy.types.ID.md#bpy.types.ID.make_local "bpy.types.ID.make_local")
+  * [`ID.user_of_id`](bpy.types.ID.md#bpy.types.ID.user_of_id "bpy.types.ID.user_of_id")
+  * [`ID.animation_data_create`](bpy.types.ID.md#bpy.types.ID.animation_data_create "bpy.types.ID.animation_data_create")
+  * [`ID.animation_data_clear`](bpy.types.ID.md#bpy.types.ID.animation_data_clear "bpy.types.ID.animation_data_clear")
+  * [`ID.update_tag`](bpy.types.ID.md#bpy.types.ID.update_tag "bpy.types.ID.update_tag")
+  * [`ID.preview_ensure`](bpy.types.ID.md#bpy.types.ID.preview_ensure "bpy.types.ID.preview_ensure")
+  * [`ID.bl_rna_get_subclass`](bpy.types.ID.md#bpy.types.ID.bl_rna_get_subclass "bpy.types.ID.bl_rna_get_subclass")
+  * [`ID.bl_rna_get_subclass_py`](bpy.types.ID.md#bpy.types.ID.bl_rna_get_subclass_py "bpy.types.ID.bl_rna_get_subclass_py")
 
   
 ---|---  
   
 ## References
 
-  * [`bpy.context.material`](bpy.context.html#bpy.context.material "bpy.context.material")
-  * [`BlendData.materials`](bpy.types.BlendData.html#bpy.types.BlendData.materials "bpy.types.BlendData.materials")
-  * [`BlendDataMaterials.create_gpencil_data`](bpy.types.BlendDataMaterials.html#bpy.types.BlendDataMaterials.create_gpencil_data "bpy.types.BlendDataMaterials.create_gpencil_data")
-  * [`BlendDataMaterials.new`](bpy.types.BlendDataMaterials.html#bpy.types.BlendDataMaterials.new "bpy.types.BlendDataMaterials.new")
-  * [`BlendDataMaterials.remove`](bpy.types.BlendDataMaterials.html#bpy.types.BlendDataMaterials.remove "bpy.types.BlendDataMaterials.remove")
-  * [`BlendDataMaterials.remove_gpencil_data`](bpy.types.BlendDataMaterials.html#bpy.types.BlendDataMaterials.remove_gpencil_data "bpy.types.BlendDataMaterials.remove_gpencil_data")
-  * [`BrushGpencilSettings.material`](bpy.types.BrushGpencilSettings.html#bpy.types.BrushGpencilSettings.material "bpy.types.BrushGpencilSettings.material")
-  * [`BrushGpencilSettings.material_alt`](bpy.types.BrushGpencilSettings.html#bpy.types.BrushGpencilSettings.material_alt "bpy.types.BrushGpencilSettings.material_alt")
-  * [`Curve.materials`](bpy.types.Curve.html#bpy.types.Curve.materials "bpy.types.Curve.materials")
-  * [`Curves.materials`](bpy.types.Curves.html#bpy.types.Curves.materials "bpy.types.Curves.materials")
-  * [`GeometryNodeInputMaterial.material`](bpy.types.GeometryNodeInputMaterial.html#bpy.types.GeometryNodeInputMaterial.material "bpy.types.GeometryNodeInputMaterial.material")
-  * [`GreasePencilArrayModifier.material_filter`](bpy.types.GreasePencilArrayModifier.html#bpy.types.GreasePencilArrayModifier.material_filter "bpy.types.GreasePencilArrayModifier.material_filter")
-  * [`GreasePencilBuildModifier.material_filter`](bpy.types.GreasePencilBuildModifier.html#bpy.types.GreasePencilBuildModifier.material_filter "bpy.types.GreasePencilBuildModifier.material_filter")
-  * [`GreasePencilColorModifier.material_filter`](bpy.types.GreasePencilColorModifier.html#bpy.types.GreasePencilColorModifier.material_filter "bpy.types.GreasePencilColorModifier.material_filter")
-  * [`GreasePencilDashModifierData.material_filter`](bpy.types.GreasePencilDashModifierData.html#bpy.types.GreasePencilDashModifierData.material_filter "bpy.types.GreasePencilDashModifierData.material_filter")
-  * [`GreasePencilEnvelopeModifier.material_filter`](bpy.types.GreasePencilEnvelopeModifier.html#bpy.types.GreasePencilEnvelopeModifier.material_filter "bpy.types.GreasePencilEnvelopeModifier.material_filter")
-  * [`GreasePencilHookModifier.material_filter`](bpy.types.GreasePencilHookModifier.html#bpy.types.GreasePencilHookModifier.material_filter "bpy.types.GreasePencilHookModifier.material_filter")
-  * [`GreasePencilLatticeModifier.material_filter`](bpy.types.GreasePencilLatticeModifier.html#bpy.types.GreasePencilLatticeModifier.material_filter "bpy.types.GreasePencilLatticeModifier.material_filter")
-  * [`GreasePencilLengthModifier.material_filter`](bpy.types.GreasePencilLengthModifier.html#bpy.types.GreasePencilLengthModifier.material_filter "bpy.types.GreasePencilLengthModifier.material_filter")
-  * [`GreasePencilLineartModifier.target_material`](bpy.types.GreasePencilLineartModifier.html#bpy.types.GreasePencilLineartModifier.target_material "bpy.types.GreasePencilLineartModifier.target_material")
-  * [`GreasePencilMirrorModifier.material_filter`](bpy.types.GreasePencilMirrorModifier.html#bpy.types.GreasePencilMirrorModifier.material_filter "bpy.types.GreasePencilMirrorModifier.material_filter")
-  * [`GreasePencilMultiplyModifier.material_filter`](bpy.types.GreasePencilMultiplyModifier.html#bpy.types.GreasePencilMultiplyModifier.material_filter "bpy.types.GreasePencilMultiplyModifier.material_filter")
-  * [`GreasePencilNoiseModifier.material_filter`](bpy.types.GreasePencilNoiseModifier.html#bpy.types.GreasePencilNoiseModifier.material_filter "bpy.types.GreasePencilNoiseModifier.material_filter")
-  * [`GreasePencilOffsetModifier.material_filter`](bpy.types.GreasePencilOffsetModifier.html#bpy.types.GreasePencilOffsetModifier.material_filter "bpy.types.GreasePencilOffsetModifier.material_filter")
+  * [`bpy.context.material`](bpy.context.md#bpy.context.material "bpy.context.material")
+  * [`BlendData.materials`](bpy.types.BlendData.md#bpy.types.BlendData.materials "bpy.types.BlendData.materials")
+  * [`BlendDataMaterials.create_gpencil_data`](bpy.types.BlendDataMaterials.md#bpy.types.BlendDataMaterials.create_gpencil_data "bpy.types.BlendDataMaterials.create_gpencil_data")
+  * [`BlendDataMaterials.new`](bpy.types.BlendDataMaterials.md#bpy.types.BlendDataMaterials.new "bpy.types.BlendDataMaterials.new")
+  * [`BlendDataMaterials.remove`](bpy.types.BlendDataMaterials.md#bpy.types.BlendDataMaterials.remove "bpy.types.BlendDataMaterials.remove")
+  * [`BlendDataMaterials.remove_gpencil_data`](bpy.types.BlendDataMaterials.md#bpy.types.BlendDataMaterials.remove_gpencil_data "bpy.types.BlendDataMaterials.remove_gpencil_data")
+  * [`BrushGpencilSettings.material`](bpy.types.BrushGpencilSettings.md#bpy.types.BrushGpencilSettings.material "bpy.types.BrushGpencilSettings.material")
+  * [`BrushGpencilSettings.material_alt`](bpy.types.BrushGpencilSettings.md#bpy.types.BrushGpencilSettings.material_alt "bpy.types.BrushGpencilSettings.material_alt")
+  * [`Curve.materials`](bpy.types.Curve.md#bpy.types.Curve.materials "bpy.types.Curve.materials")
+  * [`Curves.materials`](bpy.types.Curves.md#bpy.types.Curves.materials "bpy.types.Curves.materials")
+  * [`GeometryNodeInputMaterial.material`](bpy.types.GeometryNodeInputMaterial.md#bpy.types.GeometryNodeInputMaterial.material "bpy.types.GeometryNodeInputMaterial.material")
+  * [`GreasePencilArrayModifier.material_filter`](bpy.types.GreasePencilArrayModifier.md#bpy.types.GreasePencilArrayModifier.material_filter "bpy.types.GreasePencilArrayModifier.material_filter")
+  * [`GreasePencilBuildModifier.material_filter`](bpy.types.GreasePencilBuildModifier.md#bpy.types.GreasePencilBuildModifier.material_filter "bpy.types.GreasePencilBuildModifier.material_filter")
+  * [`GreasePencilColorModifier.material_filter`](bpy.types.GreasePencilColorModifier.md#bpy.types.GreasePencilColorModifier.material_filter "bpy.types.GreasePencilColorModifier.material_filter")
+  * [`GreasePencilDashModifierData.material_filter`](bpy.types.GreasePencilDashModifierData.md#bpy.types.GreasePencilDashModifierData.material_filter "bpy.types.GreasePencilDashModifierData.material_filter")
+  * [`GreasePencilEnvelopeModifier.material_filter`](bpy.types.GreasePencilEnvelopeModifier.md#bpy.types.GreasePencilEnvelopeModifier.material_filter "bpy.types.GreasePencilEnvelopeModifier.material_filter")
+  * [`GreasePencilHookModifier.material_filter`](bpy.types.GreasePencilHookModifier.md#bpy.types.GreasePencilHookModifier.material_filter "bpy.types.GreasePencilHookModifier.material_filter")
+  * [`GreasePencilLatticeModifier.material_filter`](bpy.types.GreasePencilLatticeModifier.md#bpy.types.GreasePencilLatticeModifier.material_filter "bpy.types.GreasePencilLatticeModifier.material_filter")
+  * [`GreasePencilLengthModifier.material_filter`](bpy.types.GreasePencilLengthModifier.md#bpy.types.GreasePencilLengthModifier.material_filter "bpy.types.GreasePencilLengthModifier.material_filter")
+  * [`GreasePencilLineartModifier.target_material`](bpy.types.GreasePencilLineartModifier.md#bpy.types.GreasePencilLineartModifier.target_material "bpy.types.GreasePencilLineartModifier.target_material")
+  * [`GreasePencilMirrorModifier.material_filter`](bpy.types.GreasePencilMirrorModifier.md#bpy.types.GreasePencilMirrorModifier.material_filter "bpy.types.GreasePencilMirrorModifier.material_filter")
+  * [`GreasePencilMultiplyModifier.material_filter`](bpy.types.GreasePencilMultiplyModifier.md#bpy.types.GreasePencilMultiplyModifier.material_filter "bpy.types.GreasePencilMultiplyModifier.material_filter")
+  * [`GreasePencilNoiseModifier.material_filter`](bpy.types.GreasePencilNoiseModifier.md#bpy.types.GreasePencilNoiseModifier.material_filter "bpy.types.GreasePencilNoiseModifier.material_filter")
+  * [`GreasePencilOffsetModifier.material_filter`](bpy.types.GreasePencilOffsetModifier.md#bpy.types.GreasePencilOffsetModifier.material_filter "bpy.types.GreasePencilOffsetModifier.material_filter")
 
 | 
 
-  * [`GreasePencilOpacityModifier.material_filter`](bpy.types.GreasePencilOpacityModifier.html#bpy.types.GreasePencilOpacityModifier.material_filter "bpy.types.GreasePencilOpacityModifier.material_filter")
-  * [`GreasePencilOutlineModifier.material_filter`](bpy.types.GreasePencilOutlineModifier.html#bpy.types.GreasePencilOutlineModifier.material_filter "bpy.types.GreasePencilOutlineModifier.material_filter")
-  * [`GreasePencilOutlineModifier.outline_material`](bpy.types.GreasePencilOutlineModifier.html#bpy.types.GreasePencilOutlineModifier.outline_material "bpy.types.GreasePencilOutlineModifier.outline_material")
-  * [`GreasePencilShrinkwrapModifier.material_filter`](bpy.types.GreasePencilShrinkwrapModifier.html#bpy.types.GreasePencilShrinkwrapModifier.material_filter "bpy.types.GreasePencilShrinkwrapModifier.material_filter")
-  * [`GreasePencilSimplifyModifier.material_filter`](bpy.types.GreasePencilSimplifyModifier.html#bpy.types.GreasePencilSimplifyModifier.material_filter "bpy.types.GreasePencilSimplifyModifier.material_filter")
-  * [`GreasePencilSmoothModifier.material_filter`](bpy.types.GreasePencilSmoothModifier.html#bpy.types.GreasePencilSmoothModifier.material_filter "bpy.types.GreasePencilSmoothModifier.material_filter")
-  * [`GreasePencilSubdivModifier.material_filter`](bpy.types.GreasePencilSubdivModifier.html#bpy.types.GreasePencilSubdivModifier.material_filter "bpy.types.GreasePencilSubdivModifier.material_filter")
-  * [`GreasePencilTextureModifier.material_filter`](bpy.types.GreasePencilTextureModifier.html#bpy.types.GreasePencilTextureModifier.material_filter "bpy.types.GreasePencilTextureModifier.material_filter")
-  * [`GreasePencilThickModifierData.material_filter`](bpy.types.GreasePencilThickModifierData.html#bpy.types.GreasePencilThickModifierData.material_filter "bpy.types.GreasePencilThickModifierData.material_filter")
-  * [`GreasePencilTintModifier.material_filter`](bpy.types.GreasePencilTintModifier.html#bpy.types.GreasePencilTintModifier.material_filter "bpy.types.GreasePencilTintModifier.material_filter")
-  * [`GreasePencilWeightAngleModifier.material_filter`](bpy.types.GreasePencilWeightAngleModifier.html#bpy.types.GreasePencilWeightAngleModifier.material_filter "bpy.types.GreasePencilWeightAngleModifier.material_filter")
-  * [`GreasePencilWeightProximityModifier.material_filter`](bpy.types.GreasePencilWeightProximityModifier.html#bpy.types.GreasePencilWeightProximityModifier.material_filter "bpy.types.GreasePencilWeightProximityModifier.material_filter")
-  * [`GreasePencilv3.materials`](bpy.types.GreasePencilv3.html#bpy.types.GreasePencilv3.materials "bpy.types.GreasePencilv3.materials")
-  * [`IDMaterials.append`](bpy.types.IDMaterials.html#bpy.types.IDMaterials.append "bpy.types.IDMaterials.append")
-  * [`IDMaterials.pop`](bpy.types.IDMaterials.html#bpy.types.IDMaterials.pop "bpy.types.IDMaterials.pop")
-  * [`MaterialSlot.material`](bpy.types.MaterialSlot.html#bpy.types.MaterialSlot.material "bpy.types.MaterialSlot.material")
-  * [`Mesh.materials`](bpy.types.Mesh.html#bpy.types.Mesh.materials "bpy.types.Mesh.materials")
-  * [`MetaBall.materials`](bpy.types.MetaBall.html#bpy.types.MetaBall.materials "bpy.types.MetaBall.materials")
-  * [`NodeSocketMaterial.default_value`](bpy.types.NodeSocketMaterial.html#bpy.types.NodeSocketMaterial.default_value "bpy.types.NodeSocketMaterial.default_value")
-  * [`NodeTreeInterfaceSocketMaterial.default_value`](bpy.types.NodeTreeInterfaceSocketMaterial.html#bpy.types.NodeTreeInterfaceSocketMaterial.default_value "bpy.types.NodeTreeInterfaceSocketMaterial.default_value")
-  * [`Object.active_material`](bpy.types.Object.html#bpy.types.Object.active_material "bpy.types.Object.active_material")
-  * [`PointCloud.materials`](bpy.types.PointCloud.html#bpy.types.PointCloud.materials "bpy.types.PointCloud.materials")
-  * [`ViewLayer.material_override`](bpy.types.ViewLayer.html#bpy.types.ViewLayer.material_override "bpy.types.ViewLayer.material_override")
-  * [`Volume.materials`](bpy.types.Volume.html#bpy.types.Volume.materials "bpy.types.Volume.materials")
+  * [`GreasePencilOpacityModifier.material_filter`](bpy.types.GreasePencilOpacityModifier.md#bpy.types.GreasePencilOpacityModifier.material_filter "bpy.types.GreasePencilOpacityModifier.material_filter")
+  * [`GreasePencilOutlineModifier.material_filter`](bpy.types.GreasePencilOutlineModifier.md#bpy.types.GreasePencilOutlineModifier.material_filter "bpy.types.GreasePencilOutlineModifier.material_filter")
+  * [`GreasePencilOutlineModifier.outline_material`](bpy.types.GreasePencilOutlineModifier.md#bpy.types.GreasePencilOutlineModifier.outline_material "bpy.types.GreasePencilOutlineModifier.outline_material")
+  * [`GreasePencilShrinkwrapModifier.material_filter`](bpy.types.GreasePencilShrinkwrapModifier.md#bpy.types.GreasePencilShrinkwrapModifier.material_filter "bpy.types.GreasePencilShrinkwrapModifier.material_filter")
+  * [`GreasePencilSimplifyModifier.material_filter`](bpy.types.GreasePencilSimplifyModifier.md#bpy.types.GreasePencilSimplifyModifier.material_filter "bpy.types.GreasePencilSimplifyModifier.material_filter")
+  * [`GreasePencilSmoothModifier.material_filter`](bpy.types.GreasePencilSmoothModifier.md#bpy.types.GreasePencilSmoothModifier.material_filter "bpy.types.GreasePencilSmoothModifier.material_filter")
+  * [`GreasePencilSubdivModifier.material_filter`](bpy.types.GreasePencilSubdivModifier.md#bpy.types.GreasePencilSubdivModifier.material_filter "bpy.types.GreasePencilSubdivModifier.material_filter")
+  * [`GreasePencilTextureModifier.material_filter`](bpy.types.GreasePencilTextureModifier.md#bpy.types.GreasePencilTextureModifier.material_filter "bpy.types.GreasePencilTextureModifier.material_filter")
+  * [`GreasePencilThickModifierData.material_filter`](bpy.types.GreasePencilThickModifierData.md#bpy.types.GreasePencilThickModifierData.material_filter "bpy.types.GreasePencilThickModifierData.material_filter")
+  * [`GreasePencilTintModifier.material_filter`](bpy.types.GreasePencilTintModifier.md#bpy.types.GreasePencilTintModifier.material_filter "bpy.types.GreasePencilTintModifier.material_filter")
+  * [`GreasePencilWeightAngleModifier.material_filter`](bpy.types.GreasePencilWeightAngleModifier.md#bpy.types.GreasePencilWeightAngleModifier.material_filter "bpy.types.GreasePencilWeightAngleModifier.material_filter")
+  * [`GreasePencilWeightProximityModifier.material_filter`](bpy.types.GreasePencilWeightProximityModifier.md#bpy.types.GreasePencilWeightProximityModifier.material_filter "bpy.types.GreasePencilWeightProximityModifier.material_filter")
+  * [`GreasePencilv3.materials`](bpy.types.GreasePencilv3.md#bpy.types.GreasePencilv3.materials "bpy.types.GreasePencilv3.materials")
+  * [`IDMaterials.append`](bpy.types.IDMaterials.md#bpy.types.IDMaterials.append "bpy.types.IDMaterials.append")
+  * [`IDMaterials.pop`](bpy.types.IDMaterials.md#bpy.types.IDMaterials.pop "bpy.types.IDMaterials.pop")
+  * [`MaterialSlot.material`](bpy.types.MaterialSlot.md#bpy.types.MaterialSlot.material "bpy.types.MaterialSlot.material")
+  * [`Mesh.materials`](bpy.types.Mesh.md#bpy.types.Mesh.materials "bpy.types.Mesh.materials")
+  * [`MetaBall.materials`](bpy.types.MetaBall.md#bpy.types.MetaBall.materials "bpy.types.MetaBall.materials")
+  * [`NodeSocketMaterial.default_value`](bpy.types.NodeSocketMaterial.md#bpy.types.NodeSocketMaterial.default_value "bpy.types.NodeSocketMaterial.default_value")
+  * [`NodeTreeInterfaceSocketMaterial.default_value`](bpy.types.NodeTreeInterfaceSocketMaterial.md#bpy.types.NodeTreeInterfaceSocketMaterial.default_value "bpy.types.NodeTreeInterfaceSocketMaterial.default_value")
+  * [`Object.active_material`](bpy.types.Object.md#bpy.types.Object.active_material "bpy.types.Object.active_material")
+  * [`PointCloud.materials`](bpy.types.PointCloud.md#bpy.types.PointCloud.materials "bpy.types.PointCloud.materials")
+  * [`ViewLayer.material_override`](bpy.types.ViewLayer.md#bpy.types.ViewLayer.material_override "bpy.types.ViewLayer.material_override")
+  * [`Volume.materials`](bpy.types.Volume.md#bpy.types.Volume.materials "bpy.types.Volume.materials")
 
   
 ---|---

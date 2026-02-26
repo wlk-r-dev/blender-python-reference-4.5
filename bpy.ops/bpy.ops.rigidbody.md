@@ -80,7 +80,7 @@ Add Rigid Body Constraint to active object
 Parameters:
     
 
-**type** (enum in [Rigidbody Constraint Type Items](bpy_types_enum_items/rigidbody_constraint_type_items.html#rna-enum-rigidbody-constraint-type-items), (optional)) – Rigid Body Constraint Type
+**type** (enum in [Rigidbody Constraint Type Items](bpy_types_enum_items/rigidbody_constraint_type_items.md#rna-enum-rigidbody-constraint-type-items), (optional)) – Rigid Body Constraint Type
 
 bpy.ops.rigidbody.constraint_remove()
     
@@ -108,7 +108,7 @@ Add active object as Rigid Body
 Parameters:
     
 
-**type** (enum in [Rigidbody Object Type Items](bpy_types_enum_items/rigidbody_object_type_items.html#rna-enum-rigidbody-object-type-items), (optional)) – Rigid Body Type
+**type** (enum in [Rigidbody Object Type Items](bpy_types_enum_items/rigidbody_object_type_items.md#rna-enum-rigidbody-object-type-items), (optional)) – Rigid Body Type
 
 bpy.ops.rigidbody.object_remove()
     
@@ -133,7 +133,7 @@ Add selected objects as Rigid Bodies
 Parameters:
     
 
-**type** (enum in [Rigidbody Object Type Items](bpy_types_enum_items/rigidbody_object_type_items.html#rna-enum-rigidbody-object-type-items), (optional)) – Rigid Body Type
+**type** (enum in [Rigidbody Object Type Items](bpy_types_enum_items/rigidbody_object_type_items.md#rna-enum-rigidbody-object-type-items), (optional)) – Rigid Body Type
 
 bpy.ops.rigidbody.objects_remove()
     
@@ -148,7 +148,7 @@ Change collision shapes for selected Rigid Body Objects
 Parameters:
     
 
-**type** (enum in [Rigidbody Object Shape Items](bpy_types_enum_items/rigidbody_object_shape_items.html#rna-enum-rigidbody-object-shape-items), (optional)) – Rigid Body Shape
+**type** (enum in [Rigidbody Object Shape Items](bpy_types_enum_items/rigidbody_object_shape_items.md#rna-enum-rigidbody-object-shape-items), (optional)) – Rigid Body Shape
 
 bpy.ops.rigidbody.world_add()
     

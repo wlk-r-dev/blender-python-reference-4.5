@@ -163,7 +163,7 @@ Set 2D cursor location
 Parameters:
     
 
-**location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 2 items in [-inf, inf], (optional)) – Location, Cursor location in normalized preview coordinates
+**location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 2 items in [-inf, inf], (optional)) – Location, Cursor location in normalized preview coordinates
 
 bpy.ops.sequencer.deinterlace_selected_movies()
     
@@ -268,7 +268,7 @@ Type, Sequencer effect type
 
   * **skip_locked_or_muted_channels** (_boolean_ _,__(__optional_ _)_) – Skip Locked or Muted Channels, Add strips to muted or locked channels when adding movie strips
 
-  * **color** ([`mathutils.Color`](mathutils.html#mathutils.Color "mathutils.Color") of 3 items in [0, 1], (optional)) – Color, Initialize the strip with this color
+  * **color** ([`mathutils.Color`](mathutils.md#mathutils.Color "mathutils.Color") of 3 items in [0, 1], (optional)) – Color, Initialize the strip with this color
 
 
 bpy.ops.sequencer.enable_proxies(_*_ , _proxy_25 =False_, _proxy_50 =False_, _proxy_75 =False_, _proxy_100 =False_, _overwrite =False_)
@@ -1336,7 +1336,7 @@ Set a color tag for the selected strips
 Parameters:
     
 
-**color** (enum in [Strip Color Items](bpy_types_enum_items/strip_color_items.html#rna-enum-strip-color-items), (optional)) – Color Tag
+**color** (enum in [Strip Color Items](bpy_types_enum_items/strip_color_items.md#rna-enum-strip-color-items), (optional)) – Color Tag
 
 bpy.ops.sequencer.strip_jump(_*_ , _next =True_, _center =True_)
     

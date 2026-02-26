@@ -10,7 +10,7 @@ Parameters:
 
   * **position** (_Sequence_ _[__float_ _]_) – 2D position where the circle will be drawn.
 
-  * **color** (_Sequence_ _[__float_ _]_) – Color of the circle (RGBA). To use transparency blend must be set to `ALPHA`, see: [`gpu.state.blend_set()`](gpu.state.html#gpu.state.blend_set "gpu.state.blend_set").
+  * **color** (_Sequence_ _[__float_ _]_) – Color of the circle (RGBA). To use transparency blend must be set to `ALPHA`, see: [`gpu.state.blend_set()`](gpu.state.md#gpu.state.blend_set "gpu.state.blend_set").
 
   * **radius** (_float_) – Radius of the circle.
 
@@ -25,7 +25,7 @@ Draw a 2d texture.
 Parameters:
     
 
-  * **texture** ([`gpu.types.GPUTexture`](gpu.types.html#gpu.types.GPUTexture "gpu.types.GPUTexture")) – GPUTexture to draw (e.g. gpu.texture.from_image(image) for [`bpy.types.Image`](bpy.types.Image.html#bpy.types.Image "bpy.types.Image")).
+  * **texture** ([`gpu.types.GPUTexture`](gpu.types.md#gpu.types.GPUTexture "gpu.types.GPUTexture")) – GPUTexture to draw (e.g. gpu.texture.from_image(image) for [`bpy.types.Image`](bpy.types.Image.md#bpy.types.Image "bpy.types.Image")).
 
   * **position** (_2D Vector_) – Position of the lower left corner.
 

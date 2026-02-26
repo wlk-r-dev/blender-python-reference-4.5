@@ -46,7 +46,7 @@ Set a color tag for the selected collections
 Parameters:
     
 
-**color** (enum in [Collection Color Items](bpy_types_enum_items/collection_color_items.html#rna-enum-collection-color-items), (optional)) – Color Tag
+**color** (enum in [Collection Color Items](bpy_types_enum_items/collection_color_items.md#rna-enum-collection-color-items), (optional)) – Color Tag
 
 bpy.ops.outliner.collection_disable()
     
@@ -301,7 +301,7 @@ Undocumented, consider [contributing](https://developer.blender.org/).
 Parameters:
     
 
-  * **id_type** (enum in [Id Type Items](bpy_types_enum_items/id_type_items.html#rna-enum-id-type-items), (optional)) – ID Type
+  * **id_type** (enum in [Id Type Items](bpy_types_enum_items/id_type_items.md#rna-enum-id-type-items), (optional)) – ID Type
 
   * **old_id** (_enum in_ _[__]__,__(__optional_ _)_) – Old ID, Old ID to replace
 

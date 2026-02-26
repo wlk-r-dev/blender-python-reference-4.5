@@ -109,7 +109,7 @@ Convert type of selected curves
 Parameters:
     
 
-  * **type** (enum in [Curves Type Items](bpy_types_enum_items/curves_type_items.html#rna-enum-curves-type-items), (optional)) – Type
+  * **type** (enum in [Curves Type Items](bpy_types_enum_items/curves_type_items.md#rna-enum-curves-type-items), (optional)) – Type
 
   * **threshold** (_float in_ _[__0_ _,__100_ _]__,__(__optional_ _)_) – Threshold, The distance that the resulting points are allowed to be within
 
@@ -369,7 +369,7 @@ Type, Interpolation method to use the next time ‘Interpolate Sequence’ is ru
 
     * `ELASTIC` Elastic – Exponentially decaying sine wave, like an elastic band.
 
-  * **easing** (enum in [Beztriple Interpolation Easing Items](bpy_types_enum_items/beztriple_interpolation_easing_items.html#rna-enum-beztriple-interpolation-easing-items), (optional)) – Easing, Which ends of the segment between the preceding and following Grease Pencil frames easing interpolation is applied to
+  * **easing** (enum in [Beztriple Interpolation Easing Items](bpy_types_enum_items/beztriple_interpolation_easing_items.md#rna-enum-beztriple-interpolation-easing-items), (optional)) – Easing, Which ends of the segment between the preceding and following Grease Pencil frames easing interpolation is applied to
 
   * **back** (_float in_ _[__0_ _,__inf_ _]__,__(__optional_ _)_) – Back, Amount of overshoot for ‘back’ easing
 
@@ -999,7 +999,7 @@ Set type of selected curves
 Parameters:
     
 
-  * **type** (enum in [Curves Type Items](bpy_types_enum_items/curves_type_items.html#rna-enum-curves-type-items), (optional)) – Type, Curve type
+  * **type** (enum in [Curves Type Items](bpy_types_enum_items/curves_type_items.md#rna-enum-curves-type-items), (optional)) – Type, Curve type
 
   * **use_handles** (_boolean_ _,__(__optional_ _)_) – Handles, Take handle information into account in the conversion
 
@@ -1012,7 +1012,7 @@ Set the handle type for bezier curves
 Parameters:
     
 
-**type** (enum in [Curves Handle Type Items](bpy_types_enum_items/curves_handle_type_items.html#rna-enum-curves-handle-type-items), (optional)) – Type
+**type** (enum in [Curves Handle Type Items](bpy_types_enum_items/curves_handle_type_items.md#rna-enum-curves-handle-type-items), (optional)) – Type
 
 bpy.ops.grease_pencil.set_material(_*_ , _slot ='DEFAULT'_)
     
@@ -1032,7 +1032,7 @@ Change the selection mode for Grease Pencil strokes
 Parameters:
     
 
-**mode** (enum in [Grease Pencil Selectmode Items](bpy_types_enum_items/grease_pencil_selectmode_items.html#rna-enum-grease-pencil-selectmode-items), (optional)) – Mode
+**mode** (enum in [Grease Pencil Selectmode Items](bpy_types_enum_items/grease_pencil_selectmode_items.md#rna-enum-grease-pencil-selectmode-items), (optional)) – Mode
 
 bpy.ops.grease_pencil.set_start_point()
     

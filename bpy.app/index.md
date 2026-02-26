@@ -4,10 +4,10 @@ This module contains application values that remain unchanged during runtime.
 
 Submodules
 
-  * [Application Handlers (bpy.app.handlers)](bpy.app.handlers.html)
-  * [Application Translations (bpy.app.translations)](bpy.app.translations.html)
-  * [Application Icons (bpy.app.icons)](bpy.app.icons.html)
-  * [Application Timers (bpy.app.timers)](bpy.app.timers.html)
+  * [Application Handlers (bpy.app.handlers)](bpy.app.handlers.md)
+  * [Application Translations (bpy.app.translations)](bpy.app.translations.md)
+  * [Application Icons (bpy.app.icons)](bpy.app.icons.md)
+  * [Application Timers (bpy.app.timers)](bpy.app.timers.md)
 
 
 bpy.app.autoexec_fail
@@ -143,7 +143,7 @@ Using The `--python` command line argument to populate name-space often fails to
 
 Populating the driver name-space before the blend-file loads also doesn’t work since opening a file clears the name-space.
 
-It is possible to run a script via the `--python` command line argument, before the blend file. This can register a load-post handler ([`bpy.app.handlers.load_post`](bpy.app.handlers.html#bpy.app.handlers.load_post "bpy.app.handlers.load_post")) that initialized the name-space. While this works for background tasks it has the downside that opening the file from the file selector won’t setup the name-space.
+It is possible to run a script via the `--python` command line argument, before the blend file. This can register a load-post handler ([`bpy.app.handlers.load_post`](bpy.app.handlers.md#bpy.app.handlers.load_post "bpy.app.handlers.load_post")) that initialized the name-space. While this works for background tasks it has the downside that opening the file from the file selector won’t setup the name-space.
 
 bpy.app.online_access
     
@@ -353,7 +353,7 @@ Check whether a job of the given type is running.
 Parameters:
     
 
-**job_type** (_str_) – job type in [Wm Job Type Items](bpy_types_enum_items/wm_job_type_items.html#rna-enum-wm-job-type-items).
+**job_type** (_str_) – job type in [Wm Job Type Items](bpy_types_enum_items/wm_job_type_items.md#rna-enum-wm-job-type-items).
 
 Returns:
     

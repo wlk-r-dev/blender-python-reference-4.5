@@ -1,6 +1,6 @@
 # Brush(ID)
 
-base classes — [`bpy_struct`](bpy.types.bpy_struct.html#bpy.types.bpy_struct "bpy.types.bpy_struct"), [`ID`](bpy.types.ID.html#bpy.types.ID "bpy.types.ID")
+base classes — [`bpy_struct`](bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct"), [`ID`](bpy.types.ID.md#bpy.types.ID "bpy.types.ID")
 
 _class _bpy.types.Brush(_ID_)
     
@@ -55,7 +55,7 @@ Curve used for the sensitivity
 Type:
     
 
-[`CurveMapping`](bpy.types.CurveMapping.html#bpy.types.CurveMapping "bpy.types.CurveMapping"), (readonly)
+[`CurveMapping`](bpy.types.CurveMapping.md#bpy.types.CurveMapping "bpy.types.CurveMapping"), (readonly)
 
 automasking_cavity_factor
     
@@ -231,7 +231,7 @@ Brush’s capabilities
 Type:
     
 
-[`BrushCapabilities`](bpy.types.BrushCapabilities.html#bpy.types.BrushCapabilities "bpy.types.BrushCapabilities"), (readonly, never None)
+[`BrushCapabilities`](bpy.types.BrushCapabilities.md#bpy.types.BrushCapabilities "bpy.types.BrushCapabilities"), (readonly, never None)
 
 cloth_constraint_softbody_strength
     
@@ -326,7 +326,7 @@ color
 Type:
     
 
-[`mathutils.Color`](mathutils.html#mathutils.Color "mathutils.Color") of 3 items in [0, inf], default (1.0, 1.0, 1.0)
+[`mathutils.Color`](mathutils.md#mathutils.Color "mathutils.Color") of 3 items in [0, inf], default (1.0, 1.0, 1.0)
 
 color_type
     
@@ -389,7 +389,7 @@ Editable falloff curve
 Type:
     
 
-[`CurveMapping`](bpy.types.CurveMapping.html#bpy.types.CurveMapping "bpy.types.CurveMapping"), (readonly, never None)
+[`CurveMapping`](bpy.types.CurveMapping.md#bpy.types.CurveMapping "bpy.types.CurveMapping"), (readonly, never None)
 
 curve_preset
     
@@ -397,7 +397,7 @@ curve_preset
 Type:
     
 
-enum in [Brush Curve Preset Items](bpy_types_enum_items/brush_curve_preset_items.html#rna-enum-brush-curve-preset-items), default `'CUSTOM'`
+enum in [Brush Curve Preset Items](bpy_types_enum_items/brush_curve_preset_items.md#rna-enum-brush-curve-preset-items), default `'CUSTOM'`
 
 curve_random_hue
     
@@ -407,7 +407,7 @@ Curve used for modulating effect
 Type:
     
 
-[`CurveMapping`](bpy.types.CurveMapping.html#bpy.types.CurveMapping "bpy.types.CurveMapping"), (readonly)
+[`CurveMapping`](bpy.types.CurveMapping.md#bpy.types.CurveMapping "bpy.types.CurveMapping"), (readonly)
 
 curve_random_saturation
     
@@ -417,7 +417,7 @@ Curve used for modulating effect
 Type:
     
 
-[`CurveMapping`](bpy.types.CurveMapping.html#bpy.types.CurveMapping "bpy.types.CurveMapping"), (readonly)
+[`CurveMapping`](bpy.types.CurveMapping.md#bpy.types.CurveMapping "bpy.types.CurveMapping"), (readonly)
 
 curve_random_value
     
@@ -427,7 +427,7 @@ Curve used for modulating effect
 Type:
     
 
-[`CurveMapping`](bpy.types.CurveMapping.html#bpy.types.CurveMapping "bpy.types.CurveMapping"), (readonly)
+[`CurveMapping`](bpy.types.CurveMapping.md#bpy.types.CurveMapping "bpy.types.CurveMapping"), (readonly)
 
 curves_sculpt_settings
     
@@ -435,7 +435,7 @@ curves_sculpt_settings
 Type:
     
 
-[`BrushCurvesSculptSettings`](bpy.types.BrushCurvesSculptSettings.html#bpy.types.BrushCurvesSculptSettings "bpy.types.BrushCurvesSculptSettings"), (readonly)
+[`BrushCurvesSculptSettings`](bpy.types.BrushCurvesSculptSettings.md#bpy.types.BrushCurvesSculptSettings "bpy.types.BrushCurvesSculptSettings"), (readonly)
 
 curves_sculpt_tool
     
@@ -443,7 +443,7 @@ curves_sculpt_tool
 Type:
     
 
-enum in [Brush Curves Sculpt Brush Type Items](bpy_types_enum_items/brush_curves_sculpt_brush_type_items.html#rna-enum-brush-curves-sculpt-brush-type-items), default `'COMB'`
+enum in [Brush Curves Sculpt Brush Type Items](bpy_types_enum_items/brush_curves_sculpt_brush_type_items.md#rna-enum-brush-curves-sculpt-brush-type-items), default `'COMB'`
 
 dash_ratio
     
@@ -584,7 +584,7 @@ gpencil_sculpt_tool
 Type:
     
 
-enum in [Brush Gpencil Sculpt Types Items](bpy_types_enum_items/brush_gpencil_sculpt_types_items.html#rna-enum-brush-gpencil-sculpt-types-items), default `'SMOOTH'`
+enum in [Brush Gpencil Sculpt Types Items](bpy_types_enum_items/brush_gpencil_sculpt_types_items.md#rna-enum-brush-gpencil-sculpt-types-items), default `'SMOOTH'`
 
 gpencil_settings
     
@@ -592,7 +592,7 @@ gpencil_settings
 Type:
     
 
-[`BrushGpencilSettings`](bpy.types.BrushGpencilSettings.html#bpy.types.BrushGpencilSettings "bpy.types.BrushGpencilSettings"), (readonly)
+[`BrushGpencilSettings`](bpy.types.BrushGpencilSettings.md#bpy.types.BrushGpencilSettings "bpy.types.BrushGpencilSettings"), (readonly)
 
 gpencil_tool
     
@@ -600,7 +600,7 @@ gpencil_tool
 Type:
     
 
-enum in [Brush Gpencil Types Items](bpy_types_enum_items/brush_gpencil_types_items.html#rna-enum-brush-gpencil-types-items), default `'DRAW'`
+enum in [Brush Gpencil Types Items](bpy_types_enum_items/brush_gpencil_types_items.md#rna-enum-brush-gpencil-types-items), default `'DRAW'`
 
 gpencil_vertex_tool
     
@@ -608,7 +608,7 @@ gpencil_vertex_tool
 Type:
     
 
-enum in [Brush Gpencil Vertex Types Items](bpy_types_enum_items/brush_gpencil_vertex_types_items.html#rna-enum-brush-gpencil-vertex-types-items), default `'DRAW'`
+enum in [Brush Gpencil Vertex Types Items](bpy_types_enum_items/brush_gpencil_vertex_types_items.md#rna-enum-brush-gpencil-vertex-types-items), default `'DRAW'`
 
 gpencil_weight_tool
     
@@ -616,7 +616,7 @@ gpencil_weight_tool
 Type:
     
 
-enum in [Brush Gpencil Weight Types Items](bpy_types_enum_items/brush_gpencil_weight_types_items.html#rna-enum-brush-gpencil-weight-types-items), default `'WEIGHT'`
+enum in [Brush Gpencil Weight Types Items](bpy_types_enum_items/brush_gpencil_weight_types_items.md#rna-enum-brush-gpencil-weight-types-items), default `'WEIGHT'`
 
 grad_spacing
     
@@ -634,7 +634,7 @@ gradient
 Type:
     
 
-[`ColorRamp`](bpy.types.ColorRamp.html#bpy.types.ColorRamp "bpy.types.ColorRamp"), (readonly)
+[`ColorRamp`](bpy.types.ColorRamp.md#bpy.types.ColorRamp "bpy.types.ColorRamp"), (readonly)
 
 gradient_fill_mode
     
@@ -708,7 +708,7 @@ image_paint_capabilities
 Type:
     
 
-[`BrushCapabilitiesImagePaint`](bpy.types.BrushCapabilitiesImagePaint.html#bpy.types.BrushCapabilitiesImagePaint "bpy.types.BrushCapabilitiesImagePaint"), (readonly, never None)
+[`BrushCapabilitiesImagePaint`](bpy.types.BrushCapabilitiesImagePaint.md#bpy.types.BrushCapabilitiesImagePaint "bpy.types.BrushCapabilitiesImagePaint"), (readonly, never None)
 
 image_tool
     
@@ -716,7 +716,7 @@ image_tool
 Type:
     
 
-enum in [Brush Image Brush Type Items](bpy_types_enum_items/brush_image_brush_type_items.html#rna-enum-brush-image-brush-type-items), default `'DRAW'`
+enum in [Brush Image Brush Type Items](bpy_types_enum_items/brush_image_brush_type_items.md#rna-enum-brush-image-brush-type-items), default `'DRAW'`
 
 input_samples
     
@@ -839,7 +839,7 @@ Dimensions of mask stencil in viewport
 Type:
     
 
-[`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 2 items in [-inf, inf], default (256.0, 256.0)
+[`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 2 items in [-inf, inf], default (256.0, 256.0)
 
 mask_stencil_pos
     
@@ -849,7 +849,7 @@ Position of mask stencil in viewport
 Type:
     
 
-[`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 2 items in [-inf, inf], default (256.0, 256.0)
+[`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 2 items in [-inf, inf], default (256.0, 256.0)
 
 mask_texture
     
@@ -857,7 +857,7 @@ mask_texture
 Type:
     
 
-[`Texture`](bpy.types.Texture.html#bpy.types.Texture "bpy.types.Texture")
+[`Texture`](bpy.types.Texture.md#bpy.types.Texture "bpy.types.Texture")
 
 mask_texture_slot
     
@@ -865,7 +865,7 @@ mask_texture_slot
 Type:
     
 
-[`BrushTextureSlot`](bpy.types.BrushTextureSlot.html#bpy.types.BrushTextureSlot "bpy.types.BrushTextureSlot"), (readonly)
+[`BrushTextureSlot`](bpy.types.BrushTextureSlot.md#bpy.types.BrushTextureSlot "bpy.types.BrushTextureSlot"), (readonly)
 
 mask_tool
     
@@ -913,7 +913,7 @@ Active paint curve
 Type:
     
 
-[`PaintCurve`](bpy.types.PaintCurve.html#bpy.types.PaintCurve "bpy.types.PaintCurve")
+[`PaintCurve`](bpy.types.PaintCurve.md#bpy.types.PaintCurve "bpy.types.PaintCurve")
 
 plane_depth
     
@@ -1063,7 +1063,7 @@ sculpt_capabilities
 Type:
     
 
-[`BrushCapabilitiesSculpt`](bpy.types.BrushCapabilitiesSculpt.html#bpy.types.BrushCapabilitiesSculpt "bpy.types.BrushCapabilitiesSculpt"), (readonly, never None)
+[`BrushCapabilitiesSculpt`](bpy.types.BrushCapabilitiesSculpt.md#bpy.types.BrushCapabilitiesSculpt "bpy.types.BrushCapabilitiesSculpt"), (readonly, never None)
 
 sculpt_plane
     
@@ -1079,7 +1079,7 @@ sculpt_tool
 Type:
     
 
-enum in [Brush Sculpt Brush Type Items](bpy_types_enum_items/brush_sculpt_brush_type_items.html#rna-enum-brush-sculpt-brush-type-items), default `'DRAW'`
+enum in [Brush Sculpt Brush Type Items](bpy_types_enum_items/brush_sculpt_brush_type_items.md#rna-enum-brush-sculpt-brush-type-items), default `'DRAW'`
 
 secondary_color
     
@@ -1087,7 +1087,7 @@ secondary_color
 Type:
     
 
-[`mathutils.Color`](mathutils.html#mathutils.Color "mathutils.Color") of 3 items in [0, inf], default (0.0, 0.0, 0.0)
+[`mathutils.Color`](mathutils.md#mathutils.Color "mathutils.Color") of 3 items in [0, inf], default (0.0, 0.0, 0.0)
 
 sharp_threshold
     
@@ -1227,7 +1227,7 @@ Dimensions of stencil in viewport
 Type:
     
 
-[`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 2 items in [-inf, inf], default (256.0, 256.0)
+[`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 2 items in [-inf, inf], default (256.0, 256.0)
 
 stencil_pos
     
@@ -1237,7 +1237,7 @@ Position of stencil in viewport
 Type:
     
 
-[`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 2 items in [-inf, inf], default (256.0, 256.0)
+[`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 2 items in [-inf, inf], default (256.0, 256.0)
 
 strength
     
@@ -1308,7 +1308,7 @@ texture
 Type:
     
 
-[`Texture`](bpy.types.Texture.html#bpy.types.Texture "bpy.types.Texture")
+[`Texture`](bpy.types.Texture.md#bpy.types.Texture "bpy.types.Texture")
 
 texture_overlay_alpha
     
@@ -1334,7 +1334,7 @@ texture_slot
 Type:
     
 
-[`BrushTextureSlot`](bpy.types.BrushTextureSlot.html#bpy.types.BrushTextureSlot "bpy.types.BrushTextureSlot"), (readonly)
+[`BrushTextureSlot`](bpy.types.BrushTextureSlot.md#bpy.types.BrushTextureSlot "bpy.types.BrushTextureSlot"), (readonly)
 
 tilt_strength_factor
     
@@ -2162,7 +2162,7 @@ vertex_paint_capabilities
 Type:
     
 
-[`BrushCapabilitiesVertexPaint`](bpy.types.BrushCapabilitiesVertexPaint.html#bpy.types.BrushCapabilitiesVertexPaint "bpy.types.BrushCapabilitiesVertexPaint"), (readonly, never None)
+[`BrushCapabilitiesVertexPaint`](bpy.types.BrushCapabilitiesVertexPaint.md#bpy.types.BrushCapabilitiesVertexPaint "bpy.types.BrushCapabilitiesVertexPaint"), (readonly, never None)
 
 vertex_tool
     
@@ -2170,7 +2170,7 @@ vertex_tool
 Type:
     
 
-enum in [Brush Vertex Brush Type Items](bpy_types_enum_items/brush_vertex_brush_type_items.html#rna-enum-brush-vertex-brush-type-items), default `'DRAW'`
+enum in [Brush Vertex Brush Type Items](bpy_types_enum_items/brush_vertex_brush_type_items.md#rna-enum-brush-vertex-brush-type-items), default `'DRAW'`
 
 weight
     
@@ -2188,7 +2188,7 @@ weight_paint_capabilities
 Type:
     
 
-[`BrushCapabilitiesWeightPaint`](bpy.types.BrushCapabilitiesWeightPaint.html#bpy.types.BrushCapabilitiesWeightPaint "bpy.types.BrushCapabilitiesWeightPaint"), (readonly, never None)
+[`BrushCapabilitiesWeightPaint`](bpy.types.BrushCapabilitiesWeightPaint.md#bpy.types.BrushCapabilitiesWeightPaint "bpy.types.BrushCapabilitiesWeightPaint"), (readonly, never None)
 
 weight_tool
     
@@ -2196,7 +2196,7 @@ weight_tool
 Type:
     
 
-enum in [Brush Weight Brush Type Items](bpy_types_enum_items/brush_weight_brush_type_items.html#rna-enum-brush-weight-brush-type-items), default `'DRAW'`
+enum in [Brush Weight Brush Type Items](bpy_types_enum_items/brush_weight_brush_type_items.md#rna-enum-brush-weight-brush-type-items), default `'DRAW'`
 
 wet_mix
     
@@ -2244,7 +2244,7 @@ The RNA type or default when not found.
 Return type:
     
 
-[`bpy.types.Struct`](bpy.types.Struct.html#bpy.types.Struct "bpy.types.Struct") subclass
+[`bpy.types.Struct`](bpy.types.Struct.md#bpy.types.Struct "bpy.types.Struct") subclass
 
 _classmethod _bl_rna_get_subclass_py(_id_ , _default =None_, _/_)
     
@@ -2266,96 +2266,96 @@ type
 
 ## Inherited Properties
 
-  * [`bpy_struct.id_data`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_data "bpy.types.bpy_struct.id_data")
-  * [`ID.name`](bpy.types.ID.html#bpy.types.ID.name "bpy.types.ID.name")
-  * [`ID.name_full`](bpy.types.ID.html#bpy.types.ID.name_full "bpy.types.ID.name_full")
-  * [`ID.id_type`](bpy.types.ID.html#bpy.types.ID.id_type "bpy.types.ID.id_type")
-  * [`ID.session_uid`](bpy.types.ID.html#bpy.types.ID.session_uid "bpy.types.ID.session_uid")
-  * [`ID.is_evaluated`](bpy.types.ID.html#bpy.types.ID.is_evaluated "bpy.types.ID.is_evaluated")
-  * [`ID.original`](bpy.types.ID.html#bpy.types.ID.original "bpy.types.ID.original")
-  * [`ID.users`](bpy.types.ID.html#bpy.types.ID.users "bpy.types.ID.users")
-  * [`ID.use_fake_user`](bpy.types.ID.html#bpy.types.ID.use_fake_user "bpy.types.ID.use_fake_user")
-  * [`ID.use_extra_user`](bpy.types.ID.html#bpy.types.ID.use_extra_user "bpy.types.ID.use_extra_user")
-  * [`ID.is_embedded_data`](bpy.types.ID.html#bpy.types.ID.is_embedded_data "bpy.types.ID.is_embedded_data")
+  * [`bpy_struct.id_data`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_data "bpy.types.bpy_struct.id_data")
+  * [`ID.name`](bpy.types.ID.md#bpy.types.ID.name "bpy.types.ID.name")
+  * [`ID.name_full`](bpy.types.ID.md#bpy.types.ID.name_full "bpy.types.ID.name_full")
+  * [`ID.id_type`](bpy.types.ID.md#bpy.types.ID.id_type "bpy.types.ID.id_type")
+  * [`ID.session_uid`](bpy.types.ID.md#bpy.types.ID.session_uid "bpy.types.ID.session_uid")
+  * [`ID.is_evaluated`](bpy.types.ID.md#bpy.types.ID.is_evaluated "bpy.types.ID.is_evaluated")
+  * [`ID.original`](bpy.types.ID.md#bpy.types.ID.original "bpy.types.ID.original")
+  * [`ID.users`](bpy.types.ID.md#bpy.types.ID.users "bpy.types.ID.users")
+  * [`ID.use_fake_user`](bpy.types.ID.md#bpy.types.ID.use_fake_user "bpy.types.ID.use_fake_user")
+  * [`ID.use_extra_user`](bpy.types.ID.md#bpy.types.ID.use_extra_user "bpy.types.ID.use_extra_user")
+  * [`ID.is_embedded_data`](bpy.types.ID.md#bpy.types.ID.is_embedded_data "bpy.types.ID.is_embedded_data")
 
 | 
 
-  * [`ID.is_missing`](bpy.types.ID.html#bpy.types.ID.is_missing "bpy.types.ID.is_missing")
-  * [`ID.is_runtime_data`](bpy.types.ID.html#bpy.types.ID.is_runtime_data "bpy.types.ID.is_runtime_data")
-  * [`ID.is_editable`](bpy.types.ID.html#bpy.types.ID.is_editable "bpy.types.ID.is_editable")
-  * [`ID.tag`](bpy.types.ID.html#bpy.types.ID.tag "bpy.types.ID.tag")
-  * [`ID.is_library_indirect`](bpy.types.ID.html#bpy.types.ID.is_library_indirect "bpy.types.ID.is_library_indirect")
-  * [`ID.library`](bpy.types.ID.html#bpy.types.ID.library "bpy.types.ID.library")
-  * [`ID.library_weak_reference`](bpy.types.ID.html#bpy.types.ID.library_weak_reference "bpy.types.ID.library_weak_reference")
-  * [`ID.asset_data`](bpy.types.ID.html#bpy.types.ID.asset_data "bpy.types.ID.asset_data")
-  * [`ID.override_library`](bpy.types.ID.html#bpy.types.ID.override_library "bpy.types.ID.override_library")
-  * [`ID.preview`](bpy.types.ID.html#bpy.types.ID.preview "bpy.types.ID.preview")
+  * [`ID.is_missing`](bpy.types.ID.md#bpy.types.ID.is_missing "bpy.types.ID.is_missing")
+  * [`ID.is_runtime_data`](bpy.types.ID.md#bpy.types.ID.is_runtime_data "bpy.types.ID.is_runtime_data")
+  * [`ID.is_editable`](bpy.types.ID.md#bpy.types.ID.is_editable "bpy.types.ID.is_editable")
+  * [`ID.tag`](bpy.types.ID.md#bpy.types.ID.tag "bpy.types.ID.tag")
+  * [`ID.is_library_indirect`](bpy.types.ID.md#bpy.types.ID.is_library_indirect "bpy.types.ID.is_library_indirect")
+  * [`ID.library`](bpy.types.ID.md#bpy.types.ID.library "bpy.types.ID.library")
+  * [`ID.library_weak_reference`](bpy.types.ID.md#bpy.types.ID.library_weak_reference "bpy.types.ID.library_weak_reference")
+  * [`ID.asset_data`](bpy.types.ID.md#bpy.types.ID.asset_data "bpy.types.ID.asset_data")
+  * [`ID.override_library`](bpy.types.ID.md#bpy.types.ID.override_library "bpy.types.ID.override_library")
+  * [`ID.preview`](bpy.types.ID.md#bpy.types.ID.preview "bpy.types.ID.preview")
 
   
 ---|---  
   
 ## Inherited Functions
 
-  * [`bpy_struct.as_pointer`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.as_pointer "bpy.types.bpy_struct.as_pointer")
-  * [`bpy_struct.driver_add`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.driver_add "bpy.types.bpy_struct.driver_add")
-  * [`bpy_struct.driver_remove`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.driver_remove "bpy.types.bpy_struct.driver_remove")
-  * [`bpy_struct.get`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.get "bpy.types.bpy_struct.get")
-  * [`bpy_struct.id_properties_clear`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_clear "bpy.types.bpy_struct.id_properties_clear")
-  * [`bpy_struct.id_properties_ensure`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_ensure "bpy.types.bpy_struct.id_properties_ensure")
-  * [`bpy_struct.id_properties_ui`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_ui "bpy.types.bpy_struct.id_properties_ui")
-  * [`bpy_struct.is_property_hidden`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_hidden "bpy.types.bpy_struct.is_property_hidden")
-  * [`bpy_struct.is_property_overridable_library`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_overridable_library "bpy.types.bpy_struct.is_property_overridable_library")
-  * [`bpy_struct.is_property_readonly`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_readonly "bpy.types.bpy_struct.is_property_readonly")
-  * [`bpy_struct.is_property_set`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_set "bpy.types.bpy_struct.is_property_set")
-  * [`bpy_struct.items`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.items "bpy.types.bpy_struct.items")
-  * [`bpy_struct.keyframe_delete`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keyframe_delete "bpy.types.bpy_struct.keyframe_delete")
-  * [`bpy_struct.keyframe_insert`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keyframe_insert "bpy.types.bpy_struct.keyframe_insert")
-  * [`bpy_struct.keys`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keys "bpy.types.bpy_struct.keys")
-  * [`bpy_struct.path_from_id`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.path_from_id "bpy.types.bpy_struct.path_from_id")
-  * [`bpy_struct.path_resolve`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.path_resolve "bpy.types.bpy_struct.path_resolve")
-  * [`bpy_struct.pop`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.pop "bpy.types.bpy_struct.pop")
-  * [`bpy_struct.property_overridable_library_set`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.property_overridable_library_set "bpy.types.bpy_struct.property_overridable_library_set")
-  * [`bpy_struct.property_unset`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.property_unset "bpy.types.bpy_struct.property_unset")
-  * [`bpy_struct.rna_ancestors`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.rna_ancestors "bpy.types.bpy_struct.rna_ancestors")
+  * [`bpy_struct.as_pointer`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.as_pointer "bpy.types.bpy_struct.as_pointer")
+  * [`bpy_struct.driver_add`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.driver_add "bpy.types.bpy_struct.driver_add")
+  * [`bpy_struct.driver_remove`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.driver_remove "bpy.types.bpy_struct.driver_remove")
+  * [`bpy_struct.get`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.get "bpy.types.bpy_struct.get")
+  * [`bpy_struct.id_properties_clear`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_properties_clear "bpy.types.bpy_struct.id_properties_clear")
+  * [`bpy_struct.id_properties_ensure`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_properties_ensure "bpy.types.bpy_struct.id_properties_ensure")
+  * [`bpy_struct.id_properties_ui`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_properties_ui "bpy.types.bpy_struct.id_properties_ui")
+  * [`bpy_struct.is_property_hidden`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_hidden "bpy.types.bpy_struct.is_property_hidden")
+  * [`bpy_struct.is_property_overridable_library`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_overridable_library "bpy.types.bpy_struct.is_property_overridable_library")
+  * [`bpy_struct.is_property_readonly`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_readonly "bpy.types.bpy_struct.is_property_readonly")
+  * [`bpy_struct.is_property_set`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_set "bpy.types.bpy_struct.is_property_set")
+  * [`bpy_struct.items`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.items "bpy.types.bpy_struct.items")
+  * [`bpy_struct.keyframe_delete`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.keyframe_delete "bpy.types.bpy_struct.keyframe_delete")
+  * [`bpy_struct.keyframe_insert`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.keyframe_insert "bpy.types.bpy_struct.keyframe_insert")
+  * [`bpy_struct.keys`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.keys "bpy.types.bpy_struct.keys")
+  * [`bpy_struct.path_from_id`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.path_from_id "bpy.types.bpy_struct.path_from_id")
+  * [`bpy_struct.path_resolve`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.path_resolve "bpy.types.bpy_struct.path_resolve")
+  * [`bpy_struct.pop`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.pop "bpy.types.bpy_struct.pop")
+  * [`bpy_struct.property_overridable_library_set`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.property_overridable_library_set "bpy.types.bpy_struct.property_overridable_library_set")
+  * [`bpy_struct.property_unset`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.property_unset "bpy.types.bpy_struct.property_unset")
+  * [`bpy_struct.rna_ancestors`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.rna_ancestors "bpy.types.bpy_struct.rna_ancestors")
 
 | 
 
-  * [`bpy_struct.type_recast`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.type_recast "bpy.types.bpy_struct.type_recast")
-  * [`bpy_struct.values`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.values "bpy.types.bpy_struct.values")
-  * [`ID.rename`](bpy.types.ID.html#bpy.types.ID.rename "bpy.types.ID.rename")
-  * [`ID.evaluated_get`](bpy.types.ID.html#bpy.types.ID.evaluated_get "bpy.types.ID.evaluated_get")
-  * [`ID.copy`](bpy.types.ID.html#bpy.types.ID.copy "bpy.types.ID.copy")
-  * [`ID.asset_mark`](bpy.types.ID.html#bpy.types.ID.asset_mark "bpy.types.ID.asset_mark")
-  * [`ID.asset_clear`](bpy.types.ID.html#bpy.types.ID.asset_clear "bpy.types.ID.asset_clear")
-  * [`ID.asset_generate_preview`](bpy.types.ID.html#bpy.types.ID.asset_generate_preview "bpy.types.ID.asset_generate_preview")
-  * [`ID.override_create`](bpy.types.ID.html#bpy.types.ID.override_create "bpy.types.ID.override_create")
-  * [`ID.override_hierarchy_create`](bpy.types.ID.html#bpy.types.ID.override_hierarchy_create "bpy.types.ID.override_hierarchy_create")
-  * [`ID.user_clear`](bpy.types.ID.html#bpy.types.ID.user_clear "bpy.types.ID.user_clear")
-  * [`ID.user_remap`](bpy.types.ID.html#bpy.types.ID.user_remap "bpy.types.ID.user_remap")
-  * [`ID.make_local`](bpy.types.ID.html#bpy.types.ID.make_local "bpy.types.ID.make_local")
-  * [`ID.user_of_id`](bpy.types.ID.html#bpy.types.ID.user_of_id "bpy.types.ID.user_of_id")
-  * [`ID.animation_data_create`](bpy.types.ID.html#bpy.types.ID.animation_data_create "bpy.types.ID.animation_data_create")
-  * [`ID.animation_data_clear`](bpy.types.ID.html#bpy.types.ID.animation_data_clear "bpy.types.ID.animation_data_clear")
-  * [`ID.update_tag`](bpy.types.ID.html#bpy.types.ID.update_tag "bpy.types.ID.update_tag")
-  * [`ID.preview_ensure`](bpy.types.ID.html#bpy.types.ID.preview_ensure "bpy.types.ID.preview_ensure")
-  * [`ID.bl_rna_get_subclass`](bpy.types.ID.html#bpy.types.ID.bl_rna_get_subclass "bpy.types.ID.bl_rna_get_subclass")
-  * [`ID.bl_rna_get_subclass_py`](bpy.types.ID.html#bpy.types.ID.bl_rna_get_subclass_py "bpy.types.ID.bl_rna_get_subclass_py")
+  * [`bpy_struct.type_recast`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.type_recast "bpy.types.bpy_struct.type_recast")
+  * [`bpy_struct.values`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.values "bpy.types.bpy_struct.values")
+  * [`ID.rename`](bpy.types.ID.md#bpy.types.ID.rename "bpy.types.ID.rename")
+  * [`ID.evaluated_get`](bpy.types.ID.md#bpy.types.ID.evaluated_get "bpy.types.ID.evaluated_get")
+  * [`ID.copy`](bpy.types.ID.md#bpy.types.ID.copy "bpy.types.ID.copy")
+  * [`ID.asset_mark`](bpy.types.ID.md#bpy.types.ID.asset_mark "bpy.types.ID.asset_mark")
+  * [`ID.asset_clear`](bpy.types.ID.md#bpy.types.ID.asset_clear "bpy.types.ID.asset_clear")
+  * [`ID.asset_generate_preview`](bpy.types.ID.md#bpy.types.ID.asset_generate_preview "bpy.types.ID.asset_generate_preview")
+  * [`ID.override_create`](bpy.types.ID.md#bpy.types.ID.override_create "bpy.types.ID.override_create")
+  * [`ID.override_hierarchy_create`](bpy.types.ID.md#bpy.types.ID.override_hierarchy_create "bpy.types.ID.override_hierarchy_create")
+  * [`ID.user_clear`](bpy.types.ID.md#bpy.types.ID.user_clear "bpy.types.ID.user_clear")
+  * [`ID.user_remap`](bpy.types.ID.md#bpy.types.ID.user_remap "bpy.types.ID.user_remap")
+  * [`ID.make_local`](bpy.types.ID.md#bpy.types.ID.make_local "bpy.types.ID.make_local")
+  * [`ID.user_of_id`](bpy.types.ID.md#bpy.types.ID.user_of_id "bpy.types.ID.user_of_id")
+  * [`ID.animation_data_create`](bpy.types.ID.md#bpy.types.ID.animation_data_create "bpy.types.ID.animation_data_create")
+  * [`ID.animation_data_clear`](bpy.types.ID.md#bpy.types.ID.animation_data_clear "bpy.types.ID.animation_data_clear")
+  * [`ID.update_tag`](bpy.types.ID.md#bpy.types.ID.update_tag "bpy.types.ID.update_tag")
+  * [`ID.preview_ensure`](bpy.types.ID.md#bpy.types.ID.preview_ensure "bpy.types.ID.preview_ensure")
+  * [`ID.bl_rna_get_subclass`](bpy.types.ID.md#bpy.types.ID.bl_rna_get_subclass "bpy.types.ID.bl_rna_get_subclass")
+  * [`ID.bl_rna_get_subclass_py`](bpy.types.ID.md#bpy.types.ID.bl_rna_get_subclass_py "bpy.types.ID.bl_rna_get_subclass_py")
 
   
 ---|---  
   
 ## References
 
-  * [`bpy.context.brush`](bpy.context.html#bpy.context.brush "bpy.context.brush")
-  * [`BlendData.brushes`](bpy.types.BlendData.html#bpy.types.BlendData.brushes "bpy.types.BlendData.brushes")
-  * [`BlendDataBrushes.create_gpencil_data`](bpy.types.BlendDataBrushes.html#bpy.types.BlendDataBrushes.create_gpencil_data "bpy.types.BlendDataBrushes.create_gpencil_data")
-  * [`BlendDataBrushes.new`](bpy.types.BlendDataBrushes.html#bpy.types.BlendDataBrushes.new "bpy.types.BlendDataBrushes.new")
+  * [`bpy.context.brush`](bpy.context.md#bpy.context.brush "bpy.context.brush")
+  * [`BlendData.brushes`](bpy.types.BlendData.md#bpy.types.BlendData.brushes "bpy.types.BlendData.brushes")
+  * [`BlendDataBrushes.create_gpencil_data`](bpy.types.BlendDataBrushes.md#bpy.types.BlendDataBrushes.create_gpencil_data "bpy.types.BlendDataBrushes.create_gpencil_data")
+  * [`BlendDataBrushes.new`](bpy.types.BlendDataBrushes.md#bpy.types.BlendDataBrushes.new "bpy.types.BlendDataBrushes.new")
 
 | 
 
-  * [`BlendDataBrushes.remove`](bpy.types.BlendDataBrushes.html#bpy.types.BlendDataBrushes.remove "bpy.types.BlendDataBrushes.remove")
-  * [`Paint.brush`](bpy.types.Paint.html#bpy.types.Paint.brush "bpy.types.Paint.brush")
-  * [`Paint.eraser_brush`](bpy.types.Paint.html#bpy.types.Paint.eraser_brush "bpy.types.Paint.eraser_brush")
+  * [`BlendDataBrushes.remove`](bpy.types.BlendDataBrushes.md#bpy.types.BlendDataBrushes.remove "bpy.types.BlendDataBrushes.remove")
+  * [`Paint.brush`](bpy.types.Paint.md#bpy.types.Paint.brush "bpy.types.Paint.brush")
+  * [`Paint.eraser_brush`](bpy.types.Paint.md#bpy.types.Paint.eraser_brush "bpy.types.Paint.eraser_brush")
 
   
 ---|---

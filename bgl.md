@@ -2,7 +2,7 @@
 
 Warning
 
-This module is deprecated and will be removed in a future release, when OpenGL is replaced by Metal and Vulkan. Use the graphics API independent [`gpu`](gpu.html#module-gpu "gpu") module instead.
+This module is deprecated and will be removed in a future release, when OpenGL is replaced by Metal and Vulkan. Use the graphics API independent [`gpu`](gpu.md#module-gpu "gpu") module instead.
 
 This module wraps OpenGL constants and functions, making them available from within Blender Python.
 
@@ -12,7 +12,7 @@ Here is a comprehensive [list of books](https://www.khronos.org/developers/books
 
 Note
 
-You can use the [`bpy.types.Image`](bpy.types.Image.html#bpy.types.Image "bpy.types.Image") type to load and set textures. See [`bpy.types.Image.gl_load`](bpy.types.Image.html#bpy.types.Image.gl_load "bpy.types.Image.gl_load") and [`bpy.types.Image.gl_free`](bpy.types.Image.html#bpy.types.Image.gl_free "bpy.types.Image.gl_free"), for example.
+You can use the [`bpy.types.Image`](bpy.types.Image.md#bpy.types.Image "bpy.types.Image") type to load and set textures. See [`bpy.types.Image.gl_load`](bpy.types.Image.md#bpy.types.Image.gl_load "bpy.types.Image.gl_load") and [`bpy.types.Image.gl_free`](bpy.types.Image.md#bpy.types.Image.gl_free "bpy.types.Image.gl_free"), for example.
 
 glBindTexture(target, texture):
     

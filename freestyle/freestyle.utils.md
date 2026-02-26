@@ -4,7 +4,7 @@ This module contains helper functions used for Freestyle style module writing.
 
 Submodules
 
-  * [freestyle.utils submodule (freestyle.utils.ContextFunctions)](freestyle.utils.ContextFunctions.html)
+  * [freestyle.utils submodule (freestyle.utils.ContextFunctions)](freestyle.utils.ContextFunctions.md)
 
 
 freestyle.utils.getCurrentScene()
@@ -20,7 +20,7 @@ The current scene.
 Return type:
     
 
-[`bpy.types.Scene`](bpy.types.Scene.html#bpy.types.Scene "bpy.types.Scene")
+[`bpy.types.Scene`](bpy.types.Scene.md#bpy.types.Scene "bpy.types.Scene")
 
 freestyle.utils.integrate(_func_ , _it_ , _it_end_ , _integration_type_)
     

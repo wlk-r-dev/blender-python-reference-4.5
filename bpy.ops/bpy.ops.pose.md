@@ -166,7 +166,7 @@ Add a constraint to the active bone
 Parameters:
     
 
-**type** (enum in [Constraint Type Items](bpy_types_enum_items/constraint_type_items.html#rna-enum-constraint-type-items), (optional)) – Type
+**type** (enum in [Constraint Type Items](bpy_types_enum_items/constraint_type_items.md#rna-enum-constraint-type-items), (optional)) – Type
 
 bpy.ops.pose.constraint_add_with_targets(_*_ , _type =''_)
     
@@ -176,7 +176,7 @@ Add a constraint to the active bone, with target (where applicable) set to the s
 Parameters:
     
 
-**type** (enum in [Constraint Type Items](bpy_types_enum_items/constraint_type_items.html#rna-enum-constraint-type-items), (optional)) – Type
+**type** (enum in [Constraint Type Items](bpy_types_enum_items/constraint_type_items.md#rna-enum-constraint-type-items), (optional)) – Type
 
 bpy.ops.pose.constraints_clear()
     
@@ -254,11 +254,11 @@ Calculate paths for the selected bones
 Parameters:
     
 
-  * **display_type** (enum in [Motionpath Display Type Items](bpy_types_enum_items/motionpath_display_type_items.html#rna-enum-motionpath-display-type-items), (optional)) – Display type
+  * **display_type** (enum in [Motionpath Display Type Items](bpy_types_enum_items/motionpath_display_type_items.md#rna-enum-motionpath-display-type-items), (optional)) – Display type
 
-  * **range** (enum in [Motionpath Range Items](bpy_types_enum_items/motionpath_range_items.html#rna-enum-motionpath-range-items), (optional)) – Computation Range
+  * **range** (enum in [Motionpath Range Items](bpy_types_enum_items/motionpath_range_items.md#rna-enum-motionpath-range-items), (optional)) – Computation Range
 
-  * **bake_location** (enum in [Motionpath Bake Location Items](bpy_types_enum_items/motionpath_bake_location_items.html#rna-enum-motionpath-bake-location-items), (optional)) – Bake Location, Which point on the bones is used when calculating paths
+  * **bake_location** (enum in [Motionpath Bake Location Items](bpy_types_enum_items/motionpath_bake_location_items.md#rna-enum-motionpath-bake-location-items), (optional)) – Bake Location, Which point on the bones is used when calculating paths
 
 
 bpy.ops.pose.paths_clear(_*_ , _only_selected =False_)
@@ -422,7 +422,7 @@ Set the rotation representation used by selected bones
 Parameters:
     
 
-**type** (enum in [Object Rotation Mode Items](bpy_types_enum_items/object_rotation_mode_items.html#rna-enum-object-rotation-mode-items), (optional)) – Rotation Mode
+**type** (enum in [Object Rotation Mode Items](bpy_types_enum_items/object_rotation_mode_items.md#rna-enum-object-rotation-mode-items), (optional)) – Rotation Mode
 
 bpy.ops.pose.scale_clear()
     

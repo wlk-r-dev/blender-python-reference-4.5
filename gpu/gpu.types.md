@@ -250,17 +250,17 @@ Draw the 3d viewport in the offscreen object.
 Parameters:
     
 
-  * **scene** ([`bpy.types.Scene`](bpy.types.Scene.html#bpy.types.Scene "bpy.types.Scene")) – Scene to draw.
+  * **scene** ([`bpy.types.Scene`](bpy.types.Scene.md#bpy.types.Scene "bpy.types.Scene")) – Scene to draw.
 
-  * **view_layer** ([`bpy.types.ViewLayer`](bpy.types.ViewLayer.html#bpy.types.ViewLayer "bpy.types.ViewLayer")) – View layer to draw.
+  * **view_layer** ([`bpy.types.ViewLayer`](bpy.types.ViewLayer.md#bpy.types.ViewLayer "bpy.types.ViewLayer")) – View layer to draw.
 
-  * **view3d** ([`bpy.types.SpaceView3D`](bpy.types.SpaceView3D.html#bpy.types.SpaceView3D "bpy.types.SpaceView3D")) – 3D View to get the drawing settings from.
+  * **view3d** ([`bpy.types.SpaceView3D`](bpy.types.SpaceView3D.md#bpy.types.SpaceView3D "bpy.types.SpaceView3D")) – 3D View to get the drawing settings from.
 
-  * **region** ([`bpy.types.Region`](bpy.types.Region.html#bpy.types.Region "bpy.types.Region")) – Region of the 3D View (required as temporary draw target).
+  * **region** ([`bpy.types.Region`](bpy.types.Region.md#bpy.types.Region "bpy.types.Region")) – Region of the 3D View (required as temporary draw target).
 
-  * **view_matrix** ([`mathutils.Matrix`](mathutils.html#mathutils.Matrix "mathutils.Matrix")) – View Matrix (e.g. `camera.matrix_world.inverted()`).
+  * **view_matrix** ([`mathutils.Matrix`](mathutils.md#mathutils.Matrix "mathutils.Matrix")) – View Matrix (e.g. `camera.matrix_world.inverted()`).
 
-  * **projection_matrix** ([`mathutils.Matrix`](mathutils.html#mathutils.Matrix "mathutils.Matrix")) – Projection Matrix (e.g. `camera.calc_matrix_camera(...)`).
+  * **projection_matrix** ([`mathutils.Matrix`](mathutils.md#mathutils.Matrix "mathutils.Matrix")) – Projection Matrix (e.g. `camera.calc_matrix_camera(...)`).
 
   * **do_color_management** (_bool_) – Color manage the output.
 
@@ -325,7 +325,7 @@ int
 _class _gpu.types.GPUShader(_vertexcode_ , _fragcode_ , _geocode =None_, _libcode =None_, _defines =None_, _name ='pyGPUShader'_)
     
 
-Constructor is deprecated and will be removed in Blender 5.0, use [`gpu.shader.create_from_info()`](gpu.shader.html#gpu.shader.create_from_info "gpu.shader.create_from_info") instead.
+Constructor is deprecated and will be removed in Blender 5.0, use [`gpu.shader.create_from_info()`](gpu.shader.md#gpu.shader.create_from_info "gpu.shader.create_from_info") instead.
 
 GPUShader combines multiple GLSL shaders into a program used for drawing. It must contain at least a vertex and fragment shaders.
 

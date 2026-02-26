@@ -38,9 +38,9 @@ This document is intended to familiarize you with Blender Python API but not to 
 
 A quick list of helpful things to know before starting:
 
-  * Enable [Developer Extra](https://docs.blender.org/manual/en/dev/editors/preferences/interface.html#bpy-types-preferencesview-show-developer-ui "\(in Blender 5.2 LTS Manual v5.2\)") and [Python Tooltips](https://docs.blender.org/manual/en/dev/editors/preferences/interface.html#bpy-types-preferencesview-show-tooltips-python "\(in Blender 5.2 LTS Manual v5.2\)").
+  * Enable [Developer Extra](https://docs.blender.org/manual/en/dev/editors/preferences/interface.md#bpy-types-preferencesview-show-developer-ui "\(in Blender 5.2 LTS Manual v5.2\)") and [Python Tooltips](https://docs.blender.org/manual/en/dev/editors/preferences/interface.md#bpy-types-preferencesview-show-tooltips-python "\(in Blender 5.2 LTS Manual v5.2\)").
 
-  * The [Python Console](https://docs.blender.org/manual/en/dev/editors/python_console.html#bpy-types-spaceconsole "\(in Blender 5.2 LTS Manual v5.2\)") is great for testing one-liners; it has autocompletion so you can inspect the API quickly.
+  * The [Python Console](https://docs.blender.org/manual/en/dev/editors/python_console.md#bpy-types-spaceconsole "\(in Blender 5.2 LTS Manual v5.2\)") is great for testing one-liners; it has autocompletion so you can inspect the API quickly.
 
   * Button tooltips show Python attributes and operator names (when enabled see above).
 
@@ -54,7 +54,7 @@ A quick list of helpful things to know before starting:
 
     * `scripts/startup/bl_operators` for operators.
 
-Exact location depends on platform, see: [directory layout docs](https://docs.blender.org/manual/en/dev/advanced/blender_directory_layout.html#blender-directory-layout "\(in Blender 5.2 LTS Manual v5.2\)").
+Exact location depends on platform, see: [directory layout docs](https://docs.blender.org/manual/en/dev/advanced/blender_directory_layout.md#blender-directory-layout "\(in Blender 5.2 LTS Manual v5.2\)").
 
 
 ### Running Scripts
@@ -69,7 +69,7 @@ From the text editor you can open `.py` files or paste them from the clipboard, 
 
 #### Accessing Data-Blocks
 
-You can access Blender’s data with the Python API in the same way as the animation system or user interface; this implies that any setting that can be changed via a button can also be changed with Python. Accessing data from the currently loaded blend-file is done with the module [`bpy.data`](bpy.data.html#module-bpy.data "bpy.data"). It gives access to library data, for example:
+You can access Blender’s data with the Python API in the same way as the animation system or user interface; this implies that any setting that can be changed via a button can also be changed with Python. Accessing data from the currently loaded blend-file is done with the module [`bpy.data`](bpy.data.md#module-bpy.data "bpy.data"). It gives access to library data, for example:
     
     
     >>> bpy.data.objects
@@ -146,9 +146,9 @@ When you are familiar with other Python APIs you may be surprised that new data-
     TypeError: bpy_struct.__new__(type): expected a single argument
     
 
-This is an intentional part of the API design. The Blender Python API can’t create Blender data that exists outside the main Blender database (accessed through [`bpy.data`](bpy.data.html#module-bpy.data "bpy.data")), because this data is managed by Blender (save, load, undo, append, etc).
+This is an intentional part of the API design. The Blender Python API can’t create Blender data that exists outside the main Blender database (accessed through [`bpy.data`](bpy.data.md#module-bpy.data "bpy.data")), because this data is managed by Blender (save, load, undo, append, etc).
 
-Data is added and removed via methods on the collections in [`bpy.data`](bpy.data.html#module-bpy.data "bpy.data"), e.g:
+Data is added and removed via methods on the collections in [`bpy.data`](bpy.data.md#module-bpy.data "bpy.data"), e.g:
     
     
     >>> mesh = bpy.data.meshes.new(name="MyMesh")
@@ -162,7 +162,7 @@ Data is added and removed via methods on the collections in [`bpy.data`](bpy.dat
 
 #### Custom Properties
 
-Python can access properties on any data-block that has an ID (data that can be linked in and accessed from [`bpy.data`](bpy.data.html#module-bpy.data "bpy.data")). When assigning a property, you can pick your own names, these will be created when needed or overwritten if they already exist.
+Python can access properties on any data-block that has an ID (data that can be linked in and accessed from [`bpy.data`](bpy.data.md#module-bpy.data "bpy.data")). When assigning a property, you can pick your own names, these will be created when needed or overwritten if they already exist.
 
 This data is saved with the blend-file and copied with objects, for example:
     
@@ -212,11 +212,11 @@ So `bpy.context.active_object = obj` will raise an error. But `bpy.context.view_
 
 The context attributes change depending on where they are accessed. The 3D Viewport has different context members than the Python Console, so take care when accessing context attributes that the user state is known.
 
-See [`bpy.context`](bpy.context.html#module-bpy.context "bpy.context") API reference.
+See [`bpy.context`](bpy.context.md#module-bpy.context "bpy.context") API reference.
 
 ### Operators (Tools)
 
-Operators are tools generally accessed by the user from buttons, menu items or key shortcuts. From the user perspective they are a tool but Python can run these with its own settings through the [`bpy.ops`](bpy.ops.html#module-bpy.ops "bpy.ops") module.
+Operators are tools generally accessed by the user from buttons, menu items or key shortcuts. From the user perspective they are a tool but Python can run these with its own settings through the [`bpy.ops`](bpy.ops.md#module-bpy.ops "bpy.ops") module.
 
 Examples:
     
@@ -231,7 +231,7 @@ Examples:
 
 Tip
 
-The [Operator Cheat Sheet](https://docs.blender.org/manual/en/dev/advanced/operators.html#bpy-ops-wm-operator-cheat-sheet "\(in Blender 5.2 LTS Manual v5.2\)") gives a list of all operators and their default values in Python syntax, along with the generated docs. This is a good way to get an overview of all Blender’s operators.
+The [Operator Cheat Sheet](https://docs.blender.org/manual/en/dev/advanced/operators.md#bpy-ops-wm-operator-cheat-sheet "\(in Blender 5.2 LTS Manual v5.2\)") gives a list of all operators and their default values in Python syntax, along with the generated docs. This is a good way to get an overview of all Blender’s operators.
 
 #### Operator Poll()
 
@@ -326,18 +326,18 @@ To run the script:
 
   4. Click on the _Run Script_ button.
 
-  5. Move your cursor into the 3D Viewport, open the [Operator Search menu](https://docs.blender.org/manual/en/dev/interface/operators.html#bpy-ops-wm-search-menu "\(in Blender 5.2 LTS Manual v5.2\)"), and type “Simple”.
+  5. Move your cursor into the 3D Viewport, open the [Operator Search menu](https://docs.blender.org/manual/en/dev/interface/operators.md#bpy-ops-wm-search-menu "\(in Blender 5.2 LTS Manual v5.2\)"), and type “Simple”.
 
   6. Click on the “Simple Operator” item found in search.
 
 
 See also
 
-The class members with the `bl_` prefix are documented in the API reference [`bpy.types.Operator`](bpy.types.Operator.html#bpy.types.Operator "bpy.types.Operator").
+The class members with the `bl_` prefix are documented in the API reference [`bpy.types.Operator`](bpy.types.Operator.md#bpy.types.Operator "bpy.types.Operator").
 
 Note
 
-The output from the `main` function is sent to the terminal; in order to see this, be sure to [use the terminal](info_tips_and_tricks.html#use-the-terminal).
+The output from the `main` function is sent to the terminal; in order to see this, be sure to [use the terminal](info_tips_and_tricks.md#use-the-terminal).
 
 ### Example Panel
 
@@ -410,7 +410,7 @@ Note the row distribution and the label and properties that are defined through 
 
 See also
 
-[`bpy.types.Panel`](bpy.types.Panel.html#bpy.types.Panel "bpy.types.Panel")
+[`bpy.types.Panel`](bpy.types.Panel.md#bpy.types.Panel "bpy.types.Panel")
 
 ## Types
 
@@ -439,7 +439,7 @@ In simple cases returning a number or a string as a custom type would be cumbers
 
 ### Internal Types
 
-[`bpy.types.bpy_struct`](bpy.types.bpy_struct.html#bpy.types.bpy_struct "bpy.types.bpy_struct") is used for Blender data-blocks and collections. Also for data that contains its own attributes: collections, meshes, bones, scenes, etc.
+[`bpy.types.bpy_struct`](bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct") is used for Blender data-blocks and collections. Also for data that contains its own attributes: collections, meshes, bones, scenes, etc.
 
 There are two main types that wrap Blender’s data, one for data-blocks (known internally as `bpy_struct`), another for properties.
     
@@ -457,7 +457,7 @@ Note that these types reference Blender’s data so modifying them is visible im
 
 ### Mathutils Types
 
-Accessible from [`mathutils`](mathutils.html#module-mathutils "mathutils") are vectors, quaternions, Euler angles, matrix and color types. Some attributes such as [`bpy.types.Object.location`](bpy.types.Object.html#bpy.types.Object.location "bpy.types.Object.location"), [`bpy.types.PoseBone.rotation_euler`](bpy.types.PoseBone.html#bpy.types.PoseBone.rotation_euler "bpy.types.PoseBone.rotation_euler") and `bpy.types.Scene.cursor_location` can be accessed as special math types which can be used together and manipulated in various useful ways.
+Accessible from [`mathutils`](mathutils.md#module-mathutils "mathutils") are vectors, quaternions, Euler angles, matrix and color types. Some attributes such as [`bpy.types.Object.location`](bpy.types.Object.md#bpy.types.Object.location "bpy.types.Object.location"), [`bpy.types.PoseBone.rotation_euler`](bpy.types.PoseBone.md#bpy.types.PoseBone.rotation_euler "bpy.types.PoseBone.rotation_euler") and `bpy.types.Scene.cursor_location` can be accessed as special math types which can be used together and manipulated in various useful ways.
 
 Example of a matrix, vector multiplication:
     

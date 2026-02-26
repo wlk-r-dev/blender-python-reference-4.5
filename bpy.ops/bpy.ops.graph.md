@@ -202,7 +202,7 @@ Make a copy of all selected keyframes
 Parameters:
     
 
-**mode** (enum in [Transform Mode Type Items](bpy_types_enum_items/transform_mode_type_items.html#rna-enum-transform-mode-type-items), (optional)) – Mode
+**mode** (enum in [Transform Mode Type Items](bpy_types_enum_items/transform_mode_type_items.md#rna-enum-transform-mode-type-items), (optional)) – Mode
 
 bpy.ops.graph.duplicate_move(_*_ , _GRAPH_OT_duplicate =None_, _TRANSFORM_OT_translate =None_)
     
@@ -238,7 +238,7 @@ Set easing type for the F-Curve segments starting from the selected keyframes
 Parameters:
     
 
-**type** (enum in [Beztriple Interpolation Easing Items](bpy_types_enum_items/beztriple_interpolation_easing_items.html#rna-enum-beztriple-interpolation-easing-items), (optional)) – Type
+**type** (enum in [Beztriple Interpolation Easing Items](bpy_types_enum_items/beztriple_interpolation_easing_items.md#rna-enum-beztriple-interpolation-easing-items), (optional)) – Type
 
 bpy.ops.graph.equalize_handles(_*_ , _side ='LEFT'_, _handle_length =5.0_, _flatten =False_)
     
@@ -297,7 +297,7 @@ Add F-Modifier to the active/selected F-Curves
 Parameters:
     
 
-  * **type** (enum in [Fmodifier Type Items](bpy_types_enum_items/fmodifier_type_items.html#rna-enum-fmodifier-type-items), (optional)) – Type
+  * **type** (enum in [Fmodifier Type Items](bpy_types_enum_items/fmodifier_type_items.md#rna-enum-fmodifier-type-items), (optional)) – Type
 
   * **only_active** (_boolean_ _,__(__optional_ _)_) – Only Active, Only add F-Modifier to active F-Curve
 
@@ -358,7 +358,7 @@ Set type of handle for selected keyframes
 Parameters:
     
 
-**type** (enum in [Keyframe Handle Type Items](bpy_types_enum_items/keyframe_handle_type_items.html#rna-enum-keyframe-handle-type-items), (optional)) – Type
+**type** (enum in [Keyframe Handle Type Items](bpy_types_enum_items/keyframe_handle_type_items.md#rna-enum-keyframe-handle-type-items), (optional)) – Type
 
 bpy.ops.graph.hide(_*_ , _unselected =False_)
     
@@ -378,7 +378,7 @@ Set interpolation mode for the F-Curve segments starting from the selected keyfr
 Parameters:
     
 
-**type** (enum in [Beztriple Interpolation Mode Items](bpy_types_enum_items/beztriple_interpolation_mode_items.html#rna-enum-beztriple-interpolation-mode-items), (optional)) – Type
+**type** (enum in [Beztriple Interpolation Mode Items](bpy_types_enum_items/beztriple_interpolation_mode_items.md#rna-enum-beztriple-interpolation-mode-items), (optional)) – Type
 
 bpy.ops.graph.keyframe_insert(_*_ , _type ='ALL'_)
     
@@ -459,11 +459,11 @@ Paste keyframes from the internal clipboard for the selected channels, starting 
 Parameters:
     
 
-  * **offset** (enum in [Keyframe Paste Offset Items](bpy_types_enum_items/keyframe_paste_offset_items.html#rna-enum-keyframe-paste-offset-items), (optional)) – Frame Offset, Paste time offset of keys
+  * **offset** (enum in [Keyframe Paste Offset Items](bpy_types_enum_items/keyframe_paste_offset_items.md#rna-enum-keyframe-paste-offset-items), (optional)) – Frame Offset, Paste time offset of keys
 
-  * **value_offset** (enum in [Keyframe Paste Offset Value Items](bpy_types_enum_items/keyframe_paste_offset_value_items.html#rna-enum-keyframe-paste-offset-value-items), (optional)) – Value Offset, Paste keys with a value offset
+  * **value_offset** (enum in [Keyframe Paste Offset Value Items](bpy_types_enum_items/keyframe_paste_offset_value_items.md#rna-enum-keyframe-paste-offset-value-items), (optional)) – Value Offset, Paste keys with a value offset
 
-  * **merge** (enum in [Keyframe Paste Merge Items](bpy_types_enum_items/keyframe_paste_merge_items.html#rna-enum-keyframe-paste-merge-items), (optional)) – Type, Method of merging pasted keys and existing
+  * **merge** (enum in [Keyframe Paste Merge Items](bpy_types_enum_items/keyframe_paste_merge_items.md#rna-enum-keyframe-paste-merge-items), (optional)) – Type, Method of merging pasted keys and existing
 
   * **flipped** (_boolean_ _,__(__optional_ _)_) – Flipped, Paste keyframes from mirrored bones if they exist
 

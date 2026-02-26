@@ -106,9 +106,9 @@ Display Type
 
   * **triangulate** (_boolean_ _,__(__optional_ _)_) – Triangulate, Export polygons (quads and n-gons) as triangles
 
-  * **quad_method** (enum in [Modifier Triangulate Quad Method Items](bpy_types_enum_items/modifier_triangulate_quad_method_items.html#rna-enum-modifier-triangulate-quad-method-items), (optional)) – Quad Method, Method for splitting the quads into triangles
+  * **quad_method** (enum in [Modifier Triangulate Quad Method Items](bpy_types_enum_items/modifier_triangulate_quad_method_items.md#rna-enum-modifier-triangulate-quad-method-items), (optional)) – Quad Method, Method for splitting the quads into triangles
 
-  * **ngon_method** (enum in [Modifier Triangulate Ngon Method Items](bpy_types_enum_items/modifier_triangulate_ngon_method_items.html#rna-enum-modifier-triangulate-ngon-method-items), (optional)) – N-gon Method, Method for splitting the n-gons into triangles
+  * **ngon_method** (enum in [Modifier Triangulate Ngon Method Items](bpy_types_enum_items/modifier_triangulate_ngon_method_items.md#rna-enum-modifier-triangulate-ngon-method-items), (optional)) – N-gon Method, Method for splitting the n-gons into triangles
 
   * **export_hair** (_boolean_ _,__(__optional_ _)_) – Export Hair, Exports hair particle systems as animated curves
 
@@ -3205,11 +3205,11 @@ Toggle 3D stereo support for current window (or change the display mode)
 Parameters:
     
 
-  * **display_mode** (enum in [Stereo3D Display Items](bpy_types_enum_items/stereo3d_display_items.html#rna-enum-stereo3d-display-items), (optional)) – Display Mode
+  * **display_mode** (enum in [Stereo3D Display Items](bpy_types_enum_items/stereo3d_display_items.md#rna-enum-stereo3d-display-items), (optional)) – Display Mode
 
-  * **anaglyph_type** (enum in [Stereo3D Anaglyph Type Items](bpy_types_enum_items/stereo3d_anaglyph_type_items.html#rna-enum-stereo3d-anaglyph-type-items), (optional)) – Anaglyph Type
+  * **anaglyph_type** (enum in [Stereo3D Anaglyph Type Items](bpy_types_enum_items/stereo3d_anaglyph_type_items.md#rna-enum-stereo3d-anaglyph-type-items), (optional)) – Anaglyph Type
 
-  * **interlace_type** (enum in [Stereo3D Interlace Type Items](bpy_types_enum_items/stereo3d_interlace_type_items.html#rna-enum-stereo3d-interlace-type-items), (optional)) – Interlace Type
+  * **interlace_type** (enum in [Stereo3D Interlace Type Items](bpy_types_enum_items/stereo3d_interlace_type_items.md#rna-enum-stereo3d-interlace-type-items), (optional)) – Interlace Type
 
   * **use_interlace_swap** (_boolean_ _,__(__optional_ _)_) – Swap Left/Right, Swap left and right stereo channels
 
@@ -3783,9 +3783,9 @@ Xform Ops, The type of transform operators to write
 
   * **triangulate_meshes** (_boolean_ _,__(__optional_ _)_) – Triangulate Meshes, Triangulate meshes during export
 
-  * **quad_method** (enum in [Modifier Triangulate Quad Method Items](bpy_types_enum_items/modifier_triangulate_quad_method_items.html#rna-enum-modifier-triangulate-quad-method-items), (optional)) – Quad Method, Method for splitting the quads into triangles
+  * **quad_method** (enum in [Modifier Triangulate Quad Method Items](bpy_types_enum_items/modifier_triangulate_quad_method_items.md#rna-enum-modifier-triangulate-quad-method-items), (optional)) – Quad Method, Method for splitting the quads into triangles
 
-  * **ngon_method** (enum in [Modifier Triangulate Ngon Method Items](bpy_types_enum_items/modifier_triangulate_ngon_method_items.html#rna-enum-modifier-triangulate-ngon-method-items), (optional)) – N-gon Method, Method for splitting the n-gons into triangles
+  * **ngon_method** (enum in [Modifier Triangulate Ngon Method Items](bpy_types_enum_items/modifier_triangulate_ngon_method_items.md#rna-enum-modifier-triangulate-ngon-method-items), (optional)) – N-gon Method, Method for splitting the n-gons into triangles
 
   * **usdz_downscale_size** (enum in [`'KEEP'`, `'256'`, `'512'`, `'1024'`, `'2048'`, `'4096'`, `'CUSTOM'`], (optional)) – 
 
@@ -4077,9 +4077,9 @@ Mode, Fly mode
 
   * **speed_max** (_float in_ _[__0_ _,__1000_ _]__,__(__optional_ _)_) – Maximum Speed, Maximum move (turn) speed in meters (radians) per second or frame
 
-  * **speed_interpolation0** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 2 items in [0, 1], (optional)) – Speed Interpolation 0, First cubic spline control point between min/max speeds
+  * **speed_interpolation0** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 2 items in [0, 1], (optional)) – Speed Interpolation 0, First cubic spline control point between min/max speeds
 
-  * **speed_interpolation1** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 2 items in [0, 1], (optional)) – Speed Interpolation 1, Second cubic spline control point between min/max speeds
+  * **speed_interpolation1** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 2 items in [0, 1], (optional)) – Speed Interpolation 1, Second cubic spline control point between min/max speeds
 
 
 bpy.ops.wm.xr_navigation_grab(_*_ , _lock_location =False_, _lock_location_z =False_, _lock_rotation =False_, _lock_rotation_z =False_, _lock_scale =False_)
@@ -4136,7 +4136,7 @@ Parameters:
 
   * **from_viewer** (_boolean_ _,__(__optional_ _)_) – From Viewer, Use viewer pose as raycast origin
 
-  * **axis** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-1, 1], (optional)) – Axis, Raycast axis in controller/viewer space
+  * **axis** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-1, 1], (optional)) – Axis, Raycast axis in controller/viewer space
 
   * **color** (_float array_ _of_ _4 items in_ _[__0_ _,__1_ _]__,__(__optional_ _)_) – Color, Raycast color
 

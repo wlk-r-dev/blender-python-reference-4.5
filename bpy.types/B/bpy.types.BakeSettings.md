@@ -1,6 +1,6 @@
 # BakeSettings(bpy_struct)
 
-base class — [`bpy_struct`](bpy.types.bpy_struct.html#bpy.types.bpy_struct "bpy.types.bpy_struct")
+base class — [`bpy_struct`](bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct")
 
 _class _bpy.types.BakeSettings(_bpy_struct_)
     
@@ -25,7 +25,7 @@ Object to use as cage instead of calculating the cage from the active object wit
 Type:
     
 
-[`Object`](bpy.types.Object.html#bpy.types.Object "bpy.types.Object")
+[`Object`](bpy.types.Object.md#bpy.types.Object "bpy.types.Object")
 
 filepath
     
@@ -53,7 +53,7 @@ image_settings
 Type:
     
 
-[`ImageFormatSettings`](bpy.types.ImageFormatSettings.html#bpy.types.ImageFormatSettings "bpy.types.ImageFormatSettings"), (readonly, never None)
+[`ImageFormatSettings`](bpy.types.ImageFormatSettings.md#bpy.types.ImageFormatSettings "bpy.types.ImageFormatSettings"), (readonly, never None)
 
 margin
     
@@ -73,7 +73,7 @@ Algorithm to extend the baked result
 Type:
     
 
-enum in [Bake Margin Type Items](bpy_types_enum_items/bake_margin_type_items.html#rna-enum-bake-margin-type-items), default `'ADJACENT_FACES'`
+enum in [Bake Margin Type Items](bpy_types_enum_items/bake_margin_type_items.md#rna-enum-bake-margin-type-items), default `'ADJACENT_FACES'`
 
 max_ray_distance
     
@@ -93,7 +93,7 @@ Axis to bake in blue channel
 Type:
     
 
-enum in [Normal Swizzle Items](bpy_types_enum_items/normal_swizzle_items.html#rna-enum-normal-swizzle-items), default `'POS_X'`
+enum in [Normal Swizzle Items](bpy_types_enum_items/normal_swizzle_items.md#rna-enum-normal-swizzle-items), default `'POS_X'`
 
 normal_g
     
@@ -103,7 +103,7 @@ Axis to bake in green channel
 Type:
     
 
-enum in [Normal Swizzle Items](bpy_types_enum_items/normal_swizzle_items.html#rna-enum-normal-swizzle-items), default `'POS_X'`
+enum in [Normal Swizzle Items](bpy_types_enum_items/normal_swizzle_items.md#rna-enum-normal-swizzle-items), default `'POS_X'`
 
 normal_r
     
@@ -113,7 +113,7 @@ Axis to bake in red channel
 Type:
     
 
-enum in [Normal Swizzle Items](bpy_types_enum_items/normal_swizzle_items.html#rna-enum-normal-swizzle-items), default `'POS_X'`
+enum in [Normal Swizzle Items](bpy_types_enum_items/normal_swizzle_items.md#rna-enum-normal-swizzle-items), default `'POS_X'`
 
 normal_space
     
@@ -123,7 +123,7 @@ Choose normal space for baking
 Type:
     
 
-enum in [Normal Space Items](bpy_types_enum_items/normal_space_items.html#rna-enum-normal-space-items), default `'OBJECT'`
+enum in [Normal Space Items](bpy_types_enum_items/normal_space_items.md#rna-enum-normal-space-items), default `'OBJECT'`
 
 pass_filter
     
@@ -133,7 +133,7 @@ Passes to include in the active baking pass
 Type:
     
 
-enum set in [Bake Pass Filter Type Items](bpy_types_enum_items/bake_pass_filter_type_items.html#rna-enum-bake-pass-filter-type-items), default set(), (readonly)
+enum set in [Bake Pass Filter Type Items](bpy_types_enum_items/bake_pass_filter_type_items.md#rna-enum-bake-pass-filter-type-items), default set(), (readonly)
 
 save_mode
     
@@ -143,7 +143,7 @@ Where to save baked image textures
 Type:
     
 
-enum in [Bake Save Mode Items](bpy_types_enum_items/bake_save_mode_items.html#rna-enum-bake-save-mode-items), default `'INTERNAL'`
+enum in [Bake Save Mode Items](bpy_types_enum_items/bake_save_mode_items.md#rna-enum-bake-save-mode-items), default `'INTERNAL'`
 
 target
     
@@ -153,7 +153,7 @@ Where to output the baked map
 Type:
     
 
-enum in [Bake Target Items](bpy_types_enum_items/bake_target_items.html#rna-enum-bake-target-items), default `'IMAGE_TEXTURES'`
+enum in [Bake Target Items](bpy_types_enum_items/bake_target_items.md#rna-enum-bake-target-items), default `'IMAGE_TEXTURES'`
 
 use_automatic_name
     
@@ -316,7 +316,7 @@ The RNA type or default when not found.
 Return type:
     
 
-[`bpy.types.Struct`](bpy.types.Struct.html#bpy.types.Struct "bpy.types.Struct") subclass
+[`bpy.types.Struct`](bpy.types.Struct.md#bpy.types.Struct "bpy.types.Struct") subclass
 
 _classmethod _bl_rna_get_subclass_py(_id_ , _default =None_, _/_)
     
@@ -338,7 +338,7 @@ type
 
 ## Inherited Properties
 
-  * [`bpy_struct.id_data`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_data "bpy.types.bpy_struct.id_data")
+  * [`bpy_struct.id_data`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_data "bpy.types.bpy_struct.id_data")
 
 | 
 
@@ -348,39 +348,39 @@ type
   
 ## Inherited Functions
 
-  * [`bpy_struct.as_pointer`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.as_pointer "bpy.types.bpy_struct.as_pointer")
-  * [`bpy_struct.driver_add`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.driver_add "bpy.types.bpy_struct.driver_add")
-  * [`bpy_struct.driver_remove`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.driver_remove "bpy.types.bpy_struct.driver_remove")
-  * [`bpy_struct.get`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.get "bpy.types.bpy_struct.get")
-  * [`bpy_struct.id_properties_clear`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_clear "bpy.types.bpy_struct.id_properties_clear")
-  * [`bpy_struct.id_properties_ensure`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_ensure "bpy.types.bpy_struct.id_properties_ensure")
-  * [`bpy_struct.id_properties_ui`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_ui "bpy.types.bpy_struct.id_properties_ui")
-  * [`bpy_struct.is_property_hidden`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_hidden "bpy.types.bpy_struct.is_property_hidden")
-  * [`bpy_struct.is_property_overridable_library`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_overridable_library "bpy.types.bpy_struct.is_property_overridable_library")
-  * [`bpy_struct.is_property_readonly`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_readonly "bpy.types.bpy_struct.is_property_readonly")
-  * [`bpy_struct.is_property_set`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_set "bpy.types.bpy_struct.is_property_set")
-  * [`bpy_struct.items`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.items "bpy.types.bpy_struct.items")
+  * [`bpy_struct.as_pointer`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.as_pointer "bpy.types.bpy_struct.as_pointer")
+  * [`bpy_struct.driver_add`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.driver_add "bpy.types.bpy_struct.driver_add")
+  * [`bpy_struct.driver_remove`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.driver_remove "bpy.types.bpy_struct.driver_remove")
+  * [`bpy_struct.get`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.get "bpy.types.bpy_struct.get")
+  * [`bpy_struct.id_properties_clear`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_properties_clear "bpy.types.bpy_struct.id_properties_clear")
+  * [`bpy_struct.id_properties_ensure`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_properties_ensure "bpy.types.bpy_struct.id_properties_ensure")
+  * [`bpy_struct.id_properties_ui`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_properties_ui "bpy.types.bpy_struct.id_properties_ui")
+  * [`bpy_struct.is_property_hidden`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_hidden "bpy.types.bpy_struct.is_property_hidden")
+  * [`bpy_struct.is_property_overridable_library`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_overridable_library "bpy.types.bpy_struct.is_property_overridable_library")
+  * [`bpy_struct.is_property_readonly`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_readonly "bpy.types.bpy_struct.is_property_readonly")
+  * [`bpy_struct.is_property_set`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_set "bpy.types.bpy_struct.is_property_set")
+  * [`bpy_struct.items`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.items "bpy.types.bpy_struct.items")
 
 | 
 
-  * [`bpy_struct.keyframe_delete`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keyframe_delete "bpy.types.bpy_struct.keyframe_delete")
-  * [`bpy_struct.keyframe_insert`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keyframe_insert "bpy.types.bpy_struct.keyframe_insert")
-  * [`bpy_struct.keys`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keys "bpy.types.bpy_struct.keys")
-  * [`bpy_struct.path_from_id`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.path_from_id "bpy.types.bpy_struct.path_from_id")
-  * [`bpy_struct.path_resolve`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.path_resolve "bpy.types.bpy_struct.path_resolve")
-  * [`bpy_struct.pop`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.pop "bpy.types.bpy_struct.pop")
-  * [`bpy_struct.property_overridable_library_set`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.property_overridable_library_set "bpy.types.bpy_struct.property_overridable_library_set")
-  * [`bpy_struct.property_unset`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.property_unset "bpy.types.bpy_struct.property_unset")
-  * [`bpy_struct.rna_ancestors`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.rna_ancestors "bpy.types.bpy_struct.rna_ancestors")
-  * [`bpy_struct.type_recast`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.type_recast "bpy.types.bpy_struct.type_recast")
-  * [`bpy_struct.values`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.values "bpy.types.bpy_struct.values")
+  * [`bpy_struct.keyframe_delete`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.keyframe_delete "bpy.types.bpy_struct.keyframe_delete")
+  * [`bpy_struct.keyframe_insert`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.keyframe_insert "bpy.types.bpy_struct.keyframe_insert")
+  * [`bpy_struct.keys`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.keys "bpy.types.bpy_struct.keys")
+  * [`bpy_struct.path_from_id`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.path_from_id "bpy.types.bpy_struct.path_from_id")
+  * [`bpy_struct.path_resolve`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.path_resolve "bpy.types.bpy_struct.path_resolve")
+  * [`bpy_struct.pop`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.pop "bpy.types.bpy_struct.pop")
+  * [`bpy_struct.property_overridable_library_set`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.property_overridable_library_set "bpy.types.bpy_struct.property_overridable_library_set")
+  * [`bpy_struct.property_unset`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.property_unset "bpy.types.bpy_struct.property_unset")
+  * [`bpy_struct.rna_ancestors`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.rna_ancestors "bpy.types.bpy_struct.rna_ancestors")
+  * [`bpy_struct.type_recast`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.type_recast "bpy.types.bpy_struct.type_recast")
+  * [`bpy_struct.values`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.values "bpy.types.bpy_struct.values")
 
   
 ---|---  
   
 ## References
 
-  * [`RenderSettings.bake`](bpy.types.RenderSettings.html#bpy.types.RenderSettings.bake "bpy.types.RenderSettings.bake")
+  * [`RenderSettings.bake`](bpy.types.RenderSettings.md#bpy.types.RenderSettings.bake "bpy.types.RenderSettings.bake")
 
 | 
 

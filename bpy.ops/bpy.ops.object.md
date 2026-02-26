@@ -10,7 +10,7 @@ Parameters:
 
   * **radius** (_float in_ _[__0_ _,__inf_ _]__,__(__optional_ _)_) – Radius
 
-  * **type** (enum in [Object Type Items](bpy_types_enum_items/object_type_items.html#rna-enum-object-type-items), (optional)) – Type
+  * **type** (enum in [Object Type Items](bpy_types_enum_items/object_type_items.md#rna-enum-object-type-items), (optional)) – Type
 
   * **enter_editmode** (_boolean_ _,__(__optional_ _)_) – Enter Edit Mode, Enter edit mode when adding this object
 
@@ -24,11 +24,11 @@ Align, The alignment of the new object
 
     * `CURSOR` 3D Cursor – Use the 3D cursor orientation for the new object.
 
-  * **location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
+  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
 
-  * **rotation** ([`mathutils.Euler`](mathutils.html#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
+  * **rotation** ([`mathutils.Euler`](mathutils.md#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
 
-  * **scale** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
+  * **scale** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
 
 
 bpy.ops.object.add_modifier_menu()
@@ -55,7 +55,7 @@ Parameters:
 
   * **session_uid** (_int in_ _[__-inf_ _,__inf_ _]__,__(__optional_ _)_) – Session UID, Session UID of the data-block to use by the operator
 
-  * **matrix** ([`mathutils.Matrix`](mathutils.html#mathutils.Matrix "mathutils.Matrix") of 4 * 4 items in [-inf, inf], (optional)) – Matrix
+  * **matrix** ([`mathutils.Matrix`](mathutils.md#mathutils.Matrix "mathutils.Matrix") of 4 * 4 items in [-inf, inf], (optional)) – Matrix
 
   * **drop_x** (_int in_ _[__-inf_ _,__inf_ _]__,__(__optional_ _)_) – Drop X, X-coordinate (screen space) to place the new object under
 
@@ -126,11 +126,11 @@ Align, The alignment of the new object
 
     * `CURSOR` 3D Cursor – Use the 3D cursor orientation for the new object.
 
-  * **location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
+  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
 
-  * **rotation** ([`mathutils.Euler`](mathutils.html#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
+  * **rotation** ([`mathutils.Euler`](mathutils.md#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
 
-  * **scale** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
+  * **scale** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
 
 
 bpy.ops.object.assign_property_defaults(_*_ , _process_data =True_, _process_bones =True_)
@@ -159,9 +159,9 @@ Bake image textures of selected objects
 Parameters:
     
 
-  * **type** (enum in [Bake Pass Type Items](bpy_types_enum_items/bake_pass_type_items.html#rna-enum-bake-pass-type-items), (optional)) – Type, Type of pass to bake, some of them may not be supported by the current render engine
+  * **type** (enum in [Bake Pass Type Items](bpy_types_enum_items/bake_pass_type_items.md#rna-enum-bake-pass-type-items), (optional)) – Type, Type of pass to bake, some of them may not be supported by the current render engine
 
-  * **pass_filter** (enum set in [Bake Pass Filter Type Items](bpy_types_enum_items/bake_pass_filter_type_items.html#rna-enum-bake-pass-filter-type-items), (optional)) – Pass Filter, Filter to combined, diffuse, glossy, transmission and subsurface passes
+  * **pass_filter** (enum set in [Bake Pass Filter Type Items](bpy_types_enum_items/bake_pass_filter_type_items.md#rna-enum-bake-pass-filter-type-items), (optional)) – Pass Filter, Filter to combined, diffuse, glossy, transmission and subsurface passes
 
   * **filepath** (_string_ _,__(__optional_ _,__never None_ _)_) – File Path, Image filepath to use when saving externally
 
@@ -171,7 +171,7 @@ Parameters:
 
   * **margin** (_int in_ _[__0_ _,__inf_ _]__,__(__optional_ _)_) – Margin, Extends the baked result as a post process filter
 
-  * **margin_type** (enum in [Bake Margin Type Items](bpy_types_enum_items/bake_margin_type_items.html#rna-enum-bake-margin-type-items), (optional)) – Margin Type, Which algorithm to use to generate the margin
+  * **margin_type** (enum in [Bake Margin Type Items](bpy_types_enum_items/bake_margin_type_items.md#rna-enum-bake-margin-type-items), (optional)) – Margin Type, Which algorithm to use to generate the margin
 
   * **use_selected_to_active** (_boolean_ _,__(__optional_ _)_) – Selected to Active, Bake shading on the surface of selected objects to the active object
 
@@ -181,17 +181,17 @@ Parameters:
 
   * **cage_object** (_string_ _,__(__optional_ _,__never None_ _)_) – Cage Object, Object to use as cage, instead of calculating the cage from the active object with cage extrusion
 
-  * **normal_space** (enum in [Normal Space Items](bpy_types_enum_items/normal_space_items.html#rna-enum-normal-space-items), (optional)) – Normal Space, Choose normal space for baking
+  * **normal_space** (enum in [Normal Space Items](bpy_types_enum_items/normal_space_items.md#rna-enum-normal-space-items), (optional)) – Normal Space, Choose normal space for baking
 
-  * **normal_r** (enum in [Normal Swizzle Items](bpy_types_enum_items/normal_swizzle_items.html#rna-enum-normal-swizzle-items), (optional)) – R, Axis to bake in red channel
+  * **normal_r** (enum in [Normal Swizzle Items](bpy_types_enum_items/normal_swizzle_items.md#rna-enum-normal-swizzle-items), (optional)) – R, Axis to bake in red channel
 
-  * **normal_g** (enum in [Normal Swizzle Items](bpy_types_enum_items/normal_swizzle_items.html#rna-enum-normal-swizzle-items), (optional)) – G, Axis to bake in green channel
+  * **normal_g** (enum in [Normal Swizzle Items](bpy_types_enum_items/normal_swizzle_items.md#rna-enum-normal-swizzle-items), (optional)) – G, Axis to bake in green channel
 
-  * **normal_b** (enum in [Normal Swizzle Items](bpy_types_enum_items/normal_swizzle_items.html#rna-enum-normal-swizzle-items), (optional)) – B, Axis to bake in blue channel
+  * **normal_b** (enum in [Normal Swizzle Items](bpy_types_enum_items/normal_swizzle_items.md#rna-enum-normal-swizzle-items), (optional)) – B, Axis to bake in blue channel
 
-  * **target** (enum in [Bake Target Items](bpy_types_enum_items/bake_target_items.html#rna-enum-bake-target-items), (optional)) – Target, Where to output the baked map
+  * **target** (enum in [Bake Target Items](bpy_types_enum_items/bake_target_items.md#rna-enum-bake-target-items), (optional)) – Target, Where to output the baked map
 
-  * **save_mode** (enum in [Bake Save Mode Items](bpy_types_enum_items/bake_save_mode_items.html#rna-enum-bake-save-mode-items), (optional)) – Save Mode, Where to save baked image textures
+  * **save_mode** (enum in [Bake Save Mode Items](bpy_types_enum_items/bake_save_mode_items.md#rna-enum-bake-save-mode-items), (optional)) – Save Mode, Where to save baked image textures
 
   * **use_clear** (_boolean_ _,__(__optional_ _)_) – Clear, Clear images before baking (only for internal saving)
 
@@ -229,11 +229,11 @@ Align, The alignment of the new object
 
     * `CURSOR` 3D Cursor – Use the 3D cursor orientation for the new object.
 
-  * **location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
+  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
 
-  * **rotation** ([`mathutils.Euler`](mathutils.html#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
+  * **rotation** ([`mathutils.Euler`](mathutils.md#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
 
-  * **scale** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
+  * **scale** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
 
 
 bpy.ops.object.camera_custom_update()
@@ -271,11 +271,11 @@ Align, The alignment of the new object
 
     * `CURSOR` 3D Cursor – Use the 3D cursor orientation for the new object.
 
-  * **location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
+  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
 
-  * **rotation** ([`mathutils.Euler`](mathutils.html#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
+  * **rotation** ([`mathutils.Euler`](mathutils.md#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
 
-  * **scale** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
+  * **scale** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
 
   * **use_instance** (_boolean_ _,__(__optional_ _)_) – Instance, Add the dropped collection as collection instance
 
@@ -308,11 +308,11 @@ Align, The alignment of the new object
 
     * `CURSOR` 3D Cursor – Use the 3D cursor orientation for the new object.
 
-  * **location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
+  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
 
-  * **rotation** ([`mathutils.Euler`](mathutils.html#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
+  * **rotation** ([`mathutils.Euler`](mathutils.md#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
 
-  * **scale** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
+  * **scale** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
 
   * **session_uid** (_int in_ _[__-inf_ _,__inf_ _]__,__(__optional_ _)_) – Session UID, Session UID of the data-block to use by the operator
 
@@ -437,11 +437,11 @@ Align, The alignment of the new object
 
     * `CURSOR` 3D Cursor – Use the 3D cursor orientation for the new object.
 
-  * **location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
+  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
 
-  * **rotation** ([`mathutils.Euler`](mathutils.html#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
+  * **rotation** ([`mathutils.Euler`](mathutils.md#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
 
-  * **scale** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
+  * **scale** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
 
 
 bpy.ops.object.curves_random_add(_*_ , _align ='WORLD'_, _location =(0.0, 0.0, 0.0)_, _rotation =(0.0, 0.0, 0.0)_, _scale =(0.0, 0.0, 0.0)_)
@@ -462,11 +462,11 @@ Align, The alignment of the new object
 
     * `CURSOR` 3D Cursor – Use the 3D cursor orientation for the new object.
 
-  * **location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
+  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
 
-  * **rotation** ([`mathutils.Euler`](mathutils.html#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
+  * **rotation** ([`mathutils.Euler`](mathutils.md#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
 
-  * **scale** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
+  * **scale** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
 
 
 bpy.ops.object.data_instance_add(_*_ , _name =''_, _session_uid =0_, _type ='ACTION'_, _align ='WORLD'_, _location =(0.0, 0.0, 0.0)_, _rotation =(0.0, 0.0, 0.0)_, _scale =(0.0, 0.0, 0.0)_, _drop_x =0_, _drop_y =0_)
@@ -481,7 +481,7 @@ Parameters:
 
   * **session_uid** (_int in_ _[__-inf_ _,__inf_ _]__,__(__optional_ _)_) – Session UID, Session UID of the data-block to use by the operator
 
-  * **type** (enum in [Id Type Items](bpy_types_enum_items/id_type_items.html#rna-enum-id-type-items), (optional)) – Type
+  * **type** (enum in [Id Type Items](bpy_types_enum_items/id_type_items.md#rna-enum-id-type-items), (optional)) – Type
 
   * **align** (enum in [`'WORLD'`, `'VIEW'`, `'CURSOR'`], (optional)) – 
 
@@ -493,11 +493,11 @@ Align, The alignment of the new object
 
     * `CURSOR` 3D Cursor – Use the 3D cursor orientation for the new object.
 
-  * **location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
+  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
 
-  * **rotation** ([`mathutils.Euler`](mathutils.html#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
+  * **rotation** ([`mathutils.Euler`](mathutils.md#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
 
-  * **scale** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
+  * **scale** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
 
   * **drop_x** (_int in_ _[__-inf_ _,__inf_ _]__,__(__optional_ _)_) – Drop X, X-coordinate (screen space) to place the new object under
 
@@ -548,13 +548,13 @@ Data Type, Which data to transfer
 
   * **use_create** (_boolean_ _,__(__optional_ _)_) – Create Data, Add data layers on destination meshes if needed
 
-  * **vert_mapping** (enum in [Dt Method Vertex Items](bpy_types_enum_items/dt_method_vertex_items.html#rna-enum-dt-method-vertex-items), (optional)) – Vertex Mapping, Method used to map source vertices to destination ones
+  * **vert_mapping** (enum in [Dt Method Vertex Items](bpy_types_enum_items/dt_method_vertex_items.md#rna-enum-dt-method-vertex-items), (optional)) – Vertex Mapping, Method used to map source vertices to destination ones
 
-  * **edge_mapping** (enum in [Dt Method Edge Items](bpy_types_enum_items/dt_method_edge_items.html#rna-enum-dt-method-edge-items), (optional)) – Edge Mapping, Method used to map source edges to destination ones
+  * **edge_mapping** (enum in [Dt Method Edge Items](bpy_types_enum_items/dt_method_edge_items.md#rna-enum-dt-method-edge-items), (optional)) – Edge Mapping, Method used to map source edges to destination ones
 
-  * **loop_mapping** (enum in [Dt Method Loop Items](bpy_types_enum_items/dt_method_loop_items.html#rna-enum-dt-method-loop-items), (optional)) – Face Corner Mapping, Method used to map source faces’ corners to destination ones
+  * **loop_mapping** (enum in [Dt Method Loop Items](bpy_types_enum_items/dt_method_loop_items.md#rna-enum-dt-method-loop-items), (optional)) – Face Corner Mapping, Method used to map source faces’ corners to destination ones
 
-  * **poly_mapping** (enum in [Dt Method Poly Items](bpy_types_enum_items/dt_method_poly_items.html#rna-enum-dt-method-poly-items), (optional)) – Face Mapping, Method used to map source faces to destination ones
+  * **poly_mapping** (enum in [Dt Method Poly Items](bpy_types_enum_items/dt_method_poly_items.md#rna-enum-dt-method-poly-items), (optional)) – Face Mapping, Method used to map source faces to destination ones
 
   * **use_auto_transform** (_boolean_ _,__(__optional_ _)_) – Auto Transform, Automatically compute transformation to get the best possible match between source and destination meshes.Warning: Results will never be as good as manual matching of objects
 
@@ -568,11 +568,11 @@ Data Type, Which data to transfer
 
   * **islands_precision** (_float in_ _[__0_ _,__10_ _]__,__(__optional_ _)_) – Islands Precision, Factor controlling precision of islands handling (the higher, the better the results)
 
-  * **layers_select_src** (enum in [Dt Layers Select Src Items](bpy_types_enum_items/dt_layers_select_src_items.html#rna-enum-dt-layers-select-src-items), (optional)) – Source Layers Selection, Which layers to transfer, in case of multi-layers types
+  * **layers_select_src** (enum in [Dt Layers Select Src Items](bpy_types_enum_items/dt_layers_select_src_items.md#rna-enum-dt-layers-select-src-items), (optional)) – Source Layers Selection, Which layers to transfer, in case of multi-layers types
 
-  * **layers_select_dst** (enum in [Dt Layers Select Dst Items](bpy_types_enum_items/dt_layers_select_dst_items.html#rna-enum-dt-layers-select-dst-items), (optional)) – Destination Layers Matching, How to match source and destination layers
+  * **layers_select_dst** (enum in [Dt Layers Select Dst Items](bpy_types_enum_items/dt_layers_select_dst_items.md#rna-enum-dt-layers-select-dst-items), (optional)) – Destination Layers Matching, How to match source and destination layers
 
-  * **mix_mode** (enum in [Dt Mix Mode Items](bpy_types_enum_items/dt_mix_mode_items.html#rna-enum-dt-mix-mode-items), (optional)) – Mix Mode, How to affect destination elements with source values
+  * **mix_mode** (enum in [Dt Mix Mode Items](bpy_types_enum_items/dt_mix_mode_items.md#rna-enum-dt-mix-mode-items), (optional)) – Mix Mode, How to affect destination elements with source values
 
   * **mix_factor** (_float in_ _[__0_ _,__1_ _]__,__(__optional_ _)_) – Mix Factor, Factor to use when applying data to destination (exact behavior depends on mix mode)
 
@@ -619,9 +619,9 @@ Data Type, Which data to transfer
 
   * **use_delete** (_boolean_ _,__(__optional_ _)_) – Exact Match, Also delete some data layers from destination if necessary, so that it matches exactly source
 
-  * **layers_select_src** (enum in [Dt Layers Select Src Items](bpy_types_enum_items/dt_layers_select_src_items.html#rna-enum-dt-layers-select-src-items), (optional)) – Source Layers Selection, Which layers to transfer, in case of multi-layers types
+  * **layers_select_src** (enum in [Dt Layers Select Src Items](bpy_types_enum_items/dt_layers_select_src_items.md#rna-enum-dt-layers-select-src-items), (optional)) – Source Layers Selection, Which layers to transfer, in case of multi-layers types
 
-  * **layers_select_dst** (enum in [Dt Layers Select Dst Items](bpy_types_enum_items/dt_layers_select_dst_items.html#rna-enum-dt-layers-select-dst-items), (optional)) – Destination Layers Matching, How to match source and destination layers
+  * **layers_select_dst** (enum in [Dt Layers Select Dst Items](bpy_types_enum_items/dt_layers_select_dst_items.md#rna-enum-dt-layers-select-dst-items), (optional)) – Destination Layers Matching, How to match source and destination layers
 
 
 bpy.ops.object.delete(_*_ , _use_global =False_, _confirm =True_)
@@ -673,7 +673,7 @@ Parameters:
 
   * **linked** (_boolean_ _,__(__optional_ _)_) – Linked, Duplicate object but not object data, linking to the original data
 
-  * **mode** (enum in [Transform Mode Type Items](bpy_types_enum_items/transform_mode_type_items.html#rna-enum-transform-mode-type-items), (optional)) – Mode
+  * **mode** (enum in [Transform Mode Type Items](bpy_types_enum_items/transform_mode_type_items.md#rna-enum-transform-mode-type-items), (optional)) – Mode
 
 
 bpy.ops.object.duplicate_move(_*_ , _OBJECT_OT_duplicate =None_, _TRANSFORM_OT_translate =None_)
@@ -744,11 +744,11 @@ Align, The alignment of the new object
 
     * `CURSOR` 3D Cursor – Use the 3D cursor orientation for the new object.
 
-  * **location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
+  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
 
-  * **rotation** ([`mathutils.Euler`](mathutils.html#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
+  * **rotation** ([`mathutils.Euler`](mathutils.md#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
 
-  * **scale** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
+  * **scale** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
 
 
 bpy.ops.object.empty_add(_*_ , _type ='PLAIN_AXES'_, _radius =1.0_, _align ='WORLD'_, _location =(0.0, 0.0, 0.0)_, _rotation =(0.0, 0.0, 0.0)_, _scale =(0.0, 0.0, 0.0)_)
@@ -759,7 +759,7 @@ Add an empty object to the scene
 Parameters:
     
 
-  * **type** (enum in [Object Empty Drawtype Items](bpy_types_enum_items/object_empty_drawtype_items.html#rna-enum-object-empty-drawtype-items), (optional)) – Type
+  * **type** (enum in [Object Empty Drawtype Items](bpy_types_enum_items/object_empty_drawtype_items.md#rna-enum-object-empty-drawtype-items), (optional)) – Type
 
   * **radius** (_float in_ _[__0_ _,__inf_ _]__,__(__optional_ _)_) – Radius
 
@@ -773,11 +773,11 @@ Align, The alignment of the new object
 
     * `CURSOR` 3D Cursor – Use the 3D cursor orientation for the new object.
 
-  * **location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
+  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
 
-  * **rotation** ([`mathutils.Euler`](mathutils.html#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
+  * **rotation** ([`mathutils.Euler`](mathutils.md#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
 
-  * **scale** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
+  * **scale** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
 
 
 bpy.ops.object.empty_image_add(_*_ , _filepath =''_, _hide_props_region =True_, _check_existing =False_, _filter_blender =False_, _filter_backup =False_, _filter_image =True_, _filter_movie =True_, _filter_python =False_, _filter_font =False_, _filter_sound =False_, _filter_text =False_, _filter_archive =False_, _filter_btx =False_, _filter_collada =False_, _filter_alembic =False_, _filter_usd =False_, _filter_obj =False_, _filter_volume =False_, _filter_folder =True_, _filter_blenlib =False_, _filemode =9_, _relative_path =True_, _show_multiview =False_, _use_multiview =False_, _display_type ='DEFAULT'_, _sort_method =''_, _name =''_, _session_uid =0_, _align ='WORLD'_, _location =(0.0, 0.0, 0.0)_, _rotation =(0.0, 0.0, 0.0)_, _scale =(0.0, 0.0, 0.0)_, _background =False_)
@@ -878,11 +878,11 @@ Align, The alignment of the new object
 
     * `CURSOR` 3D Cursor – Use the 3D cursor orientation for the new object.
 
-  * **location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
+  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
 
-  * **rotation** ([`mathutils.Euler`](mathutils.html#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
+  * **rotation** ([`mathutils.Euler`](mathutils.md#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
 
-  * **scale** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
+  * **scale** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
 
   * **background** (_boolean_ _,__(__optional_ _)_) – Put in Background, Make the image render behind all objects
 
@@ -1005,7 +1005,7 @@ Add a Grease Pencil object to the scene
 Parameters:
     
 
-  * **type** (enum in [Object Gpencil Type Items](bpy_types_enum_items/object_gpencil_type_items.html#rna-enum-object-gpencil-type-items), (optional)) – Type
+  * **type** (enum in [Object Gpencil Type Items](bpy_types_enum_items/object_gpencil_type_items.md#rna-enum-object-gpencil-type-items), (optional)) – Type
 
   * **use_in_front** (_boolean_ _,__(__optional_ _)_) – Show In Front, Show Line Art Grease Pencil in front of everything
 
@@ -1033,11 +1033,11 @@ Align, The alignment of the new object
 
     * `CURSOR` 3D Cursor – Use the 3D cursor orientation for the new object.
 
-  * **location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
+  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
 
-  * **rotation** ([`mathutils.Euler`](mathutils.html#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
+  * **rotation** ([`mathutils.Euler`](mathutils.md#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
 
-  * **scale** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
+  * **scale** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
 
 
 bpy.ops.object.grease_pencil_dash_modifier_segment_add(_*_ , _modifier =''_)
@@ -1300,7 +1300,7 @@ Add a light object to the scene
 Parameters:
     
 
-  * **type** (enum in [Light Type Items](bpy_types_enum_items/light_type_items.html#rna-enum-light-type-items), (optional)) – Type
+  * **type** (enum in [Light Type Items](bpy_types_enum_items/light_type_items.md#rna-enum-light-type-items), (optional)) – Type
 
   * **radius** (_float in_ _[__0_ _,__inf_ _]__,__(__optional_ _)_) – Radius
 
@@ -1314,11 +1314,11 @@ Align, The alignment of the new object
 
     * `CURSOR` 3D Cursor – Use the 3D cursor orientation for the new object.
 
-  * **location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
+  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
 
-  * **rotation** ([`mathutils.Euler`](mathutils.html#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
+  * **rotation** ([`mathutils.Euler`](mathutils.md#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
 
-  * **scale** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
+  * **scale** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
 
 
 bpy.ops.object.light_linking_blocker_collection_new()
@@ -1412,11 +1412,11 @@ Align, The alignment of the new object
 
     * `CURSOR` 3D Cursor – Use the 3D cursor orientation for the new object.
 
-  * **location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
+  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
 
-  * **rotation** ([`mathutils.Euler`](mathutils.html#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
+  * **rotation** ([`mathutils.Euler`](mathutils.md#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
 
-  * **scale** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
+  * **scale** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
 
 
 bpy.ops.object.lightprobe_cache_bake(_*_ , _subset ='ALL'_)
@@ -1660,7 +1660,7 @@ Add an metaball object to the scene
 Parameters:
     
 
-  * **type** (enum in [Metaelem Type Items](bpy_types_enum_items/metaelem_type_items.html#rna-enum-metaelem-type-items), (optional)) – Primitive
+  * **type** (enum in [Metaelem Type Items](bpy_types_enum_items/metaelem_type_items.md#rna-enum-metaelem-type-items), (optional)) – Primitive
 
   * **radius** (_float in_ _[__0_ _,__inf_ _]__,__(__optional_ _)_) – Radius
 
@@ -1676,11 +1676,11 @@ Align, The alignment of the new object
 
     * `CURSOR` 3D Cursor – Use the 3D cursor orientation for the new object.
 
-  * **location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
+  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
 
-  * **rotation** ([`mathutils.Euler`](mathutils.html#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
+  * **rotation** ([`mathutils.Euler`](mathutils.md#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
 
-  * **scale** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
+  * **scale** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
 
 
 bpy.ops.object.mode_set(_*_ , _mode ='OBJECT'_, _toggle =False_)
@@ -1691,7 +1691,7 @@ Sets the object interaction mode
 Parameters:
     
 
-  * **mode** (enum in [Object Mode Items](bpy_types_enum_items/object_mode_items.html#rna-enum-object-mode-items), (optional)) – Mode
+  * **mode** (enum in [Object Mode Items](bpy_types_enum_items/object_mode_items.md#rna-enum-object-mode-items), (optional)) – Mode
 
   * **toggle** (_boolean_ _,__(__optional_ _)_) – Toggle
 
@@ -1704,11 +1704,11 @@ Sets the object interaction mode
 Parameters:
     
 
-  * **mode** (enum in [Object Mode Items](bpy_types_enum_items/object_mode_items.html#rna-enum-object-mode-items), (optional)) – Mode
+  * **mode** (enum in [Object Mode Items](bpy_types_enum_items/object_mode_items.md#rna-enum-object-mode-items), (optional)) – Mode
 
   * **toggle** (_boolean_ _,__(__optional_ _)_) – Toggle
 
-  * **mesh_select_mode** (enum set in [Mesh Select Mode Items](bpy_types_enum_items/mesh_select_mode_items.html#rna-enum-mesh-select-mode-items), (optional)) – Mesh Mode
+  * **mesh_select_mode** (enum set in [Mesh Select Mode Items](bpy_types_enum_items/mesh_select_mode_items.md#rna-enum-mesh-select-mode-items), (optional)) – Mesh Mode
 
 
 bpy.ops.object.modifier_add(_*_ , _type ='SUBSURF'_, _use_selected_objects =False_)
@@ -1719,7 +1719,7 @@ Add a procedural operation/effect to the active object
 Parameters:
     
 
-  * **type** (enum in [Object Modifier Type Items](bpy_types_enum_items/object_modifier_type_items.html#rna-enum-object-modifier-type-items), (optional)) – Type
+  * **type** (enum in [Object Modifier Type Items](bpy_types_enum_items/object_modifier_type_items.md#rna-enum-object-modifier-type-items), (optional)) – Type
 
   * **use_selected_objects** (_boolean_ _,__(__optional_ _)_) – Selected Objects, Affect all selected objects instead of just the active object
 
@@ -1732,7 +1732,7 @@ Add a procedural operation/effect to the active object
 Parameters:
     
 
-  * **asset_library_type** (enum in [Asset Library Type Items](bpy_types_enum_items/asset_library_type_items.html#rna-enum-asset-library-type-items), (optional)) – Asset Library Type
+  * **asset_library_type** (enum in [Asset Library Type Items](bpy_types_enum_items/asset_library_type_items.md#rna-enum-asset-library-type-items), (optional)) – Asset Library Type
 
   * **asset_library_identifier** (_string_ _,__(__optional_ _,__never None_ _)_) – Asset Library Identifier
 
@@ -2154,9 +2154,9 @@ Generate motion paths for the selected objects
 Parameters:
     
 
-  * **display_type** (enum in [Motionpath Display Type Items](bpy_types_enum_items/motionpath_display_type_items.html#rna-enum-motionpath-display-type-items), (optional)) – Display type
+  * **display_type** (enum in [Motionpath Display Type Items](bpy_types_enum_items/motionpath_display_type_items.md#rna-enum-motionpath-display-type-items), (optional)) – Display type
 
-  * **range** (enum in [Motionpath Range Items](bpy_types_enum_items/motionpath_range_items.html#rna-enum-motionpath-range-items), (optional)) – Computation Range
+  * **range** (enum in [Motionpath Range Items](bpy_types_enum_items/motionpath_range_items.md#rna-enum-motionpath-range-items), (optional)) – Computation Range
 
 
 bpy.ops.object.paths_clear(_*_ , _only_selected =False_)
@@ -2197,11 +2197,11 @@ Align, The alignment of the new object
 
     * `CURSOR` 3D Cursor – Use the 3D cursor orientation for the new object.
 
-  * **location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
+  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
 
-  * **rotation** ([`mathutils.Euler`](mathutils.html#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
+  * **rotation** ([`mathutils.Euler`](mathutils.md#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
 
-  * **scale** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
+  * **scale** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
 
 
 bpy.ops.object.posemode_toggle()
@@ -2351,11 +2351,11 @@ Parameters:
 
   * **use_loc** (_boolean_ _,__(__optional_ _)_) – Randomize Location, Randomize the location values
 
-  * **loc** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-100, 100], (optional)) – Location, Maximum distance the objects can spread over each axis
+  * **loc** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-100, 100], (optional)) – Location, Maximum distance the objects can spread over each axis
 
   * **use_rot** (_boolean_ _,__(__optional_ _)_) – Randomize Rotation, Randomize the rotation values
 
-  * **rot** ([`mathutils.Euler`](mathutils.html#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-3.14159, 3.14159], (optional)) – Rotation, Maximum rotation over each axis
+  * **rot** ([`mathutils.Euler`](mathutils.md#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-3.14159, 3.14159], (optional)) – Rotation, Maximum rotation over each axis
 
   * **use_scale** (_boolean_ _,__(__optional_ _)_) – Randomize Scale, Randomize the scale values
 
@@ -2425,7 +2425,7 @@ Parameters:
 
   * **extend** (_boolean_ _,__(__optional_ _)_) – Extend, Extend selection instead of deselecting everything first
 
-  * **type** (enum in [Object Type Items](bpy_types_enum_items/object_type_items.html#rna-enum-object-type-items), (optional)) – Type
+  * **type** (enum in [Object Type Items](bpy_types_enum_items/object_type_items.md#rna-enum-object-type-items), (optional)) – Type
 
 
 bpy.ops.object.select_camera(_*_ , _extend =False_)
@@ -2636,7 +2636,7 @@ Add a visual effect to the active object
 Parameters:
     
 
-**type** (enum in [Object Shaderfx Type Items](bpy_types_enum_items/object_shaderfx_type_items.html#rna-enum-object-shaderfx-type-items), (optional)) – Type
+**type** (enum in [Object Shaderfx Type Items](bpy_types_enum_items/object_shaderfx_type_items.md#rna-enum-object-shaderfx-type-items), (optional)) – Type
 
 bpy.ops.object.shaderfx_copy(_*_ , _shaderfx =''_)
     
@@ -2893,11 +2893,11 @@ Align, The alignment of the new object
 
     * `CURSOR` 3D Cursor – Use the 3D cursor orientation for the new object.
 
-  * **location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
+  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
 
-  * **rotation** ([`mathutils.Euler`](mathutils.html#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
+  * **rotation** ([`mathutils.Euler`](mathutils.md#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
 
-  * **scale** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
+  * **scale** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
 
 
 bpy.ops.object.subdivision_set(_*_ , _level =1_, _relative =False_, _ensure_modifier =True_)
@@ -2952,11 +2952,11 @@ Align, The alignment of the new object
 
     * `CURSOR` 3D Cursor – Use the 3D cursor orientation for the new object.
 
-  * **location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
+  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
 
-  * **rotation** ([`mathutils.Euler`](mathutils.html#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
+  * **rotation** ([`mathutils.Euler`](mathutils.md#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
 
-  * **scale** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
+  * **scale** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
 
 
 bpy.ops.object.track_clear(_*_ , _type ='CLEAR'_)
@@ -3025,7 +3025,7 @@ Parameters:
 
   * **session_uid** (_int in_ _[__-inf_ _,__inf_ _]__,__(__optional_ _)_) – Session UUID, Session UUID of the object to place (uses the active object when this and ‘name’ are unset)
 
-  * **matrix** ([`mathutils.Matrix`](mathutils.html#mathutils.Matrix "mathutils.Matrix") of 4 * 4 items in [-inf, inf], (optional)) – Matrix
+  * **matrix** ([`mathutils.Matrix`](mathutils.md#mathutils.Matrix "mathutils.Matrix") of 4 * 4 items in [-inf, inf], (optional)) – Matrix
 
   * **drop_x** (_int in_ _[__-inf_ _,__inf_ _]__,__(__optional_ _)_) – Drop X, X-coordinate (screen space) to place the new object under
 
@@ -3390,11 +3390,11 @@ Align, The alignment of the new object
 
     * `CURSOR` 3D Cursor – Use the 3D cursor orientation for the new object.
 
-  * **location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
+  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
 
-  * **rotation** ([`mathutils.Euler`](mathutils.html#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
+  * **rotation** ([`mathutils.Euler`](mathutils.md#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
 
-  * **scale** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
+  * **scale** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
 
 
 bpy.ops.object.volume_import(_*_ , _filepath =''_, _directory =''_, _files =None_, _hide_props_region =True_, _check_existing =False_, _filter_blender =False_, _filter_backup =False_, _filter_image =False_, _filter_movie =False_, _filter_python =False_, _filter_font =False_, _filter_sound =False_, _filter_text =False_, _filter_archive =False_, _filter_btx =False_, _filter_collada =False_, _filter_alembic =False_, _filter_usd =False_, _filter_obj =False_, _filter_volume =True_, _filter_folder =True_, _filter_blenlib =False_, _filemode =9_, _relative_path =True_, _display_type ='DEFAULT'_, _sort_method =''_, _use_sequence_detection =True_, _align ='WORLD'_, _location =(0.0, 0.0, 0.0)_, _rotation =(0.0, 0.0, 0.0)_, _scale =(0.0, 0.0, 0.0)_)
@@ -3479,11 +3479,11 @@ Align, The alignment of the new object
 
     * `CURSOR` 3D Cursor – Use the 3D cursor orientation for the new object.
 
-  * **location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
+  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
 
-  * **rotation** ([`mathutils.Euler`](mathutils.html#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
+  * **rotation** ([`mathutils.Euler`](mathutils.md#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
 
-  * **scale** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
+  * **scale** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
 
 
 bpy.ops.object.voxel_remesh()

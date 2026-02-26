@@ -165,9 +165,9 @@ Cut geometry along a plane (click-drag to define plane)
 Parameters:
     
 
-  * **plane_co** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Plane Point, A point on the plane
+  * **plane_co** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Plane Point, A point on the plane
 
-  * **plane_no** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-1, 1], (optional)) – Plane Normal, The direction the plane points
+  * **plane_no** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-1, 1], (optional)) – Plane Normal, The direction the plane points
 
   * **use_fill** (_boolean_ _,__(__optional_ _)_) – Fill, Fill in the cut
 
@@ -229,7 +229,7 @@ Parameters:
 
   * **profile_shape_factor** (_float in_ _[__-1000_ _,__1000_ _]__,__(__optional_ _)_) – Profile Factor, How much intermediary new edges are shrunk/expanded
 
-  * **profile_shape** (enum in [Proportional Falloff Curve Only Items](bpy_types_enum_items/proportional_falloff_curve_only_items.html#rna-enum-proportional-falloff-curve-only-items), (optional)) – Profile Shape, Shape of the profile
+  * **profile_shape** (enum in [Proportional Falloff Curve Only Items](bpy_types_enum_items/proportional_falloff_curve_only_items.md#rna-enum-proportional-falloff-curve-only-items), (optional)) – Profile Shape, Shape of the profile
 
 
 bpy.ops.mesh.colors_reverse()
@@ -325,7 +325,7 @@ Parameters:
 
   * **use_symmetry** (_boolean_ _,__(__optional_ _)_) – Symmetry, Maintain symmetry on an axis
 
-  * **symmetry_axis** (enum in [Axis Xyz Items](bpy_types_enum_items/axis_xyz_items.html#rna-enum-axis-xyz-items), (optional)) – Axis, Axis of symmetry
+  * **symmetry_axis** (enum in [Axis Xyz Items](bpy_types_enum_items/axis_xyz_items.md#rna-enum-axis-xyz-items), (optional)) – Axis, Axis of symmetry
 
 
 bpy.ops.mesh.delete(_*_ , _type ='VERT'_)
@@ -410,7 +410,7 @@ Parameters:
 
   * **use_dissolve_boundaries** (_boolean_ _,__(__optional_ _)_) – All Boundaries, Dissolve all vertices in between face boundaries
 
-  * **delimit** (enum set in [Mesh Delimit Mode Items](bpy_types_enum_items/mesh_delimit_mode_items.html#rna-enum-mesh-delimit-mode-items), (optional)) – Delimit, Delimit dissolve operation
+  * **delimit** (enum set in [Mesh Delimit Mode Items](bpy_types_enum_items/mesh_delimit_mode_items.md#rna-enum-mesh-delimit-mode-items), (optional)) – Delimit, Delimit dissolve operation
 
 
 bpy.ops.mesh.dissolve_mode(_*_ , _use_verts =False_, _angle_threshold =3.14159_, _use_face_split =False_, _use_boundary_tear =False_)
@@ -681,7 +681,7 @@ Parameters:
 
   * **steps** (_int in_ _[__0_ _,__1000000_ _]__,__(__optional_ _)_) – Steps
 
-  * **offset** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-100000, 100000], (optional)) – Offset, Offset vector
+  * **offset** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-100000, 100000], (optional)) – Offset, Offset vector
 
   * **scale_offset** (_float in_ _[__0_ _,__inf_ _]__,__(__optional_ _)_) – Scale Offset
 
@@ -1018,7 +1018,7 @@ Parameters:
 
   * **smoothness** (_float in_ _[__-1000_ _,__1000_ _]__,__(__optional_ _)_) – Smoothness, Smoothness factor
 
-  * **falloff** (enum in [Proportional Falloff Curve Only Items](bpy_types_enum_items/proportional_falloff_curve_only_items.html#rna-enum-proportional-falloff-curve-only-items), (optional)) – Falloff, Falloff type of the feather
+  * **falloff** (enum in [Proportional Falloff Curve Only Items](bpy_types_enum_items/proportional_falloff_curve_only_items.md#rna-enum-proportional-falloff-curve-only-items), (optional)) – Falloff, Falloff type of the feather
 
   * **object_index** (_int in_ _[__-1_ _,__inf_ _]__,__(__optional_ _)_) – Object Index
 
@@ -1190,7 +1190,7 @@ Mode, How to define coordinates to point custom normals to
 
   * **align** (_boolean_ _,__(__optional_ _)_) – Align, Make all affected normals parallel
 
-  * **target_location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Target, Target location to which normals will point
+  * **target_location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Target, Target location to which normals will point
 
   * **spherize** (_boolean_ _,__(__optional_ _)_) – Spherize, Interpolate between original and new normals
 
@@ -1232,7 +1232,7 @@ Parameters:
 
   * **use_proportional_edit** (_boolean_ _,__(__optional_ _)_) – Proportional Editing
 
-  * **proportional_edit_falloff** (enum in [Proportional Falloff Items](bpy_types_enum_items/proportional_falloff_items.html#rna-enum-proportional-falloff-items), (optional)) – Proportional Falloff, Falloff type for proportional editing mode
+  * **proportional_edit_falloff** (enum in [Proportional Falloff Items](bpy_types_enum_items/proportional_falloff_items.md#rna-enum-proportional-falloff-items), (optional)) – Proportional Falloff, Falloff type for proportional editing mode
 
   * **proportional_size** (_float in_ _[__1e-06_ _,__inf_ _]__,__(__optional_ _)_) – Proportional Size
 
@@ -1279,7 +1279,7 @@ Parameters:
 
   * **use_proportional_edit** (_boolean_ _,__(__optional_ _)_) – Proportional Editing
 
-  * **proportional_edit_falloff** (enum in [Proportional Falloff Items](bpy_types_enum_items/proportional_falloff_items.html#rna-enum-proportional-falloff-items), (optional)) – Proportional Falloff, Falloff type for proportional editing mode
+  * **proportional_edit_falloff** (enum in [Proportional Falloff Items](bpy_types_enum_items/proportional_falloff_items.md#rna-enum-proportional-falloff-items), (optional)) – Proportional Falloff, Falloff type for proportional editing mode
 
   * **proportional_size** (_float in_ _[__1e-06_ _,__inf_ _]__,__(__optional_ _)_) – Proportional Size
 
@@ -1317,7 +1317,7 @@ Parameters:
 
   * **use_proportional_edit** (_boolean_ _,__(__optional_ _)_) – Proportional Editing
 
-  * **proportional_edit_falloff** (enum in [Proportional Falloff Items](bpy_types_enum_items/proportional_falloff_items.html#rna-enum-proportional-falloff-items), (optional)) – Proportional Falloff, Falloff type for proportional editing mode
+  * **proportional_edit_falloff** (enum in [Proportional Falloff Items](bpy_types_enum_items/proportional_falloff_items.md#rna-enum-proportional-falloff-items), (optional)) – Proportional Falloff, Falloff type for proportional editing mode
 
   * **proportional_size** (_float in_ _[__1e-06_ _,__inf_ _]__,__(__optional_ _)_) – Proportional Size
 
@@ -1355,7 +1355,7 @@ Parameters:
 
   * **use_proportional_edit** (_boolean_ _,__(__optional_ _)_) – Proportional Editing
 
-  * **proportional_edit_falloff** (enum in [Proportional Falloff Items](bpy_types_enum_items/proportional_falloff_items.html#rna-enum-proportional-falloff-items), (optional)) – Proportional Falloff, Falloff type for proportional editing mode
+  * **proportional_edit_falloff** (enum in [Proportional Falloff Items](bpy_types_enum_items/proportional_falloff_items.md#rna-enum-proportional-falloff-items), (optional)) – Proportional Falloff, Falloff type for proportional editing mode
 
   * **proportional_size** (_float in_ _[__1e-06_ _,__inf_ _]__,__(__optional_ _)_) – Proportional Size
 
@@ -1417,11 +1417,11 @@ Align, The alignment of the new object
 
     * `CURSOR` 3D Cursor – Use the 3D cursor orientation for the new object.
 
-  * **location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
+  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
 
-  * **rotation** ([`mathutils.Euler`](mathutils.html#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
+  * **rotation** ([`mathutils.Euler`](mathutils.md#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
 
-  * **scale** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
+  * **scale** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
 
 
 bpy.ops.mesh.primitive_cone_add(_*_ , _vertices =32_, _radius1 =1.0_, _radius2 =0.0_, _depth =2.0_, _end_fill_type ='NGON'_, _calc_uvs =True_, _enter_editmode =False_, _align ='WORLD'_, _location =(0.0, 0.0, 0.0)_, _rotation =(0.0, 0.0, 0.0)_, _scale =(0.0, 0.0, 0.0)_)
@@ -1464,11 +1464,11 @@ Align, The alignment of the new object
 
     * `CURSOR` 3D Cursor – Use the 3D cursor orientation for the new object.
 
-  * **location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
+  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
 
-  * **rotation** ([`mathutils.Euler`](mathutils.html#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
+  * **rotation** ([`mathutils.Euler`](mathutils.md#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
 
-  * **scale** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
+  * **scale** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
 
 
 bpy.ops.mesh.primitive_cube_add(_*_ , _size =2.0_, _calc_uvs =True_, _enter_editmode =False_, _align ='WORLD'_, _location =(0.0, 0.0, 0.0)_, _rotation =(0.0, 0.0, 0.0)_, _scale =(0.0, 0.0, 0.0)_)
@@ -1495,11 +1495,11 @@ Align, The alignment of the new object
 
     * `CURSOR` 3D Cursor – Use the 3D cursor orientation for the new object.
 
-  * **location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
+  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
 
-  * **rotation** ([`mathutils.Euler`](mathutils.html#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
+  * **rotation** ([`mathutils.Euler`](mathutils.md#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
 
-  * **scale** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
+  * **scale** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
 
 
 bpy.ops.mesh.primitive_cube_add_gizmo(_*_ , _calc_uvs =True_, _enter_editmode =False_, _align ='WORLD'_, _location =(0.0, 0.0, 0.0)_, _rotation =(0.0, 0.0, 0.0)_, _scale =(0.0, 0.0, 0.0)_, _matrix =((0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0))_)
@@ -1524,13 +1524,13 @@ Align, The alignment of the new object
 
     * `CURSOR` 3D Cursor – Use the 3D cursor orientation for the new object.
 
-  * **location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
+  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
 
-  * **rotation** ([`mathutils.Euler`](mathutils.html#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
+  * **rotation** ([`mathutils.Euler`](mathutils.md#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
 
-  * **scale** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
+  * **scale** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
 
-  * **matrix** ([`mathutils.Matrix`](mathutils.html#mathutils.Matrix "mathutils.Matrix") of 4 * 4 items in [-inf, inf], (optional)) – Matrix
+  * **matrix** ([`mathutils.Matrix`](mathutils.md#mathutils.Matrix "mathutils.Matrix") of 4 * 4 items in [-inf, inf], (optional)) – Matrix
 
 
 bpy.ops.mesh.primitive_cylinder_add(_*_ , _vertices =32_, _radius =1.0_, _depth =2.0_, _end_fill_type ='NGON'_, _calc_uvs =True_, _enter_editmode =False_, _align ='WORLD'_, _location =(0.0, 0.0, 0.0)_, _rotation =(0.0, 0.0, 0.0)_, _scale =(0.0, 0.0, 0.0)_)
@@ -1571,11 +1571,11 @@ Align, The alignment of the new object
 
     * `CURSOR` 3D Cursor – Use the 3D cursor orientation for the new object.
 
-  * **location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
+  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
 
-  * **rotation** ([`mathutils.Euler`](mathutils.html#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
+  * **rotation** ([`mathutils.Euler`](mathutils.md#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
 
-  * **scale** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
+  * **scale** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
 
 
 bpy.ops.mesh.primitive_grid_add(_*_ , _x_subdivisions =10_, _y_subdivisions =10_, _size =2.0_, _calc_uvs =True_, _enter_editmode =False_, _align ='WORLD'_, _location =(0.0, 0.0, 0.0)_, _rotation =(0.0, 0.0, 0.0)_, _scale =(0.0, 0.0, 0.0)_)
@@ -1606,11 +1606,11 @@ Align, The alignment of the new object
 
     * `CURSOR` 3D Cursor – Use the 3D cursor orientation for the new object.
 
-  * **location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
+  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
 
-  * **rotation** ([`mathutils.Euler`](mathutils.html#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
+  * **rotation** ([`mathutils.Euler`](mathutils.md#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
 
-  * **scale** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
+  * **scale** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
 
 
 bpy.ops.mesh.primitive_ico_sphere_add(_*_ , _subdivisions =2_, _radius =1.0_, _calc_uvs =True_, _enter_editmode =False_, _align ='WORLD'_, _location =(0.0, 0.0, 0.0)_, _rotation =(0.0, 0.0, 0.0)_, _scale =(0.0, 0.0, 0.0)_)
@@ -1639,11 +1639,11 @@ Align, The alignment of the new object
 
     * `CURSOR` 3D Cursor – Use the 3D cursor orientation for the new object.
 
-  * **location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
+  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
 
-  * **rotation** ([`mathutils.Euler`](mathutils.html#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
+  * **rotation** ([`mathutils.Euler`](mathutils.md#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
 
-  * **scale** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
+  * **scale** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
 
 
 bpy.ops.mesh.primitive_monkey_add(_*_ , _size =2.0_, _calc_uvs =True_, _enter_editmode =False_, _align ='WORLD'_, _location =(0.0, 0.0, 0.0)_, _rotation =(0.0, 0.0, 0.0)_, _scale =(0.0, 0.0, 0.0)_)
@@ -1670,11 +1670,11 @@ Align, The alignment of the new object
 
     * `CURSOR` 3D Cursor – Use the 3D cursor orientation for the new object.
 
-  * **location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
+  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
 
-  * **rotation** ([`mathutils.Euler`](mathutils.html#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
+  * **rotation** ([`mathutils.Euler`](mathutils.md#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
 
-  * **scale** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
+  * **scale** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
 
 
 bpy.ops.mesh.primitive_plane_add(_*_ , _size =2.0_, _calc_uvs =True_, _enter_editmode =False_, _align ='WORLD'_, _location =(0.0, 0.0, 0.0)_, _rotation =(0.0, 0.0, 0.0)_, _scale =(0.0, 0.0, 0.0)_)
@@ -1701,11 +1701,11 @@ Align, The alignment of the new object
 
     * `CURSOR` 3D Cursor – Use the 3D cursor orientation for the new object.
 
-  * **location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
+  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
 
-  * **rotation** ([`mathutils.Euler`](mathutils.html#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
+  * **rotation** ([`mathutils.Euler`](mathutils.md#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
 
-  * **scale** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
+  * **scale** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
 
 
 bpy.ops.mesh.primitive_torus_add(_*_ , _align ='WORLD'_, _location =(0.0, 0.0, 0.0)_, _rotation =(0.0, 0.0, 0.0)_, _major_segments =48_, _minor_segments =12_, _mode ='MAJOR_MINOR'_, _major_radius =1.0_, _minor_radius =0.25_, _abso_major_rad =1.25_, _abso_minor_rad =0.75_, _generate_uvs =True_)
@@ -1726,9 +1726,9 @@ Align
 
     * `CURSOR` 3D Cursor – Use the 3D cursor orientation for the new object.
 
-  * **location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location
+  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location
 
-  * **rotation** ([`mathutils.Euler`](mathutils.html#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation
+  * **rotation** ([`mathutils.Euler`](mathutils.md#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation
 
   * **major_segments** (_int in_ _[__3_ _,__256_ _]__,__(__optional_ _)_) – Major Segments, Number of segments for the main ring of the torus
 
@@ -1786,11 +1786,11 @@ Align, The alignment of the new object
 
     * `CURSOR` 3D Cursor – Use the 3D cursor orientation for the new object.
 
-  * **location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
+  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
 
-  * **rotation** ([`mathutils.Euler`](mathutils.html#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
+  * **rotation** ([`mathutils.Euler`](mathutils.md#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
 
-  * **scale** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
+  * **scale** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
 
 
 bpy.ops.mesh.quads_convert_to_tris(_*_ , _quad_method ='BEAUTY'_, _ngon_method ='BEAUTY'_)
@@ -1801,9 +1801,9 @@ Triangulate selected faces
 Parameters:
     
 
-  * **quad_method** (enum in [Modifier Triangulate Quad Method Items](bpy_types_enum_items/modifier_triangulate_quad_method_items.html#rna-enum-modifier-triangulate-quad-method-items), (optional)) – Quad Method, Method for splitting the quads into triangles
+  * **quad_method** (enum in [Modifier Triangulate Quad Method Items](bpy_types_enum_items/modifier_triangulate_quad_method_items.md#rna-enum-modifier-triangulate-quad-method-items), (optional)) – Quad Method, Method for splitting the quads into triangles
 
-  * **ngon_method** (enum in [Modifier Triangulate Ngon Method Items](bpy_types_enum_items/modifier_triangulate_ngon_method_items.html#rna-enum-modifier-triangulate-ngon-method-items), (optional)) – N-gon Method, Method for splitting the n-gons into triangles
+  * **ngon_method** (enum in [Modifier Triangulate Ngon Method Items](bpy_types_enum_items/modifier_triangulate_ngon_method_items.md#rna-enum-modifier-triangulate-ngon-method-items), (optional)) – N-gon Method, Method for splitting the n-gons into triangles
 
 
 bpy.ops.mesh.region_to_loop()
@@ -1848,7 +1848,7 @@ Parameters:
 
   * **use_proportional_edit** (_boolean_ _,__(__optional_ _)_) – Proportional Editing
 
-  * **proportional_edit_falloff** (enum in [Proportional Falloff Items](bpy_types_enum_items/proportional_falloff_items.html#rna-enum-proportional-falloff-items), (optional)) – Proportional Falloff, Falloff type for proportional editing mode
+  * **proportional_edit_falloff** (enum in [Proportional Falloff Items](bpy_types_enum_items/proportional_falloff_items.md#rna-enum-proportional-falloff-items), (optional)) – Proportional Falloff, Falloff type for proportional editing mode
 
   * **proportional_size** (_float in_ _[__1e-06_ _,__inf_ _]__,__(__optional_ _)_) – Proportional Size
 
@@ -1875,7 +1875,7 @@ Parameters:
 
   * **use_proportional_edit** (_boolean_ _,__(__optional_ _)_) – Proportional Editing
 
-  * **proportional_edit_falloff** (enum in [Proportional Falloff Items](bpy_types_enum_items/proportional_falloff_items.html#rna-enum-proportional-falloff-items), (optional)) – Proportional Falloff, Falloff type for proportional editing mode
+  * **proportional_edit_falloff** (enum in [Proportional Falloff Items](bpy_types_enum_items/proportional_falloff_items.md#rna-enum-proportional-falloff-items), (optional)) – Proportional Falloff, Falloff type for proportional editing mode
 
   * **proportional_size** (_float in_ _[__1e-06_ _,__inf_ _]__,__(__optional_ _)_) – Proportional Size
 
@@ -1926,9 +1926,9 @@ Parameters:
 
   * **turns** (_int in_ _[__1_ _,__100000_ _]__,__(__optional_ _)_) – Turns, Turns
 
-  * **center** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Center, Center in global view space
+  * **center** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Center, Center in global view space
 
-  * **axis** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-1, 1], (optional)) – Axis, Axis in global view space
+  * **axis** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-1, 1], (optional)) – Axis, Axis in global view space
 
 
 bpy.ops.mesh.select_all(_*_ , _action ='TOGGLE'_)
@@ -1960,11 +1960,11 @@ Select all data in the mesh on a single axis
 Parameters:
     
 
-  * **orientation** (enum in [Transform Orientation Items](bpy_types_enum_items/transform_orientation_items.html#rna-enum-transform-orientation-items), (optional)) – Axis Mode, Axis orientation
+  * **orientation** (enum in [Transform Orientation Items](bpy_types_enum_items/transform_orientation_items.md#rna-enum-transform-orientation-items), (optional)) – Axis Mode, Axis orientation
 
   * **sign** (enum in [`'POS'`, `'NEG'`, `'ALIGN'`], (optional)) – Axis Sign, Side to select
 
-  * **axis** (enum in [Axis Xyz Items](bpy_types_enum_items/axis_xyz_items.html#rna-enum-axis-xyz-items), (optional)) – Axis, Select the axis to compare each vertex on
+  * **axis** (enum in [Axis Xyz Items](bpy_types_enum_items/axis_xyz_items.md#rna-enum-axis-xyz-items), (optional)) – Axis, Select the axis to compare each vertex on
 
   * **threshold** (_float in_ _[__1e-06_ _,__50_ _]__,__(__optional_ _)_) – Threshold
 
@@ -2029,7 +2029,7 @@ Select all vertices connected to the current selection
 Parameters:
     
 
-**delimit** (enum set in [Mesh Delimit Mode Items](bpy_types_enum_items/mesh_delimit_mode_items.html#rna-enum-mesh-delimit-mode-items), (optional)) – Delimit, Delimit selected region
+**delimit** (enum set in [Mesh Delimit Mode Items](bpy_types_enum_items/mesh_delimit_mode_items.md#rna-enum-mesh-delimit-mode-items), (optional)) – Delimit, Delimit selected region
 
 bpy.ops.mesh.select_linked_pick(_*_ , _deselect =False_, _delimit ={'SEAM'}_, _object_index =-1_, _index =-1_)
     
@@ -2041,7 +2041,7 @@ Parameters:
 
   * **deselect** (_boolean_ _,__(__optional_ _)_) – Deselect
 
-  * **delimit** (enum set in [Mesh Delimit Mode Items](bpy_types_enum_items/mesh_delimit_mode_items.html#rna-enum-mesh-delimit-mode-items), (optional)) – Delimit, Delimit selected region
+  * **delimit** (enum set in [Mesh Delimit Mode Items](bpy_types_enum_items/mesh_delimit_mode_items.md#rna-enum-mesh-delimit-mode-items), (optional)) – Delimit, Delimit selected region
 
 
 bpy.ops.mesh.select_loose(_*_ , _extend =False_)
@@ -2062,7 +2062,7 @@ Select mesh items at mirrored locations
 Parameters:
     
 
-  * **axis** (enum set in [Axis Flag Xyz Items](bpy_types_enum_items/axis_flag_xyz_items.html#rna-enum-axis-flag-xyz-items), (optional)) – Axis
+  * **axis** (enum set in [Axis Flag Xyz Items](bpy_types_enum_items/axis_flag_xyz_items.md#rna-enum-axis-flag-xyz-items), (optional)) – Axis
 
   * **extend** (_boolean_ _,__(__optional_ _)_) – Extend, Extend the existing selection
 
@@ -2079,7 +2079,7 @@ Parameters:
 
   * **use_expand** (_boolean_ _,__(__optional_ _)_) – Expand
 
-  * **type** (enum in [Mesh Select Mode Items](bpy_types_enum_items/mesh_select_mode_items.html#rna-enum-mesh-select-mode-items), (optional)) – Type
+  * **type** (enum in [Mesh Select Mode Items](bpy_types_enum_items/mesh_select_mode_items.md#rna-enum-mesh-select-mode-items), (optional)) – Type
 
   * **action** (enum in [`'DISABLE'`, `'ENABLE'`, `'TOGGLE'`], (optional)) – 
 
@@ -2364,9 +2364,9 @@ Parameters:
 
   * **use_normal_flip** (_boolean_ _,__(__optional_ _)_) – Flip Normals
 
-  * **center** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Center, Center in global view space
+  * **center** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Center, Center in global view space
 
-  * **axis** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-1, 1], (optional)) – Axis, Axis in global view space
+  * **axis** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-1, 1], (optional)) – Axis, Axis in global view space
 
 
 bpy.ops.mesh.split()
@@ -2418,7 +2418,7 @@ Parameters:
 
   * **profile_shape_factor** (_float in_ _[__-1000_ _,__1000_ _]__,__(__optional_ _)_) – Profile Factor, How much intermediary new edges are shrunk/expanded
 
-  * **profile_shape** (enum in [Proportional Falloff Curve Only Items](bpy_types_enum_items/proportional_falloff_curve_only_items.html#rna-enum-proportional-falloff-curve-only-items), (optional)) – Profile Shape, Shape of the profile
+  * **profile_shape** (enum in [Proportional Falloff Curve Only Items](bpy_types_enum_items/proportional_falloff_curve_only_items.md#rna-enum-proportional-falloff-curve-only-items), (optional)) – Profile Shape, Shape of the profile
 
 
 bpy.ops.mesh.symmetrize(_*_ , _direction ='NEGATIVE_X'_, _threshold =0.0001_)
@@ -2429,7 +2429,7 @@ Enforce symmetry (both form and topological) across an axis
 Parameters:
     
 
-  * **direction** (enum in [Symmetrize Direction Items](bpy_types_enum_items/symmetrize_direction_items.html#rna-enum-symmetrize-direction-items), (optional)) – Direction, Which sides to copy from and to
+  * **direction** (enum in [Symmetrize Direction Items](bpy_types_enum_items/symmetrize_direction_items.md#rna-enum-symmetrize-direction-items), (optional)) – Direction, Which sides to copy from and to
 
   * **threshold** (_float in_ _[__0_ _,__10_ _]__,__(__optional_ _)_) – Threshold, Limit for snap middle vertices to the axis center
 
@@ -2442,7 +2442,7 @@ Snap vertex pairs to their mirrored locations
 Parameters:
     
 
-  * **direction** (enum in [Symmetrize Direction Items](bpy_types_enum_items/symmetrize_direction_items.html#rna-enum-symmetrize-direction-items), (optional)) – Direction, Which sides to copy from and to
+  * **direction** (enum in [Symmetrize Direction Items](bpy_types_enum_items/symmetrize_direction_items.md#rna-enum-symmetrize-direction-items), (optional)) – Direction, Which sides to copy from and to
 
   * **threshold** (_float in_ _[__0_ _,__10_ _]__,__(__optional_ _)_) – Threshold, Distance within which matching vertices are searched
 

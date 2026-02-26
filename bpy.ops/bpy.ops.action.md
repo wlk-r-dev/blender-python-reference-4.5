@@ -82,7 +82,7 @@ Set easing type for the F-Curve segments starting from the selected keyframes
 Parameters:
     
 
-**type** (enum in [Beztriple Interpolation Easing Items](bpy_types_enum_items/beztriple_interpolation_easing_items.html#rna-enum-beztriple-interpolation-easing-items), (optional)) – Type
+**type** (enum in [Beztriple Interpolation Easing Items](bpy_types_enum_items/beztriple_interpolation_easing_items.md#rna-enum-beztriple-interpolation-easing-items), (optional)) – Type
 
 bpy.ops.action.extrapolation_type(_*_ , _type ='CONSTANT'_)
     
@@ -118,7 +118,7 @@ Set type of handle for selected keyframes
 Parameters:
     
 
-**type** (enum in [Keyframe Handle Type Items](bpy_types_enum_items/keyframe_handle_type_items.html#rna-enum-keyframe-handle-type-items), (optional)) – Type
+**type** (enum in [Keyframe Handle Type Items](bpy_types_enum_items/keyframe_handle_type_items.md#rna-enum-keyframe-handle-type-items), (optional)) – Type
 
 bpy.ops.action.interpolation_type(_*_ , _type ='CONSTANT'_)
     
@@ -128,7 +128,7 @@ Set interpolation mode for the F-Curve segments starting from the selected keyfr
 Parameters:
     
 
-**type** (enum in [Beztriple Interpolation Mode Items](bpy_types_enum_items/beztriple_interpolation_mode_items.html#rna-enum-beztriple-interpolation-mode-items), (optional)) – Type
+**type** (enum in [Beztriple Interpolation Mode Items](bpy_types_enum_items/beztriple_interpolation_mode_items.md#rna-enum-beztriple-interpolation-mode-items), (optional)) – Type
 
 bpy.ops.action.keyframe_insert(_*_ , _type ='ALL'_)
     
@@ -148,7 +148,7 @@ Set type of keyframe for the selected keyframes
 Parameters:
     
 
-**type** (enum in [Beztriple Keyframe Type Items](bpy_types_enum_items/beztriple_keyframe_type_items.html#rna-enum-beztriple-keyframe-type-items), (optional)) – Type
+**type** (enum in [Beztriple Keyframe Type Items](bpy_types_enum_items/beztriple_keyframe_type_items.md#rna-enum-beztriple-keyframe-type-items), (optional)) – Type
 
 bpy.ops.action.layer_next()
     
@@ -197,9 +197,9 @@ Paste keyframes from the internal clipboard for the selected channels, starting 
 Parameters:
     
 
-  * **offset** (enum in [Keyframe Paste Offset Items](bpy_types_enum_items/keyframe_paste_offset_items.html#rna-enum-keyframe-paste-offset-items), (optional)) – Offset, Paste time offset of keys
+  * **offset** (enum in [Keyframe Paste Offset Items](bpy_types_enum_items/keyframe_paste_offset_items.md#rna-enum-keyframe-paste-offset-items), (optional)) – Offset, Paste time offset of keys
 
-  * **merge** (enum in [Keyframe Paste Merge Items](bpy_types_enum_items/keyframe_paste_merge_items.html#rna-enum-keyframe-paste-merge-items), (optional)) – Type, Method of merging pasted keys and existing
+  * **merge** (enum in [Keyframe Paste Merge Items](bpy_types_enum_items/keyframe_paste_merge_items.md#rna-enum-keyframe-paste-merge-items), (optional)) – Type, Method of merging pasted keys and existing
 
   * **flipped** (_boolean_ _,__(__optional_ _)_) – Flipped, Paste keyframes from mirrored bones if they exist
 

@@ -1,6 +1,6 @@
 # ViewLayer(bpy_struct)
 
-base class — [`bpy_struct`](bpy.types.bpy_struct.html#bpy.types.bpy_struct "bpy.types.bpy_struct")
+base class — [`bpy_struct`](bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct")
 
 _class _bpy.types.ViewLayer(_bpy_struct_)
     
@@ -15,7 +15,7 @@ Active AOV
 Type:
     
 
-[`AOV`](bpy.types.AOV.html#bpy.types.AOV "bpy.types.AOV"), (readonly)
+[`AOV`](bpy.types.AOV.md#bpy.types.AOV "bpy.types.AOV"), (readonly)
 
 active_aov_index
     
@@ -35,7 +35,7 @@ Active layer collection in this view layer’s hierarchy
 Type:
     
 
-[`LayerCollection`](bpy.types.LayerCollection.html#bpy.types.LayerCollection "bpy.types.LayerCollection"), (never None)
+[`LayerCollection`](bpy.types.LayerCollection.md#bpy.types.LayerCollection "bpy.types.LayerCollection"), (never None)
 
 active_lightgroup
     
@@ -45,7 +45,7 @@ Active Lightgroup
 Type:
     
 
-[`Lightgroup`](bpy.types.Lightgroup.html#bpy.types.Lightgroup "bpy.types.Lightgroup"), (readonly)
+[`Lightgroup`](bpy.types.Lightgroup.md#bpy.types.Lightgroup "bpy.types.Lightgroup"), (readonly)
 
 active_lightgroup_index
     
@@ -63,7 +63,7 @@ aovs
 Type:
     
 
-[`AOVs`](bpy.types.AOVs.html#bpy.types.AOVs "bpy.types.AOVs") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.html#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`AOV`](bpy.types.AOV.html#bpy.types.AOV "bpy.types.AOV"), (readonly)
+[`AOVs`](bpy.types.AOVs.md#bpy.types.AOVs "bpy.types.AOVs") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.md#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`AOV`](bpy.types.AOV.md#bpy.types.AOV "bpy.types.AOV"), (readonly)
 
 cycles
     
@@ -83,7 +83,7 @@ Dependencies in the scene data
 Type:
     
 
-[`Depsgraph`](bpy.types.Depsgraph.html#bpy.types.Depsgraph "bpy.types.Depsgraph"), (readonly)
+[`Depsgraph`](bpy.types.Depsgraph.md#bpy.types.Depsgraph "bpy.types.Depsgraph"), (readonly)
 
 eevee
     
@@ -93,7 +93,7 @@ View layer settings for EEVEE
 Type:
     
 
-[`ViewLayerEEVEE`](bpy.types.ViewLayerEEVEE.html#bpy.types.ViewLayerEEVEE "bpy.types.ViewLayerEEVEE"), (readonly, never None)
+[`ViewLayerEEVEE`](bpy.types.ViewLayerEEVEE.md#bpy.types.ViewLayerEEVEE "bpy.types.ViewLayerEEVEE"), (readonly, never None)
 
 freestyle_settings
     
@@ -101,7 +101,7 @@ freestyle_settings
 Type:
     
 
-[`FreestyleSettings`](bpy.types.FreestyleSettings.html#bpy.types.FreestyleSettings "bpy.types.FreestyleSettings"), (readonly, never None)
+[`FreestyleSettings`](bpy.types.FreestyleSettings.md#bpy.types.FreestyleSettings "bpy.types.FreestyleSettings"), (readonly, never None)
 
 has_export_collections
     
@@ -121,7 +121,7 @@ Root of collections hierarchy of this view layer, its ‘collection’ pointer p
 Type:
     
 
-[`LayerCollection`](bpy.types.LayerCollection.html#bpy.types.LayerCollection "bpy.types.LayerCollection"), (readonly, never None)
+[`LayerCollection`](bpy.types.LayerCollection.md#bpy.types.LayerCollection "bpy.types.LayerCollection"), (readonly, never None)
 
 lightgroups
     
@@ -129,7 +129,7 @@ lightgroups
 Type:
     
 
-[`Lightgroups`](bpy.types.Lightgroups.html#bpy.types.Lightgroups "bpy.types.Lightgroups") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.html#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`Lightgroup`](bpy.types.Lightgroup.html#bpy.types.Lightgroup "bpy.types.Lightgroup"), (readonly)
+[`Lightgroups`](bpy.types.Lightgroups.md#bpy.types.Lightgroups "bpy.types.Lightgroups") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.md#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`Lightgroup`](bpy.types.Lightgroup.md#bpy.types.Lightgroup "bpy.types.Lightgroup"), (readonly)
 
 material_override
     
@@ -139,7 +139,7 @@ Material to override all other materials in this view layer
 Type:
     
 
-[`Material`](bpy.types.Material.html#bpy.types.Material "bpy.types.Material")
+[`Material`](bpy.types.Material.md#bpy.types.Material "bpy.types.Material")
 
 name
     
@@ -159,7 +159,7 @@ All the objects in this layer
 Type:
     
 
-[`LayerObjects`](bpy.types.LayerObjects.html#bpy.types.LayerObjects "bpy.types.LayerObjects") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.html#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`Object`](bpy.types.Object.html#bpy.types.Object "bpy.types.Object"), (readonly)
+[`LayerObjects`](bpy.types.LayerObjects.md#bpy.types.LayerObjects "bpy.types.LayerObjects") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.md#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`Object`](bpy.types.Object.md#bpy.types.Object "bpy.types.Object"), (readonly)
 
 pass_alpha_threshold
     
@@ -589,7 +589,7 @@ Override world in this view layer
 Type:
     
 
-[`World`](bpy.types.World.html#bpy.types.World "bpy.types.World")
+[`World`](bpy.types.World.md#bpy.types.World "bpy.types.World")
 
 _classmethod _update_render_passes()
     
@@ -617,7 +617,7 @@ The RNA type or default when not found.
 Return type:
     
 
-[`bpy.types.Struct`](bpy.types.Struct.html#bpy.types.Struct "bpy.types.Struct") subclass
+[`bpy.types.Struct`](bpy.types.Struct.md#bpy.types.Struct "bpy.types.Struct") subclass
 
 _classmethod _bl_rna_get_subclass_py(_id_ , _default =None_, _/_)
     
@@ -639,7 +639,7 @@ type
 
 ## Inherited Properties
 
-  * [`bpy_struct.id_data`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_data "bpy.types.bpy_struct.id_data")
+  * [`bpy_struct.id_data`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_data "bpy.types.bpy_struct.id_data")
 
 | 
 
@@ -649,62 +649,62 @@ type
   
 ## Inherited Functions
 
-  * [`bpy_struct.as_pointer`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.as_pointer "bpy.types.bpy_struct.as_pointer")
-  * [`bpy_struct.driver_add`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.driver_add "bpy.types.bpy_struct.driver_add")
-  * [`bpy_struct.driver_remove`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.driver_remove "bpy.types.bpy_struct.driver_remove")
-  * [`bpy_struct.get`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.get "bpy.types.bpy_struct.get")
-  * [`bpy_struct.id_properties_clear`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_clear "bpy.types.bpy_struct.id_properties_clear")
-  * [`bpy_struct.id_properties_ensure`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_ensure "bpy.types.bpy_struct.id_properties_ensure")
-  * [`bpy_struct.id_properties_ui`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_ui "bpy.types.bpy_struct.id_properties_ui")
-  * [`bpy_struct.is_property_hidden`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_hidden "bpy.types.bpy_struct.is_property_hidden")
-  * [`bpy_struct.is_property_overridable_library`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_overridable_library "bpy.types.bpy_struct.is_property_overridable_library")
-  * [`bpy_struct.is_property_readonly`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_readonly "bpy.types.bpy_struct.is_property_readonly")
-  * [`bpy_struct.is_property_set`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_set "bpy.types.bpy_struct.is_property_set")
-  * [`bpy_struct.items`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.items "bpy.types.bpy_struct.items")
+  * [`bpy_struct.as_pointer`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.as_pointer "bpy.types.bpy_struct.as_pointer")
+  * [`bpy_struct.driver_add`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.driver_add "bpy.types.bpy_struct.driver_add")
+  * [`bpy_struct.driver_remove`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.driver_remove "bpy.types.bpy_struct.driver_remove")
+  * [`bpy_struct.get`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.get "bpy.types.bpy_struct.get")
+  * [`bpy_struct.id_properties_clear`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_properties_clear "bpy.types.bpy_struct.id_properties_clear")
+  * [`bpy_struct.id_properties_ensure`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_properties_ensure "bpy.types.bpy_struct.id_properties_ensure")
+  * [`bpy_struct.id_properties_ui`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_properties_ui "bpy.types.bpy_struct.id_properties_ui")
+  * [`bpy_struct.is_property_hidden`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_hidden "bpy.types.bpy_struct.is_property_hidden")
+  * [`bpy_struct.is_property_overridable_library`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_overridable_library "bpy.types.bpy_struct.is_property_overridable_library")
+  * [`bpy_struct.is_property_readonly`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_readonly "bpy.types.bpy_struct.is_property_readonly")
+  * [`bpy_struct.is_property_set`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_set "bpy.types.bpy_struct.is_property_set")
+  * [`bpy_struct.items`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.items "bpy.types.bpy_struct.items")
 
 | 
 
-  * [`bpy_struct.keyframe_delete`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keyframe_delete "bpy.types.bpy_struct.keyframe_delete")
-  * [`bpy_struct.keyframe_insert`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keyframe_insert "bpy.types.bpy_struct.keyframe_insert")
-  * [`bpy_struct.keys`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keys "bpy.types.bpy_struct.keys")
-  * [`bpy_struct.path_from_id`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.path_from_id "bpy.types.bpy_struct.path_from_id")
-  * [`bpy_struct.path_resolve`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.path_resolve "bpy.types.bpy_struct.path_resolve")
-  * [`bpy_struct.pop`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.pop "bpy.types.bpy_struct.pop")
-  * [`bpy_struct.property_overridable_library_set`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.property_overridable_library_set "bpy.types.bpy_struct.property_overridable_library_set")
-  * [`bpy_struct.property_unset`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.property_unset "bpy.types.bpy_struct.property_unset")
-  * [`bpy_struct.rna_ancestors`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.rna_ancestors "bpy.types.bpy_struct.rna_ancestors")
-  * [`bpy_struct.type_recast`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.type_recast "bpy.types.bpy_struct.type_recast")
-  * [`bpy_struct.values`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.values "bpy.types.bpy_struct.values")
+  * [`bpy_struct.keyframe_delete`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.keyframe_delete "bpy.types.bpy_struct.keyframe_delete")
+  * [`bpy_struct.keyframe_insert`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.keyframe_insert "bpy.types.bpy_struct.keyframe_insert")
+  * [`bpy_struct.keys`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.keys "bpy.types.bpy_struct.keys")
+  * [`bpy_struct.path_from_id`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.path_from_id "bpy.types.bpy_struct.path_from_id")
+  * [`bpy_struct.path_resolve`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.path_resolve "bpy.types.bpy_struct.path_resolve")
+  * [`bpy_struct.pop`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.pop "bpy.types.bpy_struct.pop")
+  * [`bpy_struct.property_overridable_library_set`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.property_overridable_library_set "bpy.types.bpy_struct.property_overridable_library_set")
+  * [`bpy_struct.property_unset`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.property_unset "bpy.types.bpy_struct.property_unset")
+  * [`bpy_struct.rna_ancestors`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.rna_ancestors "bpy.types.bpy_struct.rna_ancestors")
+  * [`bpy_struct.type_recast`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.type_recast "bpy.types.bpy_struct.type_recast")
+  * [`bpy_struct.values`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.values "bpy.types.bpy_struct.values")
 
   
 ---|---  
   
 ## References
 
-  * [`bpy.context.view_layer`](bpy.context.html#bpy.context.view_layer "bpy.context.view_layer")
-  * [`Context.view_layer`](bpy.types.Context.html#bpy.types.Context.view_layer "bpy.types.Context.view_layer")
-  * [`Depsgraph.view_layer`](bpy.types.Depsgraph.html#bpy.types.Depsgraph.view_layer "bpy.types.Depsgraph.view_layer")
-  * [`Depsgraph.view_layer_eval`](bpy.types.Depsgraph.html#bpy.types.Depsgraph.view_layer_eval "bpy.types.Depsgraph.view_layer_eval")
-  * [`ID.override_hierarchy_create`](bpy.types.ID.html#bpy.types.ID.override_hierarchy_create "bpy.types.ID.override_hierarchy_create")
-  * [`IDOverrideLibrary.resync`](bpy.types.IDOverrideLibrary.html#bpy.types.IDOverrideLibrary.resync "bpy.types.IDOverrideLibrary.resync")
-  * [`LayerCollection.has_selected_objects`](bpy.types.LayerCollection.html#bpy.types.LayerCollection.has_selected_objects "bpy.types.LayerCollection.has_selected_objects")
-  * [`Object.hide_get`](bpy.types.Object.html#bpy.types.Object.hide_get "bpy.types.Object.hide_get")
-  * [`Object.hide_set`](bpy.types.Object.html#bpy.types.Object.hide_set "bpy.types.Object.hide_set")
-  * [`Object.holdout_get`](bpy.types.Object.html#bpy.types.Object.holdout_get "bpy.types.Object.holdout_get")
-  * [`Object.indirect_only_get`](bpy.types.Object.html#bpy.types.Object.indirect_only_get "bpy.types.Object.indirect_only_get")
+  * [`bpy.context.view_layer`](bpy.context.md#bpy.context.view_layer "bpy.context.view_layer")
+  * [`Context.view_layer`](bpy.types.Context.md#bpy.types.Context.view_layer "bpy.types.Context.view_layer")
+  * [`Depsgraph.view_layer`](bpy.types.Depsgraph.md#bpy.types.Depsgraph.view_layer "bpy.types.Depsgraph.view_layer")
+  * [`Depsgraph.view_layer_eval`](bpy.types.Depsgraph.md#bpy.types.Depsgraph.view_layer_eval "bpy.types.Depsgraph.view_layer_eval")
+  * [`ID.override_hierarchy_create`](bpy.types.ID.md#bpy.types.ID.override_hierarchy_create "bpy.types.ID.override_hierarchy_create")
+  * [`IDOverrideLibrary.resync`](bpy.types.IDOverrideLibrary.md#bpy.types.IDOverrideLibrary.resync "bpy.types.IDOverrideLibrary.resync")
+  * [`LayerCollection.has_selected_objects`](bpy.types.LayerCollection.md#bpy.types.LayerCollection.has_selected_objects "bpy.types.LayerCollection.has_selected_objects")
+  * [`Object.hide_get`](bpy.types.Object.md#bpy.types.Object.hide_get "bpy.types.Object.hide_get")
+  * [`Object.hide_set`](bpy.types.Object.md#bpy.types.Object.hide_set "bpy.types.Object.hide_set")
+  * [`Object.holdout_get`](bpy.types.Object.md#bpy.types.Object.holdout_get "bpy.types.Object.holdout_get")
+  * [`Object.indirect_only_get`](bpy.types.Object.md#bpy.types.Object.indirect_only_get "bpy.types.Object.indirect_only_get")
 
 | 
 
-  * [`Object.select_get`](bpy.types.Object.html#bpy.types.Object.select_get "bpy.types.Object.select_get")
-  * [`Object.select_set`](bpy.types.Object.html#bpy.types.Object.select_set "bpy.types.Object.select_set")
-  * [`Object.visible_get`](bpy.types.Object.html#bpy.types.Object.visible_get "bpy.types.Object.visible_get")
-  * [`RenderEngine.register_pass`](bpy.types.RenderEngine.html#bpy.types.RenderEngine.register_pass "bpy.types.RenderEngine.register_pass")
-  * [`RenderEngine.update_render_passes`](bpy.types.RenderEngine.html#bpy.types.RenderEngine.update_render_passes "bpy.types.RenderEngine.update_render_passes")
-  * [`Scene.statistics`](bpy.types.Scene.html#bpy.types.Scene.statistics "bpy.types.Scene.statistics")
-  * [`Scene.view_layers`](bpy.types.Scene.html#bpy.types.Scene.view_layers "bpy.types.Scene.view_layers")
-  * [`ViewLayers.new`](bpy.types.ViewLayers.html#bpy.types.ViewLayers.new "bpy.types.ViewLayers.new")
-  * [`ViewLayers.remove`](bpy.types.ViewLayers.html#bpy.types.ViewLayers.remove "bpy.types.ViewLayers.remove")
-  * [`Window.view_layer`](bpy.types.Window.html#bpy.types.Window.view_layer "bpy.types.Window.view_layer")
+  * [`Object.select_get`](bpy.types.Object.md#bpy.types.Object.select_get "bpy.types.Object.select_get")
+  * [`Object.select_set`](bpy.types.Object.md#bpy.types.Object.select_set "bpy.types.Object.select_set")
+  * [`Object.visible_get`](bpy.types.Object.md#bpy.types.Object.visible_get "bpy.types.Object.visible_get")
+  * [`RenderEngine.register_pass`](bpy.types.RenderEngine.md#bpy.types.RenderEngine.register_pass "bpy.types.RenderEngine.register_pass")
+  * [`RenderEngine.update_render_passes`](bpy.types.RenderEngine.md#bpy.types.RenderEngine.update_render_passes "bpy.types.RenderEngine.update_render_passes")
+  * [`Scene.statistics`](bpy.types.Scene.md#bpy.types.Scene.statistics "bpy.types.Scene.statistics")
+  * [`Scene.view_layers`](bpy.types.Scene.md#bpy.types.Scene.view_layers "bpy.types.Scene.view_layers")
+  * [`ViewLayers.new`](bpy.types.ViewLayers.md#bpy.types.ViewLayers.new "bpy.types.ViewLayers.new")
+  * [`ViewLayers.remove`](bpy.types.ViewLayers.md#bpy.types.ViewLayers.remove "bpy.types.ViewLayers.remove")
+  * [`Window.view_layer`](bpy.types.Window.md#bpy.types.Window.view_layer "bpy.types.Window.view_layer")
 
   
 ---|---

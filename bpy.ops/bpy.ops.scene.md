@@ -33,7 +33,7 @@ Add an alpha transparency modifier to the line style associated with the active 
 Parameters:
     
 
-**type** (enum in [Linestyle Alpha Modifier Type Items](bpy_types_enum_items/linestyle_alpha_modifier_type_items.html#rna-enum-linestyle-alpha-modifier-type-items), (optional)) – Type
+**type** (enum in [Linestyle Alpha Modifier Type Items](bpy_types_enum_items/linestyle_alpha_modifier_type_items.md#rna-enum-linestyle-alpha-modifier-type-items), (optional)) – Type
 
 bpy.ops.scene.freestyle_color_modifier_add(_*_ , _type ='ALONG_STROKE'_)
     
@@ -43,7 +43,7 @@ Add a line color modifier to the line style associated with the active lineset
 Parameters:
     
 
-**type** (enum in [Linestyle Color Modifier Type Items](bpy_types_enum_items/linestyle_color_modifier_type_items.html#rna-enum-linestyle-color-modifier-type-items), (optional)) – Type
+**type** (enum in [Linestyle Color Modifier Type Items](bpy_types_enum_items/linestyle_color_modifier_type_items.md#rna-enum-linestyle-color-modifier-type-items), (optional)) – Type
 
 bpy.ops.scene.freestyle_fill_range_by_selection(_*_ , _type ='COLOR'_, _name =''_)
     
@@ -79,7 +79,7 @@ Add a stroke geometry modifier to the line style associated with the active line
 Parameters:
     
 
-**type** (enum in [Linestyle Geometry Modifier Type Items](bpy_types_enum_items/linestyle_geometry_modifier_type_items.html#rna-enum-linestyle-geometry-modifier-type-items), (optional)) – Type
+**type** (enum in [Linestyle Geometry Modifier Type Items](bpy_types_enum_items/linestyle_geometry_modifier_type_items.md#rna-enum-linestyle-geometry-modifier-type-items), (optional)) – Type
 
 bpy.ops.scene.freestyle_lineset_add()
     
@@ -187,7 +187,7 @@ Add a line thickness modifier to the line style associated with the active lines
 Parameters:
     
 
-**type** (enum in [Linestyle Thickness Modifier Type Items](bpy_types_enum_items/linestyle_thickness_modifier_type_items.html#rna-enum-linestyle-thickness-modifier-type-items), (optional)) – Type
+**type** (enum in [Linestyle Thickness Modifier Type Items](bpy_types_enum_items/linestyle_thickness_modifier_type_items.md#rna-enum-linestyle-thickness-modifier-type-items), (optional)) – Type
 
 bpy.ops.scene.gltf2_action_filter_refresh()
     

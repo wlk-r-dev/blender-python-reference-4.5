@@ -4,13 +4,13 @@ In short: Python threads cause Blender to crash in hard to diagnose ways. For ex
 
 So far, no work has been done to make Blender’s Python integration thread safe, so until it’s properly supported, it’s best not make use of this.
 
-Note that some modules in the Python standard library may use threads as well. An example is the [multiprocessing.Queue](https://docs.python.org/3/library/multiprocessing.html#multiprocessing.Queue) class.
+Note that some modules in the Python standard library may use threads as well. An example is the [multiprocessing.Queue](https://docs.python.org/3/library/multiprocessing.md#multiprocessing.Queue) class.
 
 Python threading with Blender only works properly when the threads finish up before the script does, for example by using `threading.join()`. In other words, they can only be used while the main Blender thread is blocked from running.
 
 ## Alternative Approaches
 
-For running Python code independently of Blender, it is recommended to use the [multiprocessing](https://docs.python.org/3/library/multiprocessing.html) module.
+For running Python code independently of Blender, it is recommended to use the [multiprocessing](https://docs.python.org/3/library/multiprocessing.md) module.
 
 ## Code Examples
 

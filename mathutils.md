@@ -21,11 +21,11 @@ The `mathutils` module provides the following classes:
 
 Submodules
 
-  * [Geometry Utilities (mathutils.geometry)](mathutils.geometry.html)
-  * [BVHTree Utilities (mathutils.bvhtree)](mathutils.bvhtree.html)
-  * [KDTree Utilities (mathutils.kdtree)](mathutils.kdtree.html)
-  * [Interpolation Utilities (mathutils.interpolate)](mathutils.interpolate.html)
-  * [Noise Utilities (mathutils.noise)](mathutils.noise.html)
+  * [Geometry Utilities (mathutils.geometry)](mathutils.geometry.md)
+  * [BVHTree Utilities (mathutils.bvhtree)](mathutils.bvhtree.md)
+  * [KDTree Utilities (mathutils.kdtree)](mathutils.kdtree.md)
+  * [Interpolation Utilities (mathutils.interpolate)](mathutils.interpolate.md)
+  * [Noise Utilities (mathutils.noise)](mathutils.noise.md)
 
 
     

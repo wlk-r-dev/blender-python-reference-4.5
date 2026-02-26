@@ -2,7 +2,7 @@
 
 ## Mesh Data
 
-The mesh data is accessed in object mode and intended for compact storage, for more flexible mesh editing from Python see [`bmesh`](bmesh.html#module-bmesh "bmesh").
+The mesh data is accessed in object mode and intended for compact storage, for more flexible mesh editing from Python see [`bmesh`](bmesh.md#module-bmesh "bmesh").
 
 Blender stores 4 main arrays to define mesh geometry.
 
@@ -19,7 +19,7 @@ Each polygon references a slice in the loop array, this way, polygons do not sto
 
 `Mesh.loops`, `Mesh.uv_layers` `Mesh.vertex_colors` are all aligned so the same polygon loop indices can be used to find the UVs and vertex colors as with as the vertices.
 
-To compare mesh API options see: [NGons and Tessellation Faces](info_gotchas_meshes.html#info-gotcha-mesh-faces)
+To compare mesh API options see: [NGons and Tessellation Faces](info_gotchas_meshes.md#info-gotcha-mesh-faces)
 
 This example script prints the vertices and UVs for each polygon, assumes the active object is a mesh with UVs.
     
@@ -39,7 +39,7 @@ This example script prints the vertices and UVs for each polygon, assumes the ac
             print("    UV: {!r}".format(uv_layer[loop_index].uv))
     
 
-base classes — [`bpy_struct`](bpy.types.bpy_struct.html#bpy.types.bpy_struct "bpy.types.bpy_struct"), [`ID`](bpy.types.ID.html#bpy.types.ID "bpy.types.ID")
+base classes — [`bpy_struct`](bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct"), [`ID`](bpy.types.ID.md#bpy.types.ID "bpy.types.ID")
 
 _class _bpy.types.Mesh(_ID_)
     
@@ -54,7 +54,7 @@ Animation data for this data-block
 Type:
     
 
-[`AnimData`](bpy.types.AnimData.html#bpy.types.AnimData "bpy.types.AnimData"), (readonly)
+[`AnimData`](bpy.types.AnimData.md#bpy.types.AnimData "bpy.types.AnimData"), (readonly)
 
 attributes
     
@@ -64,7 +64,7 @@ Geometry attributes
 Type:
     
 
-[`AttributeGroupMesh`](bpy.types.AttributeGroupMesh.html#bpy.types.AttributeGroupMesh "bpy.types.AttributeGroupMesh") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.html#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`Attribute`](bpy.types.Attribute.html#bpy.types.Attribute "bpy.types.Attribute"), (readonly)
+[`AttributeGroupMesh`](bpy.types.AttributeGroupMesh.md#bpy.types.AttributeGroupMesh "bpy.types.AttributeGroupMesh") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.md#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`Attribute`](bpy.types.Attribute.md#bpy.types.Attribute "bpy.types.Attribute"), (readonly)
 
 auto_texspace
     
@@ -84,7 +84,7 @@ Geometry color attributes
 Type:
     
 
-[`AttributeGroupMesh`](bpy.types.AttributeGroupMesh.html#bpy.types.AttributeGroupMesh "bpy.types.AttributeGroupMesh") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.html#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`Attribute`](bpy.types.Attribute.html#bpy.types.Attribute "bpy.types.Attribute"), (readonly)
+[`AttributeGroupMesh`](bpy.types.AttributeGroupMesh.md#bpy.types.AttributeGroupMesh "bpy.types.AttributeGroupMesh") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.md#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`Attribute`](bpy.types.Attribute.md#bpy.types.Attribute "bpy.types.Attribute"), (readonly)
 
 corner_normals
     
@@ -94,7 +94,7 @@ The “slit” normal direction of each face corner, influenced by vertex normal
 Type:
     
 
-[`bpy_prop_collection`](bpy.types.bpy_prop_collection.html#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`MeshNormalValue`](bpy.types.MeshNormalValue.html#bpy.types.MeshNormalValue "bpy.types.MeshNormalValue"), (readonly)
+[`bpy_prop_collection`](bpy.types.bpy_prop_collection.md#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`MeshNormalValue`](bpy.types.MeshNormalValue.md#bpy.types.MeshNormalValue "bpy.types.MeshNormalValue"), (readonly)
 
 cycles
     
@@ -114,7 +114,7 @@ Edges of the mesh
 Type:
     
 
-[`MeshEdges`](bpy.types.MeshEdges.html#bpy.types.MeshEdges "bpy.types.MeshEdges") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.html#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`MeshEdge`](bpy.types.MeshEdge.html#bpy.types.MeshEdge "bpy.types.MeshEdge"), (readonly)
+[`MeshEdges`](bpy.types.MeshEdges.md#bpy.types.MeshEdges "bpy.types.MeshEdges") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.md#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`MeshEdge`](bpy.types.MeshEdge.md#bpy.types.MeshEdge "bpy.types.MeshEdge"), (readonly)
 
 has_custom_normals
     
@@ -144,7 +144,7 @@ The face index for each loop triangle
 Type:
     
 
-[`bpy_prop_collection`](bpy.types.bpy_prop_collection.html#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`ReadOnlyInteger`](bpy.types.ReadOnlyInteger.html#bpy.types.ReadOnlyInteger "bpy.types.ReadOnlyInteger"), (readonly)
+[`bpy_prop_collection`](bpy.types.bpy_prop_collection.md#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`ReadOnlyInteger`](bpy.types.ReadOnlyInteger.md#bpy.types.ReadOnlyInteger "bpy.types.ReadOnlyInteger"), (readonly)
 
 loop_triangles
     
@@ -154,7 +154,7 @@ Tessellation of mesh polygons into triangles
 Type:
     
 
-[`MeshLoopTriangles`](bpy.types.MeshLoopTriangles.html#bpy.types.MeshLoopTriangles "bpy.types.MeshLoopTriangles") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.html#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`MeshLoopTriangle`](bpy.types.MeshLoopTriangle.html#bpy.types.MeshLoopTriangle "bpy.types.MeshLoopTriangle"), (readonly)
+[`MeshLoopTriangles`](bpy.types.MeshLoopTriangles.md#bpy.types.MeshLoopTriangles "bpy.types.MeshLoopTriangles") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.md#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`MeshLoopTriangle`](bpy.types.MeshLoopTriangle.md#bpy.types.MeshLoopTriangle "bpy.types.MeshLoopTriangle"), (readonly)
 
 loops
     
@@ -164,7 +164,7 @@ Loops of the mesh (face corners)
 Type:
     
 
-[`MeshLoops`](bpy.types.MeshLoops.html#bpy.types.MeshLoops "bpy.types.MeshLoops") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.html#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`MeshLoop`](bpy.types.MeshLoop.html#bpy.types.MeshLoop "bpy.types.MeshLoop"), (readonly)
+[`MeshLoops`](bpy.types.MeshLoops.md#bpy.types.MeshLoops "bpy.types.MeshLoops") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.md#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`MeshLoop`](bpy.types.MeshLoop.md#bpy.types.MeshLoop "bpy.types.MeshLoop"), (readonly)
 
 materials
     
@@ -172,7 +172,7 @@ materials
 Type:
     
 
-[`IDMaterials`](bpy.types.IDMaterials.html#bpy.types.IDMaterials "bpy.types.IDMaterials") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.html#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`Material`](bpy.types.Material.html#bpy.types.Material "bpy.types.Material"), (readonly)
+[`IDMaterials`](bpy.types.IDMaterials.md#bpy.types.IDMaterials "bpy.types.IDMaterials") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.md#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`Material`](bpy.types.Material.md#bpy.types.Material "bpy.types.Material"), (readonly)
 
 normals_domain
     
@@ -192,7 +192,7 @@ The normal direction of each face, defined by the winding order and position of 
 Type:
     
 
-[`bpy_prop_collection`](bpy.types.bpy_prop_collection.html#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`MeshNormalValue`](bpy.types.MeshNormalValue.html#bpy.types.MeshNormalValue "bpy.types.MeshNormalValue"), (readonly)
+[`bpy_prop_collection`](bpy.types.bpy_prop_collection.md#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`MeshNormalValue`](bpy.types.MeshNormalValue.md#bpy.types.MeshNormalValue "bpy.types.MeshNormalValue"), (readonly)
 
 polygons
     
@@ -202,7 +202,7 @@ Polygons of the mesh
 Type:
     
 
-[`MeshPolygons`](bpy.types.MeshPolygons.html#bpy.types.MeshPolygons "bpy.types.MeshPolygons") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.html#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`MeshPolygon`](bpy.types.MeshPolygon.html#bpy.types.MeshPolygon "bpy.types.MeshPolygon"), (readonly)
+[`MeshPolygons`](bpy.types.MeshPolygons.md#bpy.types.MeshPolygons "bpy.types.MeshPolygons") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.md#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`MeshPolygon`](bpy.types.MeshPolygon.md#bpy.types.MeshPolygon "bpy.types.MeshPolygon"), (readonly)
 
 remesh_mode
     
@@ -243,7 +243,7 @@ shape_keys
 Type:
     
 
-[`Key`](bpy.types.Key.html#bpy.types.Key "bpy.types.Key"), (readonly)
+[`Key`](bpy.types.Key.md#bpy.types.Key "bpy.types.Key"), (readonly)
 
 skin_vertices
     
@@ -253,7 +253,7 @@ All skin vertices
 Type:
     
 
-[`bpy_prop_collection`](bpy.types.bpy_prop_collection.html#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`MeshSkinVertexLayer`](bpy.types.MeshSkinVertexLayer.html#bpy.types.MeshSkinVertexLayer "bpy.types.MeshSkinVertexLayer"), (readonly)
+[`bpy_prop_collection`](bpy.types.bpy_prop_collection.md#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`MeshSkinVertexLayer`](bpy.types.MeshSkinVertexLayer.md#bpy.types.MeshSkinVertexLayer "bpy.types.MeshSkinVertexLayer"), (readonly)
 
 texco_mesh
     
@@ -273,7 +273,7 @@ Texture space location
 Type:
     
 
-[`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], default (0.0, 0.0, 0.0)
+[`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], default (0.0, 0.0, 0.0)
 
 texspace_size
     
@@ -283,7 +283,7 @@ Texture space size
 Type:
     
 
-[`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], default (1.0, 1.0, 1.0)
+[`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], default (1.0, 1.0, 1.0)
 
 texture_mesh
     
@@ -453,7 +453,7 @@ UV loop layer to be used as cloning source
 Type:
     
 
-[`MeshUVLoopLayer`](bpy.types.MeshUVLoopLayer.html#bpy.types.MeshUVLoopLayer "bpy.types.MeshUVLoopLayer")
+[`MeshUVLoopLayer`](bpy.types.MeshUVLoopLayer.md#bpy.types.MeshUVLoopLayer "bpy.types.MeshUVLoopLayer")
 
 uv_layer_clone_index
     
@@ -473,7 +473,7 @@ UV loop layer to mask the painted area
 Type:
     
 
-[`MeshUVLoopLayer`](bpy.types.MeshUVLoopLayer.html#bpy.types.MeshUVLoopLayer "bpy.types.MeshUVLoopLayer")
+[`MeshUVLoopLayer`](bpy.types.MeshUVLoopLayer.md#bpy.types.MeshUVLoopLayer "bpy.types.MeshUVLoopLayer")
 
 uv_layer_stencil_index
     
@@ -493,7 +493,7 @@ All UV loop layers
 Type:
     
 
-[`UVLoopLayers`](bpy.types.UVLoopLayers.html#bpy.types.UVLoopLayers "bpy.types.UVLoopLayers") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.html#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`MeshUVLoopLayer`](bpy.types.MeshUVLoopLayer.html#bpy.types.MeshUVLoopLayer "bpy.types.MeshUVLoopLayer"), (readonly)
+[`UVLoopLayers`](bpy.types.UVLoopLayers.md#bpy.types.UVLoopLayers "bpy.types.UVLoopLayers") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.md#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`MeshUVLoopLayer`](bpy.types.MeshUVLoopLayer.md#bpy.types.MeshUVLoopLayer "bpy.types.MeshUVLoopLayer"), (readonly)
 
 vertex_colors
     
@@ -503,7 +503,7 @@ Legacy vertex color layers. Deprecated, use color attributes instead.
 Type:
     
 
-[`LoopColors`](bpy.types.LoopColors.html#bpy.types.LoopColors "bpy.types.LoopColors") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.html#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`MeshLoopColorLayer`](bpy.types.MeshLoopColorLayer.html#bpy.types.MeshLoopColorLayer "bpy.types.MeshLoopColorLayer"), (readonly)
+[`LoopColors`](bpy.types.LoopColors.md#bpy.types.LoopColors "bpy.types.LoopColors") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.md#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`MeshLoopColorLayer`](bpy.types.MeshLoopColorLayer.md#bpy.types.MeshLoopColorLayer "bpy.types.MeshLoopColorLayer"), (readonly)
 
 vertex_normals
     
@@ -513,7 +513,7 @@ The normal direction of each vertex, defined as the average of the surrounding f
 Type:
     
 
-[`bpy_prop_collection`](bpy.types.bpy_prop_collection.html#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`MeshNormalValue`](bpy.types.MeshNormalValue.html#bpy.types.MeshNormalValue "bpy.types.MeshNormalValue"), (readonly)
+[`bpy_prop_collection`](bpy.types.bpy_prop_collection.md#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`MeshNormalValue`](bpy.types.MeshNormalValue.md#bpy.types.MeshNormalValue "bpy.types.MeshNormalValue"), (readonly)
 
 vertices
     
@@ -523,7 +523,7 @@ Vertices of the mesh
 Type:
     
 
-[`MeshVertices`](bpy.types.MeshVertices.html#bpy.types.MeshVertices "bpy.types.MeshVertices") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.html#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`MeshVertex`](bpy.types.MeshVertex.html#bpy.types.MeshVertex "bpy.types.MeshVertex"), (readonly)
+[`MeshVertices`](bpy.types.MeshVertices.md#bpy.types.MeshVertices "bpy.types.MeshVertices") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.md#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`MeshVertex`](bpy.types.MeshVertex.md#bpy.types.MeshVertex "bpy.types.MeshVertex"), (readonly)
 
 edge_creases
     
@@ -559,7 +559,7 @@ Transform mesh vertices by a matrix (Warning: inverts normals if matrix is negat
 Parameters:
     
 
-  * **matrix** ([`mathutils.Matrix`](mathutils.html#mathutils.Matrix "mathutils.Matrix") of 4 * 4 items in [-inf, inf]) – Matrix
+  * **matrix** ([`mathutils.Matrix`](mathutils.md#mathutils.Matrix "mathutils.Matrix") of 4 * 4 items in [-inf, inf]) – Matrix
 
   * **shape_keys** (_boolean_ _,__(__optional_ _)_) – Transform Shape Keys
 
@@ -815,7 +815,7 @@ The RNA type or default when not found.
 Return type:
     
 
-[`bpy.types.Struct`](bpy.types.Struct.html#bpy.types.Struct "bpy.types.Struct") subclass
+[`bpy.types.Struct`](bpy.types.Struct.md#bpy.types.Struct "bpy.types.Struct") subclass
 
 _classmethod _bl_rna_get_subclass_py(_id_ , _default =None_, _/_)
     
@@ -837,98 +837,98 @@ type
 
 ### Inherited Properties
 
-  * [`bpy_struct.id_data`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_data "bpy.types.bpy_struct.id_data")
-  * [`ID.name`](bpy.types.ID.html#bpy.types.ID.name "bpy.types.ID.name")
-  * [`ID.name_full`](bpy.types.ID.html#bpy.types.ID.name_full "bpy.types.ID.name_full")
-  * [`ID.id_type`](bpy.types.ID.html#bpy.types.ID.id_type "bpy.types.ID.id_type")
-  * [`ID.session_uid`](bpy.types.ID.html#bpy.types.ID.session_uid "bpy.types.ID.session_uid")
-  * [`ID.is_evaluated`](bpy.types.ID.html#bpy.types.ID.is_evaluated "bpy.types.ID.is_evaluated")
-  * [`ID.original`](bpy.types.ID.html#bpy.types.ID.original "bpy.types.ID.original")
-  * [`ID.users`](bpy.types.ID.html#bpy.types.ID.users "bpy.types.ID.users")
-  * [`ID.use_fake_user`](bpy.types.ID.html#bpy.types.ID.use_fake_user "bpy.types.ID.use_fake_user")
-  * [`ID.use_extra_user`](bpy.types.ID.html#bpy.types.ID.use_extra_user "bpy.types.ID.use_extra_user")
-  * [`ID.is_embedded_data`](bpy.types.ID.html#bpy.types.ID.is_embedded_data "bpy.types.ID.is_embedded_data")
+  * [`bpy_struct.id_data`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_data "bpy.types.bpy_struct.id_data")
+  * [`ID.name`](bpy.types.ID.md#bpy.types.ID.name "bpy.types.ID.name")
+  * [`ID.name_full`](bpy.types.ID.md#bpy.types.ID.name_full "bpy.types.ID.name_full")
+  * [`ID.id_type`](bpy.types.ID.md#bpy.types.ID.id_type "bpy.types.ID.id_type")
+  * [`ID.session_uid`](bpy.types.ID.md#bpy.types.ID.session_uid "bpy.types.ID.session_uid")
+  * [`ID.is_evaluated`](bpy.types.ID.md#bpy.types.ID.is_evaluated "bpy.types.ID.is_evaluated")
+  * [`ID.original`](bpy.types.ID.md#bpy.types.ID.original "bpy.types.ID.original")
+  * [`ID.users`](bpy.types.ID.md#bpy.types.ID.users "bpy.types.ID.users")
+  * [`ID.use_fake_user`](bpy.types.ID.md#bpy.types.ID.use_fake_user "bpy.types.ID.use_fake_user")
+  * [`ID.use_extra_user`](bpy.types.ID.md#bpy.types.ID.use_extra_user "bpy.types.ID.use_extra_user")
+  * [`ID.is_embedded_data`](bpy.types.ID.md#bpy.types.ID.is_embedded_data "bpy.types.ID.is_embedded_data")
 
 | 
 
-  * [`ID.is_missing`](bpy.types.ID.html#bpy.types.ID.is_missing "bpy.types.ID.is_missing")
-  * [`ID.is_runtime_data`](bpy.types.ID.html#bpy.types.ID.is_runtime_data "bpy.types.ID.is_runtime_data")
-  * [`ID.is_editable`](bpy.types.ID.html#bpy.types.ID.is_editable "bpy.types.ID.is_editable")
-  * [`ID.tag`](bpy.types.ID.html#bpy.types.ID.tag "bpy.types.ID.tag")
-  * [`ID.is_library_indirect`](bpy.types.ID.html#bpy.types.ID.is_library_indirect "bpy.types.ID.is_library_indirect")
-  * [`ID.library`](bpy.types.ID.html#bpy.types.ID.library "bpy.types.ID.library")
-  * [`ID.library_weak_reference`](bpy.types.ID.html#bpy.types.ID.library_weak_reference "bpy.types.ID.library_weak_reference")
-  * [`ID.asset_data`](bpy.types.ID.html#bpy.types.ID.asset_data "bpy.types.ID.asset_data")
-  * [`ID.override_library`](bpy.types.ID.html#bpy.types.ID.override_library "bpy.types.ID.override_library")
-  * [`ID.preview`](bpy.types.ID.html#bpy.types.ID.preview "bpy.types.ID.preview")
+  * [`ID.is_missing`](bpy.types.ID.md#bpy.types.ID.is_missing "bpy.types.ID.is_missing")
+  * [`ID.is_runtime_data`](bpy.types.ID.md#bpy.types.ID.is_runtime_data "bpy.types.ID.is_runtime_data")
+  * [`ID.is_editable`](bpy.types.ID.md#bpy.types.ID.is_editable "bpy.types.ID.is_editable")
+  * [`ID.tag`](bpy.types.ID.md#bpy.types.ID.tag "bpy.types.ID.tag")
+  * [`ID.is_library_indirect`](bpy.types.ID.md#bpy.types.ID.is_library_indirect "bpy.types.ID.is_library_indirect")
+  * [`ID.library`](bpy.types.ID.md#bpy.types.ID.library "bpy.types.ID.library")
+  * [`ID.library_weak_reference`](bpy.types.ID.md#bpy.types.ID.library_weak_reference "bpy.types.ID.library_weak_reference")
+  * [`ID.asset_data`](bpy.types.ID.md#bpy.types.ID.asset_data "bpy.types.ID.asset_data")
+  * [`ID.override_library`](bpy.types.ID.md#bpy.types.ID.override_library "bpy.types.ID.override_library")
+  * [`ID.preview`](bpy.types.ID.md#bpy.types.ID.preview "bpy.types.ID.preview")
 
   
 ---|---  
   
 ### Inherited Functions
 
-  * [`bpy_struct.as_pointer`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.as_pointer "bpy.types.bpy_struct.as_pointer")
-  * [`bpy_struct.driver_add`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.driver_add "bpy.types.bpy_struct.driver_add")
-  * [`bpy_struct.driver_remove`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.driver_remove "bpy.types.bpy_struct.driver_remove")
-  * [`bpy_struct.get`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.get "bpy.types.bpy_struct.get")
-  * [`bpy_struct.id_properties_clear`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_clear "bpy.types.bpy_struct.id_properties_clear")
-  * [`bpy_struct.id_properties_ensure`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_ensure "bpy.types.bpy_struct.id_properties_ensure")
-  * [`bpy_struct.id_properties_ui`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_ui "bpy.types.bpy_struct.id_properties_ui")
-  * [`bpy_struct.is_property_hidden`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_hidden "bpy.types.bpy_struct.is_property_hidden")
-  * [`bpy_struct.is_property_overridable_library`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_overridable_library "bpy.types.bpy_struct.is_property_overridable_library")
-  * [`bpy_struct.is_property_readonly`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_readonly "bpy.types.bpy_struct.is_property_readonly")
-  * [`bpy_struct.is_property_set`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_set "bpy.types.bpy_struct.is_property_set")
-  * [`bpy_struct.items`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.items "bpy.types.bpy_struct.items")
-  * [`bpy_struct.keyframe_delete`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keyframe_delete "bpy.types.bpy_struct.keyframe_delete")
-  * [`bpy_struct.keyframe_insert`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keyframe_insert "bpy.types.bpy_struct.keyframe_insert")
-  * [`bpy_struct.keys`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keys "bpy.types.bpy_struct.keys")
-  * [`bpy_struct.path_from_id`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.path_from_id "bpy.types.bpy_struct.path_from_id")
-  * [`bpy_struct.path_resolve`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.path_resolve "bpy.types.bpy_struct.path_resolve")
-  * [`bpy_struct.pop`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.pop "bpy.types.bpy_struct.pop")
-  * [`bpy_struct.property_overridable_library_set`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.property_overridable_library_set "bpy.types.bpy_struct.property_overridable_library_set")
-  * [`bpy_struct.property_unset`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.property_unset "bpy.types.bpy_struct.property_unset")
-  * [`bpy_struct.rna_ancestors`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.rna_ancestors "bpy.types.bpy_struct.rna_ancestors")
+  * [`bpy_struct.as_pointer`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.as_pointer "bpy.types.bpy_struct.as_pointer")
+  * [`bpy_struct.driver_add`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.driver_add "bpy.types.bpy_struct.driver_add")
+  * [`bpy_struct.driver_remove`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.driver_remove "bpy.types.bpy_struct.driver_remove")
+  * [`bpy_struct.get`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.get "bpy.types.bpy_struct.get")
+  * [`bpy_struct.id_properties_clear`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_properties_clear "bpy.types.bpy_struct.id_properties_clear")
+  * [`bpy_struct.id_properties_ensure`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_properties_ensure "bpy.types.bpy_struct.id_properties_ensure")
+  * [`bpy_struct.id_properties_ui`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_properties_ui "bpy.types.bpy_struct.id_properties_ui")
+  * [`bpy_struct.is_property_hidden`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_hidden "bpy.types.bpy_struct.is_property_hidden")
+  * [`bpy_struct.is_property_overridable_library`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_overridable_library "bpy.types.bpy_struct.is_property_overridable_library")
+  * [`bpy_struct.is_property_readonly`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_readonly "bpy.types.bpy_struct.is_property_readonly")
+  * [`bpy_struct.is_property_set`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_set "bpy.types.bpy_struct.is_property_set")
+  * [`bpy_struct.items`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.items "bpy.types.bpy_struct.items")
+  * [`bpy_struct.keyframe_delete`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.keyframe_delete "bpy.types.bpy_struct.keyframe_delete")
+  * [`bpy_struct.keyframe_insert`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.keyframe_insert "bpy.types.bpy_struct.keyframe_insert")
+  * [`bpy_struct.keys`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.keys "bpy.types.bpy_struct.keys")
+  * [`bpy_struct.path_from_id`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.path_from_id "bpy.types.bpy_struct.path_from_id")
+  * [`bpy_struct.path_resolve`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.path_resolve "bpy.types.bpy_struct.path_resolve")
+  * [`bpy_struct.pop`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.pop "bpy.types.bpy_struct.pop")
+  * [`bpy_struct.property_overridable_library_set`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.property_overridable_library_set "bpy.types.bpy_struct.property_overridable_library_set")
+  * [`bpy_struct.property_unset`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.property_unset "bpy.types.bpy_struct.property_unset")
+  * [`bpy_struct.rna_ancestors`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.rna_ancestors "bpy.types.bpy_struct.rna_ancestors")
 
 | 
 
-  * [`bpy_struct.type_recast`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.type_recast "bpy.types.bpy_struct.type_recast")
-  * [`bpy_struct.values`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.values "bpy.types.bpy_struct.values")
-  * [`ID.rename`](bpy.types.ID.html#bpy.types.ID.rename "bpy.types.ID.rename")
-  * [`ID.evaluated_get`](bpy.types.ID.html#bpy.types.ID.evaluated_get "bpy.types.ID.evaluated_get")
-  * [`ID.copy`](bpy.types.ID.html#bpy.types.ID.copy "bpy.types.ID.copy")
-  * [`ID.asset_mark`](bpy.types.ID.html#bpy.types.ID.asset_mark "bpy.types.ID.asset_mark")
-  * [`ID.asset_clear`](bpy.types.ID.html#bpy.types.ID.asset_clear "bpy.types.ID.asset_clear")
-  * [`ID.asset_generate_preview`](bpy.types.ID.html#bpy.types.ID.asset_generate_preview "bpy.types.ID.asset_generate_preview")
-  * [`ID.override_create`](bpy.types.ID.html#bpy.types.ID.override_create "bpy.types.ID.override_create")
-  * [`ID.override_hierarchy_create`](bpy.types.ID.html#bpy.types.ID.override_hierarchy_create "bpy.types.ID.override_hierarchy_create")
-  * [`ID.user_clear`](bpy.types.ID.html#bpy.types.ID.user_clear "bpy.types.ID.user_clear")
-  * [`ID.user_remap`](bpy.types.ID.html#bpy.types.ID.user_remap "bpy.types.ID.user_remap")
-  * [`ID.make_local`](bpy.types.ID.html#bpy.types.ID.make_local "bpy.types.ID.make_local")
-  * [`ID.user_of_id`](bpy.types.ID.html#bpy.types.ID.user_of_id "bpy.types.ID.user_of_id")
-  * [`ID.animation_data_create`](bpy.types.ID.html#bpy.types.ID.animation_data_create "bpy.types.ID.animation_data_create")
-  * [`ID.animation_data_clear`](bpy.types.ID.html#bpy.types.ID.animation_data_clear "bpy.types.ID.animation_data_clear")
-  * [`ID.update_tag`](bpy.types.ID.html#bpy.types.ID.update_tag "bpy.types.ID.update_tag")
-  * [`ID.preview_ensure`](bpy.types.ID.html#bpy.types.ID.preview_ensure "bpy.types.ID.preview_ensure")
-  * [`ID.bl_rna_get_subclass`](bpy.types.ID.html#bpy.types.ID.bl_rna_get_subclass "bpy.types.ID.bl_rna_get_subclass")
-  * [`ID.bl_rna_get_subclass_py`](bpy.types.ID.html#bpy.types.ID.bl_rna_get_subclass_py "bpy.types.ID.bl_rna_get_subclass_py")
+  * [`bpy_struct.type_recast`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.type_recast "bpy.types.bpy_struct.type_recast")
+  * [`bpy_struct.values`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.values "bpy.types.bpy_struct.values")
+  * [`ID.rename`](bpy.types.ID.md#bpy.types.ID.rename "bpy.types.ID.rename")
+  * [`ID.evaluated_get`](bpy.types.ID.md#bpy.types.ID.evaluated_get "bpy.types.ID.evaluated_get")
+  * [`ID.copy`](bpy.types.ID.md#bpy.types.ID.copy "bpy.types.ID.copy")
+  * [`ID.asset_mark`](bpy.types.ID.md#bpy.types.ID.asset_mark "bpy.types.ID.asset_mark")
+  * [`ID.asset_clear`](bpy.types.ID.md#bpy.types.ID.asset_clear "bpy.types.ID.asset_clear")
+  * [`ID.asset_generate_preview`](bpy.types.ID.md#bpy.types.ID.asset_generate_preview "bpy.types.ID.asset_generate_preview")
+  * [`ID.override_create`](bpy.types.ID.md#bpy.types.ID.override_create "bpy.types.ID.override_create")
+  * [`ID.override_hierarchy_create`](bpy.types.ID.md#bpy.types.ID.override_hierarchy_create "bpy.types.ID.override_hierarchy_create")
+  * [`ID.user_clear`](bpy.types.ID.md#bpy.types.ID.user_clear "bpy.types.ID.user_clear")
+  * [`ID.user_remap`](bpy.types.ID.md#bpy.types.ID.user_remap "bpy.types.ID.user_remap")
+  * [`ID.make_local`](bpy.types.ID.md#bpy.types.ID.make_local "bpy.types.ID.make_local")
+  * [`ID.user_of_id`](bpy.types.ID.md#bpy.types.ID.user_of_id "bpy.types.ID.user_of_id")
+  * [`ID.animation_data_create`](bpy.types.ID.md#bpy.types.ID.animation_data_create "bpy.types.ID.animation_data_create")
+  * [`ID.animation_data_clear`](bpy.types.ID.md#bpy.types.ID.animation_data_clear "bpy.types.ID.animation_data_clear")
+  * [`ID.update_tag`](bpy.types.ID.md#bpy.types.ID.update_tag "bpy.types.ID.update_tag")
+  * [`ID.preview_ensure`](bpy.types.ID.md#bpy.types.ID.preview_ensure "bpy.types.ID.preview_ensure")
+  * [`ID.bl_rna_get_subclass`](bpy.types.ID.md#bpy.types.ID.bl_rna_get_subclass "bpy.types.ID.bl_rna_get_subclass")
+  * [`ID.bl_rna_get_subclass_py`](bpy.types.ID.md#bpy.types.ID.bl_rna_get_subclass_py "bpy.types.ID.bl_rna_get_subclass_py")
 
   
 ---|---  
   
 ### References
 
-  * [`bpy.context.mesh`](bpy.context.html#bpy.context.mesh "bpy.context.mesh")
-  * [`BlendData.meshes`](bpy.types.BlendData.html#bpy.types.BlendData.meshes "bpy.types.BlendData.meshes")
-  * [`BlendDataMeshes.new`](bpy.types.BlendDataMeshes.html#bpy.types.BlendDataMeshes.new "bpy.types.BlendDataMeshes.new")
-  * [`BlendDataMeshes.new_from_object`](bpy.types.BlendDataMeshes.html#bpy.types.BlendDataMeshes.new_from_object "bpy.types.BlendDataMeshes.new_from_object")
-  * [`BlendDataMeshes.remove`](bpy.types.BlendDataMeshes.html#bpy.types.BlendDataMeshes.remove "bpy.types.BlendDataMeshes.remove")
+  * [`bpy.context.mesh`](bpy.context.md#bpy.context.mesh "bpy.context.mesh")
+  * [`BlendData.meshes`](bpy.types.BlendData.md#bpy.types.BlendData.meshes "bpy.types.BlendData.meshes")
+  * [`BlendDataMeshes.new`](bpy.types.BlendDataMeshes.md#bpy.types.BlendDataMeshes.new "bpy.types.BlendDataMeshes.new")
+  * [`BlendDataMeshes.new_from_object`](bpy.types.BlendDataMeshes.md#bpy.types.BlendDataMeshes.new_from_object "bpy.types.BlendDataMeshes.new_from_object")
+  * [`BlendDataMeshes.remove`](bpy.types.BlendDataMeshes.md#bpy.types.BlendDataMeshes.remove "bpy.types.BlendDataMeshes.remove")
 
 | 
 
   * `Mesh.texco_mesh`
   * `Mesh.texture_mesh`
   * `Mesh.unit_test_compare`
-  * [`Object.to_mesh`](bpy.types.Object.html#bpy.types.Object.to_mesh "bpy.types.Object.to_mesh")
+  * [`Object.to_mesh`](bpy.types.Object.md#bpy.types.Object.to_mesh "bpy.types.Object.to_mesh")
 
   
 ---|---

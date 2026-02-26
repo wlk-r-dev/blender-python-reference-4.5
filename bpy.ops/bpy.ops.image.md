@@ -333,9 +333,9 @@ Align
 
     * `CURSOR` 3D Cursor – Use the 3D cursor orientation for the new object.
 
-  * **location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location
+  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location
 
-  * **rotation** ([`mathutils.Euler`](mathutils.html#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation
+  * **rotation** ([`mathutils.Euler`](mathutils.md#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation
 
   * **files** (`bpy_prop_collection` of `OperatorFileListElement`, (optional)) – files
 
@@ -485,7 +485,7 @@ Parameters:
 
   * **alpha** (_boolean_ _,__(__optional_ _)_) – Alpha, Create an image with an alpha channel
 
-  * **generated_type** (enum in [Image Generated Type Items](bpy_types_enum_items/image_generated_type_items.html#rna-enum-image-generated-type-items), (optional)) – Generated Type, Fill the image with a grid for UV map testing
+  * **generated_type** (enum in [Image Generated Type Items](bpy_types_enum_items/image_generated_type_items.md#rna-enum-image-generated-type-items), (optional)) – Generated Type, Fill the image with a grid for UV map testing
 
   * **float** (_boolean_ _,__(__optional_ _)_) – 32-bit Float, Create image with 32-bit floating-point bit depth
 
@@ -900,7 +900,7 @@ Parameters:
 
   * **color** (_float array_ _of_ _4 items in_ _[__0_ _,__inf_ _]__,__(__optional_ _)_) – Color, Default fill color
 
-  * **generated_type** (enum in [Image Generated Type Items](bpy_types_enum_items/image_generated_type_items.html#rna-enum-image-generated-type-items), (optional)) – Generated Type, Fill the image with a grid for UV map testing
+  * **generated_type** (enum in [Image Generated Type Items](bpy_types_enum_items/image_generated_type_items.md#rna-enum-image-generated-type-items), (optional)) – Generated Type, Fill the image with a grid for UV map testing
 
   * **width** (_int in_ _[__1_ _,__inf_ _]__,__(__optional_ _)_) – Width, Image width
 
@@ -921,7 +921,7 @@ Parameters:
 
   * **color** (_float array_ _of_ _4 items in_ _[__0_ _,__inf_ _]__,__(__optional_ _)_) – Color, Default fill color
 
-  * **generated_type** (enum in [Image Generated Type Items](bpy_types_enum_items/image_generated_type_items.html#rna-enum-image-generated-type-items), (optional)) – Generated Type, Fill the image with a grid for UV map testing
+  * **generated_type** (enum in [Image Generated Type Items](bpy_types_enum_items/image_generated_type_items.md#rna-enum-image-generated-type-items), (optional)) – Generated Type, Fill the image with a grid for UV map testing
 
   * **width** (_int in_ _[__1_ _,__inf_ _]__,__(__optional_ _)_) – Width, Image width
 
@@ -945,7 +945,7 @@ Save an image packed in the .blend file to disk
 Parameters:
     
 
-  * **method** (enum in [Unpack Method Items](bpy_types_enum_items/unpack_method_items.html#rna-enum-unpack-method-items), (optional)) – Method, How to unpack
+  * **method** (enum in [Unpack Method Items](bpy_types_enum_items/unpack_method_items.md#rna-enum-unpack-method-items), (optional)) – Method, How to unpack
 
   * **id** (_string_ _,__(__optional_ _,__never None_ _)_) – Image Name, Image data-block name to unpack
 
@@ -988,7 +988,7 @@ Pan the view
 Parameters:
     
 
-**offset** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 2 items in [-inf, inf], (optional)) – Offset, Offset in floating-point units, 1.0 is the width and height of the image
+**offset** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 2 items in [-inf, inf], (optional)) – Offset, Offset in floating-point units, 1.0 is the width and height of the image
 
 bpy.ops.image.view_selected()
     
@@ -1037,7 +1037,7 @@ Zoom in the image (centered around 2D cursor)
 Parameters:
     
 
-**location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 2 items in [-inf, inf], (optional)) – Location, Cursor location in screen coordinates
+**location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 2 items in [-inf, inf], (optional)) – Location, Cursor location in screen coordinates
 
 bpy.ops.image.view_zoom_out(_*_ , _location =(0.0, 0.0)_)
     
@@ -1047,7 +1047,7 @@ Zoom out the image (centered around 2D cursor)
 Parameters:
     
 
-**location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 2 items in [-inf, inf], (optional)) – Location, Cursor location in screen coordinates
+**location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 2 items in [-inf, inf], (optional)) – Location, Cursor location in screen coordinates
 
 bpy.ops.image.view_zoom_ratio(_*_ , _ratio =0.0_)
     

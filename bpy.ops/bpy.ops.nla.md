@@ -182,7 +182,7 @@ Add F-Modifier to the active/selected NLA-Strips
 Parameters:
     
 
-  * **type** (enum in [Fmodifier Type Items](bpy_types_enum_items/fmodifier_type_items.html#rna-enum-fmodifier-type-items), (optional)) – Type
+  * **type** (enum in [Fmodifier Type Items](bpy_types_enum_items/fmodifier_type_items.md#rna-enum-fmodifier-type-items), (optional)) – Type
 
   * **only_active** (_boolean_ _,__(__optional_ _)_) – Only Active, Only add a F-Modifier of the specified type to the active strip
 

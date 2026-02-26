@@ -22,11 +22,11 @@ Align, The alignment of the new object
 
     * `CURSOR` 3D Cursor – Use the 3D cursor orientation for the new object.
 
-  * **location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
+  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
 
-  * **rotation** ([`mathutils.Euler`](mathutils.html#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
+  * **rotation** ([`mathutils.Euler`](mathutils.md#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
 
-  * **scale** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
+  * **scale** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
 
 
 bpy.ops.curves.add_circle(_*_ , _radius =1.0_, _enter_editmode =False_, _align ='WORLD'_, _location =(0.0, 0.0, 0.0)_, _rotation =(0.0, 0.0, 0.0)_, _scale =(0.0, 0.0, 0.0)_)
@@ -51,11 +51,11 @@ Align, The alignment of the new object
 
     * `CURSOR` 3D Cursor – Use the 3D cursor orientation for the new object.
 
-  * **location** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
+  * **location** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Location, Location for the newly added object
 
-  * **rotation** ([`mathutils.Euler`](mathutils.html#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
+  * **rotation** ([`mathutils.Euler`](mathutils.md#mathutils.Euler "mathutils.Euler") rotation of 3 items in [-inf, inf], (optional)) – Rotation, Rotation for the newly added object
 
-  * **scale** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
+  * **scale** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale, Scale for the newly added object
 
 
 bpy.ops.curves.attribute_set(_*_ , _value_float =0.0_, _value_float_vector_2d =(0.0, 0.0)_, _value_float_vector_3d =(0.0, 0.0, 0.0)_, _value_int =0_, _value_int_vector_2d =(0, 0)_, _value_color =(1.0, 1.0, 1.0, 1.0)_, _value_bool =False_)
@@ -99,7 +99,7 @@ Set type of selected curves
 Parameters:
     
 
-  * **type** (enum in [Curves Type Items](bpy_types_enum_items/curves_type_items.html#rna-enum-curves-type-items), (optional)) – Type, Curve type
+  * **type** (enum in [Curves Type Items](bpy_types_enum_items/curves_type_items.md#rna-enum-curves-type-items), (optional)) – Type, Curve type
 
   * **use_handles** (_boolean_ _,__(__optional_ _)_) – Handles, Take handle information into account in the conversion
 
@@ -124,7 +124,7 @@ Parameters:
 
   * **error_threshold** (_float in_ _[__0_ _,__10_ _]__,__(__optional_ _)_) – Error, Error distance threshold (in object units)
 
-  * **fit_method** (enum in [Curve Fit Method Items](bpy_types_enum_items/curve_fit_method_items.html#rna-enum-curve-fit-method-items), (optional)) – Fit Method
+  * **fit_method** (enum in [Curve Fit Method Items](bpy_types_enum_items/curve_fit_method_items.md#rna-enum-curve-fit-method-items), (optional)) – Fit Method
 
   * **corner_angle** (_float in_ _[__0_ _,__3.14159_ _]__,__(__optional_ _)_) – Corner Angle
 
@@ -183,7 +183,7 @@ Set the handle type for bezier curves
 Parameters:
     
 
-**type** (enum in [Curves Handle Type Items](bpy_types_enum_items/curves_handle_type_items.html#rna-enum-curves-handle-type-items), (optional)) – Type
+**type** (enum in [Curves Handle Type Items](bpy_types_enum_items/curves_handle_type_items.md#rna-enum-curves-handle-type-items), (optional)) – Type
 
 bpy.ops.curves.sculptmode_toggle()
     
@@ -275,7 +275,7 @@ Change the mode used for selection masking in curves sculpt mode
 Parameters:
     
 
-**domain** (enum in [Attribute Curves Domain Items](bpy_types_enum_items/attribute_curves_domain_items.html#rna-enum-attribute-curves-domain-items), (optional)) – Domain
+**domain** (enum in [Attribute Curves Domain Items](bpy_types_enum_items/attribute_curves_domain_items.md#rna-enum-attribute-curves-domain-items), (optional)) – Domain
 
 bpy.ops.curves.snap_curves_to_surface(_*_ , _attach_mode ='NEAREST'_)
     

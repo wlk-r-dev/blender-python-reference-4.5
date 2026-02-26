@@ -8,11 +8,11 @@ Scale selected bendy bones display size
 Parameters:
     
 
-  * **value** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Display Size
+  * **value** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Display Size
 
   * **orient_type** (_enum in_ _[__]__,__(__optional_ _)_) – Orientation, Transformation orientation
 
-  * **orient_matrix** ([`mathutils.Matrix`](mathutils.html#mathutils.Matrix "mathutils.Matrix") of 3 * 3 items in [-inf, inf], (optional)) – Matrix
+  * **orient_matrix** ([`mathutils.Matrix`](mathutils.md#mathutils.Matrix "mathutils.Matrix") of 3 * 3 items in [-inf, inf], (optional)) – Matrix
 
   * **orient_matrix_type** (_enum in_ _[__]__,__(__optional_ _)_) – Matrix Orientation
 
@@ -39,7 +39,7 @@ Parameters:
 
   * **use_proportional_edit** (_boolean_ _,__(__optional_ _)_) – Proportional Editing
 
-  * **proportional_edit_falloff** (enum in [Proportional Falloff Items](bpy_types_enum_items/proportional_falloff_items.html#rna-enum-proportional-falloff-items), (optional)) – Proportional Falloff, Falloff type for proportional editing mode
+  * **proportional_edit_falloff** (enum in [Proportional Falloff Items](bpy_types_enum_items/proportional_falloff_items.md#rna-enum-proportional-falloff-items), (optional)) – Proportional Falloff, Falloff type for proportional editing mode
 
   * **proportional_size** (_float in_ _[__1e-06_ _,__inf_ _]__,__(__optional_ _)_) – Proportional Size
 
@@ -51,7 +51,7 @@ Parameters:
 
   * **gpencil_strokes** (_boolean_ _,__(__optional_ _)_) – Edit Grease Pencil, Edit selected Grease Pencil strokes
 
-  * **center_override** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Center Override, Force using this center value (when set)
+  * **center_override** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Center Override, Force using this center value (when set)
 
   * **release_confirm** (_boolean_ _,__(__optional_ _)_) – Confirm on Release, Always confirm operation when releasing button
 
@@ -136,11 +136,11 @@ Parameters:
 
   * **snap** (_boolean_ _,__(__optional_ _)_) – Use Snapping Options
 
-  * **snap_elements** (enum set in [Snap Element Items](bpy_types_enum_items/snap_element_items.html#rna-enum-snap-element-items), (optional)) – Snap to Elements
+  * **snap_elements** (enum set in [Snap Element Items](bpy_types_enum_items/snap_element_items.md#rna-enum-snap-element-items), (optional)) – Snap to Elements
 
   * **use_snap_project** (_boolean_ _,__(__optional_ _)_) – Project Individual Elements
 
-  * **snap_target** (enum in [Snap Source Items](bpy_types_enum_items/snap_source_items.html#rna-enum-snap-source-items), (optional)) – Snap Base, Point on source that will snap to target
+  * **snap_target** (enum in [Snap Source Items](bpy_types_enum_items/snap_source_items.md#rna-enum-snap-source-items), (optional)) – Snap Base, Point on source that will snap to target
 
   * **use_snap_self** (_boolean_ _,__(__optional_ _)_) – Target: Include Active
 
@@ -150,7 +150,7 @@ Parameters:
 
   * **use_snap_selectable** (_boolean_ _,__(__optional_ _)_) – Target: Exclude Non-Selectable
 
-  * **snap_point** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Point
+  * **snap_point** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Point
 
   * **correct_uv** (_boolean_ _,__(__optional_ _)_) – Correct UVs, Correct UV coordinates when transforming
 
@@ -174,7 +174,7 @@ Parameters:
 
   * **orient_type** (_enum in_ _[__]__,__(__optional_ _)_) – Orientation, Transformation orientation
 
-  * **orient_matrix** ([`mathutils.Matrix`](mathutils.html#mathutils.Matrix "mathutils.Matrix") of 3 * 3 items in [-inf, inf], (optional)) – Matrix
+  * **orient_matrix** ([`mathutils.Matrix`](mathutils.md#mathutils.Matrix "mathutils.Matrix") of 3 * 3 items in [-inf, inf], (optional)) – Matrix
 
   * **orient_matrix_type** (_enum in_ _[__]__,__(__optional_ _)_) – Matrix Orientation
 
@@ -182,7 +182,7 @@ Parameters:
 
   * **gpencil_strokes** (_boolean_ _,__(__optional_ _)_) – Edit Grease Pencil, Edit selected Grease Pencil strokes
 
-  * **center_override** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Center Override, Force using this center value (when set)
+  * **center_override** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Center Override, Force using this center value (when set)
 
   * **release_confirm** (_boolean_ _,__(__optional_ _)_) – Confirm on Release, Always confirm operation when releasing button
 
@@ -203,7 +203,7 @@ Parameters:
 
   * **use_proportional_edit** (_boolean_ _,__(__optional_ _)_) – Proportional Editing
 
-  * **proportional_edit_falloff** (enum in [Proportional Falloff Items](bpy_types_enum_items/proportional_falloff_items.html#rna-enum-proportional-falloff-items), (optional)) – Proportional Falloff, Falloff type for proportional editing mode
+  * **proportional_edit_falloff** (enum in [Proportional Falloff Items](bpy_types_enum_items/proportional_falloff_items.md#rna-enum-proportional-falloff-items), (optional)) – Proportional Falloff, Falloff type for proportional editing mode
 
   * **proportional_size** (_float in_ _[__1e-06_ _,__inf_ _]__,__(__optional_ _)_) – Proportional Size
 
@@ -213,7 +213,7 @@ Parameters:
 
   * **snap** (_boolean_ _,__(__optional_ _)_) – Use Snapping Options
 
-  * **center_override** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Center Override, Force using this center value (when set)
+  * **center_override** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Center Override, Force using this center value (when set)
 
   * **release_confirm** (_boolean_ _,__(__optional_ _)_) – Confirm on Release, Always confirm operation when releasing button
 
@@ -228,13 +228,13 @@ Scale (resize) selected items
 Parameters:
     
 
-  * **value** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale
+  * **value** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale
 
-  * **mouse_dir_constraint** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Mouse Directional Constraint
+  * **mouse_dir_constraint** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Mouse Directional Constraint
 
   * **orient_type** (_enum in_ _[__]__,__(__optional_ _)_) – Orientation, Transformation orientation
 
-  * **orient_matrix** ([`mathutils.Matrix`](mathutils.html#mathutils.Matrix "mathutils.Matrix") of 3 * 3 items in [-inf, inf], (optional)) – Matrix
+  * **orient_matrix** ([`mathutils.Matrix`](mathutils.md#mathutils.Matrix "mathutils.Matrix") of 3 * 3 items in [-inf, inf], (optional)) – Matrix
 
   * **orient_matrix_type** (_enum in_ _[__]__,__(__optional_ _)_) – Matrix Orientation
 
@@ -244,7 +244,7 @@ Parameters:
 
   * **use_proportional_edit** (_boolean_ _,__(__optional_ _)_) – Proportional Editing
 
-  * **proportional_edit_falloff** (enum in [Proportional Falloff Items](bpy_types_enum_items/proportional_falloff_items.html#rna-enum-proportional-falloff-items), (optional)) – Proportional Falloff, Falloff type for proportional editing mode
+  * **proportional_edit_falloff** (enum in [Proportional Falloff Items](bpy_types_enum_items/proportional_falloff_items.md#rna-enum-proportional-falloff-items), (optional)) – Proportional Falloff, Falloff type for proportional editing mode
 
   * **proportional_size** (_float in_ _[__1e-06_ _,__inf_ _]__,__(__optional_ _)_) – Proportional Size
 
@@ -254,11 +254,11 @@ Parameters:
 
   * **snap** (_boolean_ _,__(__optional_ _)_) – Use Snapping Options
 
-  * **snap_elements** (enum set in [Snap Element Items](bpy_types_enum_items/snap_element_items.html#rna-enum-snap-element-items), (optional)) – Snap to Elements
+  * **snap_elements** (enum set in [Snap Element Items](bpy_types_enum_items/snap_element_items.md#rna-enum-snap-element-items), (optional)) – Snap to Elements
 
   * **use_snap_project** (_boolean_ _,__(__optional_ _)_) – Project Individual Elements
 
-  * **snap_target** (enum in [Snap Source Items](bpy_types_enum_items/snap_source_items.html#rna-enum-snap-source-items), (optional)) – Snap Base, Point on source that will snap to target
+  * **snap_target** (enum in [Snap Source Items](bpy_types_enum_items/snap_source_items.md#rna-enum-snap-source-items), (optional)) – Snap Base, Point on source that will snap to target
 
   * **use_snap_self** (_boolean_ _,__(__optional_ _)_) – Target: Include Active
 
@@ -268,7 +268,7 @@ Parameters:
 
   * **use_snap_selectable** (_boolean_ _,__(__optional_ _)_) – Target: Exclude Non-Selectable
 
-  * **snap_point** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Point
+  * **snap_point** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Point
 
   * **gpencil_strokes** (_boolean_ _,__(__optional_ _)_) – Edit Grease Pencil, Edit selected Grease Pencil strokes
 
@@ -278,7 +278,7 @@ Parameters:
 
   * **use_duplicated_keyframes** (_boolean_ _,__(__optional_ _)_) – Duplicated Keyframes, Transform duplicated keyframes
 
-  * **center_override** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Center Override, Force using this center value (when set)
+  * **center_override** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Center Override, Force using this center value (when set)
 
   * **release_confirm** (_boolean_ _,__(__optional_ _)_) – Confirm on Release, Always confirm operation when releasing button
 
@@ -295,11 +295,11 @@ Parameters:
 
   * **value** (_float in_ _[__-inf_ _,__inf_ _]__,__(__optional_ _)_) – Angle
 
-  * **orient_axis** (enum in [Axis Xyz Items](bpy_types_enum_items/axis_xyz_items.html#rna-enum-axis-xyz-items), (optional)) – Axis
+  * **orient_axis** (enum in [Axis Xyz Items](bpy_types_enum_items/axis_xyz_items.md#rna-enum-axis-xyz-items), (optional)) – Axis
 
   * **orient_type** (_enum in_ _[__]__,__(__optional_ _)_) – Orientation, Transformation orientation
 
-  * **orient_matrix** ([`mathutils.Matrix`](mathutils.html#mathutils.Matrix "mathutils.Matrix") of 3 * 3 items in [-inf, inf], (optional)) – Matrix
+  * **orient_matrix** ([`mathutils.Matrix`](mathutils.md#mathutils.Matrix "mathutils.Matrix") of 3 * 3 items in [-inf, inf], (optional)) – Matrix
 
   * **orient_matrix_type** (_enum in_ _[__]__,__(__optional_ _)_) – Matrix Orientation
 
@@ -309,7 +309,7 @@ Parameters:
 
   * **use_proportional_edit** (_boolean_ _,__(__optional_ _)_) – Proportional Editing
 
-  * **proportional_edit_falloff** (enum in [Proportional Falloff Items](bpy_types_enum_items/proportional_falloff_items.html#rna-enum-proportional-falloff-items), (optional)) – Proportional Falloff, Falloff type for proportional editing mode
+  * **proportional_edit_falloff** (enum in [Proportional Falloff Items](bpy_types_enum_items/proportional_falloff_items.md#rna-enum-proportional-falloff-items), (optional)) – Proportional Falloff, Falloff type for proportional editing mode
 
   * **proportional_size** (_float in_ _[__1e-06_ _,__inf_ _]__,__(__optional_ _)_) – Proportional Size
 
@@ -319,11 +319,11 @@ Parameters:
 
   * **snap** (_boolean_ _,__(__optional_ _)_) – Use Snapping Options
 
-  * **snap_elements** (enum set in [Snap Element Items](bpy_types_enum_items/snap_element_items.html#rna-enum-snap-element-items), (optional)) – Snap to Elements
+  * **snap_elements** (enum set in [Snap Element Items](bpy_types_enum_items/snap_element_items.md#rna-enum-snap-element-items), (optional)) – Snap to Elements
 
   * **use_snap_project** (_boolean_ _,__(__optional_ _)_) – Project Individual Elements
 
-  * **snap_target** (enum in [Snap Source Items](bpy_types_enum_items/snap_source_items.html#rna-enum-snap-source-items), (optional)) – Snap Base, Point on source that will snap to target
+  * **snap_target** (enum in [Snap Source Items](bpy_types_enum_items/snap_source_items.md#rna-enum-snap-source-items), (optional)) – Snap Base, Point on source that will snap to target
 
   * **use_snap_self** (_boolean_ _,__(__optional_ _)_) – Target: Include Active
 
@@ -333,11 +333,11 @@ Parameters:
 
   * **use_snap_selectable** (_boolean_ _,__(__optional_ _)_) – Target: Exclude Non-Selectable
 
-  * **snap_point** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Point
+  * **snap_point** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Point
 
   * **gpencil_strokes** (_boolean_ _,__(__optional_ _)_) – Edit Grease Pencil, Edit selected Grease Pencil strokes
 
-  * **center_override** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Center Override, Force using this center value (when set)
+  * **center_override** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Center Override, Force using this center value (when set)
 
   * **release_confirm** (_boolean_ _,__(__optional_ _)_) – Confirm on Release, Always confirm operation when releasing button
 
@@ -354,11 +354,11 @@ Parameters:
 
   * **value** (_float in_ _[__-inf_ _,__inf_ _]__,__(__optional_ _)_) – Angle
 
-  * **orient_axis** (enum in [Axis Xyz Items](bpy_types_enum_items/axis_xyz_items.html#rna-enum-axis-xyz-items), (optional)) – Axis
+  * **orient_axis** (enum in [Axis Xyz Items](bpy_types_enum_items/axis_xyz_items.md#rna-enum-axis-xyz-items), (optional)) – Axis
 
   * **orient_type** (_enum in_ _[__]__,__(__optional_ _)_) – Orientation, Transformation orientation
 
-  * **orient_matrix** ([`mathutils.Matrix`](mathutils.html#mathutils.Matrix "mathutils.Matrix") of 3 * 3 items in [-inf, inf], (optional)) – Matrix
+  * **orient_matrix** ([`mathutils.Matrix`](mathutils.md#mathutils.Matrix "mathutils.Matrix") of 3 * 3 items in [-inf, inf], (optional)) – Matrix
 
   * **orient_matrix_type** (_enum in_ _[__]__,__(__optional_ _)_) – Matrix Orientation
 
@@ -389,7 +389,7 @@ Slide a sequence strip in time
 Parameters:
     
 
-  * **value** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 2 items in [-inf, inf], (optional)) – Offset
+  * **value** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 2 items in [-inf, inf], (optional)) – Offset
 
   * **use_restore_handle_selection** (_boolean_ _,__(__optional_ _)_) – Restore Handle Selection, Restore handle selection after tweaking
 
@@ -412,13 +412,13 @@ Parameters:
 
   * **value** (_float in_ _[__-inf_ _,__inf_ _]__,__(__optional_ _)_) – Offset
 
-  * **orient_axis** (enum in [Axis Xyz Items](bpy_types_enum_items/axis_xyz_items.html#rna-enum-axis-xyz-items), (optional)) – Axis
+  * **orient_axis** (enum in [Axis Xyz Items](bpy_types_enum_items/axis_xyz_items.md#rna-enum-axis-xyz-items), (optional)) – Axis
 
-  * **orient_axis_ortho** (enum in [Axis Xyz Items](bpy_types_enum_items/axis_xyz_items.html#rna-enum-axis-xyz-items), (optional)) – Axis Ortho
+  * **orient_axis_ortho** (enum in [Axis Xyz Items](bpy_types_enum_items/axis_xyz_items.md#rna-enum-axis-xyz-items), (optional)) – Axis Ortho
 
   * **orient_type** (_enum in_ _[__]__,__(__optional_ _)_) – Orientation, Transformation orientation
 
-  * **orient_matrix** ([`mathutils.Matrix`](mathutils.html#mathutils.Matrix "mathutils.Matrix") of 3 * 3 items in [-inf, inf], (optional)) – Matrix
+  * **orient_matrix** ([`mathutils.Matrix`](mathutils.md#mathutils.Matrix "mathutils.Matrix") of 3 * 3 items in [-inf, inf], (optional)) – Matrix
 
   * **orient_matrix_type** (_enum in_ _[__]__,__(__optional_ _)_) – Matrix Orientation
 
@@ -426,7 +426,7 @@ Parameters:
 
   * **use_proportional_edit** (_boolean_ _,__(__optional_ _)_) – Proportional Editing
 
-  * **proportional_edit_falloff** (enum in [Proportional Falloff Items](bpy_types_enum_items/proportional_falloff_items.html#rna-enum-proportional-falloff-items), (optional)) – Proportional Falloff, Falloff type for proportional editing mode
+  * **proportional_edit_falloff** (enum in [Proportional Falloff Items](bpy_types_enum_items/proportional_falloff_items.md#rna-enum-proportional-falloff-items), (optional)) – Proportional Falloff, Falloff type for proportional editing mode
 
   * **proportional_size** (_float in_ _[__1e-06_ _,__inf_ _]__,__(__optional_ _)_) – Proportional Size
 
@@ -459,7 +459,7 @@ Parameters:
 
   * **use_proportional_edit** (_boolean_ _,__(__optional_ _)_) – Proportional Editing
 
-  * **proportional_edit_falloff** (enum in [Proportional Falloff Items](bpy_types_enum_items/proportional_falloff_items.html#rna-enum-proportional-falloff-items), (optional)) – Proportional Falloff, Falloff type for proportional editing mode
+  * **proportional_edit_falloff** (enum in [Proportional Falloff Items](bpy_types_enum_items/proportional_falloff_items.md#rna-enum-proportional-falloff-items), (optional)) – Proportional Falloff, Falloff type for proportional editing mode
 
   * **proportional_size** (_float in_ _[__1e-06_ _,__inf_ _]__,__(__optional_ _)_) – Proportional Size
 
@@ -482,11 +482,11 @@ Scale selected vertices’ skin radii
 Parameters:
     
 
-  * **value** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale
+  * **value** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Scale
 
   * **orient_type** (_enum in_ _[__]__,__(__optional_ _)_) – Orientation, Transformation orientation
 
-  * **orient_matrix** ([`mathutils.Matrix`](mathutils.html#mathutils.Matrix "mathutils.Matrix") of 3 * 3 items in [-inf, inf], (optional)) – Matrix
+  * **orient_matrix** ([`mathutils.Matrix`](mathutils.md#mathutils.Matrix "mathutils.Matrix") of 3 * 3 items in [-inf, inf], (optional)) – Matrix
 
   * **orient_matrix_type** (_enum in_ _[__]__,__(__optional_ _)_) – Matrix Orientation
 
@@ -496,7 +496,7 @@ Parameters:
 
   * **use_proportional_edit** (_boolean_ _,__(__optional_ _)_) – Proportional Editing
 
-  * **proportional_edit_falloff** (enum in [Proportional Falloff Items](bpy_types_enum_items/proportional_falloff_items.html#rna-enum-proportional-falloff-items), (optional)) – Proportional Falloff, Falloff type for proportional editing mode
+  * **proportional_edit_falloff** (enum in [Proportional Falloff Items](bpy_types_enum_items/proportional_falloff_items.md#rna-enum-proportional-falloff-items), (optional)) – Proportional Falloff, Falloff type for proportional editing mode
 
   * **proportional_size** (_float in_ _[__1e-06_ _,__inf_ _]__,__(__optional_ _)_) – Proportional Size
 
@@ -506,11 +506,11 @@ Parameters:
 
   * **snap** (_boolean_ _,__(__optional_ _)_) – Use Snapping Options
 
-  * **snap_elements** (enum set in [Snap Element Items](bpy_types_enum_items/snap_element_items.html#rna-enum-snap-element-items), (optional)) – Snap to Elements
+  * **snap_elements** (enum set in [Snap Element Items](bpy_types_enum_items/snap_element_items.md#rna-enum-snap-element-items), (optional)) – Snap to Elements
 
   * **use_snap_project** (_boolean_ _,__(__optional_ _)_) – Project Individual Elements
 
-  * **snap_target** (enum in [Snap Source Items](bpy_types_enum_items/snap_source_items.html#rna-enum-snap-source-items), (optional)) – Snap Base, Point on source that will snap to target
+  * **snap_target** (enum in [Snap Source Items](bpy_types_enum_items/snap_source_items.md#rna-enum-snap-source-items), (optional)) – Snap Base, Point on source that will snap to target
 
   * **use_snap_self** (_boolean_ _,__(__optional_ _)_) – Target: Include Active
 
@@ -520,7 +520,7 @@ Parameters:
 
   * **use_snap_selectable** (_boolean_ _,__(__optional_ _)_) – Target: Exclude Non-Selectable
 
-  * **snap_point** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Point
+  * **snap_point** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Point
 
   * **release_confirm** (_boolean_ _,__(__optional_ _)_) – Confirm on Release, Always confirm operation when releasing button
 
@@ -541,7 +541,7 @@ Parameters:
 
   * **use_proportional_edit** (_boolean_ _,__(__optional_ _)_) – Proportional Editing
 
-  * **proportional_edit_falloff** (enum in [Proportional Falloff Items](bpy_types_enum_items/proportional_falloff_items.html#rna-enum-proportional-falloff-items), (optional)) – Proportional Falloff, Falloff type for proportional editing mode
+  * **proportional_edit_falloff** (enum in [Proportional Falloff Items](bpy_types_enum_items/proportional_falloff_items.md#rna-enum-proportional-falloff-items), (optional)) – Proportional Falloff, Falloff type for proportional editing mode
 
   * **proportional_size** (_float in_ _[__1e-06_ _,__inf_ _]__,__(__optional_ _)_) – Proportional Size
 
@@ -570,7 +570,7 @@ Parameters:
 
   * **use_proportional_edit** (_boolean_ _,__(__optional_ _)_) – Proportional Editing
 
-  * **proportional_edit_falloff** (enum in [Proportional Falloff Items](bpy_types_enum_items/proportional_falloff_items.html#rna-enum-proportional-falloff-items), (optional)) – Proportional Falloff, Falloff type for proportional editing mode
+  * **proportional_edit_falloff** (enum in [Proportional Falloff Items](bpy_types_enum_items/proportional_falloff_items.md#rna-enum-proportional-falloff-items), (optional)) – Proportional Falloff, Falloff type for proportional editing mode
 
   * **proportional_size** (_float in_ _[__1e-06_ _,__inf_ _]__,__(__optional_ _)_) – Proportional Size
 
@@ -582,7 +582,7 @@ Parameters:
 
   * **gpencil_strokes** (_boolean_ _,__(__optional_ _)_) – Edit Grease Pencil, Edit selected Grease Pencil strokes
 
-  * **center_override** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Center Override, Force using this center value (when set)
+  * **center_override** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Center Override, Force using this center value (when set)
 
   * **release_confirm** (_boolean_ _,__(__optional_ _)_) – Confirm on Release, Always confirm operation when releasing button
 
@@ -603,7 +603,7 @@ Parameters:
 
   * **use_proportional_edit** (_boolean_ _,__(__optional_ _)_) – Proportional Editing
 
-  * **proportional_edit_falloff** (enum in [Proportional Falloff Items](bpy_types_enum_items/proportional_falloff_items.html#rna-enum-proportional-falloff-items), (optional)) – Proportional Falloff, Falloff type for proportional editing mode
+  * **proportional_edit_falloff** (enum in [Proportional Falloff Items](bpy_types_enum_items/proportional_falloff_items.md#rna-enum-proportional-falloff-items), (optional)) – Proportional Falloff, Falloff type for proportional editing mode
 
   * **proportional_size** (_float in_ _[__1e-06_ _,__inf_ _]__,__(__optional_ _)_) – Proportional Size
 
@@ -615,7 +615,7 @@ Parameters:
 
   * **gpencil_strokes** (_boolean_ _,__(__optional_ _)_) – Edit Grease Pencil, Edit selected Grease Pencil strokes
 
-  * **center_override** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Center Override, Force using this center value (when set)
+  * **center_override** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Center Override, Force using this center value (when set)
 
   * **release_confirm** (_boolean_ _,__(__optional_ _)_) – Confirm on Release, Always confirm operation when releasing button
 
@@ -630,17 +630,17 @@ Transform selected items by mode type
 Parameters:
     
 
-  * **mode** (enum in [Transform Mode Type Items](bpy_types_enum_items/transform_mode_type_items.html#rna-enum-transform-mode-type-items), (optional)) – Mode
+  * **mode** (enum in [Transform Mode Type Items](bpy_types_enum_items/transform_mode_type_items.md#rna-enum-transform-mode-type-items), (optional)) – Mode
 
-  * **value** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 4 items in [-inf, inf], (optional)) – Values
+  * **value** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 4 items in [-inf, inf], (optional)) – Values
 
-  * **orient_axis** (enum in [Axis Xyz Items](bpy_types_enum_items/axis_xyz_items.html#rna-enum-axis-xyz-items), (optional)) – Axis
+  * **orient_axis** (enum in [Axis Xyz Items](bpy_types_enum_items/axis_xyz_items.md#rna-enum-axis-xyz-items), (optional)) – Axis
 
-  * **orient_type** (enum in [Transform Orientation Items](bpy_types_enum_items/transform_orientation_items.html#rna-enum-transform-orientation-items), (optional)) – Orientation, Transformation orientation
+  * **orient_type** (enum in [Transform Orientation Items](bpy_types_enum_items/transform_orientation_items.md#rna-enum-transform-orientation-items), (optional)) – Orientation, Transformation orientation
 
-  * **orient_matrix** ([`mathutils.Matrix`](mathutils.html#mathutils.Matrix "mathutils.Matrix") of 3 * 3 items in [-inf, inf], (optional)) – Matrix
+  * **orient_matrix** ([`mathutils.Matrix`](mathutils.md#mathutils.Matrix "mathutils.Matrix") of 3 * 3 items in [-inf, inf], (optional)) – Matrix
 
-  * **orient_matrix_type** (enum in [Transform Orientation Items](bpy_types_enum_items/transform_orientation_items.html#rna-enum-transform-orientation-items), (optional)) – Matrix Orientation
+  * **orient_matrix_type** (enum in [Transform Orientation Items](bpy_types_enum_items/transform_orientation_items.md#rna-enum-transform-orientation-items), (optional)) – Matrix Orientation
 
   * **constraint_axis** (_boolean array_ _of_ _3 items_ _,__(__optional_ _)_) – Constraint Axis
 
@@ -648,7 +648,7 @@ Parameters:
 
   * **use_proportional_edit** (_boolean_ _,__(__optional_ _)_) – Proportional Editing
 
-  * **proportional_edit_falloff** (enum in [Proportional Falloff Items](bpy_types_enum_items/proportional_falloff_items.html#rna-enum-proportional-falloff-items), (optional)) – Proportional Falloff, Falloff type for proportional editing mode
+  * **proportional_edit_falloff** (enum in [Proportional Falloff Items](bpy_types_enum_items/proportional_falloff_items.md#rna-enum-proportional-falloff-items), (optional)) – Proportional Falloff, Falloff type for proportional editing mode
 
   * **proportional_size** (_float in_ _[__1e-06_ _,__inf_ _]__,__(__optional_ _)_) – Proportional Size
 
@@ -658,11 +658,11 @@ Parameters:
 
   * **snap** (_boolean_ _,__(__optional_ _)_) – Use Snapping Options
 
-  * **snap_elements** (enum set in [Snap Element Items](bpy_types_enum_items/snap_element_items.html#rna-enum-snap-element-items), (optional)) – Snap to Elements
+  * **snap_elements** (enum set in [Snap Element Items](bpy_types_enum_items/snap_element_items.md#rna-enum-snap-element-items), (optional)) – Snap to Elements
 
   * **use_snap_project** (_boolean_ _,__(__optional_ _)_) – Project Individual Elements
 
-  * **snap_target** (enum in [Snap Source Items](bpy_types_enum_items/snap_source_items.html#rna-enum-snap-source-items), (optional)) – Snap Base, Point on source that will snap to target
+  * **snap_target** (enum in [Snap Source Items](bpy_types_enum_items/snap_source_items.md#rna-enum-snap-source-items), (optional)) – Snap Base, Point on source that will snap to target
 
   * **use_snap_self** (_boolean_ _,__(__optional_ _)_) – Target: Include Active
 
@@ -672,11 +672,11 @@ Parameters:
 
   * **use_snap_selectable** (_boolean_ _,__(__optional_ _)_) – Target: Exclude Non-Selectable
 
-  * **snap_point** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Point
+  * **snap_point** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Point
 
   * **snap_align** (_boolean_ _,__(__optional_ _)_) – Align with Point Normal
 
-  * **snap_normal** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Normal
+  * **snap_normal** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Normal
 
   * **gpencil_strokes** (_boolean_ _,__(__optional_ _)_) – Edit Grease Pencil, Edit selected Grease Pencil strokes
 
@@ -686,7 +686,7 @@ Parameters:
 
   * **use_duplicated_keyframes** (_boolean_ _,__(__optional_ _)_) – Duplicated Keyframes, Transform duplicated keyframes
 
-  * **center_override** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Center Override, Force using this center value (when set)
+  * **center_override** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Center Override, Force using this center value (when set)
 
   * **release_confirm** (_boolean_ _,__(__optional_ _)_) – Confirm on Release, Always confirm operation when releasing button
 
@@ -703,13 +703,13 @@ Move selected items
 Parameters:
     
 
-  * **value** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Move
+  * **value** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Move
 
-  * **orient_type** (enum in [Transform Orientation Items](bpy_types_enum_items/transform_orientation_items.html#rna-enum-transform-orientation-items), (optional)) – Orientation, Transformation orientation
+  * **orient_type** (enum in [Transform Orientation Items](bpy_types_enum_items/transform_orientation_items.md#rna-enum-transform-orientation-items), (optional)) – Orientation, Transformation orientation
 
-  * **orient_matrix** ([`mathutils.Matrix`](mathutils.html#mathutils.Matrix "mathutils.Matrix") of 3 * 3 items in [-inf, inf], (optional)) – Matrix
+  * **orient_matrix** ([`mathutils.Matrix`](mathutils.md#mathutils.Matrix "mathutils.Matrix") of 3 * 3 items in [-inf, inf], (optional)) – Matrix
 
-  * **orient_matrix_type** (enum in [Transform Orientation Items](bpy_types_enum_items/transform_orientation_items.html#rna-enum-transform-orientation-items), (optional)) – Matrix Orientation
+  * **orient_matrix_type** (enum in [Transform Orientation Items](bpy_types_enum_items/transform_orientation_items.md#rna-enum-transform-orientation-items), (optional)) – Matrix Orientation
 
   * **constraint_axis** (_boolean array_ _of_ _3 items_ _,__(__optional_ _)_) – Constraint Axis
 
@@ -717,7 +717,7 @@ Parameters:
 
   * **use_proportional_edit** (_boolean_ _,__(__optional_ _)_) – Proportional Editing
 
-  * **proportional_edit_falloff** (enum in [Proportional Falloff Items](bpy_types_enum_items/proportional_falloff_items.html#rna-enum-proportional-falloff-items), (optional)) – Proportional Falloff, Falloff type for proportional editing mode
+  * **proportional_edit_falloff** (enum in [Proportional Falloff Items](bpy_types_enum_items/proportional_falloff_items.md#rna-enum-proportional-falloff-items), (optional)) – Proportional Falloff, Falloff type for proportional editing mode
 
   * **proportional_size** (_float in_ _[__1e-06_ _,__inf_ _]__,__(__optional_ _)_) – Proportional Size
 
@@ -727,11 +727,11 @@ Parameters:
 
   * **snap** (_boolean_ _,__(__optional_ _)_) – Use Snapping Options
 
-  * **snap_elements** (enum set in [Snap Element Items](bpy_types_enum_items/snap_element_items.html#rna-enum-snap-element-items), (optional)) – Snap to Elements
+  * **snap_elements** (enum set in [Snap Element Items](bpy_types_enum_items/snap_element_items.md#rna-enum-snap-element-items), (optional)) – Snap to Elements
 
   * **use_snap_project** (_boolean_ _,__(__optional_ _)_) – Project Individual Elements
 
-  * **snap_target** (enum in [Snap Source Items](bpy_types_enum_items/snap_source_items.html#rna-enum-snap-source-items), (optional)) – Snap Base, Point on source that will snap to target
+  * **snap_target** (enum in [Snap Source Items](bpy_types_enum_items/snap_source_items.md#rna-enum-snap-source-items), (optional)) – Snap Base, Point on source that will snap to target
 
   * **use_snap_self** (_boolean_ _,__(__optional_ _)_) – Target: Include Active
 
@@ -741,11 +741,11 @@ Parameters:
 
   * **use_snap_selectable** (_boolean_ _,__(__optional_ _)_) – Target: Exclude Non-Selectable
 
-  * **snap_point** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Point
+  * **snap_point** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Point
 
   * **snap_align** (_boolean_ _,__(__optional_ _)_) – Align with Point Normal
 
-  * **snap_normal** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Normal
+  * **snap_normal** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Normal
 
   * **gpencil_strokes** (_boolean_ _,__(__optional_ _)_) – Edit Grease Pencil, Edit selected Grease Pencil strokes
 
@@ -805,11 +805,11 @@ Parameters:
 
   * **snap** (_boolean_ _,__(__optional_ _)_) – Use Snapping Options
 
-  * **snap_elements** (enum set in [Snap Element Items](bpy_types_enum_items/snap_element_items.html#rna-enum-snap-element-items), (optional)) – Snap to Elements
+  * **snap_elements** (enum set in [Snap Element Items](bpy_types_enum_items/snap_element_items.md#rna-enum-snap-element-items), (optional)) – Snap to Elements
 
   * **use_snap_project** (_boolean_ _,__(__optional_ _)_) – Project Individual Elements
 
-  * **snap_target** (enum in [Snap Source Items](bpy_types_enum_items/snap_source_items.html#rna-enum-snap-source-items), (optional)) – Snap Base, Point on source that will snap to target
+  * **snap_target** (enum in [Snap Source Items](bpy_types_enum_items/snap_source_items.md#rna-enum-snap-source-items), (optional)) – Snap Base, Point on source that will snap to target
 
   * **use_snap_self** (_boolean_ _,__(__optional_ _)_) – Target: Include Active
 
@@ -819,7 +819,7 @@ Parameters:
 
   * **use_snap_selectable** (_boolean_ _,__(__optional_ _)_) – Target: Exclude Non-Selectable
 
-  * **snap_point** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Point
+  * **snap_point** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Point
 
   * **correct_uv** (_boolean_ _,__(__optional_ _)_) – Correct UVs, Correct UV coordinates when transforming
 
@@ -863,6 +863,6 @@ Parameters:
 
   * **max** (_float in_ _[__-inf_ _,__inf_ _]__,__(__optional_ _)_) – Max
 
-  * **viewmat** ([`mathutils.Matrix`](mathutils.html#mathutils.Matrix "mathutils.Matrix") of 4 * 4 items in [-inf, inf], (optional)) – Matrix
+  * **viewmat** ([`mathutils.Matrix`](mathutils.md#mathutils.Matrix "mathutils.Matrix") of 4 * 4 items in [-inf, inf], (optional)) – Matrix
 
-  * **center** ([`mathutils.Vector`](mathutils.html#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Center
+  * **center** ([`mathutils.Vector`](mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-inf, inf], (optional)) – Center

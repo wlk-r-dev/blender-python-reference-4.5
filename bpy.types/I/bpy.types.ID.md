@@ -1,8 +1,8 @@
 # ID(bpy_struct)
 
-base class — [`bpy_struct`](bpy.types.bpy_struct.html#bpy.types.bpy_struct "bpy.types.bpy_struct")
+base class — [`bpy_struct`](bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct")
 
-subclasses — [`Action`](bpy.types.Action.html#bpy.types.Action "bpy.types.Action"), [`Armature`](bpy.types.Armature.html#bpy.types.Armature "bpy.types.Armature"), [`Brush`](bpy.types.Brush.html#bpy.types.Brush "bpy.types.Brush"), [`CacheFile`](bpy.types.CacheFile.html#bpy.types.CacheFile "bpy.types.CacheFile"), [`Camera`](bpy.types.Camera.html#bpy.types.Camera "bpy.types.Camera"), [`Collection`](bpy.types.Collection.html#bpy.types.Collection "bpy.types.Collection"), [`Curve`](bpy.types.Curve.html#bpy.types.Curve "bpy.types.Curve"), [`Curves`](bpy.types.Curves.html#bpy.types.Curves "bpy.types.Curves"), [`FreestyleLineStyle`](bpy.types.FreestyleLineStyle.html#bpy.types.FreestyleLineStyle "bpy.types.FreestyleLineStyle"), [`GreasePencil`](bpy.types.GreasePencil.html#bpy.types.GreasePencil "bpy.types.GreasePencil"), [`GreasePencilv3`](bpy.types.GreasePencilv3.html#bpy.types.GreasePencilv3 "bpy.types.GreasePencilv3"), [`Image`](bpy.types.Image.html#bpy.types.Image "bpy.types.Image"), [`Key`](bpy.types.Key.html#bpy.types.Key "bpy.types.Key"), [`Lattice`](bpy.types.Lattice.html#bpy.types.Lattice "bpy.types.Lattice"), [`Library`](bpy.types.Library.html#bpy.types.Library "bpy.types.Library"), [`Light`](bpy.types.Light.html#bpy.types.Light "bpy.types.Light"), [`LightProbe`](bpy.types.LightProbe.html#bpy.types.LightProbe "bpy.types.LightProbe"), [`Mask`](bpy.types.Mask.html#bpy.types.Mask "bpy.types.Mask"), [`Material`](bpy.types.Material.html#bpy.types.Material "bpy.types.Material"), [`Mesh`](bpy.types.Mesh.html#bpy.types.Mesh "bpy.types.Mesh"), [`MetaBall`](bpy.types.MetaBall.html#bpy.types.MetaBall "bpy.types.MetaBall"), [`MovieClip`](bpy.types.MovieClip.html#bpy.types.MovieClip "bpy.types.MovieClip"), [`NodeTree`](bpy.types.NodeTree.html#bpy.types.NodeTree "bpy.types.NodeTree"), [`Object`](bpy.types.Object.html#bpy.types.Object "bpy.types.Object"), [`PaintCurve`](bpy.types.PaintCurve.html#bpy.types.PaintCurve "bpy.types.PaintCurve"), [`Palette`](bpy.types.Palette.html#bpy.types.Palette "bpy.types.Palette"), [`ParticleSettings`](bpy.types.ParticleSettings.html#bpy.types.ParticleSettings "bpy.types.ParticleSettings"), [`PointCloud`](bpy.types.PointCloud.html#bpy.types.PointCloud "bpy.types.PointCloud"), [`Scene`](bpy.types.Scene.html#bpy.types.Scene "bpy.types.Scene"), [`Screen`](bpy.types.Screen.html#bpy.types.Screen "bpy.types.Screen"), [`Sound`](bpy.types.Sound.html#bpy.types.Sound "bpy.types.Sound"), [`Speaker`](bpy.types.Speaker.html#bpy.types.Speaker "bpy.types.Speaker"), [`Text`](bpy.types.Text.html#bpy.types.Text "bpy.types.Text"), [`Texture`](bpy.types.Texture.html#bpy.types.Texture "bpy.types.Texture"), [`VectorFont`](bpy.types.VectorFont.html#bpy.types.VectorFont "bpy.types.VectorFont"), [`Volume`](bpy.types.Volume.html#bpy.types.Volume "bpy.types.Volume"), [`WindowManager`](bpy.types.WindowManager.html#bpy.types.WindowManager "bpy.types.WindowManager"), [`WorkSpace`](bpy.types.WorkSpace.html#bpy.types.WorkSpace "bpy.types.WorkSpace"), [`World`](bpy.types.World.html#bpy.types.World "bpy.types.World")
+subclasses — [`Action`](bpy.types.Action.md#bpy.types.Action "bpy.types.Action"), [`Armature`](bpy.types.Armature.md#bpy.types.Armature "bpy.types.Armature"), [`Brush`](bpy.types.Brush.md#bpy.types.Brush "bpy.types.Brush"), [`CacheFile`](bpy.types.CacheFile.md#bpy.types.CacheFile "bpy.types.CacheFile"), [`Camera`](bpy.types.Camera.md#bpy.types.Camera "bpy.types.Camera"), [`Collection`](bpy.types.Collection.md#bpy.types.Collection "bpy.types.Collection"), [`Curve`](bpy.types.Curve.md#bpy.types.Curve "bpy.types.Curve"), [`Curves`](bpy.types.Curves.md#bpy.types.Curves "bpy.types.Curves"), [`FreestyleLineStyle`](bpy.types.FreestyleLineStyle.md#bpy.types.FreestyleLineStyle "bpy.types.FreestyleLineStyle"), [`GreasePencil`](bpy.types.GreasePencil.md#bpy.types.GreasePencil "bpy.types.GreasePencil"), [`GreasePencilv3`](bpy.types.GreasePencilv3.md#bpy.types.GreasePencilv3 "bpy.types.GreasePencilv3"), [`Image`](bpy.types.Image.md#bpy.types.Image "bpy.types.Image"), [`Key`](bpy.types.Key.md#bpy.types.Key "bpy.types.Key"), [`Lattice`](bpy.types.Lattice.md#bpy.types.Lattice "bpy.types.Lattice"), [`Library`](bpy.types.Library.md#bpy.types.Library "bpy.types.Library"), [`Light`](bpy.types.Light.md#bpy.types.Light "bpy.types.Light"), [`LightProbe`](bpy.types.LightProbe.md#bpy.types.LightProbe "bpy.types.LightProbe"), [`Mask`](bpy.types.Mask.md#bpy.types.Mask "bpy.types.Mask"), [`Material`](bpy.types.Material.md#bpy.types.Material "bpy.types.Material"), [`Mesh`](bpy.types.Mesh.md#bpy.types.Mesh "bpy.types.Mesh"), [`MetaBall`](bpy.types.MetaBall.md#bpy.types.MetaBall "bpy.types.MetaBall"), [`MovieClip`](bpy.types.MovieClip.md#bpy.types.MovieClip "bpy.types.MovieClip"), [`NodeTree`](bpy.types.NodeTree.md#bpy.types.NodeTree "bpy.types.NodeTree"), [`Object`](bpy.types.Object.md#bpy.types.Object "bpy.types.Object"), [`PaintCurve`](bpy.types.PaintCurve.md#bpy.types.PaintCurve "bpy.types.PaintCurve"), [`Palette`](bpy.types.Palette.md#bpy.types.Palette "bpy.types.Palette"), [`ParticleSettings`](bpy.types.ParticleSettings.md#bpy.types.ParticleSettings "bpy.types.ParticleSettings"), [`PointCloud`](bpy.types.PointCloud.md#bpy.types.PointCloud "bpy.types.PointCloud"), [`Scene`](bpy.types.Scene.md#bpy.types.Scene "bpy.types.Scene"), [`Screen`](bpy.types.Screen.md#bpy.types.Screen "bpy.types.Screen"), [`Sound`](bpy.types.Sound.md#bpy.types.Sound "bpy.types.Sound"), [`Speaker`](bpy.types.Speaker.md#bpy.types.Speaker "bpy.types.Speaker"), [`Text`](bpy.types.Text.md#bpy.types.Text "bpy.types.Text"), [`Texture`](bpy.types.Texture.md#bpy.types.Texture "bpy.types.Texture"), [`VectorFont`](bpy.types.VectorFont.md#bpy.types.VectorFont "bpy.types.VectorFont"), [`Volume`](bpy.types.Volume.md#bpy.types.Volume "bpy.types.Volume"), [`WindowManager`](bpy.types.WindowManager.md#bpy.types.WindowManager "bpy.types.WindowManager"), [`WorkSpace`](bpy.types.WorkSpace.md#bpy.types.WorkSpace "bpy.types.WorkSpace"), [`World`](bpy.types.World.md#bpy.types.World "bpy.types.World")
 
 _class _bpy.types.ID(_bpy_struct_)
     
@@ -17,7 +17,7 @@ Additional data for an asset data-block
 Type:
     
 
-[`AssetMetaData`](bpy.types.AssetMetaData.html#bpy.types.AssetMetaData "bpy.types.AssetMetaData")
+[`AssetMetaData`](bpy.types.AssetMetaData.md#bpy.types.AssetMetaData "bpy.types.AssetMetaData")
 
 id_type
     
@@ -27,7 +27,7 @@ Type identifier of this data-block
 Type:
     
 
-enum in [Id Type Items](bpy_types_enum_items/id_type_items.html#rna-enum-id-type-items), default `'ACTION'`, (readonly)
+enum in [Id Type Items](bpy_types_enum_items/id_type_items.md#rna-enum-id-type-items), default `'ACTION'`, (readonly)
 
 is_editable
     
@@ -97,7 +97,7 @@ Library file the data-block is linked from
 Type:
     
 
-[`Library`](bpy.types.Library.html#bpy.types.Library "bpy.types.Library"), (readonly)
+[`Library`](bpy.types.Library.md#bpy.types.Library "bpy.types.Library"), (readonly)
 
 library_weak_reference
     
@@ -107,7 +107,7 @@ Weak reference to a data-block in another library .blend file (used to re-use al
 Type:
     
 
-[`LibraryWeakReference`](bpy.types.LibraryWeakReference.html#bpy.types.LibraryWeakReference "bpy.types.LibraryWeakReference"), (readonly)
+[`LibraryWeakReference`](bpy.types.LibraryWeakReference.md#bpy.types.LibraryWeakReference "bpy.types.LibraryWeakReference"), (readonly)
 
 name
     
@@ -147,7 +147,7 @@ Library override data
 Type:
     
 
-[`IDOverrideLibrary`](bpy.types.IDOverrideLibrary.html#bpy.types.IDOverrideLibrary "bpy.types.IDOverrideLibrary"), (readonly)
+[`IDOverrideLibrary`](bpy.types.IDOverrideLibrary.md#bpy.types.IDOverrideLibrary "bpy.types.IDOverrideLibrary"), (readonly)
 
 preview
     
@@ -157,7 +157,7 @@ Preview image and icon of this data-block (always None if not supported for this
 Type:
     
 
-[`ImagePreview`](bpy.types.ImagePreview.html#bpy.types.ImagePreview "bpy.types.ImagePreview"), (readonly)
+[`ImagePreview`](bpy.types.ImagePreview.md#bpy.types.ImagePreview "bpy.types.ImagePreview"), (readonly)
 
 session_uid
     
@@ -259,7 +259,7 @@ Get corresponding evaluated ID from the given dependency graph. Note that this d
 Parameters:
     
 
-**depsgraph** ([`Depsgraph`](bpy.types.Depsgraph.html#bpy.types.Depsgraph "bpy.types.Depsgraph"), (never None)) – Dependency graph to perform lookup in
+**depsgraph** ([`Depsgraph`](bpy.types.Depsgraph.md#bpy.types.Depsgraph "bpy.types.Depsgraph"), (never None)) – Dependency graph to perform lookup in
 
 Returns:
     
@@ -329,9 +329,9 @@ Create an overridden local copy of this linked data-block, and most of its depen
 Parameters:
     
 
-  * **scene** ([`Scene`](bpy.types.Scene.html#bpy.types.Scene "bpy.types.Scene"), (never None)) – In which scene the new overrides should be instantiated
+  * **scene** ([`Scene`](bpy.types.Scene.md#bpy.types.Scene "bpy.types.Scene"), (never None)) – In which scene the new overrides should be instantiated
 
-  * **view_layer** ([`ViewLayer`](bpy.types.ViewLayer.html#bpy.types.ViewLayer "bpy.types.ViewLayer"), (never None)) – In which view layer the new overrides should be instantiated
+  * **view_layer** ([`ViewLayer`](bpy.types.ViewLayer.md#bpy.types.ViewLayer "bpy.types.ViewLayer"), (never None)) – In which view layer the new overrides should be instantiated
 
   * **reference** (`ID`, (optional)) – Another ID (usually an Object or Collection) used as a hint to decide where to instantiate the new overrides
 
@@ -437,7 +437,7 @@ New animation data or nullptr
 Return type:
     
 
-[`AnimData`](bpy.types.AnimData.html#bpy.types.AnimData "bpy.types.AnimData")
+[`AnimData`](bpy.types.AnimData.md#bpy.types.AnimData "bpy.types.AnimData")
 
 animation_data_clear()
     
@@ -467,7 +467,7 @@ The existing or created preview
 Return type:
     
 
-[`ImagePreview`](bpy.types.ImagePreview.html#bpy.types.ImagePreview "bpy.types.ImagePreview")
+[`ImagePreview`](bpy.types.ImagePreview.md#bpy.types.ImagePreview "bpy.types.ImagePreview")
 
 _classmethod _bl_rna_get_subclass(_id_ , _default =None_, _/_)
     
@@ -485,7 +485,7 @@ The RNA type or default when not found.
 Return type:
     
 
-[`bpy.types.Struct`](bpy.types.Struct.html#bpy.types.Struct "bpy.types.Struct") subclass
+[`bpy.types.Struct`](bpy.types.Struct.md#bpy.types.Struct "bpy.types.Struct") subclass
 
 _classmethod _bl_rna_get_subclass_py(_id_ , _default =None_, _/_)
     
@@ -507,7 +507,7 @@ type
 
 ## Inherited Properties
 
-  * [`bpy_struct.id_data`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_data "bpy.types.bpy_struct.id_data")
+  * [`bpy_struct.id_data`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_data "bpy.types.bpy_struct.id_data")
 
 | 
 
@@ -517,55 +517,55 @@ type
   
 ## Inherited Functions
 
-  * [`bpy_struct.as_pointer`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.as_pointer "bpy.types.bpy_struct.as_pointer")
-  * [`bpy_struct.driver_add`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.driver_add "bpy.types.bpy_struct.driver_add")
-  * [`bpy_struct.driver_remove`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.driver_remove "bpy.types.bpy_struct.driver_remove")
-  * [`bpy_struct.get`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.get "bpy.types.bpy_struct.get")
-  * [`bpy_struct.id_properties_clear`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_clear "bpy.types.bpy_struct.id_properties_clear")
-  * [`bpy_struct.id_properties_ensure`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_ensure "bpy.types.bpy_struct.id_properties_ensure")
-  * [`bpy_struct.id_properties_ui`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_ui "bpy.types.bpy_struct.id_properties_ui")
-  * [`bpy_struct.is_property_hidden`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_hidden "bpy.types.bpy_struct.is_property_hidden")
-  * [`bpy_struct.is_property_overridable_library`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_overridable_library "bpy.types.bpy_struct.is_property_overridable_library")
-  * [`bpy_struct.is_property_readonly`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_readonly "bpy.types.bpy_struct.is_property_readonly")
-  * [`bpy_struct.is_property_set`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_set "bpy.types.bpy_struct.is_property_set")
-  * [`bpy_struct.items`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.items "bpy.types.bpy_struct.items")
+  * [`bpy_struct.as_pointer`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.as_pointer "bpy.types.bpy_struct.as_pointer")
+  * [`bpy_struct.driver_add`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.driver_add "bpy.types.bpy_struct.driver_add")
+  * [`bpy_struct.driver_remove`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.driver_remove "bpy.types.bpy_struct.driver_remove")
+  * [`bpy_struct.get`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.get "bpy.types.bpy_struct.get")
+  * [`bpy_struct.id_properties_clear`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_properties_clear "bpy.types.bpy_struct.id_properties_clear")
+  * [`bpy_struct.id_properties_ensure`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_properties_ensure "bpy.types.bpy_struct.id_properties_ensure")
+  * [`bpy_struct.id_properties_ui`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_properties_ui "bpy.types.bpy_struct.id_properties_ui")
+  * [`bpy_struct.is_property_hidden`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_hidden "bpy.types.bpy_struct.is_property_hidden")
+  * [`bpy_struct.is_property_overridable_library`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_overridable_library "bpy.types.bpy_struct.is_property_overridable_library")
+  * [`bpy_struct.is_property_readonly`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_readonly "bpy.types.bpy_struct.is_property_readonly")
+  * [`bpy_struct.is_property_set`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_set "bpy.types.bpy_struct.is_property_set")
+  * [`bpy_struct.items`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.items "bpy.types.bpy_struct.items")
 
 | 
 
-  * [`bpy_struct.keyframe_delete`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keyframe_delete "bpy.types.bpy_struct.keyframe_delete")
-  * [`bpy_struct.keyframe_insert`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keyframe_insert "bpy.types.bpy_struct.keyframe_insert")
-  * [`bpy_struct.keys`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keys "bpy.types.bpy_struct.keys")
-  * [`bpy_struct.path_from_id`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.path_from_id "bpy.types.bpy_struct.path_from_id")
-  * [`bpy_struct.path_resolve`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.path_resolve "bpy.types.bpy_struct.path_resolve")
-  * [`bpy_struct.pop`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.pop "bpy.types.bpy_struct.pop")
-  * [`bpy_struct.property_overridable_library_set`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.property_overridable_library_set "bpy.types.bpy_struct.property_overridable_library_set")
-  * [`bpy_struct.property_unset`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.property_unset "bpy.types.bpy_struct.property_unset")
-  * [`bpy_struct.rna_ancestors`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.rna_ancestors "bpy.types.bpy_struct.rna_ancestors")
-  * [`bpy_struct.type_recast`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.type_recast "bpy.types.bpy_struct.type_recast")
-  * [`bpy_struct.values`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.values "bpy.types.bpy_struct.values")
+  * [`bpy_struct.keyframe_delete`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.keyframe_delete "bpy.types.bpy_struct.keyframe_delete")
+  * [`bpy_struct.keyframe_insert`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.keyframe_insert "bpy.types.bpy_struct.keyframe_insert")
+  * [`bpy_struct.keys`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.keys "bpy.types.bpy_struct.keys")
+  * [`bpy_struct.path_from_id`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.path_from_id "bpy.types.bpy_struct.path_from_id")
+  * [`bpy_struct.path_resolve`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.path_resolve "bpy.types.bpy_struct.path_resolve")
+  * [`bpy_struct.pop`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.pop "bpy.types.bpy_struct.pop")
+  * [`bpy_struct.property_overridable_library_set`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.property_overridable_library_set "bpy.types.bpy_struct.property_overridable_library_set")
+  * [`bpy_struct.property_unset`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.property_unset "bpy.types.bpy_struct.property_unset")
+  * [`bpy_struct.rna_ancestors`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.rna_ancestors "bpy.types.bpy_struct.rna_ancestors")
+  * [`bpy_struct.type_recast`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.type_recast "bpy.types.bpy_struct.type_recast")
+  * [`bpy_struct.values`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.values "bpy.types.bpy_struct.values")
 
   
 ---|---  
   
 ## References
 
-  * [`bpy.context.annotation_data_owner`](bpy.context.html#bpy.context.annotation_data_owner "bpy.context.annotation_data_owner")
-  * [`bpy.context.id`](bpy.context.html#bpy.context.id "bpy.context.id")
-  * [`bpy.context.selected_ids`](bpy.context.html#bpy.context.selected_ids "bpy.context.selected_ids")
-  * [`bpy.context.texture_user`](bpy.context.html#bpy.context.texture_user "bpy.context.texture_user")
-  * [`Action.fcurve_ensure_for_datablock`](bpy.types.Action.html#bpy.types.Action.fcurve_ensure_for_datablock "bpy.types.Action.fcurve_ensure_for_datablock")
-  * [`ActionSlot.users`](bpy.types.ActionSlot.html#bpy.types.ActionSlot.users "bpy.types.ActionSlot.users")
-  * [`AssetRepresentation.local_id`](bpy.types.AssetRepresentation.html#bpy.types.AssetRepresentation.local_id "bpy.types.AssetRepresentation.local_id")
-  * [`BlendDataObjects.new`](bpy.types.BlendDataObjects.html#bpy.types.BlendDataObjects.new "bpy.types.BlendDataObjects.new")
-  * [`BlendImportContextItem.id`](bpy.types.BlendImportContextItem.html#bpy.types.BlendImportContextItem.id "bpy.types.BlendImportContextItem.id")
-  * [`BlendImportContextItem.library_override_id`](bpy.types.BlendImportContextItem.html#bpy.types.BlendImportContextItem.library_override_id "bpy.types.BlendImportContextItem.library_override_id")
-  * [`BlendImportContextItem.reusable_local_id`](bpy.types.BlendImportContextItem.html#bpy.types.BlendImportContextItem.reusable_local_id "bpy.types.BlendImportContextItem.reusable_local_id")
-  * [`Depsgraph.id_eval_get`](bpy.types.Depsgraph.html#bpy.types.Depsgraph.id_eval_get "bpy.types.Depsgraph.id_eval_get")
-  * [`Depsgraph.id_eval_get`](bpy.types.Depsgraph.html#bpy.types.Depsgraph.id_eval_get "bpy.types.Depsgraph.id_eval_get")
-  * [`Depsgraph.ids`](bpy.types.Depsgraph.html#bpy.types.Depsgraph.ids "bpy.types.Depsgraph.ids")
-  * [`DepsgraphUpdate.id`](bpy.types.DepsgraphUpdate.html#bpy.types.DepsgraphUpdate.id "bpy.types.DepsgraphUpdate.id")
-  * [`DopeSheet.source`](bpy.types.DopeSheet.html#bpy.types.DopeSheet.source "bpy.types.DopeSheet.source")
-  * [`DriverTarget.id`](bpy.types.DriverTarget.html#bpy.types.DriverTarget.id "bpy.types.DriverTarget.id")
+  * [`bpy.context.annotation_data_owner`](bpy.context.md#bpy.context.annotation_data_owner "bpy.context.annotation_data_owner")
+  * [`bpy.context.id`](bpy.context.md#bpy.context.id "bpy.context.id")
+  * [`bpy.context.selected_ids`](bpy.context.md#bpy.context.selected_ids "bpy.context.selected_ids")
+  * [`bpy.context.texture_user`](bpy.context.md#bpy.context.texture_user "bpy.context.texture_user")
+  * [`Action.fcurve_ensure_for_datablock`](bpy.types.Action.md#bpy.types.Action.fcurve_ensure_for_datablock "bpy.types.Action.fcurve_ensure_for_datablock")
+  * [`ActionSlot.users`](bpy.types.ActionSlot.md#bpy.types.ActionSlot.users "bpy.types.ActionSlot.users")
+  * [`AssetRepresentation.local_id`](bpy.types.AssetRepresentation.md#bpy.types.AssetRepresentation.local_id "bpy.types.AssetRepresentation.local_id")
+  * [`BlendDataObjects.new`](bpy.types.BlendDataObjects.md#bpy.types.BlendDataObjects.new "bpy.types.BlendDataObjects.new")
+  * [`BlendImportContextItem.id`](bpy.types.BlendImportContextItem.md#bpy.types.BlendImportContextItem.id "bpy.types.BlendImportContextItem.id")
+  * [`BlendImportContextItem.library_override_id`](bpy.types.BlendImportContextItem.md#bpy.types.BlendImportContextItem.library_override_id "bpy.types.BlendImportContextItem.library_override_id")
+  * [`BlendImportContextItem.reusable_local_id`](bpy.types.BlendImportContextItem.md#bpy.types.BlendImportContextItem.reusable_local_id "bpy.types.BlendImportContextItem.reusable_local_id")
+  * [`Depsgraph.id_eval_get`](bpy.types.Depsgraph.md#bpy.types.Depsgraph.id_eval_get "bpy.types.Depsgraph.id_eval_get")
+  * [`Depsgraph.id_eval_get`](bpy.types.Depsgraph.md#bpy.types.Depsgraph.id_eval_get "bpy.types.Depsgraph.id_eval_get")
+  * [`Depsgraph.ids`](bpy.types.Depsgraph.md#bpy.types.Depsgraph.ids "bpy.types.Depsgraph.ids")
+  * [`DepsgraphUpdate.id`](bpy.types.DepsgraphUpdate.md#bpy.types.DepsgraphUpdate.id "bpy.types.DepsgraphUpdate.id")
+  * [`DopeSheet.source`](bpy.types.DopeSheet.md#bpy.types.DopeSheet.source "bpy.types.DopeSheet.source")
+  * [`DriverTarget.id`](bpy.types.DriverTarget.md#bpy.types.DriverTarget.id "bpy.types.DriverTarget.id")
   * `ID.copy`
   * `ID.evaluated_get`
   * `ID.make_local`
@@ -578,30 +578,30 @@ type
 | 
 
   * `ID.user_remap`
-  * [`IDOverrideLibrary.hierarchy_root`](bpy.types.IDOverrideLibrary.html#bpy.types.IDOverrideLibrary.hierarchy_root "bpy.types.IDOverrideLibrary.hierarchy_root")
-  * [`IDOverrideLibrary.reference`](bpy.types.IDOverrideLibrary.html#bpy.types.IDOverrideLibrary.reference "bpy.types.IDOverrideLibrary.reference")
-  * [`IDOverrideLibraryPropertyOperation.subitem_local_id`](bpy.types.IDOverrideLibraryPropertyOperation.html#bpy.types.IDOverrideLibraryPropertyOperation.subitem_local_id "bpy.types.IDOverrideLibraryPropertyOperation.subitem_local_id")
-  * [`IDOverrideLibraryPropertyOperation.subitem_reference_id`](bpy.types.IDOverrideLibraryPropertyOperation.html#bpy.types.IDOverrideLibraryPropertyOperation.subitem_reference_id "bpy.types.IDOverrideLibraryPropertyOperation.subitem_reference_id")
-  * [`IDOverrideLibraryPropertyOperations.add`](bpy.types.IDOverrideLibraryPropertyOperations.html#bpy.types.IDOverrideLibraryPropertyOperations.add "bpy.types.IDOverrideLibraryPropertyOperations.add")
-  * [`IDOverrideLibraryPropertyOperations.add`](bpy.types.IDOverrideLibraryPropertyOperations.html#bpy.types.IDOverrideLibraryPropertyOperations.add "bpy.types.IDOverrideLibraryPropertyOperations.add")
-  * [`IDViewerPathElem.id`](bpy.types.IDViewerPathElem.html#bpy.types.IDViewerPathElem.id "bpy.types.IDViewerPathElem.id")
-  * [`Key.user`](bpy.types.Key.html#bpy.types.Key.user "bpy.types.Key.user")
-  * [`KeyingSetPath.id`](bpy.types.KeyingSetPath.html#bpy.types.KeyingSetPath.id "bpy.types.KeyingSetPath.id")
-  * [`KeyingSetPaths.add`](bpy.types.KeyingSetPaths.html#bpy.types.KeyingSetPaths.add "bpy.types.KeyingSetPaths.add")
-  * [`MaskParent.id`](bpy.types.MaskParent.html#bpy.types.MaskParent.id "bpy.types.MaskParent.id")
-  * [`NodeTree.get_from_context`](bpy.types.NodeTree.html#bpy.types.NodeTree.get_from_context "bpy.types.NodeTree.get_from_context")
-  * [`NodeTree.get_from_context`](bpy.types.NodeTree.html#bpy.types.NodeTree.get_from_context "bpy.types.NodeTree.get_from_context")
-  * [`NodesModifierDataBlock.id`](bpy.types.NodesModifierDataBlock.html#bpy.types.NodesModifierDataBlock.id "bpy.types.NodesModifierDataBlock.id")
-  * [`Object.data`](bpy.types.Object.html#bpy.types.Object.data "bpy.types.Object.data")
-  * [`PropertyGroupItem.id`](bpy.types.PropertyGroupItem.html#bpy.types.PropertyGroupItem.id "bpy.types.PropertyGroupItem.id")
-  * [`SpaceFileBrowser.activate_asset_by_id`](bpy.types.SpaceFileBrowser.html#bpy.types.SpaceFileBrowser.activate_asset_by_id "bpy.types.SpaceFileBrowser.activate_asset_by_id")
-  * [`SpaceNodeEditor.id`](bpy.types.SpaceNodeEditor.html#bpy.types.SpaceNodeEditor.id "bpy.types.SpaceNodeEditor.id")
-  * [`SpaceNodeEditor.id_from`](bpy.types.SpaceNodeEditor.html#bpy.types.SpaceNodeEditor.id_from "bpy.types.SpaceNodeEditor.id_from")
-  * [`SpaceProperties.pin_id`](bpy.types.SpaceProperties.html#bpy.types.SpaceProperties.pin_id "bpy.types.SpaceProperties.pin_id")
-  * [`UILayout.template_action`](bpy.types.UILayout.html#bpy.types.UILayout.template_action "bpy.types.UILayout.template_action")
-  * [`UILayout.template_path_builder`](bpy.types.UILayout.html#bpy.types.UILayout.template_path_builder "bpy.types.UILayout.template_path_builder")
-  * [`UILayout.template_preview`](bpy.types.UILayout.html#bpy.types.UILayout.template_preview "bpy.types.UILayout.template_preview")
-  * [`UILayout.template_preview`](bpy.types.UILayout.html#bpy.types.UILayout.template_preview "bpy.types.UILayout.template_preview")
+  * [`IDOverrideLibrary.hierarchy_root`](bpy.types.IDOverrideLibrary.md#bpy.types.IDOverrideLibrary.hierarchy_root "bpy.types.IDOverrideLibrary.hierarchy_root")
+  * [`IDOverrideLibrary.reference`](bpy.types.IDOverrideLibrary.md#bpy.types.IDOverrideLibrary.reference "bpy.types.IDOverrideLibrary.reference")
+  * [`IDOverrideLibraryPropertyOperation.subitem_local_id`](bpy.types.IDOverrideLibraryPropertyOperation.md#bpy.types.IDOverrideLibraryPropertyOperation.subitem_local_id "bpy.types.IDOverrideLibraryPropertyOperation.subitem_local_id")
+  * [`IDOverrideLibraryPropertyOperation.subitem_reference_id`](bpy.types.IDOverrideLibraryPropertyOperation.md#bpy.types.IDOverrideLibraryPropertyOperation.subitem_reference_id "bpy.types.IDOverrideLibraryPropertyOperation.subitem_reference_id")
+  * [`IDOverrideLibraryPropertyOperations.add`](bpy.types.IDOverrideLibraryPropertyOperations.md#bpy.types.IDOverrideLibraryPropertyOperations.add "bpy.types.IDOverrideLibraryPropertyOperations.add")
+  * [`IDOverrideLibraryPropertyOperations.add`](bpy.types.IDOverrideLibraryPropertyOperations.md#bpy.types.IDOverrideLibraryPropertyOperations.add "bpy.types.IDOverrideLibraryPropertyOperations.add")
+  * [`IDViewerPathElem.id`](bpy.types.IDViewerPathElem.md#bpy.types.IDViewerPathElem.id "bpy.types.IDViewerPathElem.id")
+  * [`Key.user`](bpy.types.Key.md#bpy.types.Key.user "bpy.types.Key.user")
+  * [`KeyingSetPath.id`](bpy.types.KeyingSetPath.md#bpy.types.KeyingSetPath.id "bpy.types.KeyingSetPath.id")
+  * [`KeyingSetPaths.add`](bpy.types.KeyingSetPaths.md#bpy.types.KeyingSetPaths.add "bpy.types.KeyingSetPaths.add")
+  * [`MaskParent.id`](bpy.types.MaskParent.md#bpy.types.MaskParent.id "bpy.types.MaskParent.id")
+  * [`NodeTree.get_from_context`](bpy.types.NodeTree.md#bpy.types.NodeTree.get_from_context "bpy.types.NodeTree.get_from_context")
+  * [`NodeTree.get_from_context`](bpy.types.NodeTree.md#bpy.types.NodeTree.get_from_context "bpy.types.NodeTree.get_from_context")
+  * [`NodesModifierDataBlock.id`](bpy.types.NodesModifierDataBlock.md#bpy.types.NodesModifierDataBlock.id "bpy.types.NodesModifierDataBlock.id")
+  * [`Object.data`](bpy.types.Object.md#bpy.types.Object.data "bpy.types.Object.data")
+  * [`PropertyGroupItem.id`](bpy.types.PropertyGroupItem.md#bpy.types.PropertyGroupItem.id "bpy.types.PropertyGroupItem.id")
+  * [`SpaceFileBrowser.activate_asset_by_id`](bpy.types.SpaceFileBrowser.md#bpy.types.SpaceFileBrowser.activate_asset_by_id "bpy.types.SpaceFileBrowser.activate_asset_by_id")
+  * [`SpaceNodeEditor.id`](bpy.types.SpaceNodeEditor.md#bpy.types.SpaceNodeEditor.id "bpy.types.SpaceNodeEditor.id")
+  * [`SpaceNodeEditor.id_from`](bpy.types.SpaceNodeEditor.md#bpy.types.SpaceNodeEditor.id_from "bpy.types.SpaceNodeEditor.id_from")
+  * [`SpaceProperties.pin_id`](bpy.types.SpaceProperties.md#bpy.types.SpaceProperties.pin_id "bpy.types.SpaceProperties.pin_id")
+  * [`UILayout.template_action`](bpy.types.UILayout.md#bpy.types.UILayout.template_action "bpy.types.UILayout.template_action")
+  * [`UILayout.template_path_builder`](bpy.types.UILayout.md#bpy.types.UILayout.template_path_builder "bpy.types.UILayout.template_path_builder")
+  * [`UILayout.template_preview`](bpy.types.UILayout.md#bpy.types.UILayout.template_preview "bpy.types.UILayout.template_preview")
+  * [`UILayout.template_preview`](bpy.types.UILayout.md#bpy.types.UILayout.template_preview "bpy.types.UILayout.template_preview")
 
   
 ---|---

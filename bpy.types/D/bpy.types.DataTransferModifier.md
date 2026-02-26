@@ -1,6 +1,6 @@
 # DataTransferModifier(Modifier)
 
-base classes — [`bpy_struct`](bpy.types.bpy_struct.html#bpy.types.bpy_struct "bpy.types.bpy_struct"), [`Modifier`](bpy.types.Modifier.html#bpy.types.Modifier "bpy.types.Modifier")
+base classes — [`bpy_struct`](bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct"), [`Modifier`](bpy.types.Modifier.md#bpy.types.Modifier "bpy.types.Modifier")
 
 _class _bpy.types.DataTransferModifier(_Modifier_)
     
@@ -85,7 +85,7 @@ Method used to map source edges to destination ones
 Type:
     
 
-enum in [Dt Method Edge Items](bpy_types_enum_items/dt_method_edge_items.html#rna-enum-dt-method-edge-items), default `'NEAREST'`
+enum in [Dt Method Edge Items](bpy_types_enum_items/dt_method_edge_items.md#rna-enum-dt-method-edge-items), default `'NEAREST'`
 
 invert_vertex_group
     
@@ -115,7 +115,7 @@ How to match source and destination layers
 Type:
     
 
-enum in [Dt Layers Select Dst Items](bpy_types_enum_items/dt_layers_select_dst_items.html#rna-enum-dt-layers-select-dst-items), default `'NAME'`
+enum in [Dt Layers Select Dst Items](bpy_types_enum_items/dt_layers_select_dst_items.md#rna-enum-dt-layers-select-dst-items), default `'NAME'`
 
 layers_uv_select_src
     
@@ -125,7 +125,7 @@ Which layers to transfer, in case of multi-layers types
 Type:
     
 
-enum in [Dt Layers Select Src Items](bpy_types_enum_items/dt_layers_select_src_items.html#rna-enum-dt-layers-select-src-items), default `'ALL'`
+enum in [Dt Layers Select Src Items](bpy_types_enum_items/dt_layers_select_src_items.md#rna-enum-dt-layers-select-src-items), default `'ALL'`
 
 layers_vcol_loop_select_dst
     
@@ -135,7 +135,7 @@ How to match source and destination layers
 Type:
     
 
-enum in [Dt Layers Select Dst Items](bpy_types_enum_items/dt_layers_select_dst_items.html#rna-enum-dt-layers-select-dst-items), default `'NAME'`
+enum in [Dt Layers Select Dst Items](bpy_types_enum_items/dt_layers_select_dst_items.md#rna-enum-dt-layers-select-dst-items), default `'NAME'`
 
 layers_vcol_loop_select_src
     
@@ -145,7 +145,7 @@ Which layers to transfer, in case of multi-layers types
 Type:
     
 
-enum in [Dt Layers Select Src Items](bpy_types_enum_items/dt_layers_select_src_items.html#rna-enum-dt-layers-select-src-items), default `'ALL'`
+enum in [Dt Layers Select Src Items](bpy_types_enum_items/dt_layers_select_src_items.md#rna-enum-dt-layers-select-src-items), default `'ALL'`
 
 layers_vcol_vert_select_dst
     
@@ -155,7 +155,7 @@ How to match source and destination layers
 Type:
     
 
-enum in [Dt Layers Select Dst Items](bpy_types_enum_items/dt_layers_select_dst_items.html#rna-enum-dt-layers-select-dst-items), default `'NAME'`
+enum in [Dt Layers Select Dst Items](bpy_types_enum_items/dt_layers_select_dst_items.md#rna-enum-dt-layers-select-dst-items), default `'NAME'`
 
 layers_vcol_vert_select_src
     
@@ -165,7 +165,7 @@ Which layers to transfer, in case of multi-layers types
 Type:
     
 
-enum in [Dt Layers Select Src Items](bpy_types_enum_items/dt_layers_select_src_items.html#rna-enum-dt-layers-select-src-items), default `'ALL'`
+enum in [Dt Layers Select Src Items](bpy_types_enum_items/dt_layers_select_src_items.md#rna-enum-dt-layers-select-src-items), default `'ALL'`
 
 layers_vgroup_select_dst
     
@@ -175,7 +175,7 @@ How to match source and destination layers
 Type:
     
 
-enum in [Dt Layers Select Dst Items](bpy_types_enum_items/dt_layers_select_dst_items.html#rna-enum-dt-layers-select-dst-items), default `'NAME'`
+enum in [Dt Layers Select Dst Items](bpy_types_enum_items/dt_layers_select_dst_items.md#rna-enum-dt-layers-select-dst-items), default `'NAME'`
 
 layers_vgroup_select_src
     
@@ -185,7 +185,7 @@ Which layers to transfer, in case of multi-layers types
 Type:
     
 
-enum in [Dt Layers Select Src Items](bpy_types_enum_items/dt_layers_select_src_items.html#rna-enum-dt-layers-select-src-items), default `'ALL'`
+enum in [Dt Layers Select Src Items](bpy_types_enum_items/dt_layers_select_src_items.md#rna-enum-dt-layers-select-src-items), default `'ALL'`
 
 loop_mapping
     
@@ -195,7 +195,7 @@ Method used to map source faces’ corners to destination ones
 Type:
     
 
-enum in [Dt Method Loop Items](bpy_types_enum_items/dt_method_loop_items.html#rna-enum-dt-method-loop-items), default `'NEAREST_POLYNOR'`
+enum in [Dt Method Loop Items](bpy_types_enum_items/dt_method_loop_items.md#rna-enum-dt-method-loop-items), default `'NEAREST_POLYNOR'`
 
 max_distance
     
@@ -225,7 +225,7 @@ How to affect destination elements with source values
 Type:
     
 
-enum in [Dt Mix Mode Items](bpy_types_enum_items/dt_mix_mode_items.html#rna-enum-dt-mix-mode-items), default `'REPLACE'`
+enum in [Dt Mix Mode Items](bpy_types_enum_items/dt_mix_mode_items.md#rna-enum-dt-mix-mode-items), default `'REPLACE'`
 
 object
     
@@ -235,7 +235,7 @@ Object to transfer data from
 Type:
     
 
-[`Object`](bpy.types.Object.html#bpy.types.Object "bpy.types.Object")
+[`Object`](bpy.types.Object.md#bpy.types.Object "bpy.types.Object")
 
 poly_mapping
     
@@ -245,7 +245,7 @@ Method used to map source faces to destination ones
 Type:
     
 
-enum in [Dt Method Poly Items](bpy_types_enum_items/dt_method_poly_items.html#rna-enum-dt-method-poly-items), default `'NEAREST'`
+enum in [Dt Method Poly Items](bpy_types_enum_items/dt_method_poly_items.md#rna-enum-dt-method-poly-items), default `'NEAREST'`
 
 ray_radius
     
@@ -325,7 +325,7 @@ Method used to map source vertices to destination ones
 Type:
     
 
-enum in [Dt Method Vertex Items](bpy_types_enum_items/dt_method_vertex_items.html#rna-enum-dt-method-vertex-items), default `'NEAREST'`
+enum in [Dt Method Vertex Items](bpy_types_enum_items/dt_method_vertex_items.md#rna-enum-dt-method-vertex-items), default `'NEAREST'`
 
 vertex_group
     
@@ -353,7 +353,7 @@ The RNA type or default when not found.
 Return type:
     
 
-[`bpy.types.Struct`](bpy.types.Struct.html#bpy.types.Struct "bpy.types.Struct") subclass
+[`bpy.types.Struct`](bpy.types.Struct.md#bpy.types.Struct "bpy.types.Struct") subclass
 
 _classmethod _bl_rna_get_subclass_py(_id_ , _default =None_, _/_)
     
@@ -375,57 +375,57 @@ type
 
 ## Inherited Properties
 
-  * [`bpy_struct.id_data`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_data "bpy.types.bpy_struct.id_data")
-  * [`Modifier.name`](bpy.types.Modifier.html#bpy.types.Modifier.name "bpy.types.Modifier.name")
-  * [`Modifier.type`](bpy.types.Modifier.html#bpy.types.Modifier.type "bpy.types.Modifier.type")
-  * [`Modifier.show_viewport`](bpy.types.Modifier.html#bpy.types.Modifier.show_viewport "bpy.types.Modifier.show_viewport")
-  * [`Modifier.show_render`](bpy.types.Modifier.html#bpy.types.Modifier.show_render "bpy.types.Modifier.show_render")
-  * [`Modifier.show_in_editmode`](bpy.types.Modifier.html#bpy.types.Modifier.show_in_editmode "bpy.types.Modifier.show_in_editmode")
-  * [`Modifier.show_on_cage`](bpy.types.Modifier.html#bpy.types.Modifier.show_on_cage "bpy.types.Modifier.show_on_cage")
+  * [`bpy_struct.id_data`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_data "bpy.types.bpy_struct.id_data")
+  * [`Modifier.name`](bpy.types.Modifier.md#bpy.types.Modifier.name "bpy.types.Modifier.name")
+  * [`Modifier.type`](bpy.types.Modifier.md#bpy.types.Modifier.type "bpy.types.Modifier.type")
+  * [`Modifier.show_viewport`](bpy.types.Modifier.md#bpy.types.Modifier.show_viewport "bpy.types.Modifier.show_viewport")
+  * [`Modifier.show_render`](bpy.types.Modifier.md#bpy.types.Modifier.show_render "bpy.types.Modifier.show_render")
+  * [`Modifier.show_in_editmode`](bpy.types.Modifier.md#bpy.types.Modifier.show_in_editmode "bpy.types.Modifier.show_in_editmode")
+  * [`Modifier.show_on_cage`](bpy.types.Modifier.md#bpy.types.Modifier.show_on_cage "bpy.types.Modifier.show_on_cage")
 
 | 
 
-  * [`Modifier.show_expanded`](bpy.types.Modifier.html#bpy.types.Modifier.show_expanded "bpy.types.Modifier.show_expanded")
-  * [`Modifier.is_active`](bpy.types.Modifier.html#bpy.types.Modifier.is_active "bpy.types.Modifier.is_active")
-  * [`Modifier.use_pin_to_last`](bpy.types.Modifier.html#bpy.types.Modifier.use_pin_to_last "bpy.types.Modifier.use_pin_to_last")
-  * [`Modifier.is_override_data`](bpy.types.Modifier.html#bpy.types.Modifier.is_override_data "bpy.types.Modifier.is_override_data")
-  * [`Modifier.use_apply_on_spline`](bpy.types.Modifier.html#bpy.types.Modifier.use_apply_on_spline "bpy.types.Modifier.use_apply_on_spline")
-  * [`Modifier.execution_time`](bpy.types.Modifier.html#bpy.types.Modifier.execution_time "bpy.types.Modifier.execution_time")
-  * [`Modifier.persistent_uid`](bpy.types.Modifier.html#bpy.types.Modifier.persistent_uid "bpy.types.Modifier.persistent_uid")
+  * [`Modifier.show_expanded`](bpy.types.Modifier.md#bpy.types.Modifier.show_expanded "bpy.types.Modifier.show_expanded")
+  * [`Modifier.is_active`](bpy.types.Modifier.md#bpy.types.Modifier.is_active "bpy.types.Modifier.is_active")
+  * [`Modifier.use_pin_to_last`](bpy.types.Modifier.md#bpy.types.Modifier.use_pin_to_last "bpy.types.Modifier.use_pin_to_last")
+  * [`Modifier.is_override_data`](bpy.types.Modifier.md#bpy.types.Modifier.is_override_data "bpy.types.Modifier.is_override_data")
+  * [`Modifier.use_apply_on_spline`](bpy.types.Modifier.md#bpy.types.Modifier.use_apply_on_spline "bpy.types.Modifier.use_apply_on_spline")
+  * [`Modifier.execution_time`](bpy.types.Modifier.md#bpy.types.Modifier.execution_time "bpy.types.Modifier.execution_time")
+  * [`Modifier.persistent_uid`](bpy.types.Modifier.md#bpy.types.Modifier.persistent_uid "bpy.types.Modifier.persistent_uid")
 
   
 ---|---  
   
 ## Inherited Functions
 
-  * [`bpy_struct.as_pointer`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.as_pointer "bpy.types.bpy_struct.as_pointer")
-  * [`bpy_struct.driver_add`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.driver_add "bpy.types.bpy_struct.driver_add")
-  * [`bpy_struct.driver_remove`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.driver_remove "bpy.types.bpy_struct.driver_remove")
-  * [`bpy_struct.get`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.get "bpy.types.bpy_struct.get")
-  * [`bpy_struct.id_properties_clear`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_clear "bpy.types.bpy_struct.id_properties_clear")
-  * [`bpy_struct.id_properties_ensure`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_ensure "bpy.types.bpy_struct.id_properties_ensure")
-  * [`bpy_struct.id_properties_ui`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_ui "bpy.types.bpy_struct.id_properties_ui")
-  * [`bpy_struct.is_property_hidden`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_hidden "bpy.types.bpy_struct.is_property_hidden")
-  * [`bpy_struct.is_property_overridable_library`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_overridable_library "bpy.types.bpy_struct.is_property_overridable_library")
-  * [`bpy_struct.is_property_readonly`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_readonly "bpy.types.bpy_struct.is_property_readonly")
-  * [`bpy_struct.is_property_set`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_set "bpy.types.bpy_struct.is_property_set")
-  * [`bpy_struct.items`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.items "bpy.types.bpy_struct.items")
-  * [`bpy_struct.keyframe_delete`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keyframe_delete "bpy.types.bpy_struct.keyframe_delete")
+  * [`bpy_struct.as_pointer`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.as_pointer "bpy.types.bpy_struct.as_pointer")
+  * [`bpy_struct.driver_add`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.driver_add "bpy.types.bpy_struct.driver_add")
+  * [`bpy_struct.driver_remove`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.driver_remove "bpy.types.bpy_struct.driver_remove")
+  * [`bpy_struct.get`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.get "bpy.types.bpy_struct.get")
+  * [`bpy_struct.id_properties_clear`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_properties_clear "bpy.types.bpy_struct.id_properties_clear")
+  * [`bpy_struct.id_properties_ensure`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_properties_ensure "bpy.types.bpy_struct.id_properties_ensure")
+  * [`bpy_struct.id_properties_ui`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_properties_ui "bpy.types.bpy_struct.id_properties_ui")
+  * [`bpy_struct.is_property_hidden`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_hidden "bpy.types.bpy_struct.is_property_hidden")
+  * [`bpy_struct.is_property_overridable_library`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_overridable_library "bpy.types.bpy_struct.is_property_overridable_library")
+  * [`bpy_struct.is_property_readonly`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_readonly "bpy.types.bpy_struct.is_property_readonly")
+  * [`bpy_struct.is_property_set`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_set "bpy.types.bpy_struct.is_property_set")
+  * [`bpy_struct.items`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.items "bpy.types.bpy_struct.items")
+  * [`bpy_struct.keyframe_delete`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.keyframe_delete "bpy.types.bpy_struct.keyframe_delete")
 
 | 
 
-  * [`bpy_struct.keyframe_insert`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keyframe_insert "bpy.types.bpy_struct.keyframe_insert")
-  * [`bpy_struct.keys`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keys "bpy.types.bpy_struct.keys")
-  * [`bpy_struct.path_from_id`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.path_from_id "bpy.types.bpy_struct.path_from_id")
-  * [`bpy_struct.path_resolve`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.path_resolve "bpy.types.bpy_struct.path_resolve")
-  * [`bpy_struct.pop`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.pop "bpy.types.bpy_struct.pop")
-  * [`bpy_struct.property_overridable_library_set`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.property_overridable_library_set "bpy.types.bpy_struct.property_overridable_library_set")
-  * [`bpy_struct.property_unset`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.property_unset "bpy.types.bpy_struct.property_unset")
-  * [`bpy_struct.rna_ancestors`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.rna_ancestors "bpy.types.bpy_struct.rna_ancestors")
-  * [`bpy_struct.type_recast`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.type_recast "bpy.types.bpy_struct.type_recast")
-  * [`bpy_struct.values`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.values "bpy.types.bpy_struct.values")
-  * [`Modifier.bl_rna_get_subclass`](bpy.types.Modifier.html#bpy.types.Modifier.bl_rna_get_subclass "bpy.types.Modifier.bl_rna_get_subclass")
-  * [`Modifier.bl_rna_get_subclass_py`](bpy.types.Modifier.html#bpy.types.Modifier.bl_rna_get_subclass_py "bpy.types.Modifier.bl_rna_get_subclass_py")
+  * [`bpy_struct.keyframe_insert`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.keyframe_insert "bpy.types.bpy_struct.keyframe_insert")
+  * [`bpy_struct.keys`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.keys "bpy.types.bpy_struct.keys")
+  * [`bpy_struct.path_from_id`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.path_from_id "bpy.types.bpy_struct.path_from_id")
+  * [`bpy_struct.path_resolve`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.path_resolve "bpy.types.bpy_struct.path_resolve")
+  * [`bpy_struct.pop`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.pop "bpy.types.bpy_struct.pop")
+  * [`bpy_struct.property_overridable_library_set`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.property_overridable_library_set "bpy.types.bpy_struct.property_overridable_library_set")
+  * [`bpy_struct.property_unset`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.property_unset "bpy.types.bpy_struct.property_unset")
+  * [`bpy_struct.rna_ancestors`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.rna_ancestors "bpy.types.bpy_struct.rna_ancestors")
+  * [`bpy_struct.type_recast`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.type_recast "bpy.types.bpy_struct.type_recast")
+  * [`bpy_struct.values`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.values "bpy.types.bpy_struct.values")
+  * [`Modifier.bl_rna_get_subclass`](bpy.types.Modifier.md#bpy.types.Modifier.bl_rna_get_subclass "bpy.types.Modifier.bl_rna_get_subclass")
+  * [`Modifier.bl_rna_get_subclass_py`](bpy.types.Modifier.md#bpy.types.Modifier.bl_rna_get_subclass_py "bpy.types.Modifier.bl_rna_get_subclass_py")
 
   
 ---|---

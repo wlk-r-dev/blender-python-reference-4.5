@@ -1,6 +1,6 @@
 # WindowManager(ID)
 
-base classes — [`bpy_struct`](bpy.types.bpy_struct.html#bpy.types.bpy_struct "bpy.types.bpy_struct"), [`ID`](bpy.types.ID.html#bpy.types.ID "bpy.types.ID")
+base classes — [`bpy_struct`](bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct"), [`ID`](bpy.types.ID.md#bpy.types.ID "bpy.types.ID")
 
 _class _bpy.types.WindowManager(_ID_)
     
@@ -153,7 +153,7 @@ Registered key configurations
 Type:
     
 
-[`KeyConfigurations`](bpy.types.KeyConfigurations.html#bpy.types.KeyConfigurations "bpy.types.KeyConfigurations") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.html#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`KeyConfig`](bpy.types.KeyConfig.html#bpy.types.KeyConfig "bpy.types.KeyConfig"), (readonly)
+[`KeyConfigurations`](bpy.types.KeyConfigurations.md#bpy.types.KeyConfigurations "bpy.types.KeyConfigurations") [`bpy_prop_collection`](bpy.types.bpy_prop_collection.md#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`KeyConfig`](bpy.types.KeyConfig.md#bpy.types.KeyConfig "bpy.types.KeyConfig"), (readonly)
 
 operators
     
@@ -163,7 +163,7 @@ Operator registry
 Type:
     
 
-[`bpy_prop_collection`](bpy.types.bpy_prop_collection.html#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`Operator`](bpy.types.Operator.html#bpy.types.Operator "bpy.types.Operator"), (readonly)
+[`bpy_prop_collection`](bpy.types.bpy_prop_collection.md#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`Operator`](bpy.types.Operator.md#bpy.types.Operator "bpy.types.Operator"), (readonly)
 
 poselib_previous_action
     
@@ -171,7 +171,7 @@ poselib_previous_action
 Type:
     
 
-[`Action`](bpy.types.Action.html#bpy.types.Action "bpy.types.Action")
+[`Action`](bpy.types.Action.md#bpy.types.Action "bpy.types.Action")
 
 preset_name
     
@@ -191,7 +191,7 @@ Open windows
 Type:
     
 
-[`bpy_prop_collection`](bpy.types.bpy_prop_collection.html#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`Window`](bpy.types.Window.html#bpy.types.Window "bpy.types.Window"), (readonly)
+[`bpy_prop_collection`](bpy.types.bpy_prop_collection.md#bpy.types.bpy_prop_collection "bpy.types.bpy_prop_collection") of [`Window`](bpy.types.Window.md#bpy.types.Window "bpy.types.Window"), (readonly)
 
 xr_session_settings
     
@@ -199,7 +199,7 @@ xr_session_settings
 Type:
     
 
-[`XrSessionSettings`](bpy.types.XrSessionSettings.html#bpy.types.XrSessionSettings "bpy.types.XrSessionSettings"), (readonly, never None)
+[`XrSessionSettings`](bpy.types.XrSessionSettings.md#bpy.types.XrSessionSettings "bpy.types.XrSessionSettings"), (readonly, never None)
 
 xr_session_state
     
@@ -209,7 +209,7 @@ Runtime state information about the VR session
 Type:
     
 
-[`XrSessionState`](bpy.types.XrSessionState.html#bpy.types.XrSessionState "bpy.types.XrSessionState"), (readonly)
+[`XrSessionState`](bpy.types.XrSessionState.md#bpy.types.XrSessionState "bpy.types.XrSessionState"), (readonly)
 
 clipboard
     
@@ -229,7 +229,7 @@ Opens a file selector with an operator.
 Parameters:
     
 
-**operator** ([`Operator`](bpy.types.Operator.html#bpy.types.Operator "bpy.types.Operator")) – Operator to call
+**operator** ([`Operator`](bpy.types.Operator.md#bpy.types.Operator "bpy.types.Operator")) – Operator to call
 
 This method is used from the operators `invoke` callback which must then return `{'RUNNING_MODAL'}`.
 
@@ -291,7 +291,7 @@ Add a modal handler to the window manager, for the given modal operator (called 
 Parameters:
     
 
-**operator** ([`Operator`](bpy.types.Operator.html#bpy.types.Operator "bpy.types.Operator")) – Operator to call
+**operator** ([`Operator`](bpy.types.Operator.md#bpy.types.Operator "bpy.types.Operator")) – Operator to call
 
 Returns:
     
@@ -313,13 +313,13 @@ Parameters:
 
   * **time_step** (_float in_ _[__0_ _,__inf_ _]_) – Time Step, Interval in seconds between timer events
 
-  * **window** ([`Window`](bpy.types.Window.html#bpy.types.Window "bpy.types.Window"), (optional)) – Window to attach the timer to, or None
+  * **window** ([`Window`](bpy.types.Window.md#bpy.types.Window "bpy.types.Window"), (optional)) – Window to attach the timer to, or None
 
 
 Return type:
     
 
-[`Timer`](bpy.types.Timer.html#bpy.types.Timer "bpy.types.Timer")
+[`Timer`](bpy.types.Timer.md#bpy.types.Timer "bpy.types.Timer")
 
 event_timer_remove(_timer_)
     
@@ -382,9 +382,9 @@ Operator popup invoke (show operator properties and execute it automatically on 
 Parameters:
     
 
-  * **operator** ([`Operator`](bpy.types.Operator.html#bpy.types.Operator "bpy.types.Operator")) – Operator to call
+  * **operator** ([`Operator`](bpy.types.Operator.md#bpy.types.Operator "bpy.types.Operator")) – Operator to call
 
-  * **event** ([`Event`](bpy.types.Event.html#bpy.types.Event "bpy.types.Event")) – Event
+  * **event** ([`Event`](bpy.types.Event.md#bpy.types.Event "bpy.types.Event")) – Event
 
 
 Returns:
@@ -395,7 +395,7 @@ result
 Return type:
     
 
-enum set in [Operator Return Items](bpy_types_enum_items/operator_return_items.html#rna-enum-operator-return-items)
+enum set in [Operator Return Items](bpy_types_enum_items/operator_return_items.md#rna-enum-operator-return-items)
 
 _classmethod _invoke_props_dialog(_operator_ , _*_ , _width =300_, _title =''_, _confirm_text =''_, _cancel_default =False_, _text_ctxt =''_, _translate =True_)
     
@@ -405,7 +405,7 @@ Operator dialog (non-autoexec popup) invoke (show operator properties and only e
 Parameters:
     
 
-  * **operator** ([`Operator`](bpy.types.Operator.html#bpy.types.Operator "bpy.types.Operator")) – Operator to call
+  * **operator** ([`Operator`](bpy.types.Operator.md#bpy.types.Operator "bpy.types.Operator")) – Operator to call
 
   * **width** (_int in_ _[__0_ _,__inf_ _]__,__(__optional_ _)_) – Width of the popup
 
@@ -428,17 +428,17 @@ result
 Return type:
     
 
-enum set in [Operator Return Items](bpy_types_enum_items/operator_return_items.html#rna-enum-operator-return-items)
+enum set in [Operator Return Items](bpy_types_enum_items/operator_return_items.md#rna-enum-operator-return-items)
 
 _classmethod _invoke_search_popup(_operator_)
     
 
-Operator search popup invoke which searches values of the operator’s [`bpy.types.Operator.bl_property`](bpy.types.Operator.html#bpy.types.Operator.bl_property "bpy.types.Operator.bl_property") (which must be an EnumProperty), executing it on confirmation
+Operator search popup invoke which searches values of the operator’s [`bpy.types.Operator.bl_property`](bpy.types.Operator.md#bpy.types.Operator.bl_property "bpy.types.Operator.bl_property") (which must be an EnumProperty), executing it on confirmation
 
 Parameters:
     
 
-**operator** ([`Operator`](bpy.types.Operator.html#bpy.types.Operator "bpy.types.Operator")) – Operator to call
+**operator** ([`Operator`](bpy.types.Operator.md#bpy.types.Operator "bpy.types.Operator")) – Operator to call
 
 _classmethod _invoke_popup(_operator_ , _*_ , _width =300_)
     
@@ -448,7 +448,7 @@ Operator popup invoke (only shows operator’s properties, without executing it)
 Parameters:
     
 
-  * **operator** ([`Operator`](bpy.types.Operator.html#bpy.types.Operator "bpy.types.Operator")) – Operator to call
+  * **operator** ([`Operator`](bpy.types.Operator.md#bpy.types.Operator "bpy.types.Operator")) – Operator to call
 
   * **width** (_int in_ _[__0_ _,__inf_ _]__,__(__optional_ _)_) – Width of the popup
 
@@ -461,7 +461,7 @@ result
 Return type:
     
 
-enum set in [Operator Return Items](bpy_types_enum_items/operator_return_items.html#rna-enum-operator-return-items)
+enum set in [Operator Return Items](bpy_types_enum_items/operator_return_items.md#rna-enum-operator-return-items)
 
 _classmethod _invoke_confirm(_operator_ , _event_ , _*_ , _title =''_, _message =''_, _confirm_text =''_, _icon ='NONE'_, _text_ctxt =''_, _translate =True_)
     
@@ -471,9 +471,9 @@ Operator confirmation popup (only to let user confirm the execution, no operator
 Parameters:
     
 
-  * **operator** ([`Operator`](bpy.types.Operator.html#bpy.types.Operator "bpy.types.Operator")) – Operator to call
+  * **operator** ([`Operator`](bpy.types.Operator.md#bpy.types.Operator "bpy.types.Operator")) – Operator to call
 
-  * **event** ([`Event`](bpy.types.Event.html#bpy.types.Event "bpy.types.Event")) – Event
+  * **event** ([`Event`](bpy.types.Event.md#bpy.types.Event "bpy.types.Event")) – Event
 
   * **title** (_string_ _,__(__optional_ _,__never None_ _)_) – Title, Optional text to show as title of the popup
 
@@ -496,7 +496,7 @@ result
 Return type:
     
 
-enum set in [Operator Return Items](bpy_types_enum_items/operator_return_items.html#rna-enum-operator-return-items)
+enum set in [Operator Return Items](bpy_types_enum_items/operator_return_items.md#rna-enum-operator-return-items)
 
 _classmethod _popmenu_begin__internal(_title_ , _*_ , _icon ='NONE'_)
     
@@ -506,12 +506,12 @@ popmenu_begin__internal
 Parameters:
     
 
-**icon** (enum in [Icon Items](bpy_types_enum_items/icon_items.html#rna-enum-icon-items), (optional)) – icon
+**icon** (enum in [Icon Items](bpy_types_enum_items/icon_items.md#rna-enum-icon-items), (optional)) – icon
 
 Return type:
     
 
-[`UIPopupMenu`](bpy.types.UIPopupMenu.html#bpy.types.UIPopupMenu "bpy.types.UIPopupMenu"), (never None)
+[`UIPopupMenu`](bpy.types.UIPopupMenu.md#bpy.types.UIPopupMenu "bpy.types.UIPopupMenu"), (never None)
 
 _classmethod _popmenu_end__internal(_menu_)
     
@@ -534,7 +534,7 @@ Parameters:
 Return type:
     
 
-[`UIPopover`](bpy.types.UIPopover.html#bpy.types.UIPopover "bpy.types.UIPopover"), (never None)
+[`UIPopover`](bpy.types.UIPopover.md#bpy.types.UIPopover "bpy.types.UIPopover"), (never None)
 
 _classmethod _popover_end__internal(_menu_ , _*_ , _keymap =None_)
     
@@ -544,7 +544,7 @@ popover_end__internal
 Parameters:
     
 
-**keymap** ([`KeyMap`](bpy.types.KeyMap.html#bpy.types.KeyMap "bpy.types.KeyMap"), (optional)) – Key Map, Active key map
+**keymap** ([`KeyMap`](bpy.types.KeyMap.md#bpy.types.KeyMap "bpy.types.KeyMap"), (optional)) – Key Map, Active key map
 
 _classmethod _piemenu_begin__internal(_title_ , _*_ , _icon ='NONE'_, _event =None_)
     
@@ -554,12 +554,12 @@ piemenu_begin__internal
 Parameters:
     
 
-**icon** (enum in [Icon Items](bpy_types_enum_items/icon_items.html#rna-enum-icon-items), (optional)) – icon
+**icon** (enum in [Icon Items](bpy_types_enum_items/icon_items.md#rna-enum-icon-items), (optional)) – icon
 
 Return type:
     
 
-[`UIPieMenu`](bpy.types.UIPieMenu.html#bpy.types.UIPieMenu "bpy.types.UIPieMenu"), (never None)
+[`UIPieMenu`](bpy.types.UIPieMenu.md#bpy.types.UIPieMenu "bpy.types.UIPieMenu"), (never None)
 
 _classmethod _piemenu_end__internal(_menu_)
     
@@ -574,7 +574,7 @@ operator_properties_last
 Return type:
     
 
-[`OperatorProperties`](bpy.types.OperatorProperties.html#bpy.types.OperatorProperties "bpy.types.OperatorProperties"), (never None)
+[`OperatorProperties`](bpy.types.OperatorProperties.md#bpy.types.OperatorProperties "bpy.types.OperatorProperties"), (never None)
 
 print_undo_steps()
     
@@ -626,7 +626,7 @@ The RNA type or default when not found.
 Return type:
     
 
-[`bpy.types.Struct`](bpy.types.Struct.html#bpy.types.Struct "bpy.types.Struct") subclass
+[`bpy.types.Struct`](bpy.types.Struct.md#bpy.types.Struct "bpy.types.Struct") subclass
 
 _classmethod _bl_rna_get_subclass_py(_id_ , _default =None_, _/_)
     
@@ -658,9 +658,9 @@ Parameters:
 
   * **args** (_tuple_ _[__Any_ _,__...__]_) – Arguments that will be passed to the callback.
 
-  * **space_type** (_str_) – The space type the callback draws in; for example `VIEW_3D`. ([`bpy.types.Space.type`](bpy.types.Space.html#bpy.types.Space.type "bpy.types.Space.type"))
+  * **space_type** (_str_) – The space type the callback draws in; for example `VIEW_3D`. ([`bpy.types.Space.type`](bpy.types.Space.md#bpy.types.Space.type "bpy.types.Space.type"))
 
-  * **region_type** (_str_) – The region type the callback draws in; usually `WINDOW`. ([`bpy.types.Region.type`](bpy.types.Region.html#bpy.types.Region.type "bpy.types.Region.type"))
+  * **region_type** (_str_) – The region type the callback draws in; usually `WINDOW`. ([`bpy.types.Region.type`](bpy.types.Region.md#bpy.types.Region.type "bpy.types.Region.type"))
 
 
 Returns:
@@ -685,91 +685,91 @@ Parameters:
 
 ## Inherited Properties
 
-  * [`bpy_struct.id_data`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_data "bpy.types.bpy_struct.id_data")
-  * [`ID.name`](bpy.types.ID.html#bpy.types.ID.name "bpy.types.ID.name")
-  * [`ID.name_full`](bpy.types.ID.html#bpy.types.ID.name_full "bpy.types.ID.name_full")
-  * [`ID.id_type`](bpy.types.ID.html#bpy.types.ID.id_type "bpy.types.ID.id_type")
-  * [`ID.session_uid`](bpy.types.ID.html#bpy.types.ID.session_uid "bpy.types.ID.session_uid")
-  * [`ID.is_evaluated`](bpy.types.ID.html#bpy.types.ID.is_evaluated "bpy.types.ID.is_evaluated")
-  * [`ID.original`](bpy.types.ID.html#bpy.types.ID.original "bpy.types.ID.original")
-  * [`ID.users`](bpy.types.ID.html#bpy.types.ID.users "bpy.types.ID.users")
-  * [`ID.use_fake_user`](bpy.types.ID.html#bpy.types.ID.use_fake_user "bpy.types.ID.use_fake_user")
-  * [`ID.use_extra_user`](bpy.types.ID.html#bpy.types.ID.use_extra_user "bpy.types.ID.use_extra_user")
-  * [`ID.is_embedded_data`](bpy.types.ID.html#bpy.types.ID.is_embedded_data "bpy.types.ID.is_embedded_data")
+  * [`bpy_struct.id_data`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_data "bpy.types.bpy_struct.id_data")
+  * [`ID.name`](bpy.types.ID.md#bpy.types.ID.name "bpy.types.ID.name")
+  * [`ID.name_full`](bpy.types.ID.md#bpy.types.ID.name_full "bpy.types.ID.name_full")
+  * [`ID.id_type`](bpy.types.ID.md#bpy.types.ID.id_type "bpy.types.ID.id_type")
+  * [`ID.session_uid`](bpy.types.ID.md#bpy.types.ID.session_uid "bpy.types.ID.session_uid")
+  * [`ID.is_evaluated`](bpy.types.ID.md#bpy.types.ID.is_evaluated "bpy.types.ID.is_evaluated")
+  * [`ID.original`](bpy.types.ID.md#bpy.types.ID.original "bpy.types.ID.original")
+  * [`ID.users`](bpy.types.ID.md#bpy.types.ID.users "bpy.types.ID.users")
+  * [`ID.use_fake_user`](bpy.types.ID.md#bpy.types.ID.use_fake_user "bpy.types.ID.use_fake_user")
+  * [`ID.use_extra_user`](bpy.types.ID.md#bpy.types.ID.use_extra_user "bpy.types.ID.use_extra_user")
+  * [`ID.is_embedded_data`](bpy.types.ID.md#bpy.types.ID.is_embedded_data "bpy.types.ID.is_embedded_data")
 
 | 
 
-  * [`ID.is_missing`](bpy.types.ID.html#bpy.types.ID.is_missing "bpy.types.ID.is_missing")
-  * [`ID.is_runtime_data`](bpy.types.ID.html#bpy.types.ID.is_runtime_data "bpy.types.ID.is_runtime_data")
-  * [`ID.is_editable`](bpy.types.ID.html#bpy.types.ID.is_editable "bpy.types.ID.is_editable")
-  * [`ID.tag`](bpy.types.ID.html#bpy.types.ID.tag "bpy.types.ID.tag")
-  * [`ID.is_library_indirect`](bpy.types.ID.html#bpy.types.ID.is_library_indirect "bpy.types.ID.is_library_indirect")
-  * [`ID.library`](bpy.types.ID.html#bpy.types.ID.library "bpy.types.ID.library")
-  * [`ID.library_weak_reference`](bpy.types.ID.html#bpy.types.ID.library_weak_reference "bpy.types.ID.library_weak_reference")
-  * [`ID.asset_data`](bpy.types.ID.html#bpy.types.ID.asset_data "bpy.types.ID.asset_data")
-  * [`ID.override_library`](bpy.types.ID.html#bpy.types.ID.override_library "bpy.types.ID.override_library")
-  * [`ID.preview`](bpy.types.ID.html#bpy.types.ID.preview "bpy.types.ID.preview")
+  * [`ID.is_missing`](bpy.types.ID.md#bpy.types.ID.is_missing "bpy.types.ID.is_missing")
+  * [`ID.is_runtime_data`](bpy.types.ID.md#bpy.types.ID.is_runtime_data "bpy.types.ID.is_runtime_data")
+  * [`ID.is_editable`](bpy.types.ID.md#bpy.types.ID.is_editable "bpy.types.ID.is_editable")
+  * [`ID.tag`](bpy.types.ID.md#bpy.types.ID.tag "bpy.types.ID.tag")
+  * [`ID.is_library_indirect`](bpy.types.ID.md#bpy.types.ID.is_library_indirect "bpy.types.ID.is_library_indirect")
+  * [`ID.library`](bpy.types.ID.md#bpy.types.ID.library "bpy.types.ID.library")
+  * [`ID.library_weak_reference`](bpy.types.ID.md#bpy.types.ID.library_weak_reference "bpy.types.ID.library_weak_reference")
+  * [`ID.asset_data`](bpy.types.ID.md#bpy.types.ID.asset_data "bpy.types.ID.asset_data")
+  * [`ID.override_library`](bpy.types.ID.md#bpy.types.ID.override_library "bpy.types.ID.override_library")
+  * [`ID.preview`](bpy.types.ID.md#bpy.types.ID.preview "bpy.types.ID.preview")
 
   
 ---|---  
   
 ## Inherited Functions
 
-  * [`bpy_struct.as_pointer`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.as_pointer "bpy.types.bpy_struct.as_pointer")
-  * [`bpy_struct.driver_add`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.driver_add "bpy.types.bpy_struct.driver_add")
-  * [`bpy_struct.driver_remove`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.driver_remove "bpy.types.bpy_struct.driver_remove")
-  * [`bpy_struct.get`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.get "bpy.types.bpy_struct.get")
-  * [`bpy_struct.id_properties_clear`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_clear "bpy.types.bpy_struct.id_properties_clear")
-  * [`bpy_struct.id_properties_ensure`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_ensure "bpy.types.bpy_struct.id_properties_ensure")
-  * [`bpy_struct.id_properties_ui`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.id_properties_ui "bpy.types.bpy_struct.id_properties_ui")
-  * [`bpy_struct.is_property_hidden`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_hidden "bpy.types.bpy_struct.is_property_hidden")
-  * [`bpy_struct.is_property_overridable_library`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_overridable_library "bpy.types.bpy_struct.is_property_overridable_library")
-  * [`bpy_struct.is_property_readonly`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_readonly "bpy.types.bpy_struct.is_property_readonly")
-  * [`bpy_struct.is_property_set`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.is_property_set "bpy.types.bpy_struct.is_property_set")
-  * [`bpy_struct.items`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.items "bpy.types.bpy_struct.items")
-  * [`bpy_struct.keyframe_delete`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keyframe_delete "bpy.types.bpy_struct.keyframe_delete")
-  * [`bpy_struct.keyframe_insert`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keyframe_insert "bpy.types.bpy_struct.keyframe_insert")
-  * [`bpy_struct.keys`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.keys "bpy.types.bpy_struct.keys")
-  * [`bpy_struct.path_from_id`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.path_from_id "bpy.types.bpy_struct.path_from_id")
-  * [`bpy_struct.path_resolve`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.path_resolve "bpy.types.bpy_struct.path_resolve")
-  * [`bpy_struct.pop`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.pop "bpy.types.bpy_struct.pop")
-  * [`bpy_struct.property_overridable_library_set`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.property_overridable_library_set "bpy.types.bpy_struct.property_overridable_library_set")
-  * [`bpy_struct.property_unset`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.property_unset "bpy.types.bpy_struct.property_unset")
-  * [`bpy_struct.rna_ancestors`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.rna_ancestors "bpy.types.bpy_struct.rna_ancestors")
+  * [`bpy_struct.as_pointer`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.as_pointer "bpy.types.bpy_struct.as_pointer")
+  * [`bpy_struct.driver_add`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.driver_add "bpy.types.bpy_struct.driver_add")
+  * [`bpy_struct.driver_remove`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.driver_remove "bpy.types.bpy_struct.driver_remove")
+  * [`bpy_struct.get`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.get "bpy.types.bpy_struct.get")
+  * [`bpy_struct.id_properties_clear`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_properties_clear "bpy.types.bpy_struct.id_properties_clear")
+  * [`bpy_struct.id_properties_ensure`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_properties_ensure "bpy.types.bpy_struct.id_properties_ensure")
+  * [`bpy_struct.id_properties_ui`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.id_properties_ui "bpy.types.bpy_struct.id_properties_ui")
+  * [`bpy_struct.is_property_hidden`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_hidden "bpy.types.bpy_struct.is_property_hidden")
+  * [`bpy_struct.is_property_overridable_library`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_overridable_library "bpy.types.bpy_struct.is_property_overridable_library")
+  * [`bpy_struct.is_property_readonly`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_readonly "bpy.types.bpy_struct.is_property_readonly")
+  * [`bpy_struct.is_property_set`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.is_property_set "bpy.types.bpy_struct.is_property_set")
+  * [`bpy_struct.items`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.items "bpy.types.bpy_struct.items")
+  * [`bpy_struct.keyframe_delete`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.keyframe_delete "bpy.types.bpy_struct.keyframe_delete")
+  * [`bpy_struct.keyframe_insert`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.keyframe_insert "bpy.types.bpy_struct.keyframe_insert")
+  * [`bpy_struct.keys`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.keys "bpy.types.bpy_struct.keys")
+  * [`bpy_struct.path_from_id`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.path_from_id "bpy.types.bpy_struct.path_from_id")
+  * [`bpy_struct.path_resolve`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.path_resolve "bpy.types.bpy_struct.path_resolve")
+  * [`bpy_struct.pop`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.pop "bpy.types.bpy_struct.pop")
+  * [`bpy_struct.property_overridable_library_set`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.property_overridable_library_set "bpy.types.bpy_struct.property_overridable_library_set")
+  * [`bpy_struct.property_unset`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.property_unset "bpy.types.bpy_struct.property_unset")
+  * [`bpy_struct.rna_ancestors`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.rna_ancestors "bpy.types.bpy_struct.rna_ancestors")
 
 | 
 
-  * [`bpy_struct.type_recast`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.type_recast "bpy.types.bpy_struct.type_recast")
-  * [`bpy_struct.values`](bpy.types.bpy_struct.html#bpy.types.bpy_struct.values "bpy.types.bpy_struct.values")
-  * [`ID.rename`](bpy.types.ID.html#bpy.types.ID.rename "bpy.types.ID.rename")
-  * [`ID.evaluated_get`](bpy.types.ID.html#bpy.types.ID.evaluated_get "bpy.types.ID.evaluated_get")
-  * [`ID.copy`](bpy.types.ID.html#bpy.types.ID.copy "bpy.types.ID.copy")
-  * [`ID.asset_mark`](bpy.types.ID.html#bpy.types.ID.asset_mark "bpy.types.ID.asset_mark")
-  * [`ID.asset_clear`](bpy.types.ID.html#bpy.types.ID.asset_clear "bpy.types.ID.asset_clear")
-  * [`ID.asset_generate_preview`](bpy.types.ID.html#bpy.types.ID.asset_generate_preview "bpy.types.ID.asset_generate_preview")
-  * [`ID.override_create`](bpy.types.ID.html#bpy.types.ID.override_create "bpy.types.ID.override_create")
-  * [`ID.override_hierarchy_create`](bpy.types.ID.html#bpy.types.ID.override_hierarchy_create "bpy.types.ID.override_hierarchy_create")
-  * [`ID.user_clear`](bpy.types.ID.html#bpy.types.ID.user_clear "bpy.types.ID.user_clear")
-  * [`ID.user_remap`](bpy.types.ID.html#bpy.types.ID.user_remap "bpy.types.ID.user_remap")
-  * [`ID.make_local`](bpy.types.ID.html#bpy.types.ID.make_local "bpy.types.ID.make_local")
-  * [`ID.user_of_id`](bpy.types.ID.html#bpy.types.ID.user_of_id "bpy.types.ID.user_of_id")
-  * [`ID.animation_data_create`](bpy.types.ID.html#bpy.types.ID.animation_data_create "bpy.types.ID.animation_data_create")
-  * [`ID.animation_data_clear`](bpy.types.ID.html#bpy.types.ID.animation_data_clear "bpy.types.ID.animation_data_clear")
-  * [`ID.update_tag`](bpy.types.ID.html#bpy.types.ID.update_tag "bpy.types.ID.update_tag")
-  * [`ID.preview_ensure`](bpy.types.ID.html#bpy.types.ID.preview_ensure "bpy.types.ID.preview_ensure")
-  * [`ID.bl_rna_get_subclass`](bpy.types.ID.html#bpy.types.ID.bl_rna_get_subclass "bpy.types.ID.bl_rna_get_subclass")
-  * [`ID.bl_rna_get_subclass_py`](bpy.types.ID.html#bpy.types.ID.bl_rna_get_subclass_py "bpy.types.ID.bl_rna_get_subclass_py")
+  * [`bpy_struct.type_recast`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.type_recast "bpy.types.bpy_struct.type_recast")
+  * [`bpy_struct.values`](bpy.types.bpy_struct.md#bpy.types.bpy_struct.values "bpy.types.bpy_struct.values")
+  * [`ID.rename`](bpy.types.ID.md#bpy.types.ID.rename "bpy.types.ID.rename")
+  * [`ID.evaluated_get`](bpy.types.ID.md#bpy.types.ID.evaluated_get "bpy.types.ID.evaluated_get")
+  * [`ID.copy`](bpy.types.ID.md#bpy.types.ID.copy "bpy.types.ID.copy")
+  * [`ID.asset_mark`](bpy.types.ID.md#bpy.types.ID.asset_mark "bpy.types.ID.asset_mark")
+  * [`ID.asset_clear`](bpy.types.ID.md#bpy.types.ID.asset_clear "bpy.types.ID.asset_clear")
+  * [`ID.asset_generate_preview`](bpy.types.ID.md#bpy.types.ID.asset_generate_preview "bpy.types.ID.asset_generate_preview")
+  * [`ID.override_create`](bpy.types.ID.md#bpy.types.ID.override_create "bpy.types.ID.override_create")
+  * [`ID.override_hierarchy_create`](bpy.types.ID.md#bpy.types.ID.override_hierarchy_create "bpy.types.ID.override_hierarchy_create")
+  * [`ID.user_clear`](bpy.types.ID.md#bpy.types.ID.user_clear "bpy.types.ID.user_clear")
+  * [`ID.user_remap`](bpy.types.ID.md#bpy.types.ID.user_remap "bpy.types.ID.user_remap")
+  * [`ID.make_local`](bpy.types.ID.md#bpy.types.ID.make_local "bpy.types.ID.make_local")
+  * [`ID.user_of_id`](bpy.types.ID.md#bpy.types.ID.user_of_id "bpy.types.ID.user_of_id")
+  * [`ID.animation_data_create`](bpy.types.ID.md#bpy.types.ID.animation_data_create "bpy.types.ID.animation_data_create")
+  * [`ID.animation_data_clear`](bpy.types.ID.md#bpy.types.ID.animation_data_clear "bpy.types.ID.animation_data_clear")
+  * [`ID.update_tag`](bpy.types.ID.md#bpy.types.ID.update_tag "bpy.types.ID.update_tag")
+  * [`ID.preview_ensure`](bpy.types.ID.md#bpy.types.ID.preview_ensure "bpy.types.ID.preview_ensure")
+  * [`ID.bl_rna_get_subclass`](bpy.types.ID.md#bpy.types.ID.bl_rna_get_subclass "bpy.types.ID.bl_rna_get_subclass")
+  * [`ID.bl_rna_get_subclass_py`](bpy.types.ID.md#bpy.types.ID.bl_rna_get_subclass_py "bpy.types.ID.bl_rna_get_subclass_py")
 
   
 ---|---  
   
 ## References
 
-  * [`BlendData.window_managers`](bpy.types.BlendData.html#bpy.types.BlendData.window_managers "bpy.types.BlendData.window_managers")
+  * [`BlendData.window_managers`](bpy.types.BlendData.md#bpy.types.BlendData.window_managers "bpy.types.BlendData.window_managers")
 
 | 
 
-  * [`Context.window_manager`](bpy.types.Context.html#bpy.types.Context.window_manager "bpy.types.Context.window_manager")
+  * [`Context.window_manager`](bpy.types.Context.md#bpy.types.Context.window_manager "bpy.types.Context.window_manager")
 
   
 ---|---

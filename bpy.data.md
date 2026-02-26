@@ -10,7 +10,7 @@ Access to Blender’s internal data
 Type:
     
 
-[`bpy.types.BlendData`](bpy.types.BlendData.html#bpy.types.BlendData "bpy.types.BlendData")
+[`bpy.types.BlendData`](bpy.types.BlendData.md#bpy.types.BlendData "bpy.types.BlendData")
     
     
     import bpy

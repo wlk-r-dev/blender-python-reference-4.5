@@ -17,7 +17,7 @@ The three main use cases for the terminal are:
 
 See also
 
-[Launching from the Command Line](https://docs.blender.org/manual/en/dev/advanced/command_line/launch/index.html#command-line-launch-index "\(in Blender 5.2 LTS Manual v5.2\)").
+[Launching from the Command Line](https://docs.blender.org/manual/en/dev/advanced/command_line/launch/index.md#command-line-launch-index "\(in Blender 5.2 LTS Manual v5.2\)").
 
 ## Interface Tricks
 
@@ -31,11 +31,11 @@ To find the path from an `ID` data-block to its setting isn’t always so simple
 
 Note
 
-This uses the same method for creating the animation path used by [`bpy.types.FCurve.data_path`](bpy.types.FCurve.html#bpy.types.FCurve.data_path "bpy.types.FCurve.data_path") and [`bpy.types.DriverTarget.data_path`](bpy.types.DriverTarget.html#bpy.types.DriverTarget.data_path "bpy.types.DriverTarget.data_path") drivers.
+This uses the same method for creating the animation path used by [`bpy.types.FCurve.data_path`](bpy.types.FCurve.md#bpy.types.FCurve.data_path "bpy.types.FCurve.data_path") and [`bpy.types.DriverTarget.data_path`](bpy.types.DriverTarget.md#bpy.types.DriverTarget.data_path "bpy.types.DriverTarget.data_path") drivers.
 
 ## Show All Operators
 
-While Blender logs operators in the Info editor, this only reports operators with the `REGISTER` option enabled so as not to flood the _Info_ view with calls to `bpy.ops.view3d.smoothview` and `bpy.ops.view3d.zoom`. Yet for testing it can be useful to see **every** operator called in a terminal, do this by enabling the debug option either by passing the `--debug-wm` argument when starting Blender or by setting [`bpy.app.debug_wm`](bpy.app.html#bpy.app.debug_wm "bpy.app.debug_wm") to `True` while Blender is running.
+While Blender logs operators in the Info editor, this only reports operators with the `REGISTER` option enabled so as not to flood the _Info_ view with calls to `bpy.ops.view3d.smoothview` and `bpy.ops.view3d.zoom`. Yet for testing it can be useful to see **every** operator called in a terminal, do this by enabling the debug option either by passing the `--debug-wm` argument when starting Blender or by setting [`bpy.app.debug_wm`](bpy.app.md#bpy.app.debug_wm "bpy.app.debug_wm") to `True` while Blender is running.
 
 ## Use an External Editor
 
@@ -211,4 +211,4 @@ This is marked advanced because to run Blender as a Python module requires a spe
 
 ### Python Safety (Build Option)
 
-Since it’s possible to access data which has been removed (see [Gotchas](info_gotcha.html)), it can be hard to track down the cause of crashes. To raise Python exceptions on accessing freed data (rather than crashing), enable the CMake build option `WITH_PYTHON_SAFETY`. This enables data tracking which makes data access about two times slower which is why the option isn’t enabled in release builds.
+Since it’s possible to access data which has been removed (see [Gotchas](info_gotcha.md)), it can be hard to track down the cause of crashes. To raise Python exceptions on accessing freed data (rather than crashing), enable the CMake build option `WITH_PYTHON_SAFETY`. This enables data tracking which makes data access about two times slower which is why the option isn’t enabled in release builds.

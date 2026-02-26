@@ -33,4 +33,4 @@ Toggle whether given type is active or not
 Parameters:
     
 
-**type** (enum in [Prop Dynamicpaint Type Items](bpy_types_enum_items/prop_dynamicpaint_type_items.html#rna-enum-prop-dynamicpaint-type-items), (optional)) – Type
+**type** (enum in [Prop Dynamicpaint Type Items](bpy_types_enum_items/prop_dynamicpaint_type_items.md#rna-enum-prop-dynamicpaint-type-items), (optional)) – Type

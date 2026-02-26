@@ -315,7 +315,7 @@ Unpack the sound to the samples filename
 Parameters:
     
 
-  * **method** (enum in [Unpack Method Items](bpy_types_enum_items/unpack_method_items.html#rna-enum-unpack-method-items), (optional)) – Method, How to unpack
+  * **method** (enum in [Unpack Method Items](bpy_types_enum_items/unpack_method_items.md#rna-enum-unpack-method-items), (optional)) – Method, How to unpack
 
   * **id** (_string_ _,__(__optional_ _,__never None_ _)_) – Sound Name, Sound data-block name to unpack
 

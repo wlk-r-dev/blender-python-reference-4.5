@@ -4,9 +4,9 @@ This module provides data types of view map components (0D and 1D elements), bas
 
 Submodules
 
-  * [Freestyle Types (freestyle.types)](freestyle.types.html)
-  * [Freestyle Predicates (freestyle.predicates)](freestyle.predicates.html)
-  * [Freestyle Functions (freestyle.functions)](freestyle.functions.html)
-  * [Freestyle Chaining Iterators (freestyle.chainingiterators)](freestyle.chainingiterators.html)
-  * [Freestyle Shaders (freestyle.shaders)](freestyle.shaders.html)
-  * [Freestyle Utilities (freestyle.utils)](freestyle.utils.html)
+  * [Freestyle Types (freestyle.types)](freestyle.types.md)
+  * [Freestyle Predicates (freestyle.predicates)](freestyle.predicates.md)
+  * [Freestyle Functions (freestyle.functions)](freestyle.functions.md)
+  * [Freestyle Chaining Iterators (freestyle.chainingiterators)](freestyle.chainingiterators.md)
+  * [Freestyle Shaders (freestyle.shaders)](freestyle.shaders.md)
+  * [Freestyle Utilities (freestyle.utils)](freestyle.utils.md)
