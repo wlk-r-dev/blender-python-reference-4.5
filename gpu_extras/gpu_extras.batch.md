@@ -8,11 +8,11 @@ Return a batch already configured and compatible with the shader.
 Parameters:
     
 
-  * **shader** ([`gpu.types.GPUShader`](../gpu/gpu.types.md#gpu.types.GPUShader "gpu.types.GPUShader")) – shader for which a compatible format will be computed.
+  * **shader** ([[gpu.types.GPUShader]]) – shader for which a compatible format will be computed.
 
   * **type** (_str_) – “‘POINTS’, ‘LINES’, ‘TRIS’ or ‘LINES_ADJ’”.
 
-  * **content** (_dict_ _[__str_ _,__Buffer_ _|__Sequence_ _[__float_ _]__|__Sequence_ _[__int_ _]__|__Sequence_ _[__Sequence_ _[__float_ _]__]__|__Sequence_ _[__Sequence_ _[__int_ _]__]__]_) – Maps the name of the shader attribute with the data to fill the vertex buffer. For the dictionary values see documentation for [`gpu.types.GPUVertBuf.attr_fill`](../gpu/gpu.types.md#gpu.types.GPUVertBuf.attr_fill "gpu.types.GPUVertBuf.attr_fill") data argument.
+  * **content** (_dict_ _[__str_ _,__Buffer_ _|__Sequence_ _[__float_ _]__|__Sequence_ _[__int_ _]__|__Sequence_ _[__Sequence_ _[__float_ _]__]__|__Sequence_ _[__Sequence_ _[__int_ _]__]__]_) – Maps the name of the shader attribute with the data to fill the vertex buffer. For the dictionary values see documentation for [[gpu.types.GPUVertBuf.attr_fill]] data argument.
 
 
 Returns:
@@ -23,4 +23,4 @@ compatible batch
 Return type:
     
 
-[`gpu.types.GPUBatch`](../gpu/gpu.types.md#gpu.types.GPUBatch "gpu.types.GPUBatch")
+[[gpu.types.GPUBatch]]

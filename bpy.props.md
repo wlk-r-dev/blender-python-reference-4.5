@@ -293,11 +293,11 @@ Parameters:
 
   * **subtype** (_str_) – Enumerator in [Property Subtype Number Items](bpy_types_enum_items/property_subtype_number_items.md#rna-enum-property-subtype-number-items).
 
-  * **update** (Callable[[[`bpy.types.bpy_struct`](bpy.types/_other/bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct"), [`bpy.types.Context`](bpy.types/C/bpy.types.Context.md#bpy.types.Context "bpy.types.Context")], None]) – Function to be called when this value is modified, This function must take 2 values (self, context) and return None. _Warning_ there are no safety checks to avoid infinite recursion.
+  * **update** (Callable[[[[bpy.types.bpy_struct]], [[bpy.types.Context]]], None]) – Function to be called when this value is modified, This function must take 2 values (self, context) and return None. _Warning_ there are no safety checks to avoid infinite recursion.
 
-  * **get** (Callable[[[`bpy.types.bpy_struct`](bpy.types/_other/bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct")], bool]) – Function to be called when this value is ‘read’, This function must take 1 value (self) and return the value of the property.
+  * **get** (Callable[[[[bpy.types.bpy_struct]]], bool]) – Function to be called when this value is ‘read’, This function must take 1 value (self) and return the value of the property.
 
-  * **set** (Callable[[[`bpy.types.bpy_struct`](bpy.types/_other/bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct"), bool], None]) – Function to be called when this value is ‘written’, This function must take 2 values (self, value) and return None.
+  * **set** (Callable[[[[bpy.types.bpy_struct]], bool], None]) – Function to be called when this value is ‘written’, This function must take 2 values (self, value) and return None.
 
 
 bpy.props.BoolVectorProperty(_*_ , _name =''_, _description =''_, _translation_context ='*'_, _default =(False, False, False)_, _options ={'ANIMATABLE'}_, _override =set()_, _tags =set()_, _subtype ='NONE'_, _size =3_, _update =None_, _get =None_, _set =None_)
@@ -326,11 +326,11 @@ Parameters:
 
   * **size** (_int_ _|__Sequence_ _[__int_ _]_) – Vector dimensions in [1, 32]. An int sequence can be used to define multi-dimension arrays.
 
-  * **update** (Callable[[[`bpy.types.bpy_struct`](bpy.types/_other/bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct"), [`bpy.types.Context`](bpy.types/C/bpy.types.Context.md#bpy.types.Context "bpy.types.Context")], None]) – Function to be called when this value is modified, This function must take 2 values (self, context) and return None. _Warning_ there are no safety checks to avoid infinite recursion.
+  * **update** (Callable[[[[bpy.types.bpy_struct]], [[bpy.types.Context]]], None]) – Function to be called when this value is modified, This function must take 2 values (self, context) and return None. _Warning_ there are no safety checks to avoid infinite recursion.
 
-  * **get** (Callable[[[`bpy.types.bpy_struct`](bpy.types/_other/bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct")], Sequence[bool]]) – Function to be called when this value is ‘read’, This function must take 1 value (self) and return the value of the property.
+  * **get** (Callable[[[[bpy.types.bpy_struct]]], Sequence[bool]]) – Function to be called when this value is ‘read’, This function must take 1 value (self) and return the value of the property.
 
-  * **set** (Callable[[[`bpy.types.bpy_struct`](bpy.types/_other/bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct"), tuple[bool, …]], None]) – Function to be called when this value is ‘written’, This function must take 2 values (self, value) and return None.
+  * **set** (Callable[[[[bpy.types.bpy_struct]], tuple[bool, …]], None]) – Function to be called when this value is ‘written’, This function must take 2 values (self, value) and return None.
 
 
 bpy.props.CollectionProperty(_type =None_, _*_ , _name =''_, _description =''_, _translation_context ='*'_, _options ={'ANIMATABLE'}_, _override =set()_, _tags =set()_)
@@ -341,7 +341,7 @@ Returns a new collection property definition.
 Parameters:
     
 
-  * **type** (type[[`bpy.types.PropertyGroup`](bpy.types/P/bpy.types.PropertyGroup.md#bpy.types.PropertyGroup "bpy.types.PropertyGroup")]) – A subclass of a property group.
+  * **type** (type[[[bpy.types.PropertyGroup]]]) – A subclass of a property group.
 
   * **name** (_str_) – Name used in the user interface.
 
@@ -364,7 +364,7 @@ Returns a new enumerator property definition.
 Parameters:
     
 
-  * **items** (Iterable[tuple[str, str, str] | tuple[str, str, str, int] | tuple[str, str, str, int, int] | None] | Callable[[[`bpy.types.bpy_struct`](bpy.types/_other/bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct"), [`bpy.types.Context`](bpy.types/C/bpy.types.Context.md#bpy.types.Context "bpy.types.Context") | None], Iterable[tuple[str, str, str] | tuple[str, str, str, int] | tuple[str, str, str, int, int] | None]]) – 
+  * **items** (Iterable[tuple[str, str, str] | tuple[str, str, str, int] | tuple[str, str, str, int, int] | None] | Callable[[[[bpy.types.bpy_struct]], [[bpy.types.Context]] | None], Iterable[tuple[str, str, str] | tuple[str, str, str, int] | tuple[str, str, str, int, int] | None]]) – 
 
 sequence of enum items formatted: `[(identifier, name, description, icon, number), ...]`.
 
@@ -388,7 +388,7 @@ Used for documentation and tooltips.
 icon:
     
 
-An icon string identifier or integer icon value (e.g. returned by [`bpy.types.UILayout.icon`](bpy.types/U/bpy.types.UILayout.md#bpy.types.UILayout.icon "bpy.types.UILayout.icon"))
+An icon string identifier or integer icon value (e.g. returned by [[bpy.types.UILayout.icon]])
 
 number:
     
@@ -417,11 +417,11 @@ There is a known bug with using a callback, Python must keep a reference to the 
 
   * **tags** (_set_ _[__str_ _]_) – Enumerator of tags that are defined by parent class.
 
-  * **update** (Callable[[[`bpy.types.bpy_struct`](bpy.types/_other/bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct"), [`bpy.types.Context`](bpy.types/C/bpy.types.Context.md#bpy.types.Context "bpy.types.Context")], None]) – Function to be called when this value is modified, This function must take 2 values (self, context) and return None. _Warning_ there are no safety checks to avoid infinite recursion.
+  * **update** (Callable[[[[bpy.types.bpy_struct]], [[bpy.types.Context]]], None]) – Function to be called when this value is modified, This function must take 2 values (self, context) and return None. _Warning_ there are no safety checks to avoid infinite recursion.
 
-  * **get** (Callable[[[`bpy.types.bpy_struct`](bpy.types/_other/bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct")], int]) – Function to be called when this value is ‘read’, This function must take 1 value (self) and return the value of the property.
+  * **get** (Callable[[[[bpy.types.bpy_struct]]], int]) – Function to be called when this value is ‘read’, This function must take 1 value (self) and return the value of the property.
 
-  * **set** (Callable[[[`bpy.types.bpy_struct`](bpy.types/_other/bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct"), int], None]) – Function to be called when this value is ‘written’, This function must take 2 values (self, value) and return None.
+  * **set** (Callable[[[[bpy.types.bpy_struct]], int], None]) – Function to be called when this value is ‘written’, This function must take 2 values (self, value) and return None.
 
 
 bpy.props.FloatProperty(_*_ , _name =''_, _description =''_, _translation_context ='*'_, _default =0.0_, _min =-3.402823e+38_, _max =3.402823e+38_, _soft_min =-3.402823e+38_, _soft_max =3.402823e+38_, _step =3_, _precision =2_, _options ={'ANIMATABLE'}_, _override =set()_, _tags =set()_, _subtype ='NONE'_, _unit ='NONE'_, _update =None_, _get =None_, _set =None_)
@@ -460,11 +460,11 @@ Parameters:
 
   * **unit** (_str_) – Enumerator in [Property Unit Items](bpy_types_enum_items/property_unit_items.md#rna-enum-property-unit-items).
 
-  * **update** (Callable[[[`bpy.types.bpy_struct`](bpy.types/_other/bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct"), [`bpy.types.Context`](bpy.types/C/bpy.types.Context.md#bpy.types.Context "bpy.types.Context")], None]) – Function to be called when this value is modified, This function must take 2 values (self, context) and return None. _Warning_ there are no safety checks to avoid infinite recursion.
+  * **update** (Callable[[[[bpy.types.bpy_struct]], [[bpy.types.Context]]], None]) – Function to be called when this value is modified, This function must take 2 values (self, context) and return None. _Warning_ there are no safety checks to avoid infinite recursion.
 
-  * **get** (Callable[[[`bpy.types.bpy_struct`](bpy.types/_other/bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct")], float]) – Function to be called when this value is ‘read’, This function must take 1 value (self) and return the value of the property.
+  * **get** (Callable[[[[bpy.types.bpy_struct]]], float]) – Function to be called when this value is ‘read’, This function must take 1 value (self) and return the value of the property.
 
-  * **set** (Callable[[[`bpy.types.bpy_struct`](bpy.types/_other/bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct"), float], None]) – Function to be called when this value is ‘written’, This function must take 2 values (self, value) and return None.
+  * **set** (Callable[[[[bpy.types.bpy_struct]], float], None]) – Function to be called when this value is ‘written’, This function must take 2 values (self, value) and return None.
 
 
 bpy.props.FloatVectorProperty(_*_ , _name =''_, _description =''_, _translation_context ='*'_, _default =(0.0, 0.0, 0.0)_, _min =sys.float_info.min_, _max =sys.float_info.max_, _soft_min =sys.float_info.min_, _soft_max =sys.float_info.max_, _step =3_, _precision =2_, _options ={'ANIMATABLE'}_, _override =set()_, _tags =set()_, _subtype ='NONE'_, _unit ='NONE'_, _size =3_, _update =None_, _get =None_, _set =None_)
@@ -507,11 +507,11 @@ Parameters:
 
   * **size** (_int_ _|__Sequence_ _[__int_ _]_) – Vector dimensions in [1, 32]. An int sequence can be used to define multi-dimension arrays.
 
-  * **update** (Callable[[[`bpy.types.bpy_struct`](bpy.types/_other/bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct"), [`bpy.types.Context`](bpy.types/C/bpy.types.Context.md#bpy.types.Context "bpy.types.Context")], None]) – Function to be called when this value is modified, This function must take 2 values (self, context) and return None. _Warning_ there are no safety checks to avoid infinite recursion.
+  * **update** (Callable[[[[bpy.types.bpy_struct]], [[bpy.types.Context]]], None]) – Function to be called when this value is modified, This function must take 2 values (self, context) and return None. _Warning_ there are no safety checks to avoid infinite recursion.
 
-  * **get** (Callable[[[`bpy.types.bpy_struct`](bpy.types/_other/bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct")], Sequence[float]]) – Function to be called when this value is ‘read’, This function must take 1 value (self) and return the value of the property.
+  * **get** (Callable[[[[bpy.types.bpy_struct]]], Sequence[float]]) – Function to be called when this value is ‘read’, This function must take 1 value (self) and return the value of the property.
 
-  * **set** (Callable[[[`bpy.types.bpy_struct`](bpy.types/_other/bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct"), tuple[float, …]], None]) – Function to be called when this value is ‘written’, This function must take 2 values (self, value) and return None.
+  * **set** (Callable[[[[bpy.types.bpy_struct]], tuple[float, …]], None]) – Function to be called when this value is ‘written’, This function must take 2 values (self, value) and return None.
 
 
 bpy.props.IntProperty(_*_ , _name =''_, _description =''_, _translation_context ='*'_, _default =0_, _min =-2**31_, _max =2**31 - 1_, _soft_min =-2**31_, _soft_max =2**31 - 1_, _step =1_, _options ={'ANIMATABLE'}_, _override =set()_, _tags =set()_, _subtype ='NONE'_, _update =None_, _get =None_, _set =None_)
@@ -546,11 +546,11 @@ Parameters:
 
   * **subtype** (_str_) – Enumerator in [Property Subtype Number Items](bpy_types_enum_items/property_subtype_number_items.md#rna-enum-property-subtype-number-items).
 
-  * **update** (Callable[[[`bpy.types.bpy_struct`](bpy.types/_other/bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct"), [`bpy.types.Context`](bpy.types/C/bpy.types.Context.md#bpy.types.Context "bpy.types.Context")], None]) – Function to be called when this value is modified, This function must take 2 values (self, context) and return None. _Warning_ there are no safety checks to avoid infinite recursion.
+  * **update** (Callable[[[[bpy.types.bpy_struct]], [[bpy.types.Context]]], None]) – Function to be called when this value is modified, This function must take 2 values (self, context) and return None. _Warning_ there are no safety checks to avoid infinite recursion.
 
-  * **get** (Callable[[[`bpy.types.bpy_struct`](bpy.types/_other/bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct")], int]) – Function to be called when this value is ‘read’, This function must take 1 value (self) and return the value of the property.
+  * **get** (Callable[[[[bpy.types.bpy_struct]]], int]) – Function to be called when this value is ‘read’, This function must take 1 value (self) and return the value of the property.
 
-  * **set** (Callable[[[`bpy.types.bpy_struct`](bpy.types/_other/bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct"), int], None]) – Function to be called when this value is ‘written’, This function must take 2 values (self, value) and return None.
+  * **set** (Callable[[[[bpy.types.bpy_struct]], int], None]) – Function to be called when this value is ‘written’, This function must take 2 values (self, value) and return None.
 
 
 bpy.props.IntVectorProperty(_*_ , _name =''_, _description =''_, _translation_context ='*'_, _default =(0, 0, 0)_, _min =-2**31_, _max =2**31 - 1_, _soft_min =-2**31_, _soft_max =2**31 - 1_, _step =1_, _options ={'ANIMATABLE'}_, _override =set()_, _tags =set()_, _subtype ='NONE'_, _size =3_, _update =None_, _get =None_, _set =None_)
@@ -589,11 +589,11 @@ Parameters:
 
   * **size** (_int_ _|__Sequence_ _[__int_ _]_) – Vector dimensions in [1, 32]. An int sequence can be used to define multi-dimension arrays.
 
-  * **update** (Callable[[[`bpy.types.bpy_struct`](bpy.types/_other/bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct"), [`bpy.types.Context`](bpy.types/C/bpy.types.Context.md#bpy.types.Context "bpy.types.Context")], None]) – Function to be called when this value is modified, This function must take 2 values (self, context) and return None. _Warning_ there are no safety checks to avoid infinite recursion.
+  * **update** (Callable[[[[bpy.types.bpy_struct]], [[bpy.types.Context]]], None]) – Function to be called when this value is modified, This function must take 2 values (self, context) and return None. _Warning_ there are no safety checks to avoid infinite recursion.
 
-  * **get** (Callable[[[`bpy.types.bpy_struct`](bpy.types/_other/bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct")], Sequence[int]]) – Function to be called when this value is ‘read’, This function must take 1 value (self) and return the value of the property.
+  * **get** (Callable[[[[bpy.types.bpy_struct]]], Sequence[int]]) – Function to be called when this value is ‘read’, This function must take 1 value (self) and return the value of the property.
 
-  * **set** (Callable[[[`bpy.types.bpy_struct`](bpy.types/_other/bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct"), tuple[int, …]], None]) – Function to be called when this value is ‘written’, This function must take 2 values (self, value) and return None.
+  * **set** (Callable[[[[bpy.types.bpy_struct]], tuple[int, …]], None]) – Function to be called when this value is ‘written’, This function must take 2 values (self, value) and return None.
 
 
 bpy.props.PointerProperty(_type =None_, _*_ , _name =''_, _description =''_, _translation_context ='*'_, _options ={'ANIMATABLE'}_, _override =set()_, _tags =set()_, _poll =None_, _update =None_)
@@ -604,7 +604,7 @@ Returns a new pointer property definition.
 Parameters:
     
 
-  * **type** (type[[`bpy.types.PropertyGroup`](bpy.types/P/bpy.types.PropertyGroup.md#bpy.types.PropertyGroup "bpy.types.PropertyGroup") | [`bpy.types.ID`](bpy.types/I/bpy.types.ID.md#bpy.types.ID "bpy.types.ID")]) – A subclass of a property group or ID types.
+  * **type** (type[[[bpy.types.PropertyGroup]] | [[bpy.types.ID]]]) – A subclass of a property group or ID types.
 
   * **name** (_str_) – Name used in the user interface.
 
@@ -618,7 +618,7 @@ Parameters:
 
   * **tags** (_set_ _[__str_ _]_) – Enumerator of tags that are defined by parent class.
 
-  * **poll** (Callable[[[`bpy.types.bpy_struct`](bpy.types/_other/bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct"), [`bpy.types.ID`](bpy.types/I/bpy.types.ID.md#bpy.types.ID "bpy.types.ID")], bool]) – 
+  * **poll** (Callable[[[[bpy.types.bpy_struct]], [[bpy.types.ID]]], bool]) – 
 
 Function that determines whether an item is valid for this property. The function must take 2 values (self, object) and return a boolean.
 
@@ -626,7 +626,7 @@ Note
 
 The return value will be checked only when assigning an item from the UI, but it is still possible to assign an “invalid” item to the property directly.
 
-  * **update** (Callable[[[`bpy.types.bpy_struct`](bpy.types/_other/bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct"), [`bpy.types.Context`](bpy.types/C/bpy.types.Context.md#bpy.types.Context "bpy.types.Context")], None]) – Function to be called when this value is modified, This function must take 2 values (self, context) and return None. _Warning_ there are no safety checks to avoid infinite recursion.
+  * **update** (Callable[[[[bpy.types.bpy_struct]], [[bpy.types.Context]]], None]) – Function to be called when this value is modified, This function must take 2 values (self, context) and return None. _Warning_ there are no safety checks to avoid infinite recursion.
 
 
 Note
@@ -676,13 +676,13 @@ Parameters:
 
   * **subtype** (_str_) – Enumerator in [Property Subtype String Items](bpy_types_enum_items/property_subtype_string_items.md#rna-enum-property-subtype-string-items).
 
-  * **update** (Callable[[[`bpy.types.bpy_struct`](bpy.types/_other/bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct"), [`bpy.types.Context`](bpy.types/C/bpy.types.Context.md#bpy.types.Context "bpy.types.Context")], None]) – Function to be called when this value is modified, This function must take 2 values (self, context) and return None. _Warning_ there are no safety checks to avoid infinite recursion.
+  * **update** (Callable[[[[bpy.types.bpy_struct]], [[bpy.types.Context]]], None]) – Function to be called when this value is modified, This function must take 2 values (self, context) and return None. _Warning_ there are no safety checks to avoid infinite recursion.
 
-  * **get** (Callable[[[`bpy.types.bpy_struct`](bpy.types/_other/bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct")], str]) – Function to be called when this value is ‘read’, This function must take 1 value (self) and return the value of the property.
+  * **get** (Callable[[[[bpy.types.bpy_struct]]], str]) – Function to be called when this value is ‘read’, This function must take 1 value (self) and return the value of the property.
 
-  * **set** (Callable[[[`bpy.types.bpy_struct`](bpy.types/_other/bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct"), str], None]) – Function to be called when this value is ‘written’, This function must take 2 values (self, value) and return None.
+  * **set** (Callable[[[[bpy.types.bpy_struct]], str], None]) – Function to be called when this value is ‘written’, This function must take 2 values (self, value) and return None.
 
-  * **search** (Callable[[[`bpy.types.bpy_struct`](bpy.types/_other/bpy.types.bpy_struct.md#bpy.types.bpy_struct "bpy.types.bpy_struct"), [`bpy.types.Context`](bpy.types/C/bpy.types.Context.md#bpy.types.Context "bpy.types.Context"), str], Iterable[str | tuple[str, str]]]) – 
+  * **search** (Callable[[[[bpy.types.bpy_struct]], [[bpy.types.Context]], str], Iterable[str | tuple[str, str]]]) – 
 
 Function to be called to show candidates for this string (shown in the UI). This function must take 3 values (self, context, edit_text) and return a sequence, iterator or generator where each item must be:
 

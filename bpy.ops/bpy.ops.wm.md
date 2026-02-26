@@ -4077,9 +4077,9 @@ Mode, Fly mode
 
   * **speed_max** (_float in_ _[__0_ _,__1000_ _]__,__(__optional_ _)_) – Maximum Speed, Maximum move (turn) speed in meters (radians) per second or frame
 
-  * **speed_interpolation0** ([`mathutils.Vector`](../mathutils.md#mathutils.Vector "mathutils.Vector") of 2 items in [0, 1], (optional)) – Speed Interpolation 0, First cubic spline control point between min/max speeds
+  * **speed_interpolation0** ([[mathutils.Vector]] of 2 items in [0, 1], (optional)) – Speed Interpolation 0, First cubic spline control point between min/max speeds
 
-  * **speed_interpolation1** ([`mathutils.Vector`](../mathutils.md#mathutils.Vector "mathutils.Vector") of 2 items in [0, 1], (optional)) – Speed Interpolation 1, Second cubic spline control point between min/max speeds
+  * **speed_interpolation1** ([[mathutils.Vector]] of 2 items in [0, 1], (optional)) – Speed Interpolation 1, Second cubic spline control point between min/max speeds
 
 
 bpy.ops.wm.xr_navigation_grab(_*_ , _lock_location =False_, _lock_location_z =False_, _lock_rotation =False_, _lock_rotation_z =False_, _lock_scale =False_)
@@ -4136,7 +4136,7 @@ Parameters:
 
   * **from_viewer** (_boolean_ _,__(__optional_ _)_) – From Viewer, Use viewer pose as raycast origin
 
-  * **axis** ([`mathutils.Vector`](../mathutils.md#mathutils.Vector "mathutils.Vector") of 3 items in [-1, 1], (optional)) – Axis, Raycast axis in controller/viewer space
+  * **axis** ([[mathutils.Vector]] of 3 items in [-1, 1], (optional)) – Axis, Raycast axis in controller/viewer space
 
   * **color** (_float array_ _of_ _4 items in_ _[__0_ _,__1_ _]__,__(__optional_ _)_) – Color, Raycast color
 
