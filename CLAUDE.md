@@ -8,28 +8,50 @@ HTML documentation for `bpy` — Blender's Python API (version 4.5). Use this to
 
 ## File Structure
 
-All files are flat HTML in this directory. No nested folders. Key naming conventions:
+Files are organized into subfolders by module. Root contains core entry points and indexes.
 
-| Pattern | What It Covers |
+### Root Files
+| File | What It Covers |
 |---|---|
-| `bpy.ops.*.html` | **Operators** — actions you can call (mesh ops, object ops, etc.) |
-| `bpy.types.*.html` | **Types** — data structures, RNA types, nodes, modifiers, constraints |
-| `bpy.data.html` | **Data access** — `bpy.data.objects`, `.meshes`, `.materials`, etc. |
 | `bpy.context.html` | **Context** — active object, selected objects, mode, scene |
+| `bpy.data.html` | **Data access** — `bpy.data.objects`, `.meshes`, `.materials`, etc. |
 | `bpy.props.html` | **Properties** — IntProperty, FloatProperty, etc. for addons |
 | `bpy.path.html` | **Path utilities** — Blender-specific path helpers |
-| `bpy.utils.html` | **Utilities** — register/unregister, previews, script paths |
-| `bpy.app.*.html` | **App info** — handlers, timers, translations, version info |
 | `bpy.msgbus.html` | **Message bus** — subscribe to property changes |
-| `bmesh.*.html` | **BMesh** — low-level mesh editing (verts, edges, faces, operators) |
-| `mathutils.*.html` | **Math** — Vector, Matrix, Quaternion, Euler, noise, geometry |
-| `bgl.html` | **OpenGL** — direct GL calls (deprecated, prefer `gpu`) |
-| `gpu*.html` | **GPU module** — modern shader/draw API |
+| `mathutils.html` | **Math** — Vector, Matrix, Quaternion, Euler |
 | `aud.html` | **Audio** — sound playback |
 | `blf.html` | **Font** — text drawing in the viewport |
+| `bgl.html` | **OpenGL** — direct GL calls (deprecated, prefer `gpu`) |
 | `bl_math.html` | **Math helpers** — clamp, lerp, smoothstep |
-| `freestyle*.html` | **Freestyle** — non-photorealistic line rendering |
 | `idprop.types.html` | **ID Properties** — custom data on any datablock |
+| `index.html` | Main landing page |
+| `py-modindex.html` | Module index |
+| `search.html` | Built-in search (browser) |
+
+### Subfolders
+| Folder | Contents | Files |
+|---|---|---|
+| `bpy.types/A-Z/` | **Types** — RNA types, nodes, modifiers, constraints. Split by first letter. | ~1663 |
+| `bpy.types/_other/` | Base types (`bpy_struct`, `bpy_prop_collection`, `wm*`) | 6 |
+| `bpy.ops/` | **Operators** — all `bpy.ops.*` modules | 78 |
+| `bpy.app/` | **App info** — handlers, timers, translations, version info | 5 |
+| `bpy.utils/` | **Utilities** — register/unregister, previews, script paths | 3 |
+| `bpy_extras/` | **Extras** — anim, asset, io, mesh, object, view3d utils | 11 |
+| `bmesh/` | **BMesh** — low-level mesh editing (verts, edges, faces, ops) | 5 |
+| `mathutils/` | **Math submodules** — bvhtree, geometry, interpolate, kdtree, noise | 5 |
+| `gpu/` | **GPU module** — modern shader/draw API | 9 |
+| `gpu_extras/` | **GPU extras** — batch, presets | 3 |
+| `freestyle/` | **Freestyle** — non-photorealistic line rendering | 8 |
+| `imbuf/` | **Image buffer** — image types | 2 |
+| `info/` | **Guides** — quickstart, gotchas, best practices, tips | 15 |
+| `bpy_types_enum_items/` | Enum item reference pages | ~199 |
+| `_static/` | CSS, JS, images for the docs | ~32 |
+
+### Finding a Type
+To find `bpy.types.Mesh`, look in `bpy.types/M/bpy.types.Mesh.html` (first letter of the type name).
+
+### Finding an Operator
+To find `bpy.ops.mesh.*`, look in `bpy.ops/bpy.ops.mesh.html`.
 
 ## How to Troubleshoot
 
